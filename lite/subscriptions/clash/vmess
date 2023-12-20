@@ -118,6 +118,7 @@ dns:
     - "https://8.8.4.4/dns-query"
 
 proxies:
+  - {"name":"🇨🇦CA | vmess | @V2rayCollectorDonate | 19","type":"vmess","server":"cf.network383.online","port":"2083","cipher":"auto","uuid":"055079b7-84cb-4619-8b46-f21e642232ef","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/@apt_mahdi","headers":{"host":"fracukayi0pixif.carfin.tech"}}}
   - {"name":"🇫🇷FR | vmess | @v2ray_outlineir | 0","type":"vmess","server":"146.59.147.250","port":"29776","cipher":"auto","uuid":"82447abf-dcb9-408a-9ca6-79e0a7698d08","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇹🇼TW | vmess | @mftizi | 18","type":"vmess","server":"nbq11.ntbq.dynu.net","port":"443","cipher":"auto","uuid":"6bd47438-d696-499a-bcd5-134e4145135a","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/b11","headers":{"host":"nbq11.ntbq.dynu.net"}}}
   - {"name":"🇨🇳CN | vmess | @yaney_01 | 14","type":"vmess","server":"110.72.101.145","port":"26009","cipher":"auto","uuid":"d40d976d-d569-3e7d-9396-132dea60cf28","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
@@ -130,6 +131,7 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
+      - '🇨🇦CA | vmess | @V2rayCollectorDonate | 19'
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇹🇼TW | vmess | @mftizi | 18'
       - '🇨🇳CN | vmess | @yaney_01 | 14'
@@ -142,6 +144,7 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
+      - '🇨🇦CA | vmess | @V2rayCollectorDonate | 19'
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇹🇼TW | vmess | @mftizi | 18'
       - '🇨🇳CN | vmess | @yaney_01 | 14'
@@ -153,6 +156,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
+      - '🇨🇦CA | vmess | @V2rayCollectorDonate | 19'
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇹🇼TW | vmess | @mftizi | 18'
       - '🇨🇳CN | vmess | @yaney_01 | 14'
