@@ -3,7 +3,7 @@ name: "Let's TVC but Lite!"
 on:
   workflow_dispatch:
   schedule:
-    - cron: '*/15 * * * *'
+    - cron: '0 23 * * *'
     
 jobs:
   build:
@@ -29,5 +29,6 @@ jobs:
           git config --global user.name "yebekhe"
           git config credential.helper store
           git add -A
-          git commit -m "🚀 Servers Updated - $(TZ='Asia/Tehran' date '+%Y-%m-%d %H:%M:%S')"
-          git push
+          git commit -m "🚀 Servers Updated - $(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S')"
+          git pull origin main
+          git push origin main
