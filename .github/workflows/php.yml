@@ -3,7 +3,7 @@ name: "Let's TVC!"
 on:
   workflow_dispatch:
   schedule:
-    - cron: '*/60 * * * *'
+    - cron: '0 23 * * *'
     
 jobs:
   build:
@@ -25,9 +25,10 @@ jobs:
           php sort.php
           php toSingbox.php
           php toClashSurfboard.php
-          git config --global user.email "yebekhe@gmail.com"
-          git config --global user.name "yebekhe"
+          git config --global user.email "zzz1224423297@gmail.com"
+          git config --global user.name "glucyzz"
           git config credential.helper store
           git add -A
-          git commit -m "🚀 Servers Updated - $(TZ='Asia/Tehran' date '+%Y-%m-%d %H:%M:%S')"
-          git push
+          git commit -m "🚀 Servers Updated - $(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S')"
+          git pull origin main
+          git push origin main
