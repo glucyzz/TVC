@@ -105,20 +105,13 @@
             "tag": "proxy",
             "type": "selector",
             "outbounds": [
-                "URL-TEST",
-                "🇸🇪SE | hy2 | @EUT_VPN | 6",
-                "🇫🇷FR | hy2 | @EUT_VPN | 7",
-                "🇬🇧GB | hy2 | @EUT_VPN | 8"
+                "URL-TEST"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
-            "outbounds": [
-                "🇸🇪SE | hy2 | @EUT_VPN | 6",
-                "🇫🇷FR | hy2 | @EUT_VPN | 7",
-                "🇬🇧GB | hy2 | @EUT_VPN | 8"
-            ],
+            "outbounds": [],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
             "tolerance": 50
@@ -138,75 +131,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇸🇪SE | hy2 | @EUT_VPN | 6",
-            "type": "hysteria2",
-            "server": "195.128.240.251",
-            "server_port": 80,
-            "up_mbps": 0,
-            "down_mbps": 0,
-            "password": "RhBlRjqD5I97szf87gQR662r6cV5yOK2",
-            "network": "tcp",
-            "obfs": {
-                "type": "salamander",
-                "password": "8w4jlX268iItraZSsWibq5gW0ZB1N0h2"
-            },
-            "tls": {
-                "enabled": true,
-                "disable_sni": true,
-                "server_name": "",
-                "insecure": true,
-                "alpn": [
-                    "h3"
-                ]
-            }
-        },
-        {
-            "tag": "🇫🇷FR | hy2 | @EUT_VPN | 7",
-            "type": "hysteria2",
-            "server": "45.76.44.57",
-            "server_port": 443,
-            "up_mbps": 0,
-            "down_mbps": 0,
-            "password": "f40b1e441addaec3",
-            "network": "tcp",
-            "obfs": {
-                "type": "salamander",
-                "password": "2db7b42a"
-            },
-            "tls": {
-                "enabled": true,
-                "disable_sni": false,
-                "server_name": "telegramEUT-VPN.ddns.net",
-                "insecure": true,
-                "alpn": [
-                    "h3"
-                ]
-            }
-        },
-        {
-            "tag": "🇬🇧GB | hy2 | @EUT_VPN | 8",
-            "type": "hysteria2",
-            "server": "64.176.191.187",
-            "server_port": 443,
-            "up_mbps": 0,
-            "down_mbps": 0,
-            "password": "f40b1e441addaec3",
-            "network": "tcp",
-            "obfs": {
-                "type": "salamander",
-                "password": "2db7b42a"
-            },
-            "tls": {
-                "enabled": true,
-                "disable_sni": false,
-                "server_name": "google.co",
-                "insecure": true,
-                "alpn": [
-                    "h3"
-                ]
-            }
         }
     ],
     "route": {

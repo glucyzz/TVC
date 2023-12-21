@@ -106,18 +106,18 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇹🇷TR | tuic | @EUT_VPN | 5",
-                "🇨🇦CA | tuic | @EUT_VPN | 10",
-                "🏳️XX | tuic | @EUT_VPN | 11"
+                "🇺🇸US | tuic | @EUT_VPN | 1",
+                "🏳️XX | tuic | @EUT_VPN | 2",
+                "🇺🇸US | tuic | @EUT_VPN | 3"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇹🇷TR | tuic | @EUT_VPN | 5",
-                "🇨🇦CA | tuic | @EUT_VPN | 10",
-                "🏳️XX | tuic | @EUT_VPN | 11"
+                "🇺🇸US | tuic | @EUT_VPN | 1",
+                "🏳️XX | tuic | @EUT_VPN | 2",
+                "🇺🇸US | tuic | @EUT_VPN | 3"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -140,12 +140,12 @@
             "type": "dns"
         },
         {
-            "tag": "🇹🇷TR | tuic | @EUT_VPN | 5",
+            "tag": "🇺🇸US | tuic | @EUT_VPN | 1",
             "type": "tuic",
-            "server": "185.113.223.104",
-            "server_port": 9823,
-            "uuid": "f2ac5977-a4bd-4d09-9ae8-48d0e7c48013",
-            "password": "6b71d5ca8ef2efd8",
+            "server": "64.110.25.10",
+            "server_port": 11227,
+            "uuid": "764b539f-2d3c-4772-9731-5ebf6984af98",
+            "password": "dongtaiwang.com",
             "congestion_control": "bbr",
             "udp_relay_mode": "native",
             "zero_rtt_handshake": false,
@@ -154,7 +154,7 @@
             "tls": {
                 "enabled": true,
                 "disable_sni": false,
-                "server_name": "www.google.com",
+                "server_name": "bing.com",
                 "insecure": true,
                 "alpn": [
                     "h3",
@@ -163,30 +163,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | tuic | @EUT_VPN | 10",
-            "type": "tuic",
-            "server": "149.248.51.37",
-            "server_port": 443,
-            "uuid": "38e38f61-b1dd-4b34-90d0-f6222fd7393f",
-            "password": "e7b1c11f0d40cc95",
-            "congestion_control": "bbr",
-            "udp_relay_mode": "native",
-            "zero_rtt_handshake": false,
-            "heartbeat": "10s",
-            "network": "tcp",
-            "tls": {
-                "enabled": true,
-                "disable_sni": false,
-                "server_name": "www.apple.com",
-                "insecure": true,
-                "alpn": [
-                    "h3",
-                    "spdy\/3.1"
-                ]
-            }
-        },
-        {
-            "tag": "🏳️XX | tuic | @EUT_VPN | 11",
+            "tag": "🏳️XX | tuic | @EUT_VPN | 2",
             "type": "tuic",
             "server": "[2a02:180:6:1::559]",
             "server_port": 17412,
@@ -201,6 +178,29 @@
                 "enabled": true,
                 "disable_sni": false,
                 "server_name": "telegramEUT-VPN.ddns.net",
+                "insecure": true,
+                "alpn": [
+                    "h3",
+                    "spdy\/3.1"
+                ]
+            }
+        },
+        {
+            "tag": "🇺🇸US | tuic | @EUT_VPN | 3",
+            "type": "tuic",
+            "server": "108.181.22.239",
+            "server_port": 45600,
+            "uuid": "4576f920-975b-4ab4-b53a-bdcfa623124d",
+            "password": "dongtaiwang.com",
+            "congestion_control": "bbr",
+            "udp_relay_mode": "native",
+            "zero_rtt_handshake": false,
+            "heartbeat": "10s",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "disable_sni": false,
+                "server_name": "www.virustotal.com",
                 "insecure": true,
                 "alpn": [
                     "h3",
