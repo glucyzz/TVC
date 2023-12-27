@@ -11,13 +11,14 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇫🇷FR | trojan | @PrivateVPNs | 15 = trojan, 15.236.85.97, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trj.rollingnext.co.uk, ws = false
-🇫🇷FR | trojan | @DirectVPN | 15 = trojan, 35.181.219.27, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trj.rollingnext.co.uk, ws = false
-🇰🇷KR | trojan | @yaney_01 | 10 = trojan, 64.110.90.224, 40004, password = 57edfecf-5694-4a34-8072-54a4f0636a62, udp-delay = true, skip-cert-verify = true, ws = false
+🇫🇷FR | trojan | @PrivateVPNs | 14 = trojan, 15.188.249.175, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trj.rollingnext.co.uk, ws = false
+🇬🇧GB | trojan | @DirectVPN | 14 = trojan, 18.171.118.32, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trj.rollingnext.co.uk, ws = false
+🇸🇪SE | trojan | @V2RayTz | 19 = trojan, 13.53.99.132, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trj.rollingnext.co.uk, ws = false
+🇰🇷KR | trojan | @yaney_01 | 11 = trojan, 64.110.90.224, 40004, password = 57edfecf-5694-4a34-8072-54a4f0636a62, udp-delay = true, skip-cert-verify = true, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇫🇷FR | trojan | @PrivateVPNs | 15,🇫🇷FR | trojan | @DirectVPN | 15,🇰🇷KR | trojan | @yaney_01 | 10
-URL-TEST = url-test,🇫🇷FR | trojan | @PrivateVPNs | 15,🇫🇷FR | trojan | @DirectVPN | 15,🇰🇷KR | trojan | @yaney_01 | 10
-FALLBACK = fallback,🇫🇷FR | trojan | @PrivateVPNs | 15,🇫🇷FR | trojan | @DirectVPN | 15,🇰🇷KR | trojan | @yaney_01 | 10
+MANUAL = select,URL-TEST,FALLBACK,🇫🇷FR | trojan | @PrivateVPNs | 14,🇬🇧GB | trojan | @DirectVPN | 14,🇸🇪SE | trojan | @V2RayTz | 19,🇰🇷KR | trojan | @yaney_01 | 11
+URL-TEST = url-test,🇫🇷FR | trojan | @PrivateVPNs | 14,🇬🇧GB | trojan | @DirectVPN | 14,🇸🇪SE | trojan | @V2RayTz | 19,🇰🇷KR | trojan | @yaney_01 | 11
+FALLBACK = fallback,🇫🇷FR | trojan | @PrivateVPNs | 14,🇬🇧GB | trojan | @DirectVPN | 14,🇸🇪SE | trojan | @V2RayTz | 19,🇰🇷KR | trojan | @yaney_01 | 11
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
