@@ -119,11 +119,12 @@ dns:
 
 proxies:
   - {"name":"🇫🇷FR | vmess | @v2ray_outlineir | 0","type":"vmess","server":"146.59.147.250","port":"29776","cipher":"auto","uuid":"82447abf-dcb9-408a-9ca6-79e0a7698d08","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇹🇼TW | vmess | @mftizi | 18","type":"vmess","server":"b24.ntbq.dynu.net","port":"443","cipher":"auto","uuid":"b0912b17-b2d2-4c53-9d53-710f6c88251a","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/b24","headers":{"host":"b24.ntbq.dynu.net"}}}
-  - {"name":"🇩🇪DE | vmess | @oneclickvpnkeys | 12","type":"vmess","server":"45.77.52.194","port":"39159","cipher":"auto","uuid":"12bfd84f-6654-4cc3-816b-a9fa93daec05","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸US | vmess | @mftizi | 18","type":"vmess","server":"103.35.188.226","port":"80","cipher":"auto","uuid":"098e7cdd-03b4-435d-8c41-ea608fa637c2","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":""}}}
+  - {"name":"🇨🇦CA | vmess | @oneclickvpnkeys | 11","type":"vmess","server":"fr1e-unmetered.v2freevpn.com","port":"80","cipher":"auto","uuid":"2a8a10fb-9ca3-367e-a234-cf09f841be4f","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/v133PDXkklxLEcOvD","headers":{"host":""}}}
   - {"name":"🇮🇷IR | vmess | @customv2ray | 13","type":"vmess","server":"ac-milan.myblackboy.online","port":"21291","cipher":"auto","uuid":"f48a948a-035c-428a-8bcc-9416850c2551","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇩🇪DE | vmess | @DailyV2RY | 48","type":"vmess","server":"royalgamer.royalping.xyz","port":"12345","cipher":"auto","uuid":"cef5d277-8a1e-47d4-ab59-85c962b13ef5","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🏳️XX | vmess | @yaney_01 | 10","type":"vmess","server":"mehdi2.forwardv2raytelegramchannel.fun","port":"443","cipher":"auto","uuid":"c2cb6d93-316f-48de-b36f-fd61e6f4ed47","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/@FORWARDV2RAY","headers":{"host":"mehdi2.forwardv2raytelegramchannel.fun"}}}
+  - {"name":"🇸🇬SG | vmess | @Hope_Net | 8","type":"vmess","server":"sg3-full.privateip.net","port":"443","cipher":"auto","uuid":"c363eba3-5c64-4843-b71c-3a0bd227944b","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/RACEVPN","headers":{"host":""}}}
+  - {"name":"🇮🇷IR | vmess | @MrV2Ray | 1","type":"vmess","server":"85.9.106.117","port":"57721","cipher":"auto","uuid":"0b3143e1-c24d-42f5-8562-f4041d7b7360","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":""}}}
   - {"name":"🇺🇸US | vmess | @v2Line | 9","type":"vmess","server":"v2line.telegram.channel.1371.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou","port":"443","cipher":"auto","uuid":"540bfb2c-2b26-4154-b5be-55d08bf40add","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/racevpn","headers":{"host":""}}}
 proxy-groups:
   - name: MANUAL
@@ -132,11 +133,12 @@ proxy-groups:
       - URL-TEST
       - FALLBACK
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
-      - '🇹🇼TW | vmess | @mftizi | 18'
-      - '🇩🇪DE | vmess | @oneclickvpnkeys | 12'
+      - '🇺🇸US | vmess | @mftizi | 18'
+      - '🇨🇦CA | vmess | @oneclickvpnkeys | 11'
       - '🇮🇷IR | vmess | @customv2ray | 13'
-      - '🇩🇪DE | vmess | @DailyV2RY | 48'
       - '🏳️XX | vmess | @yaney_01 | 10'
+      - '🇸🇬SG | vmess | @Hope_Net | 8'
+      - '🇮🇷IR | vmess | @MrV2Ray | 1'
       - '🇺🇸US | vmess | @v2Line | 9'
   - name: URL-TEST
     type: url-test
@@ -145,11 +147,12 @@ proxy-groups:
     tolerance: 50
     proxies:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
-      - '🇹🇼TW | vmess | @mftizi | 18'
-      - '🇩🇪DE | vmess | @oneclickvpnkeys | 12'
+      - '🇺🇸US | vmess | @mftizi | 18'
+      - '🇨🇦CA | vmess | @oneclickvpnkeys | 11'
       - '🇮🇷IR | vmess | @customv2ray | 13'
-      - '🇩🇪DE | vmess | @DailyV2RY | 48'
       - '🏳️XX | vmess | @yaney_01 | 10'
+      - '🇸🇬SG | vmess | @Hope_Net | 8'
+      - '🇮🇷IR | vmess | @MrV2Ray | 1'
       - '🇺🇸US | vmess | @v2Line | 9'
   - name: FALLBACK
     type: fallback
@@ -157,11 +160,12 @@ proxy-groups:
     interval: 60
     proxies:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
-      - '🇹🇼TW | vmess | @mftizi | 18'
-      - '🇩🇪DE | vmess | @oneclickvpnkeys | 12'
+      - '🇺🇸US | vmess | @mftizi | 18'
+      - '🇨🇦CA | vmess | @oneclickvpnkeys | 11'
       - '🇮🇷IR | vmess | @customv2ray | 13'
-      - '🇩🇪DE | vmess | @DailyV2RY | 48'
       - '🏳️XX | vmess | @yaney_01 | 10'
+      - '🇸🇬SG | vmess | @Hope_Net | 8'
+      - '🇮🇷IR | vmess | @MrV2Ray | 1'
       - '🇺🇸US | vmess | @v2Line | 9'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
