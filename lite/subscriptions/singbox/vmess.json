@@ -108,10 +108,11 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇱🇹LT | vmess | @mftizi | 18",
-                "🇬🇧GB | vmess | @oneclickvpnkeys | 10",
+                "🇺🇸US | vmess | @oneclickvpnkeys | 10",
                 "🇨🇳CN | vmess | @yaney_01 | 10",
-                "🇺🇸US | vmess | @Hope_Net | 9",
+                "🇯🇵JP | vmess | @Hope_Net | 10",
                 "🇺🇸US | vmess | @v2Line | 7",
+                "🇺🇸US | vmess | @forwardv2ray | 18",
                 "🇫🇷FR | vmess | @eliya_chiter0 | 1"
             ]
         },
@@ -121,10 +122,11 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇱🇹LT | vmess | @mftizi | 18",
-                "🇬🇧GB | vmess | @oneclickvpnkeys | 10",
+                "🇺🇸US | vmess | @oneclickvpnkeys | 10",
                 "🇨🇳CN | vmess | @yaney_01 | 10",
-                "🇺🇸US | vmess | @Hope_Net | 9",
+                "🇯🇵JP | vmess | @Hope_Net | 10",
                 "🇺🇸US | vmess | @v2Line | 7",
+                "🇺🇸US | vmess | @forwardv2ray | 18",
                 "🇫🇷FR | vmess | @eliya_chiter0 | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -189,11 +191,11 @@
             }
         },
         {
-            "tag": "🇬🇧GB | vmess | @oneclickvpnkeys | 10",
+            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 10",
             "type": "vmess",
-            "server": "95.164.69.27",
-            "server_port": 80,
-            "uuid": "cd4a6d0d-4b26-4ee1-8a42-c2878b5c3b2a",
+            "server": "198.41.202.5",
+            "server_port": 2052,
+            "uuid": "Telegram-V2ray_alpha",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -206,7 +208,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/vmess",
+                "path": "\/",
                 "headers": {
                     "Host": ""
                 }
@@ -237,11 +239,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 9",
+            "tag": "🇯🇵JP | vmess | @Hope_Net | 10",
             "type": "vmess",
-            "server": "38.59.243.133",
+            "server": "jp.takeshi.wiki",
             "server_port": 80,
-            "uuid": "58c76d75-563c-4694-84c4-a798d55e90ed",
+            "uuid": "803b8c6b-192e-4500-a919-485566f8e058",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -254,7 +256,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/takeshi.wiki",
                 "headers": {
                     "Host": ""
                 }
@@ -263,9 +265,9 @@
         {
             "tag": "🇺🇸US | vmess | @v2Line | 7",
             "type": "vmess",
-            "server": "v2line.telegram.channel.1381.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
-            "server_port": 80,
-            "uuid": "224a1664-6b67-4a57-9cb3-d8e9139dbb38",
+            "server": "v2line.telegram.channel.1385.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
+            "server_port": 443,
+            "uuid": "fcc2ad21-1f6e-4ba3-8275-70d2e5915490",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -276,12 +278,39 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/vmess",
+                "path": "\/racevpn",
                 "headers": {
-                    "Host": "il1.xv2ray.net"
+                    "Host": ""
                 }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @forwardv2ray | 18",
+            "type": "vmess",
+            "server": "15.204.245.168",
+            "server_port": 51574,
+            "uuid": "c0393889-0a0f-47d6-ba43-fe38a7f23d92",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
