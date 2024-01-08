@@ -108,10 +108,11 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇱🇹LT | vmess | @mftizi | 18",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
-                "🇨🇦CA | vmess | @v2ray_swhil | 17",
+                "🇳🇱NL | vmess | @oneclickvpnkeys | 9",
+                "🇨🇦CA | vmess | @customv2ray | 16",
                 "🇨🇳CN | vmess | @yaney_01 | 10",
-                "🇫🇷FR | vmess | @Hope_Net | 13",
+                "🇺🇸US | vmess | @Hope_Net | 12",
+                "🇮🇷IR | vmess | @MrV2Ray | 0",
                 "🇺🇸US | vmess | @v2Line | 7",
                 "🇫🇷FR | vmess | @eliya_chiter0 | 3"
             ]
@@ -122,10 +123,11 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇱🇹LT | vmess | @mftizi | 18",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
-                "🇨🇦CA | vmess | @v2ray_swhil | 17",
+                "🇳🇱NL | vmess | @oneclickvpnkeys | 9",
+                "🇨🇦CA | vmess | @customv2ray | 16",
                 "🇨🇳CN | vmess | @yaney_01 | 10",
-                "🇫🇷FR | vmess | @Hope_Net | 13",
+                "🇺🇸US | vmess | @Hope_Net | 12",
+                "🇮🇷IR | vmess | @MrV2Ray | 0",
                 "🇺🇸US | vmess | @v2Line | 7",
                 "🇫🇷FR | vmess | @eliya_chiter0 | 3"
             ],
@@ -191,11 +193,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
+            "tag": "🇳🇱NL | vmess | @oneclickvpnkeys | 9",
             "type": "vmess",
-            "server": "104.17.2.183",
-            "server_port": 8443,
-            "uuid": "8ec71bc2-d056-48bc-ab99-ef3692c740fb",
+            "server": "kom645yj.sbs",
+            "server_port": 32902,
+            "uuid": "f7388a5e-8ae2-4e5a-bdbe-b8b29e172ec2",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -205,31 +207,21 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "v2ra2yy.posht3bani.shop",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
             },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "v2ra2yy.posht3bani.shop"
+                    "Host": ""
                 }
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @v2ray_swhil | 17",
+            "tag": "🇨🇦CA | vmess | @customv2ray | 16",
             "type": "vmess",
-            "server": "104.27.102.105",
-            "server_port": 8080,
-            "uuid": "Telegram-V2ray_alpha",
+            "server": "us2e-preventintent.v2freevpn.com",
+            "server_port": 80,
+            "uuid": "2a8a10fb-9ca3-367e-a234-cf09f841be4f",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -242,7 +234,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/v103-udkjds3nay",
                 "headers": {
                     "Host": ""
                 }
@@ -273,11 +265,11 @@
             }
         },
         {
-            "tag": "🇫🇷FR | vmess | @Hope_Net | 13",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 12",
             "type": "vmess",
-            "server": "fr-full.privateip.net",
-            "server_port": 443,
-            "uuid": "04695962-ec9f-4589-b962-263e7b55664c",
+            "server": "172.64.164.47",
+            "server_port": 2095,
+            "uuid": "417d27fb-cb93-3bd8-9bf7-71cd91319821",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -288,21 +280,35 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "fr-full.privateip.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
+            "transport": {
+                "type": "ws",
+                "path": "\/hgcefomn",
+                "headers": {
+                    "Host": ""
                 }
+            }
+        },
+        {
+            "tag": "🇮🇷IR | vmess | @MrV2Ray | 0",
+            "type": "vmess",
+            "server": "85.9.106.116",
+            "server_port": 45061,
+            "uuid": "aec32fcc-4219-48e1-bbf5-7811f46b5fb8",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             },
             "transport": {
                 "type": "ws",
-                "path": "\/RACEVPN",
+                "path": "\/",
                 "headers": {
-                    "Host": "fr-full.privateip.net"
+                    "Host": ""
                 }
             }
         },
