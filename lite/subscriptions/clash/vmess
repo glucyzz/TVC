@@ -118,14 +118,11 @@ dns:
     - "https://8.8.4.4/dns-query"
 
 proxies:
-  - {"name":"🏳️XX | vmess | @azadi_az_inja_migzare | 6","type":"vmess","server":"[2a01:7e00::f03c:94ff:fed4:a98b]","port":"8080","cipher":"auto","uuid":"f4dfa747-e378-42a7-9331-b7667311f81e","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/@x2rayn_vpn@x2rayn_vpn@x2rayn_vpn","headers":{"host":""}}}
   - {"name":"🇫🇷FR | vmess | @v2ray_outlineir | 0","type":"vmess","server":"146.59.147.250","port":"29776","cipher":"auto","uuid":"82447abf-dcb9-408a-9ca6-79e0a7698d08","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇭🇰HK | vmess | @mftizi | 19","type":"vmess","server":"103.103.245.81","port":"21010","cipher":"auto","uuid":"33fef73f-cf19-4e70-b071-ddb0155a9556","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"vn11-ji.455773.xyz"}}}
-  - {"name":"🇩🇪DE | vmess | @oneclickvpnkeys | 8","type":"vmess","server":"49.13.193.50","port":"8880","cipher":"auto","uuid":"467146bd-5e88-4fc3-aa29-cd8f6a436f61","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇮🇷IR | vmess | @ShadowProxy66 | 21","type":"vmess","server":"62.60.131.238","port":"12888","cipher":"auto","uuid":"66214d78-b33c-459a-a7b9-e50ab19d16b9","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇰🇷KR | vmess | @yaney_01 | 9","type":"vmess","server":"92.38.135.27","port":"443","cipher":"auto","uuid":"f81447b2-5466-483c-bf86-ef9832b389dd","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/f81447b2-5466-483c-bf86-ef9832b389dd-vmess","headers":{"host":"www.applefoods.gay"}}}
-  - {"name":"🇩🇪DE | vmess | @Hope_Net | 11","type":"vmess","server":"141.95.55.70","port":80,"cipher":"auto","uuid":"2496f711-f6c5-40ee-b9a3-972241fb09d4","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":""}}}
-  - {"name":"🇮🇷IR | vmess | @MrV2Ray | 0","type":"vmess","server":"85.9.106.116","port":"17623","cipher":"auto","uuid":"f9f58d36-e714-4d3a-8aa0-44dff4181aaf","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":""}}}
+  - {"name":"🇨🇦CA | vmess | @oneclickvpnkeys | 11","type":"vmess","server":"Discord.gg","port":"2087","cipher":"auto","uuid":"8175814f-77e9-403c-8448-a8ec830dc061","alterId":"0","tls":true,"skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"","grpc-mode":""}}
+  - {"name":"🇩🇪DE | vmess | @ShadowProxy66 | 34","type":"vmess","server":"94.130.168.175","port":"52203","cipher":"auto","uuid":"0d3766e5-3a61-4a8b-bf34-7e48beab2e88","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸US | vmess | @yaney_01 | 9","type":"vmess","server":"goodbooks.gygjggf7654e1.repl.co","port":"443","cipher":"auto","uuid":"0e42ab26-2273-4a85-9b47-bd11b9140d0d","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/0e42ab26-2273-4a85-9b47-bd11b9140d0d-vm","headers":{"host":"goodbooks.gygjggf7654e1.repl.co"}}}
+  - {"name":"🇨🇭CH | vmess | @Hope_Net | 15","type":"vmess","server":"94.131.99.8","port":"47182","cipher":"auto","uuid":"81b2b630-8b6a-404f-b996-b12f13db5786","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇺🇸US | vmess | @v2Line | 6","type":"vmess","server":"v2line.telegram.channel.1390.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou","port":"80","cipher":"auto","uuid":"f61203bd-f386-4d12-9853-cc829d6b7c9d","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"ca2.xv2ray.net"}}}
 proxy-groups:
   - name: MANUAL
@@ -133,14 +130,11 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🏳️XX | vmess | @azadi_az_inja_migzare | 6'
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
-      - '🇭🇰HK | vmess | @mftizi | 19'
-      - '🇩🇪DE | vmess | @oneclickvpnkeys | 8'
-      - '🇮🇷IR | vmess | @ShadowProxy66 | 21'
-      - '🇰🇷KR | vmess | @yaney_01 | 9'
-      - '🇩🇪DE | vmess | @Hope_Net | 11'
-      - '🇮🇷IR | vmess | @MrV2Ray | 0'
+      - '🇨🇦CA | vmess | @oneclickvpnkeys | 11'
+      - '🇩🇪DE | vmess | @ShadowProxy66 | 34'
+      - '🇺🇸US | vmess | @yaney_01 | 9'
+      - '🇨🇭CH | vmess | @Hope_Net | 15'
       - '🇺🇸US | vmess | @v2Line | 6'
   - name: URL-TEST
     type: url-test
@@ -148,28 +142,22 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
-      - '🏳️XX | vmess | @azadi_az_inja_migzare | 6'
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
-      - '🇭🇰HK | vmess | @mftizi | 19'
-      - '🇩🇪DE | vmess | @oneclickvpnkeys | 8'
-      - '🇮🇷IR | vmess | @ShadowProxy66 | 21'
-      - '🇰🇷KR | vmess | @yaney_01 | 9'
-      - '🇩🇪DE | vmess | @Hope_Net | 11'
-      - '🇮🇷IR | vmess | @MrV2Ray | 0'
+      - '🇨🇦CA | vmess | @oneclickvpnkeys | 11'
+      - '🇩🇪DE | vmess | @ShadowProxy66 | 34'
+      - '🇺🇸US | vmess | @yaney_01 | 9'
+      - '🇨🇭CH | vmess | @Hope_Net | 15'
       - '🇺🇸US | vmess | @v2Line | 6'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🏳️XX | vmess | @azadi_az_inja_migzare | 6'
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
-      - '🇭🇰HK | vmess | @mftizi | 19'
-      - '🇩🇪DE | vmess | @oneclickvpnkeys | 8'
-      - '🇮🇷IR | vmess | @ShadowProxy66 | 21'
-      - '🇰🇷KR | vmess | @yaney_01 | 9'
-      - '🇩🇪DE | vmess | @Hope_Net | 11'
-      - '🇮🇷IR | vmess | @MrV2Ray | 0'
+      - '🇨🇦CA | vmess | @oneclickvpnkeys | 11'
+      - '🇩🇪DE | vmess | @ShadowProxy66 | 34'
+      - '🇺🇸US | vmess | @yaney_01 | 9'
+      - '🇨🇭CH | vmess | @Hope_Net | 15'
       - '🇺🇸US | vmess | @v2Line | 6'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
