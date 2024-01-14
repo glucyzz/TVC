@@ -11,13 +11,13 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇫🇷FR | trojan | @PrivateVPNs | 15 = trojan, 15.236.233.109, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trj.rollingnext.co.uk, ws = false
-🇫🇷FR | trojan | @DirectVPN | 15 = trojan, 13.39.205.199, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trj.rollingnext.co.uk, ws = false
-🇨🇦CA | trojan | @VmessProtocol | 13 = trojan, cdn-13.cdn2cdn.com, 2083, password = qG9K8AGnn9XH5jUqeFu96g, udp-delay = true, skip-cert-verify = false, sni = cdn13.cdn2cdn.com, ws = false
+🇫🇷FR | trojan | @PrivateVPNs | 14 = trojan, 52.47.121.114, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.miwan.co.uk, ws = false
+🇬🇧GB | trojan | @DirectVPN | 14 = trojan, 35.177.245.148, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trj.rollingnext.co.uk, ws = false
+🇨🇦CA | trojan | @VmessProtocol | 16 = trojan, cdn-13.cdn2cdn.com, 2083, password = qG9K8AGnn9XH5jUqeFu96g, udp-delay = true, skip-cert-verify = false, sni = cdn13.cdn2cdn.com, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇫🇷FR | trojan | @PrivateVPNs | 15,🇫🇷FR | trojan | @DirectVPN | 15,🇨🇦CA | trojan | @VmessProtocol | 13
-URL-TEST = url-test,🇫🇷FR | trojan | @PrivateVPNs | 15,🇫🇷FR | trojan | @DirectVPN | 15,🇨🇦CA | trojan | @VmessProtocol | 13
-FALLBACK = fallback,🇫🇷FR | trojan | @PrivateVPNs | 15,🇫🇷FR | trojan | @DirectVPN | 15,🇨🇦CA | trojan | @VmessProtocol | 13
+MANUAL = select,URL-TEST,FALLBACK,🇫🇷FR | trojan | @PrivateVPNs | 14,🇬🇧GB | trojan | @DirectVPN | 14,🇨🇦CA | trojan | @VmessProtocol | 16
+URL-TEST = url-test,🇫🇷FR | trojan | @PrivateVPNs | 14,🇬🇧GB | trojan | @DirectVPN | 14,🇨🇦CA | trojan | @VmessProtocol | 16
+FALLBACK = fallback,🇫🇷FR | trojan | @PrivateVPNs | 14,🇬🇧GB | trojan | @DirectVPN | 14,🇨🇦CA | trojan | @VmessProtocol | 16
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
