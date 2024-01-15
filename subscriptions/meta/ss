@@ -120,8 +120,8 @@ dns:
     'RULE-SET:ir,ircidr,geoip:ir,+.ir,+.bonyan.co': ["217.218.155.155", "217.218.127.127", "https://dns.403.online/dns-query", "https://dns.shecan.ir/dns-query"]
 
 proxies:
-  - {"name":"🇬🇧GB | ss | @servermomo | 7","type":"ss","server":"51.142.73.20","port":6961,"password":"tAoWzuKvNOPrsLc4fAEOno","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸US | ss | @VmessProtocol | 8","type":"ss","server":"38.121.43.248","port":8882,"password":"kDWvXYZoTBcGkC4","cipher":"aes-256-gcm"}
+  - {"name":"🇬🇧GB | ss | @servermomo | 8","type":"ss","server":"51.142.73.20","port":6961,"password":"tAoWzuKvNOPrsLc4fAEOno","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸US | ss | @VmessProtocol | 12","type":"ss","server":"38.121.43.248","port":8882,"password":"kDWvXYZoTBcGkC4","cipher":"aes-256-gcm"}
   - {"name":"🇸🇪SE | ss | @OutlineVpnOfficial | 3","type":"ss","server":"45.8.147.80","port":5741,"password":"Q5CEiebSuSl2qFkfE4ztG2","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇸🇬SG | ss | @OutlineVpnOfficial | 4","type":"ss","server":"sg-ss.ipracevpn.com","port":2443,"password":"DvMeY/S8c3hsSQqrL1aWblaHscEVQ03l5lFgneMx56c=","cipher":"aes-256-gcm"}
   - {"name":"🇷🇺RU | ss | @OutlineVpnOfficial | 5","type":"ss","server":"62.113.114.116","port":42320,"password":"dhXDSrO3HnkhOZWxNOrvII","cipher":"chacha20-ietf-poly1305"}
@@ -137,16 +137,16 @@ proxies:
   - {"name":"🇦🇹AT | ss | @OutlineVpnOfficial | 15","type":"ss","server":"212.113.106.243","port":12949,"password":"P2zxXPewlV3BlfqqYiSthvtLc","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇺🇸US | ss | @OutlineVpnOfficial | 16","type":"ss","server":"www.outline.network.ak2003.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou","port":2443,"password":"zekdk0MRWVx1zFASC+HAcmCVBA+TljWabwoF57zjIZA=","cipher":"aes-256-gcm"}
   - {"name":"🇺🇸US | ss | @OutlineVpnOfficial | 17","type":"ss","server":"www.outline.network.ak2002.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou","port":2443,"password":"hh4JlBhsJ0JthpDP3vIwxXvJWHknI16AijGx6sbcqWI=","cipher":"aes-256-gcm"}
-  - {"name":"🇨🇦CA | ss | @forwardv2ray | 18","type":"ss","server":"toronto.telegavpn.org","port":31024,"password":"TKlGmQr4d8wwSXSgAyr28j","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇨🇳CN | ss | @ednovasfree | 2","type":"ss","server":"9d0dbf29-shcm-ec2-cdn.fjbsb.top","port":26088,"password":"e4e60a0e-2d89-4f5d-80e7-b8f6a2d5b257","cipher":"aes-256-gcm"}
+  - {"name":"🇬🇧GB | ss | @forwardv2ray | 10","type":"ss","server":"series-a2-me.samanehha.co","port":443,"password":"Bog0ELmMM9DSxDdQ","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇳CN | ss | @ednovasfree | 3","type":"ss","server":"9d0dbf29-shcm-ec2-cdn.fjbsb.top","port":26088,"password":"e4e60a0e-2d89-4f5d-80e7-b8f6a2d5b257","cipher":"aes-256-gcm"}
 proxy-groups:
   - name: MANUAL
     type: select
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇬🇧GB | ss | @servermomo | 7'
-      - '🇺🇸US | ss | @VmessProtocol | 8'
+      - '🇬🇧GB | ss | @servermomo | 8'
+      - '🇺🇸US | ss | @VmessProtocol | 12'
       - '🇸🇪SE | ss | @OutlineVpnOfficial | 3'
       - '🇸🇬SG | ss | @OutlineVpnOfficial | 4'
       - '🇷🇺RU | ss | @OutlineVpnOfficial | 5'
@@ -162,16 +162,16 @@ proxy-groups:
       - '🇦🇹AT | ss | @OutlineVpnOfficial | 15'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 16'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 17'
-      - '🇨🇦CA | ss | @forwardv2ray | 18'
-      - '🇨🇳CN | ss | @ednovasfree | 2'
+      - '🇬🇧GB | ss | @forwardv2ray | 10'
+      - '🇨🇳CN | ss | @ednovasfree | 3'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 60
     tolerance: 50
     proxies:
-      - '🇬🇧GB | ss | @servermomo | 7'
-      - '🇺🇸US | ss | @VmessProtocol | 8'
+      - '🇬🇧GB | ss | @servermomo | 8'
+      - '🇺🇸US | ss | @VmessProtocol | 12'
       - '🇸🇪SE | ss | @OutlineVpnOfficial | 3'
       - '🇸🇬SG | ss | @OutlineVpnOfficial | 4'
       - '🇷🇺RU | ss | @OutlineVpnOfficial | 5'
@@ -187,15 +187,15 @@ proxy-groups:
       - '🇦🇹AT | ss | @OutlineVpnOfficial | 15'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 16'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 17'
-      - '🇨🇦CA | ss | @forwardv2ray | 18'
-      - '🇨🇳CN | ss | @ednovasfree | 2'
+      - '🇬🇧GB | ss | @forwardv2ray | 10'
+      - '🇨🇳CN | ss | @ednovasfree | 3'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇬🇧GB | ss | @servermomo | 7'
-      - '🇺🇸US | ss | @VmessProtocol | 8'
+      - '🇬🇧GB | ss | @servermomo | 8'
+      - '🇺🇸US | ss | @VmessProtocol | 12'
       - '🇸🇪SE | ss | @OutlineVpnOfficial | 3'
       - '🇸🇬SG | ss | @OutlineVpnOfficial | 4'
       - '🇷🇺RU | ss | @OutlineVpnOfficial | 5'
@@ -211,8 +211,8 @@ proxy-groups:
       - '🇦🇹AT | ss | @OutlineVpnOfficial | 15'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 16'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 17'
-      - '🇨🇦CA | ss | @forwardv2ray | 18'
-      - '🇨🇳CN | ss | @ednovasfree | 2'
+      - '🇬🇧GB | ss | @forwardv2ray | 10'
+      - '🇨🇳CN | ss | @ednovasfree | 3'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
   ads: {type: http, format: text, behavior: domain, path: ./ruleset/ads.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ads.txt, interval: 86400}
