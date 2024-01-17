@@ -106,12 +106,11 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪DE | vless | @ARv2ray | 11",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
-                "🇩🇪DE | vless | @MTConfig | 21",
+                "🇸🇪SE | vless | @v2rayNG_Matsuri | 9",
                 "🏳️XX | vless | @Capital_NET | 52",
-                "🇩🇪DE | vless | @flyv2ray | 17",
-                "🇸🇪SE | vless | @kiava | 5",
+                "🇦🇪AE | vless | @FAKEOFTVC | 5",
+                "🇸🇪SE | vless | @kiava | 4",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
                 "🇮🇷IR | vless | @Good_V2rayy | 3",
                 "🇬🇧GB | vless | @FoXrayIran | 4"
@@ -121,12 +120,11 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪DE | vless | @ARv2ray | 11",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
-                "🇩🇪DE | vless | @MTConfig | 21",
+                "🇸🇪SE | vless | @v2rayNG_Matsuri | 9",
                 "🏳️XX | vless | @Capital_NET | 52",
-                "🇩🇪DE | vless | @flyv2ray | 17",
-                "🇸🇪SE | vless | @kiava | 5",
+                "🇦🇪AE | vless | @FAKEOFTVC | 5",
+                "🇸🇪SE | vless | @kiava | 4",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
                 "🇮🇷IR | vless | @Good_V2rayy | 3",
                 "🇬🇧GB | vless | @FoXrayIran | 4"
@@ -150,42 +148,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇩🇪DE | vless | @ARv2ray | 11",
-            "type": "vless",
-            "server": "49.12.33.141",
-            "server_port": 443,
-            "uuid": "telegram-id-ArV2ray",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ftp.debian.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "tWxp3qWxdlVZDY_qDMfXejil6vRu-H2Yj8-qimozgAk",
-                    "short_id": "0bdfbef1"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
         },
         {
             "tag": "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
@@ -224,11 +186,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @MTConfig | 21",
+            "tag": "🇸🇪SE | vless | @v2rayNG_Matsuri | 9",
             "type": "vless",
-            "server": "161.35.221.251",
-            "server_port": 13913,
-            "uuid": "60a1eaa6-d702-4f65-8c5d-157523d3e3b3",
+            "server": "16.16.212.238",
+            "server_port": 2083,
+            "uuid": "23758119-cf33-4269-fb50-bc04930d356a",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -238,7 +200,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "afternic.com",
+                "server_name": "www.cdn.amazon.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -247,16 +209,9 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "dkMnh6pxHU1b9kGy_1LkAx4GkLrelDnK6ksFH_h28Sk",
-                    "short_id": "4f2338f7"
+                    "public_key": "5AcvRgop-qa4msURzX0CGJKPtM038hIaeP2qy-pesAc",
+                    "short_id": "214229"
                 }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
@@ -289,11 +244,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @flyv2ray | 17",
+            "tag": "🇦🇪AE | vless | @FAKEOFTVC | 5",
             "type": "vless",
-            "server": "195.201.17.222",
-            "server_port": 443,
-            "uuid": "9acbeae9-54ca-4b22-8761-c7980700e10a",
+            "server": "20.174.34.49",
+            "server_port": 6996,
+            "uuid": "42349f61-e209-42e6-a61c-417509fa4448",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -303,7 +258,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "greenpepper.ir",
+                "server_name": "flights.expat.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -312,22 +267,22 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "---nFe9nTXuiuxMZYfQEDvBCN4j_Bq-pN4vcixiXHTI",
-                    "short_id": "c50dbf82"
+                    "public_key": "tGbT9V_bar7xFSHRuv88scDrztIOgndfAe72G2py5Ek",
+                    "short_id": "cd7443b5"
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "@ipV2Ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "http",
+                "host": [
+                    "flights.expat.com"
+                ],
+                "path": "\/"
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @kiava | 5",
+            "tag": "🇸🇪SE | vless | @kiava | 4",
             "type": "vless",
-            "server": "13.50.13.108",
+            "server": "13.50.231.56",
             "server_port": 443,
             "uuid": "2c59ff33-916d-459b-a4c0-8b7432c4c3bb",
             "flow": "xtls-rprx-vision",
