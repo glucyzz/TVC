@@ -106,7 +106,9 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇬🇧GB | ss | @servermomo | 8",
+                "🇬🇧GB | ss | @servermomo | 9",
+                "🇺🇦UA | ss | @OutlineVpnOfficial | 1",
+                "🇹🇷TR | ss | @OutlineVpnOfficial | 2",
                 "🇸🇪SE | ss | @OutlineVpnOfficial | 3",
                 "🇸🇬SG | ss | @OutlineVpnOfficial | 4",
                 "🇷🇺RU | ss | @OutlineVpnOfficial | 5",
@@ -120,9 +122,10 @@
                 "🇨🇦CA | ss | @OutlineVpnOfficial | 13",
                 "🇦🇺AU | ss | @OutlineVpnOfficial | 14",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
-                "🇺🇸US | ss | @OutlineVpnOfficial | 16",
-                "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇬🇧GB | ss | @kingofilter | 13",
+                "🇬🇧GB | ss | @forwardv2ray | 6",
+                "🇬🇧GB | ss | @forwardv2ray | 7",
+                "🇩🇪DE | ss | @FAKEOFTVC | 1",
+                "🇬🇧GB | ss | @FAKEOFTVC | 3",
                 "🇨🇳CN | ss | @ednovasfree | 3"
             ]
         },
@@ -130,7 +133,9 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇬🇧GB | ss | @servermomo | 8",
+                "🇬🇧GB | ss | @servermomo | 9",
+                "🇺🇦UA | ss | @OutlineVpnOfficial | 1",
+                "🇹🇷TR | ss | @OutlineVpnOfficial | 2",
                 "🇸🇪SE | ss | @OutlineVpnOfficial | 3",
                 "🇸🇬SG | ss | @OutlineVpnOfficial | 4",
                 "🇷🇺RU | ss | @OutlineVpnOfficial | 5",
@@ -144,9 +149,10 @@
                 "🇨🇦CA | ss | @OutlineVpnOfficial | 13",
                 "🇦🇺AU | ss | @OutlineVpnOfficial | 14",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
-                "🇺🇸US | ss | @OutlineVpnOfficial | 16",
-                "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇬🇧GB | ss | @kingofilter | 13",
+                "🇬🇧GB | ss | @forwardv2ray | 6",
+                "🇬🇧GB | ss | @forwardv2ray | 7",
+                "🇩🇪DE | ss | @FAKEOFTVC | 1",
+                "🇬🇧GB | ss | @FAKEOFTVC | 3",
                 "🇨🇳CN | ss | @ednovasfree | 3"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -170,12 +176,32 @@
             "type": "dns"
         },
         {
-            "tag": "🇬🇧GB | ss | @servermomo | 8",
+            "tag": "🇬🇧GB | ss | @servermomo | 9",
             "type": "shadowsocks",
             "server": "51.142.73.20",
             "server_port": 6961,
             "method": "chacha20-ietf-poly1305",
             "password": "tAoWzuKvNOPrsLc4fAEOno",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇺🇦UA | ss | @OutlineVpnOfficial | 1",
+            "type": "shadowsocks",
+            "server": "ua-full.privateip.net",
+            "server_port": 8443,
+            "method": "aes-256-gcm",
+            "password": "534061c0-1854-49ad-9afc-d3187b18200a",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇹🇷TR | ss | @OutlineVpnOfficial | 2",
+            "type": "shadowsocks",
+            "server": "tr-ss.ipracevpn.com",
+            "server_port": 2443,
+            "method": "aes-256-gcm",
+            "password": "PqGphXWWFw",
             "plugin": "",
             "plugin_opts": ""
         },
@@ -310,32 +336,42 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | ss | @OutlineVpnOfficial | 16",
-            "type": "shadowsocks",
-            "server": "www.outline.network.ak2003.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
-            "server_port": 2443,
-            "method": "aes-256-gcm",
-            "password": "zekdk0MRWVx1zFASC+HAcmCVBA+TljWabwoF57zjIZA=",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-            "type": "shadowsocks",
-            "server": "www.outline.network.ak2002.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
-            "server_port": 2443,
-            "method": "aes-256-gcm",
-            "password": "hh4JlBhsJ0JthpDP3vIwxXvJWHknI16AijGx6sbcqWI=",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇬🇧GB | ss | @kingofilter | 13",
+            "tag": "🇬🇧GB | ss | @forwardv2ray | 6",
             "type": "shadowsocks",
             "server": "series-a2-me.samanehha.co",
             "server_port": 443,
             "method": "chacha20-ietf-poly1305",
             "password": "Bog0ELmMM9DSxDdQ",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇬🇧GB | ss | @forwardv2ray | 7",
+            "type": "shadowsocks",
+            "server": "series-a2-mec.samanehha.co",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "u17T3BvpYaaiuW2c",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇩🇪DE | ss | @FAKEOFTVC | 1",
+            "type": "shadowsocks",
+            "server": "95.164.68.112",
+            "server_port": 46478,
+            "method": "chacha20-ietf-poly1305",
+            "password": "KO4t1fiT0Op82Lg8x7USrT",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇬🇧GB | ss | @FAKEOFTVC | 3",
+            "type": "shadowsocks",
+            "server": "178.79.187.120",
+            "server_port": 80,
+            "method": "chacha20-ietf-poly1305",
+            "password": "ufMbYaRNfmOzFfAz55Chw3",
             "plugin": "",
             "plugin_opts": ""
         },
