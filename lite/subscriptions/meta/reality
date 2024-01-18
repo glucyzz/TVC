@@ -120,10 +120,10 @@ dns:
     'RULE-SET:ir,ircidr,geoip:ir,+.ir,+.bonyan.co': ["217.218.155.155", "217.218.127.127", "https://dns.403.online/dns-query", "https://dns.shecan.ir/dns-query"]
 
 proxies:
-  - {"name":"🇩🇪DE | vless | @CUSTOMVPNSERVER | 14","type":"vless","server":"49.12.69.241","port":443,"udp":true,"uuid":"2ad7ff7c-54d2-4d9e-919a-f075af7e7f76","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"www.zula.ir","grpc-opts":{"grpc-service-name":"Telegram:@CUSTOMVPNSERVER-Telegram:@CUSTOMVPNSERVER-Telegram:@CUSTOMVPNSERVER-Telegram:@CUSTOMVPNSERVER-Telegram:@CUSTOMVPNSERVER"},"reality-opts":{"public-key":"6lRppIAdonFC7haH0BNu6mGYl7NEoQTMaeIP1yyPaGg","short-id":"62c8bedb"}}
+  - {"name":"🇩🇪DE | vless | @ipV2Ray | 16","type":"vless","server":"49.12.209.197","port":443,"udp":true,"uuid":"b79fcb6b-5da4-494b-9ecc-d65d3ebcf7fe","tls":true,"network":"grpc","client-fingerprint":"firefox","servername":"dnschecker.org","grpc-opts":{"grpc-service-name":"@ipV2Ray"},"reality-opts":{"public-key":"vxyZGYyn1CSmVCiAmTwYpEqP331l_PSBzaiDXsqrYXc","short-id":"961777e2"}}
   - {"name":"🏳️XX | vless | @Capital_NET | 52","type":"vless","server":"zhina.abiiidar.tech","port":443,"udp":true,"uuid":"9bf8930d-878a-420b-bbf5-44a9e4b5b86d","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"www.tradingview.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"90WvSEDjTWdVj1U5JPXphB6VZ4ojR42tZN7PuEeRqXM","short-id":"dc838e556e8a86bd"}}
-  - {"name":"🇦🇪AE | vless | @FAKEOFTVC | 5","type":"vless","server":"20.174.34.49","port":6996,"udp":true,"uuid":"42349f61-e209-42e6-a61c-417509fa4448","tls":true,"network":"http","client-fingerprint":"firefox","servername":"flights.expat.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"tGbT9V_bar7xFSHRuv88scDrztIOgndfAe72G2py5Ek","short-id":"cd7443b5"}}
-  - {"name":"🇸🇪SE | vless | @kiava | 4","type":"vless","server":"13.50.231.56","port":443,"udp":true,"uuid":"2c59ff33-916d-459b-a4c0-8b7432c4c3bb","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"lolstatic-a.akamaihd.net","flow":"xtls-rprx-vision","reality-opts":{"public-key":"hSJ9dxBiyK-r8AEJ31tQvOdEfADk8BthO-Y9N8C56Q4","short-id":"249e"}}
+  - {"name":"🇩🇪DE | vless | @FAKEOFTVC | 9","type":"vless","server":"45.76.89.236","port":443,"udp":true,"uuid":"d5ed6cb7-7088-4ebb-9240-e12d241ca81f","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"reversereality.cpionline.us","reality-opts":{"public-key":"9rx7JwMO-KRZZEM9TQBO19BOAmmGjJyjN86ll2J7uVc"}}
+  - {"name":"🇸🇪SE | vless | @kiava | 4","type":"vless","server":"16.16.208.95","port":443,"udp":true,"uuid":"2c59ff33-916d-459b-a4c0-8b7432c4c3bb","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"lolstatic-a.akamaihd.net","flow":"xtls-rprx-vision","reality-opts":{"public-key":"Pfm3gfHLKoAyxOVGgXn6YuOtQak4ncOvUv-Nb4OayS0","short-id":"1db3"}}
   - {"name":"🇮🇷IR | vless | @Good_V2rayy | 3","type":"vless","server":"pr.dadnetiran.xyz","port":12754,"udp":true,"uuid":"fa1661aa-a1e3-4b74-9a2d-1d4d62050bc5","tls":true,"network":"tcp","client-fingerprint":"firefox","servername":"discord.com","reality-opts":{"public-key":"7Ig5GBzwQkBPQ-3gEPgBjTt-6N14VNcW6qgsTW2dKxA","short-id":"02085b77"}}
 proxy-groups:
   - name: MANUAL
@@ -131,9 +131,9 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇩🇪DE | vless | @CUSTOMVPNSERVER | 14'
+      - '🇩🇪DE | vless | @ipV2Ray | 16'
       - '🏳️XX | vless | @Capital_NET | 52'
-      - '🇦🇪AE | vless | @FAKEOFTVC | 5'
+      - '🇩🇪DE | vless | @FAKEOFTVC | 9'
       - '🇸🇪SE | vless | @kiava | 4'
       - '🇮🇷IR | vless | @Good_V2rayy | 3'
   - name: URL-TEST
@@ -142,9 +142,9 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
-      - '🇩🇪DE | vless | @CUSTOMVPNSERVER | 14'
+      - '🇩🇪DE | vless | @ipV2Ray | 16'
       - '🏳️XX | vless | @Capital_NET | 52'
-      - '🇦🇪AE | vless | @FAKEOFTVC | 5'
+      - '🇩🇪DE | vless | @FAKEOFTVC | 9'
       - '🇸🇪SE | vless | @kiava | 4'
       - '🇮🇷IR | vless | @Good_V2rayy | 3'
   - name: FALLBACK
@@ -152,9 +152,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇩🇪DE | vless | @CUSTOMVPNSERVER | 14'
+      - '🇩🇪DE | vless | @ipV2Ray | 16'
       - '🏳️XX | vless | @Capital_NET | 52'
-      - '🇦🇪AE | vless | @FAKEOFTVC | 5'
+      - '🇩🇪DE | vless | @FAKEOFTVC | 9'
       - '🇸🇪SE | vless | @kiava | 4'
       - '🇮🇷IR | vless | @Good_V2rayy | 3'
 rule-providers:
