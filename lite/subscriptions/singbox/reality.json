@@ -106,10 +106,12 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪DE | vless | @ipV2Ray | 16",
-                "🇸🇪SE | vless | @v2rayNG_Matsuri | 10",
+                "🇩🇪DE | vless | @ipV2Ray | 15",
+                "🇫🇮FI | vless | @FalconPolV2rayNG | 6",
+                "🇦🇺AU | vless | @Outlinev2rayNG | 14",
                 "🏳️XX | vless | @Capital_NET | 52",
-                "🇸🇪SE | vless | @kiava | 4",
+                "🇸🇪SE | vless | @FAKEOFTVC | 9",
+                "🇸🇪SE | vless | @kiava | 3",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
                 "🇮🇷IR | vless | @Good_V2rayy | 3",
                 "🇬🇧GB | vless | @FoXrayIran | 4"
@@ -119,10 +121,12 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪DE | vless | @ipV2Ray | 16",
-                "🇸🇪SE | vless | @v2rayNG_Matsuri | 10",
+                "🇩🇪DE | vless | @ipV2Ray | 15",
+                "🇫🇮FI | vless | @FalconPolV2rayNG | 6",
+                "🇦🇺AU | vless | @Outlinev2rayNG | 14",
                 "🏳️XX | vless | @Capital_NET | 52",
-                "🇸🇪SE | vless | @kiava | 4",
+                "🇸🇪SE | vless | @FAKEOFTVC | 9",
+                "🇸🇪SE | vless | @kiava | 3",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
                 "🇮🇷IR | vless | @Good_V2rayy | 3",
                 "🇬🇧GB | vless | @FoXrayIran | 4"
@@ -148,9 +152,9 @@
             "type": "dns"
         },
         {
-            "tag": "🇩🇪DE | vless | @ipV2Ray | 16",
+            "tag": "🇩🇪DE | vless | @ipV2Ray | 15",
             "type": "vless",
-            "server": "49.12.209.197",
+            "server": "188.34.154.219",
             "server_port": 443,
             "uuid": "b79fcb6b-5da4-494b-9ecc-d65d3ebcf7fe",
             "flow": "xtls-rprx-vision",
@@ -162,7 +166,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "dnschecker.org",
+                "server_name": "akniga.biz",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -171,7 +175,7 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "vxyZGYyn1CSmVCiAmTwYpEqP331l_PSBzaiDXsqrYXc",
+                    "public_key": "gnd39l1nb7AvsWB11yXeyv7s1vgWj5rXxcdd2qJ_LxY",
                     "short_id": "961777e2"
                 }
             },
@@ -184,11 +188,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @v2rayNG_Matsuri | 10",
+            "tag": "🇫🇮FI | vless | @FalconPolV2rayNG | 6",
             "type": "vless",
-            "server": "16.16.179.63",
-            "server_port": 2083,
-            "uuid": "23758119-cf33-4269-fb50-bc04930d356a",
+            "server": "37.27.4.17",
+            "server_port": 443,
+            "uuid": "02aa594a-af2e-4b35-8a17-5986ce15c7b5",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -198,17 +202,53 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "www.cdn.amazon.com",
+                "server_name": "www.forcespeed.fun",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "firefox"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "TphPNMzo82v0MGuaMR2txn4aiA-mISZljty_RExMSSY",
-                    "short_id": "214229"
+                    "public_key": "FCSi3ZigbnUJZn18TvvshvRfjjlcxpH1grw87kV6mTA",
+                    "short_id": "483211d3"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇦🇺AU | vless | @Outlinev2rayNG | 14",
+            "type": "vless",
+            "server": "richard.dgi000.store",
+            "server_port": 45454,
+            "uuid": "Azadi-az-inja-migzare",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "richard.dgi000.store",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "x_c1xN7STkeMumpLPU32WDeZ0UacaiAlvyj1zXEwljk",
+                    "short_id": "3dae8e8d"
                 }
             }
         },
@@ -242,9 +282,38 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @kiava | 4",
+            "tag": "🇸🇪SE | vless | @FAKEOFTVC | 9",
             "type": "vless",
-            "server": "16.16.208.95",
+            "server": "16.16.70.79",
+            "server_port": 2083,
+            "uuid": "23758119-cf33-4269-fb50-bc04930d356a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.cdn.amazon.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "db7scON_ZqrQNXUjTWSygqXDcuih0ukP5c3On4iTj3k",
+                    "short_id": "214229"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | @kiava | 3",
+            "type": "vless",
+            "server": "13.48.131.229",
             "server_port": 443,
             "uuid": "2c59ff33-916d-459b-a4c0-8b7432c4c3bb",
             "flow": "xtls-rprx-vision",
