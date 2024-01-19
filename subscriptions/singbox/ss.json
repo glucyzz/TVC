@@ -106,7 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇬🇧GB | ss | @servermomo | 9",
+                "🇬🇧GB | ss | @servermomo | 10",
                 "🇺🇸US | ss | @DeamNet_Proxy | 7",
                 "🇷🇺RU | ss | @DeamNet_Proxy | 12",
                 "🇹🇼TW | ss | @DeamNet_Proxy | 14",
@@ -127,16 +127,14 @@
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 16",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇬🇧GB | ss | @forwardv2ray | 9",
-                "🇩🇪DE | ss | @FAKEOFTVC | 8",
-                "🇨🇳CN | ss | @ednovasfree | 4"
+                "🇨🇳CN | ss | @ednovasfree | 5"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇬🇧GB | ss | @servermomo | 9",
+                "🇬🇧GB | ss | @servermomo | 10",
                 "🇺🇸US | ss | @DeamNet_Proxy | 7",
                 "🇷🇺RU | ss | @DeamNet_Proxy | 12",
                 "🇹🇼TW | ss | @DeamNet_Proxy | 14",
@@ -157,9 +155,7 @@
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 16",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇬🇧GB | ss | @forwardv2ray | 9",
-                "🇩🇪DE | ss | @FAKEOFTVC | 8",
-                "🇨🇳CN | ss | @ednovasfree | 4"
+                "🇨🇳CN | ss | @ednovasfree | 5"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -182,7 +178,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇬🇧GB | ss | @servermomo | 9",
+            "tag": "🇬🇧GB | ss | @servermomo | 10",
             "type": "shadowsocks",
             "server": "51.142.73.20",
             "server_port": 6961,
@@ -392,27 +388,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇬🇧GB | ss | @forwardv2ray | 9",
-            "type": "shadowsocks",
-            "server": "series-a2-mec.samanehha.co",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "u17T3BvpYaaiuW2c",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇩🇪DE | ss | @FAKEOFTVC | 8",
-            "type": "shadowsocks",
-            "server": "95.164.68.112",
-            "server_port": 46478,
-            "method": "chacha20-ietf-poly1305",
-            "password": "KO4t1fiT0Op82Lg8x7USrT",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇨🇳CN | ss | @ednovasfree | 4",
+            "tag": "🇨🇳CN | ss | @ednovasfree | 5",
             "type": "shadowsocks",
             "server": "9d0dbf29-shcm-ec2-cdn.fjbsb.top",
             "server_port": 26088,
