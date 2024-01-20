@@ -106,20 +106,16 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇳🇱NL | tuic | @azadi_az_inja_migzare | 19",
-                "🇩🇪DE | tuic | @azadi_az_inja_migzare | 20",
-                "🏳️XX | tuic | @azadi_az_inja_migzare | 21",
-                "🇺🇸US | tuic | @azadi_az_inja_migzare | 22"
+                "🇬🇧GB | tuic | @irancpi_vpn | 0",
+                "🇺🇸US | tuic | @FAKEOFTVC | 1"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇳🇱NL | tuic | @azadi_az_inja_migzare | 19",
-                "🇩🇪DE | tuic | @azadi_az_inja_migzare | 20",
-                "🏳️XX | tuic | @azadi_az_inja_migzare | 21",
-                "🇺🇸US | tuic | @azadi_az_inja_migzare | 22"
+                "🇬🇧GB | tuic | @irancpi_vpn | 0",
+                "🇺🇸US | tuic | @FAKEOFTVC | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -142,12 +138,12 @@
             "type": "dns"
         },
         {
-            "tag": "🇳🇱NL | tuic | @azadi_az_inja_migzare | 19",
+            "tag": "🇬🇧GB | tuic | @irancpi_vpn | 0",
             "type": "tuic",
-            "server": "209.250.254.198",
+            "server": "64.176.186.193",
             "server_port": 443,
-            "uuid": "38e38f61-b1dd-4b34-90d0-f6222fd7393f",
-            "password": "e7b1c11f0d40cc95",
+            "uuid": "d1bb3aae-ace9-4b0f-9ae5-85ab73acbb43",
+            "password": "Mahsaamini",
             "congestion_control": "bbr",
             "udp_relay_mode": "native",
             "zero_rtt_handshake": false,
@@ -155,8 +151,8 @@
             "network": "tcp",
             "tls": {
                 "enabled": true,
-                "disable_sni": false,
-                "server_name": "www.apple.com",
+                "disable_sni": true,
+                "server_name": "",
                 "insecure": true,
                 "alpn": [
                     "h3",
@@ -165,57 +161,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | tuic | @azadi_az_inja_migzare | 20",
+            "tag": "🇺🇸US | tuic | @FAKEOFTVC | 1",
             "type": "tuic",
-            "server": "95.179.167.38",
-            "server_port": 443,
-            "uuid": "38e38f61-b1dd-4b34-90d0-f6222fd7393f",
-            "password": "e7b1c11f0d40cc95",
-            "congestion_control": "bbr",
-            "udp_relay_mode": "native",
-            "zero_rtt_handshake": false,
-            "heartbeat": "10s",
-            "network": "tcp",
-            "tls": {
-                "enabled": true,
-                "disable_sni": false,
-                "server_name": "www.apple.com",
-                "insecure": true,
-                "alpn": [
-                    "h3",
-                    "spdy\/3.1"
-                ]
-            }
-        },
-        {
-            "tag": "🏳️XX | tuic | @azadi_az_inja_migzare | 21",
-            "type": "tuic",
-            "server": "[2602:294:0:f5:1234:4321:dc1e:1]",
-            "server_port": 28029,
-            "uuid": "548760e0-2de5-437d-a8ac-2b32b80424a8",
-            "password": "548760e0-2de5-437d-a8ac-2b32b80424a8",
-            "congestion_control": "bbr",
-            "udp_relay_mode": "native",
-            "zero_rtt_handshake": false,
-            "heartbeat": "10s",
-            "network": "tcp",
-            "tls": {
-                "enabled": true,
-                "disable_sni": false,
-                "server_name": "www.bing.com",
-                "insecure": true,
-                "alpn": [
-                    "h3",
-                    "spdy\/3.1"
-                ]
-            }
-        },
-        {
-            "tag": "🇺🇸US | tuic | @azadi_az_inja_migzare | 22",
-            "type": "tuic",
-            "server": "108.181.22.239",
-            "server_port": 45600,
-            "uuid": "4576f920-975b-4ab4-b53a-bdcfa623124d",
+            "server": "64.110.25.10",
+            "server_port": 11227,
+            "uuid": "764b539f-2d3c-4772-9731-5ebf6984af98",
             "password": "dongtaiwang.com",
             "congestion_control": "bbr",
             "udp_relay_mode": "native",
@@ -225,7 +175,7 @@
             "tls": {
                 "enabled": true,
                 "disable_sni": false,
-                "server_name": "www.virustotal.com",
+                "server_name": "bing.com",
                 "insecure": true,
                 "alpn": [
                     "h3",
