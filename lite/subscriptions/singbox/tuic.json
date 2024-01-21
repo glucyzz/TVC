@@ -106,7 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇬🇧GB | tuic | @irancpi_vpn | 0",
+                "🇺🇸US | tuic | @FAKEOFTVC | 2",
                 "🇺🇸US | tuic | @TUICity | 26"
             ]
         },
@@ -114,7 +114,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇬🇧GB | tuic | @irancpi_vpn | 0",
+                "🇺🇸US | tuic | @FAKEOFTVC | 2",
                 "🇺🇸US | tuic | @TUICity | 26"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -138,12 +138,12 @@
             "type": "dns"
         },
         {
-            "tag": "🇬🇧GB | tuic | @irancpi_vpn | 0",
+            "tag": "🇺🇸US | tuic | @FAKEOFTVC | 2",
             "type": "tuic",
-            "server": "64.176.186.193",
-            "server_port": 443,
-            "uuid": "d1bb3aae-ace9-4b0f-9ae5-85ab73acbb43",
-            "password": "Mahsaamini",
+            "server": "64.110.25.10",
+            "server_port": 11227,
+            "uuid": "764b539f-2d3c-4772-9731-5ebf6984af98",
+            "password": "dongtaiwang.com",
             "congestion_control": "bbr",
             "udp_relay_mode": "native",
             "zero_rtt_handshake": false,
@@ -151,8 +151,8 @@
             "network": "tcp",
             "tls": {
                 "enabled": true,
-                "disable_sni": true,
-                "server_name": "",
+                "disable_sni": false,
+                "server_name": "bing.com",
                 "insecure": true,
                 "alpn": [
                     "h3",
