@@ -118,50 +118,48 @@ dns:
     - "https://8.8.4.4/dns-query"
 
 proxies:
-  - {"name":"🇨🇦CA | trojan | @V2rayCollectorDonate | 14","type":"trojan","server":"ironone.libertasiran.cloud","port":443,"udp":false,"password":"LibertasOne*Ff","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"ironone.libertasiran.cloud"}
-  - {"name":"🇮🇪IE | trojan | @PrivateVPNs | 0","type":"trojan","server":"99.81.90.199","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
-  - {"name":"🇮🇪IE | trojan | @PrivateVPNs | 1","type":"trojan","server":"34.248.169.52","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
-  - {"name":"🇬🇧GB | trojan | @PrivateVPNs | 2","type":"trojan","server":"18.134.211.77","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
-  - {"name":"🇬🇧GB | trojan | @PrivateVPNs | 3","type":"trojan","server":"18.130.64.162","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
-  - {"name":"🇫🇷FR | trojan | @PrivateVPNs | 4","type":"trojan","server":"13.37.93.120","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
-  - {"name":"🇫🇷FR | trojan | @PrivateVPNs | 5","type":"trojan","server":"15.188.227.37","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
-  - {"name":"🇩🇪DE | trojan | @PrivateVPNs | 6","type":"trojan","server":"18.192.7.181","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
-  - {"name":"🇩🇪DE | trojan | @PrivateVPNs | 7","type":"trojan","server":"3.127.154.239","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
-  - {"name":"🇸🇪SE | trojan | @PrivateVPNs | 8","type":"trojan","server":"13.49.59.43","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
-  - {"name":"🇸🇪SE | trojan | @PrivateVPNs | 9","type":"trojan","server":"13.48.227.187","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
-  - {"name":"🇮🇪IE | trojan | @PrivateVPNs | 10","type":"trojan","server":"52.208.253.114","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
-  - {"name":"🇮🇪IE | trojan | @PrivateVPNs | 11","type":"trojan","server":"52.208.162.83","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
-  - {"name":"🇬🇧GB | trojan | @PrivateVPNs | 12","type":"trojan","server":"52.56.44.252","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
-  - {"name":"🇬🇧GB | trojan | @PrivateVPNs | 13","type":"trojan","server":"18.133.111.81","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
-  - {"name":"🇫🇷FR | trojan | @PrivateVPNs | 14","type":"trojan","server":"13.36.156.228","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
-  - {"name":"🇩🇪DE | trojan | @DirectVPN | 0","type":"trojan","server":"18.199.60.68","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
-  - {"name":"🇩🇪DE | trojan | @DirectVPN | 1","type":"trojan","server":"3.64.86.183","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
-  - {"name":"🇸🇪SE | trojan | @DirectVPN | 2","type":"trojan","server":"51.21.107.82","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
-  - {"name":"🇸🇪SE | trojan | @DirectVPN | 3","type":"trojan","server":"13.49.176.228","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
-  - {"name":"🇺🇸US | trojan | @DirectVPN | 4","type":"trojan","server":"3.20.230.45","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trj.rollingnext.co.uk"}
-  - {"name":"🇺🇸US | trojan | @DirectVPN | 5","type":"trojan","server":"52.32.0.54","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trj.rollingnext.co.uk"}
-  - {"name":"🇮🇪IE | trojan | @DirectVPN | 6","type":"trojan","server":"54.195.212.55","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trj.rollingnext.co.uk"}
-  - {"name":"🇬🇧GB | trojan | @DirectVPN | 7","type":"trojan","server":"35.177.242.107","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trj.rollingnext.co.uk"}
-  - {"name":"🇫🇷FR | trojan | @DirectVPN | 8","type":"trojan","server":"15.236.110.253","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trj.rollingnext.co.uk"}
-  - {"name":"🇩🇪DE | trojan | @DirectVPN | 9","type":"trojan","server":"18.196.211.152","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trj.rollingnext.co.uk"}
-  - {"name":"🇸🇪SE | trojan | @DirectVPN | 10","type":"trojan","server":"13.49.83.143","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trj.rollingnext.co.uk"}
-  - {"name":"🇮🇪IE | trojan | @DirectVPN | 11","type":"trojan","server":"52.19.181.112","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
-  - {"name":"🇮🇪IE | trojan | @DirectVPN | 12","type":"trojan","server":"185.48.122.94","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
-  - {"name":"🇬🇧GB | trojan | @DirectVPN | 13","type":"trojan","server":"18.169.174.246","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
-  - {"name":"🇬🇧GB | trojan | @DirectVPN | 14","type":"trojan","server":"18.169.42.168","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
-  - {"name":"🇸🇬SG | trojan | @oneclickvpnkeys | 0","type":"trojan","server":"149.28.151.140","port":443,"udp":false,"password":"842b5f9dd11e458d8613c907c4cc5723","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"www.gpt123.one"}
-  - {"name":"🇸🇪SE | trojan | @oneclickvpnkeys | 1","type":"trojan","server":"ec2-13-49-127-111.eu-north-1.compute.amazonaws.com","port":443,"udp":false,"password":"f63c1106-be09-4479-b214-aef555f9fc44","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"north-1.compute.seatech.ir"}
-  - {"name":"🇭🇰HK | trojan | @oneclickvpnkeys | 9","type":"trojan","server":"hk.zgc.su","port":567,"udp":false,"password":"94744160-abe9-44ca-b085-0f6994e1944e","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"hk.zgc.su"}
-  - {"name":"🇨🇦CA | trojan | @v2ray1_ng | 0","type":"trojan","server":"www.speedtest.net","port":443,"udp":false,"password":"QWhnWaVLh0","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"maintains-newton-b-bless.trycloudflare.com"}
-  - {"name":"🇨🇦CA | trojan | @kingofilter | 3","type":"trojan","server":"172.67.204.84","port":443,"udp":false,"password":"efdf7370-b84b-11ee-9e41-1239d0255272","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"de2.test3.net"}
+  - {"name":"🇮🇪IE | trojan | @PrivateVPNs | 1","type":"trojan","server":"34.253.98.36","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
+  - {"name":"🇬🇧GB | trojan | @PrivateVPNs | 2","type":"trojan","server":"3.9.219.188","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
+  - {"name":"🇬🇧GB | trojan | @PrivateVPNs | 3","type":"trojan","server":"13.43.247.96","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
+  - {"name":"🇫🇷FR | trojan | @PrivateVPNs | 4","type":"trojan","server":"35.181.81.145","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
+  - {"name":"🇫🇷FR | trojan | @PrivateVPNs | 5","type":"trojan","server":"13.37.78.52","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
+  - {"name":"🇩🇪DE | trojan | @PrivateVPNs | 6","type":"trojan","server":"3.127.13.125","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
+  - {"name":"🇩🇪DE | trojan | @PrivateVPNs | 7","type":"trojan","server":"3.74.209.85","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
+  - {"name":"🇸🇪SE | trojan | @PrivateVPNs | 8","type":"trojan","server":"51.20.228.20","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
+  - {"name":"🇸🇪SE | trojan | @PrivateVPNs | 9","type":"trojan","server":"51.21.116.138","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
+  - {"name":"🇮🇪IE | trojan | @PrivateVPNs | 10","type":"trojan","server":"52.51.148.74","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
+  - {"name":"🇮🇪IE | trojan | @PrivateVPNs | 11","type":"trojan","server":"3.254.219.125","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
+  - {"name":"🇬🇧GB | trojan | @PrivateVPNs | 12","type":"trojan","server":"18.134.188.183","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
+  - {"name":"🇬🇧GB | trojan | @PrivateVPNs | 13","type":"trojan","server":"35.178.209.137","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
+  - {"name":"🇫🇷FR | trojan | @PrivateVPNs | 14","type":"trojan","server":"15.188.133.105","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
+  - {"name":"🇫🇷FR | trojan | @PrivateVPNs | 15","type":"trojan","server":"13.37.9.17","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
+  - {"name":"🇩🇪DE | trojan | @DirectVPN | 1","type":"trojan","server":"3.65.186.109","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
+  - {"name":"🇸🇪SE | trojan | @DirectVPN | 2","type":"trojan","server":"13.51.18.191","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
+  - {"name":"🇸🇪SE | trojan | @DirectVPN | 3","type":"trojan","server":"16.16.8.155","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
+  - {"name":"🇺🇸US | trojan | @DirectVPN | 4","type":"trojan","server":"13.59.233.194","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trj.rollingnext.co.uk"}
+  - {"name":"🇺🇸US | trojan | @DirectVPN | 5","type":"trojan","server":"34.218.28.223","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trj.rollingnext.co.uk"}
+  - {"name":"🇮🇪IE | trojan | @DirectVPN | 6","type":"trojan","server":"54.78.209.62","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trj.rollingnext.co.uk"}
+  - {"name":"🇬🇧GB | trojan | @DirectVPN | 7","type":"trojan","server":"13.43.206.156","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trj.rollingnext.co.uk"}
+  - {"name":"🇫🇷FR | trojan | @DirectVPN | 8","type":"trojan","server":"15.236.151.37","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trj.rollingnext.co.uk"}
+  - {"name":"🇩🇪DE | trojan | @DirectVPN | 9","type":"trojan","server":"3.65.46.91","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trj.rollingnext.co.uk"}
+  - {"name":"🇸🇪SE | trojan | @DirectVPN | 10","type":"trojan","server":"13.49.210.72","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trj.rollingnext.co.uk"}
+  - {"name":"🇮🇪IE | trojan | @DirectVPN | 11","type":"trojan","server":"18.202.123.222","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
+  - {"name":"🇮🇪IE | trojan | @DirectVPN | 12","type":"trojan","server":"54.73.50.20","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
+  - {"name":"🇬🇧GB | trojan | @DirectVPN | 13","type":"trojan","server":"3.11.60.100","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
+  - {"name":"🇬🇧GB | trojan | @DirectVPN | 14","type":"trojan","server":"18.171.124.136","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
+  - {"name":"🇫🇷FR | trojan | @DirectVPN | 15","type":"trojan","server":"15.236.22.130","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
+  - {"name":"🇸🇪SE | trojan | @oneclickvpnkeys | 2","type":"trojan","server":"ec2-16-16-4-34.eu-north-1.compute.amazonaws.com","port":5001,"udp":false,"password":"YDE0pZnfYA","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"🇸🇪SE | trojan | @oneclickvpnkeys | 5","type":"trojan","server":"ec2-13-49-127-111.eu-north-1.compute.amazonaws.com","port":443,"udp":false,"password":"f63c1106-be09-4479-b214-aef555f9fc44","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"north-1.compute.seatech.ir"}
+  - {"name":"🇸🇬SG | trojan | @oneclickvpnkeys | 7","type":"trojan","server":"149.28.151.140","port":443,"udp":false,"password":"842b5f9dd11e458d8613c907c4cc5723","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"www.gpt123.one"}
+  - {"name":"🇨🇦CA | trojan | @proxyymeliii | 5","type":"trojan","server":"gr.tucn-serves.info","port":8443,"udp":false,"password":"vBjaQYDraP","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"gr.tucn-serves.info"}
+  - {"name":"🇨🇦CA | trojan | @v2ray1_ng | 1","type":"trojan","server":"www.speedtest.net","port":443,"udp":false,"password":"QWhnWaVLh0","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"maintains-newton-b-bless.trycloudflare.com"}
+  - {"name":"🇨🇦CA | trojan | @kingofilter | 8","type":"trojan","server":"172.67.204.84","port":443,"udp":false,"password":"efdf7370-b84b-11ee-9e41-1239d0255272","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"de2.test3.net"}
 proxy-groups:
   - name: MANUAL
     type: select
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇨🇦CA | trojan | @V2rayCollectorDonate | 14'
-      - '🇮🇪IE | trojan | @PrivateVPNs | 0'
       - '🇮🇪IE | trojan | @PrivateVPNs | 1'
       - '🇬🇧GB | trojan | @PrivateVPNs | 2'
       - '🇬🇧GB | trojan | @PrivateVPNs | 3'
@@ -176,7 +174,7 @@ proxy-groups:
       - '🇬🇧GB | trojan | @PrivateVPNs | 12'
       - '🇬🇧GB | trojan | @PrivateVPNs | 13'
       - '🇫🇷FR | trojan | @PrivateVPNs | 14'
-      - '🇩🇪DE | trojan | @DirectVPN | 0'
+      - '🇫🇷FR | trojan | @PrivateVPNs | 15'
       - '🇩🇪DE | trojan | @DirectVPN | 1'
       - '🇸🇪SE | trojan | @DirectVPN | 2'
       - '🇸🇪SE | trojan | @DirectVPN | 3'
@@ -191,19 +189,19 @@ proxy-groups:
       - '🇮🇪IE | trojan | @DirectVPN | 12'
       - '🇬🇧GB | trojan | @DirectVPN | 13'
       - '🇬🇧GB | trojan | @DirectVPN | 14'
-      - '🇸🇬SG | trojan | @oneclickvpnkeys | 0'
-      - '🇸🇪SE | trojan | @oneclickvpnkeys | 1'
-      - '🇭🇰HK | trojan | @oneclickvpnkeys | 9'
-      - '🇨🇦CA | trojan | @v2ray1_ng | 0'
-      - '🇨🇦CA | trojan | @kingofilter | 3'
+      - '🇫🇷FR | trojan | @DirectVPN | 15'
+      - '🇸🇪SE | trojan | @oneclickvpnkeys | 2'
+      - '🇸🇪SE | trojan | @oneclickvpnkeys | 5'
+      - '🇸🇬SG | trojan | @oneclickvpnkeys | 7'
+      - '🇨🇦CA | trojan | @proxyymeliii | 5'
+      - '🇨🇦CA | trojan | @v2ray1_ng | 1'
+      - '🇨🇦CA | trojan | @kingofilter | 8'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 60
     tolerance: 50
     proxies:
-      - '🇨🇦CA | trojan | @V2rayCollectorDonate | 14'
-      - '🇮🇪IE | trojan | @PrivateVPNs | 0'
       - '🇮🇪IE | trojan | @PrivateVPNs | 1'
       - '🇬🇧GB | trojan | @PrivateVPNs | 2'
       - '🇬🇧GB | trojan | @PrivateVPNs | 3'
@@ -218,7 +216,7 @@ proxy-groups:
       - '🇬🇧GB | trojan | @PrivateVPNs | 12'
       - '🇬🇧GB | trojan | @PrivateVPNs | 13'
       - '🇫🇷FR | trojan | @PrivateVPNs | 14'
-      - '🇩🇪DE | trojan | @DirectVPN | 0'
+      - '🇫🇷FR | trojan | @PrivateVPNs | 15'
       - '🇩🇪DE | trojan | @DirectVPN | 1'
       - '🇸🇪SE | trojan | @DirectVPN | 2'
       - '🇸🇪SE | trojan | @DirectVPN | 3'
@@ -233,18 +231,18 @@ proxy-groups:
       - '🇮🇪IE | trojan | @DirectVPN | 12'
       - '🇬🇧GB | trojan | @DirectVPN | 13'
       - '🇬🇧GB | trojan | @DirectVPN | 14'
-      - '🇸🇬SG | trojan | @oneclickvpnkeys | 0'
-      - '🇸🇪SE | trojan | @oneclickvpnkeys | 1'
-      - '🇭🇰HK | trojan | @oneclickvpnkeys | 9'
-      - '🇨🇦CA | trojan | @v2ray1_ng | 0'
-      - '🇨🇦CA | trojan | @kingofilter | 3'
+      - '🇫🇷FR | trojan | @DirectVPN | 15'
+      - '🇸🇪SE | trojan | @oneclickvpnkeys | 2'
+      - '🇸🇪SE | trojan | @oneclickvpnkeys | 5'
+      - '🇸🇬SG | trojan | @oneclickvpnkeys | 7'
+      - '🇨🇦CA | trojan | @proxyymeliii | 5'
+      - '🇨🇦CA | trojan | @v2ray1_ng | 1'
+      - '🇨🇦CA | trojan | @kingofilter | 8'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇨🇦CA | trojan | @V2rayCollectorDonate | 14'
-      - '🇮🇪IE | trojan | @PrivateVPNs | 0'
       - '🇮🇪IE | trojan | @PrivateVPNs | 1'
       - '🇬🇧GB | trojan | @PrivateVPNs | 2'
       - '🇬🇧GB | trojan | @PrivateVPNs | 3'
@@ -259,7 +257,7 @@ proxy-groups:
       - '🇬🇧GB | trojan | @PrivateVPNs | 12'
       - '🇬🇧GB | trojan | @PrivateVPNs | 13'
       - '🇫🇷FR | trojan | @PrivateVPNs | 14'
-      - '🇩🇪DE | trojan | @DirectVPN | 0'
+      - '🇫🇷FR | trojan | @PrivateVPNs | 15'
       - '🇩🇪DE | trojan | @DirectVPN | 1'
       - '🇸🇪SE | trojan | @DirectVPN | 2'
       - '🇸🇪SE | trojan | @DirectVPN | 3'
@@ -274,11 +272,13 @@ proxy-groups:
       - '🇮🇪IE | trojan | @DirectVPN | 12'
       - '🇬🇧GB | trojan | @DirectVPN | 13'
       - '🇬🇧GB | trojan | @DirectVPN | 14'
-      - '🇸🇬SG | trojan | @oneclickvpnkeys | 0'
-      - '🇸🇪SE | trojan | @oneclickvpnkeys | 1'
-      - '🇭🇰HK | trojan | @oneclickvpnkeys | 9'
-      - '🇨🇦CA | trojan | @v2ray1_ng | 0'
-      - '🇨🇦CA | trojan | @kingofilter | 3'
+      - '🇫🇷FR | trojan | @DirectVPN | 15'
+      - '🇸🇪SE | trojan | @oneclickvpnkeys | 2'
+      - '🇸🇪SE | trojan | @oneclickvpnkeys | 5'
+      - '🇸🇬SG | trojan | @oneclickvpnkeys | 7'
+      - '🇨🇦CA | trojan | @proxyymeliii | 5'
+      - '🇨🇦CA | trojan | @v2ray1_ng | 1'
+      - '🇨🇦CA | trojan | @kingofilter | 8'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
