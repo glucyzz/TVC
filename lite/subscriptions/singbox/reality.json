@@ -106,9 +106,9 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇸🇪SE | vless | @VmessProtocol | 12",
+                "🇩🇪DE | vless | @DailyV2RY | 155",
                 "🏳️XX | vless | @fnet00 | 14",
-                "🇸🇪SE | vless | @Capital_NET | 51",
+                "🇸🇪SE | vless | @Capital_NET | 49",
                 "🇸🇪SE | vless | @kiava | 3",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
                 "🇮🇷IR | vless | @Good_V2rayy | 3",
@@ -119,9 +119,9 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇸🇪SE | vless | @VmessProtocol | 12",
+                "🇩🇪DE | vless | @DailyV2RY | 155",
                 "🏳️XX | vless | @fnet00 | 14",
-                "🇸🇪SE | vless | @Capital_NET | 51",
+                "🇸🇪SE | vless | @Capital_NET | 49",
                 "🇸🇪SE | vless | @kiava | 3",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
                 "🇮🇷IR | vless | @Good_V2rayy | 3",
@@ -148,11 +148,11 @@
             "type": "dns"
         },
         {
-            "tag": "🇸🇪SE | vless | @VmessProtocol | 12",
+            "tag": "🇩🇪DE | vless | @DailyV2RY | 155",
             "type": "vless",
-            "server": "16.170.209.103",
-            "server_port": 2083,
-            "uuid": "23758119-cf33-4269-fb50-bc04930d356a",
+            "server": "49.13.62.154",
+            "server_port": 2096,
+            "uuid": "228ecb97-e00b-4f3d-9d0a-834fa2d3ed91",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -162,7 +162,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "www.cdn.amazon.com",
+                "server_name": "sourceforge.net",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -171,9 +171,16 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "4u8rHKAsUFeQYiSYuyatRfRTgKnSe2NcywkHATFgYXA",
-                    "short_id": "214229"
+                    "public_key": "tlEkxG7DMRkccWv6-ky41PrV4sdfXyfeAKzem3tYjh0",
+                    "short_id": "e6539b55"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ZEDMODEON",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -181,7 +188,7 @@
             "type": "vless",
             "server": "kamyarservers.camdvr.org",
             "server_port": 443,
-            "uuid": "b9bec4e7-0c93-4724-91da-368e285cc5b4",
+            "uuid": "2b89fcab-30cd-4665-8f2c-bafed9020d50",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -213,11 +220,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @Capital_NET | 51",
+            "tag": "🇸🇪SE | vless | @Capital_NET | 49",
             "type": "vless",
             "server": "77.91.84.45",
             "server_port": 2052,
-            "uuid": "f8198e44-c57b-413c-ad86-9944b013561f",
+            "uuid": "923b6576-c0d1-475b-bbcf-b92d6c8d5d88",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -236,8 +243,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "lfa88ptz3CMPtFPNsE108MYc4xTNIhm_DGdyvzX54AQ",
-                    "short_id": "d3414c877351cefd"
+                    "public_key": "sIbwvojdOqOHRC2CGu0dD7cu3lF6eT29AfQbc2Bh1VM",
+                    "short_id": "6526ebb1beacdad2"
                 }
             }
         },
