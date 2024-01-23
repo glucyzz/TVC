@@ -106,20 +106,16 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇬🇧GB | ss | @servermomo | 12",
-                "🇵🇱PL | ss | @DeamNet_Proxy | 18",
-                "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇬🇧GB | ss | @proxy_mtm | 7"
+                "🇺🇸US | ss | @DeamNet_Proxy | 19",
+                "🇺🇸US | ss | @OutlineVpnOfficial | 17"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇬🇧GB | ss | @servermomo | 12",
-                "🇵🇱PL | ss | @DeamNet_Proxy | 18",
-                "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇬🇧GB | ss | @proxy_mtm | 7"
+                "🇺🇸US | ss | @DeamNet_Proxy | 19",
+                "🇺🇸US | ss | @OutlineVpnOfficial | 17"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -142,22 +138,12 @@
             "type": "dns"
         },
         {
-            "tag": "🇬🇧GB | ss | @servermomo | 12",
+            "tag": "🇺🇸US | ss | @DeamNet_Proxy | 19",
             "type": "shadowsocks",
-            "server": "51.142.73.20",
-            "server_port": 6961,
-            "method": "chacha20-ietf-poly1305",
-            "password": "tAoWzuKvNOPrsLc4fAEOno",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇵🇱PL | ss | @DeamNet_Proxy | 18",
-            "type": "shadowsocks",
-            "server": "51.77.53.200",
-            "server_port": 8009,
+            "server": "38.75.136.21",
+            "server_port": 7002,
             "method": "aes-256-gcm",
-            "password": "XKFKl2rULjIp74",
+            "password": "RexnBgU7EV5ADxG",
             "plugin": "",
             "plugin_opts": ""
         },
@@ -168,16 +154,6 @@
             "server_port": 2443,
             "method": "aes-256-gcm",
             "password": "hh4JlBhsJ0JthpDP3vIwxXvJWHknI16AijGx6sbcqWI=",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇬🇧GB | ss | @proxy_mtm | 7",
-            "type": "shadowsocks",
-            "server": "series-a2-mec.samanehha.co",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "u17T3BvpYaaiuW2c",
             "plugin": "",
             "plugin_opts": ""
         }
