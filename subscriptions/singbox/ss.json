@@ -106,18 +106,13 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇯🇵JP | ss | @DeamNet_Proxy | 9",
-                "🇺🇸US | ss | @DeamNet_Proxy | 11",
-                "🇫🇷FR | ss | @DeamNet_Proxy | 12",
-                "🇵🇱PL | ss | @DeamNet_Proxy | 13",
-                "🇬🇧GB | ss | @DeamNet_Proxy | 14",
-                "🇬🇧GB | ss | @DeamNet_Proxy | 16",
-                "🇺🇸US | ss | @DeamNet_Proxy | 18",
+                "🇩🇪DE | ss | @DeamNet_Proxy | 10",
+                "🇯🇵JP | ss | @DeamNet_Proxy | 19",
                 "🇬🇧GB | ss | @proxyymeliii | 5",
                 "🇬🇧GB | ss | @proxyymeliii | 15",
-                "🏳️XX | ss | @VmessProtocol | 1",
-                "🇸🇪SE | ss | @VmessProtocol | 8",
-                "🇸🇪SE | ss | @VmessProtocol | 9",
+                "🏳️XX | ss | @VmessProtocol | 3",
+                "🇸🇪SE | ss | @VmessProtocol | 10",
+                "🇸🇪SE | ss | @VmessProtocol | 11",
                 "🇸🇪SE | ss | @OutlineVpnOfficial | 3",
                 "🇸🇬SG | ss | @OutlineVpnOfficial | 4",
                 "🇷🇺RU | ss | @OutlineVpnOfficial | 5",
@@ -132,26 +127,20 @@
                 "🇦🇺AU | ss | @OutlineVpnOfficial | 14",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 16",
-                "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇸🇪SE | ss | @forwardv2ray | 7"
+                "🇺🇸US | ss | @OutlineVpnOfficial | 17"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇯🇵JP | ss | @DeamNet_Proxy | 9",
-                "🇺🇸US | ss | @DeamNet_Proxy | 11",
-                "🇫🇷FR | ss | @DeamNet_Proxy | 12",
-                "🇵🇱PL | ss | @DeamNet_Proxy | 13",
-                "🇬🇧GB | ss | @DeamNet_Proxy | 14",
-                "🇬🇧GB | ss | @DeamNet_Proxy | 16",
-                "🇺🇸US | ss | @DeamNet_Proxy | 18",
+                "🇩🇪DE | ss | @DeamNet_Proxy | 10",
+                "🇯🇵JP | ss | @DeamNet_Proxy | 19",
                 "🇬🇧GB | ss | @proxyymeliii | 5",
                 "🇬🇧GB | ss | @proxyymeliii | 15",
-                "🏳️XX | ss | @VmessProtocol | 1",
-                "🇸🇪SE | ss | @VmessProtocol | 8",
-                "🇸🇪SE | ss | @VmessProtocol | 9",
+                "🏳️XX | ss | @VmessProtocol | 3",
+                "🇸🇪SE | ss | @VmessProtocol | 10",
+                "🇸🇪SE | ss | @VmessProtocol | 11",
                 "🇸🇪SE | ss | @OutlineVpnOfficial | 3",
                 "🇸🇬SG | ss | @OutlineVpnOfficial | 4",
                 "🇷🇺RU | ss | @OutlineVpnOfficial | 5",
@@ -166,8 +155,7 @@
                 "🇦🇺AU | ss | @OutlineVpnOfficial | 14",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 16",
-                "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇸🇪SE | ss | @forwardv2ray | 7"
+                "🇺🇸US | ss | @OutlineVpnOfficial | 17"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -190,72 +178,22 @@
             "type": "dns"
         },
         {
-            "tag": "🇯🇵JP | ss | @DeamNet_Proxy | 9",
+            "tag": "🇩🇪DE | ss | @DeamNet_Proxy | 10",
+            "type": "shadowsocks",
+            "server": "145.239.1.100",
+            "server_port": 8091,
+            "method": "aes-256-gcm",
+            "password": "PCnnH6SQSnfoS27",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇯🇵JP | ss | @DeamNet_Proxy | 19",
             "type": "shadowsocks",
             "server": "185.172.113.182",
             "server_port": 801,
             "method": "chacha20-ietf-poly1305",
             "password": "G!yBwPWH3Vao",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇺🇸US | ss | @DeamNet_Proxy | 11",
-            "type": "shadowsocks",
-            "server": "38.68.134.9",
-            "server_port": 6697,
-            "method": "aes-256-gcm",
-            "password": "TEzjfAYq2IjtuoS",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇫🇷FR | ss | @DeamNet_Proxy | 12",
-            "type": "shadowsocks",
-            "server": "149.202.82.172",
-            "server_port": 8008,
-            "method": "aes-256-gcm",
-            "password": "XKFKl2rULjIp74",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇵🇱PL | ss | @DeamNet_Proxy | 13",
-            "type": "shadowsocks",
-            "server": "54.36.174.181",
-            "server_port": 3306,
-            "method": "aes-256-gcm",
-            "password": "Y6R9pAtvxxzmGC",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇬🇧GB | ss | @DeamNet_Proxy | 14",
-            "type": "shadowsocks",
-            "server": "jseyu.arvancode.eu.Org",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "Bog0ELmMM9DSxDdQ",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇬🇧GB | ss | @DeamNet_Proxy | 16",
-            "type": "shadowsocks",
-            "server": "v1.arvancode.eu.org",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "mps3FwmDjLrWaOVg",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇺🇸US | ss | @DeamNet_Proxy | 18",
-            "type": "shadowsocks",
-            "server": "38.75.136.21",
-            "server_port": 7002,
-            "method": "aes-256-gcm",
-            "password": "RexnBgU7EV5ADxG",
             "plugin": "",
             "plugin_opts": ""
         },
@@ -280,7 +218,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🏳️XX | ss | @VmessProtocol | 1",
+            "tag": "🏳️XX | ss | @VmessProtocol | 3",
             "type": "shadowsocks",
             "server": "[2a0d:c740:3c:1::4d56:7f45]",
             "server_port": 47529,
@@ -290,7 +228,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇸🇪SE | ss | @VmessProtocol | 8",
+            "tag": "🇸🇪SE | ss | @VmessProtocol | 10",
             "type": "shadowsocks",
             "server": "16.170.7.32",
             "server_port": 80,
@@ -300,7 +238,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇸🇪SE | ss | @VmessProtocol | 9",
+            "tag": "🇸🇪SE | ss | @VmessProtocol | 11",
             "type": "shadowsocks",
             "server": "13.50.247.128",
             "server_port": 80,
@@ -456,16 +394,6 @@
             "server_port": 2443,
             "method": "aes-256-gcm",
             "password": "hh4JlBhsJ0JthpDP3vIwxXvJWHknI16AijGx6sbcqWI=",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇸🇪SE | ss | @forwardv2ray | 7",
-            "type": "shadowsocks",
-            "server": "13.48.47.120",
-            "server_port": 80,
-            "method": "chacha20-ietf-poly1305",
-            "password": "KGBP2oM2L9wJmO+qa+2HUYAzFBXA0Ed8NOF\/tP28Wkw=",
             "plugin": "",
             "plugin_opts": ""
         }
