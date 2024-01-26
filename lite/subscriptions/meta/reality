@@ -120,51 +120,39 @@ dns:
     'RULE-SET:ir,ircidr,geoip:ir,+.ir,+.bonyan.co': ["217.218.155.155", "217.218.127.127", "https://dns.403.online/dns-query", "https://dns.shecan.ir/dns-query"]
 
 proxies:
-  - {"name":"🇬🇧GB | vless | @EliV2ray | 14","type":"vless","server":"198.244.211.128","port":26660,"udp":true,"uuid":"b0bd8f69-f1bb-463b-9871-9c7430d061a3","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"ea.com","reality-opts":{"public-key":"HtcttM7t1OcuHNAtwnKH6XRmHyromTAy2yLapp9vamM","short-id":"00bfc73e"}}
   - {"name":"🇫🇮FI | vless | @ipV2Ray | 17","type":"vless","server":"95.216.208.84","port":443,"udp":true,"uuid":"691a087a-f23c-4162-99f5-6d3270a08108","tls":true,"network":"grpc","client-fingerprint":"firefox","servername":"greenpepper.ir","grpc-opts":{"grpc-service-name":"@ipV2Ray"},"reality-opts":{"public-key":"bW1C6fFy3N0yQwUmHCjaVThWl6fKQJcIq9CaAaYxbQ0","short-id":"54052ca6"}}
-  - {"name":"🇩🇪DE | vless | @v2logy | 15","type":"vless","server":"49.12.209.197","port":443,"udp":true,"uuid":"b79fcb6b-5da4-494b-9ecc-d65d3ebcf7fe","tls":true,"network":"grpc","client-fingerprint":"firefox","servername":"dnschecker.org","grpc-opts":{"grpc-service-name":"@ipV2Ray"},"reality-opts":{"public-key":"vxyZGYyn1CSmVCiAmTwYpEqP331l_PSBzaiDXsqrYXc","short-id":"961777e2"}}
-  - {"name":"🇩🇪DE | vless | @azadi_az_inja_migzare | 10","type":"vless","server":"91.107.154.103","port":443,"udp":true,"uuid":"1b74315e-715f-4a1d-a1b8-21324b12d8aa","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"www.aljazeera.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"MNN-kSKdj_9m3nQKP16wiS3P1tv-ClrQ4B1IBgqySCs","short-id":"6ba85179e30d4fc2"}}
-  - {"name":"🏳️XX | vless | @fnet00 | 16","type":"vless","server":"kamyarservers.camdvr.org","port":443,"udp":true,"uuid":"7e2d1645-ee37-458e-bf31-d1694ff352c5","tls":true,"network":"grpc","client-fingerprint":"firefox","servername":"greenpepper.ir","grpc-opts":{"grpc-service-name":"@Fnet00"},"reality-opts":{"public-key":"pj7hhjVTqfsjNw7vIMQFwT6nzdbHLNAyUveeRhv5vw4","short-id":"0960546b"}}
-  - {"name":"🇸🇪SE | vless | @kiava | 4","type":"vless","server":"16.16.139.103","port":443,"udp":true,"uuid":"2c59ff33-916d-459b-a4c0-8b7432c4c3bb","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"coinmarketcap.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"rrxaevH9D_L-Pnhfzkp2ZymkrYxtsJjVDRaeNm4PNAc","short-id":"1db3"}}
-  - {"name":"🇮🇷IR | vless | @Good_V2rayy | 3","type":"vless","server":"pr.dadnetiran.xyz","port":12754,"udp":true,"uuid":"fa1661aa-a1e3-4b74-9a2d-1d4d62050bc5","tls":true,"network":"tcp","client-fingerprint":"firefox","servername":"discord.com","reality-opts":{"public-key":"7Ig5GBzwQkBPQ-3gEPgBjTt-6N14VNcW6qgsTW2dKxA","short-id":"02085b77"}}
+  - {"name":"🏳️XX | vless | @fnet00 | 15","type":"vless","server":"kamyarserver.camdvr.org","port":443,"udp":true,"uuid":"97b0db66-09d7-470b-a2a9-e1bc68f46f18","tls":true,"network":"grpc","client-fingerprint":"firefox","servername":"greenpepper.ir","grpc-opts":{"grpc-service-name":"@Fnet00"},"reality-opts":{"public-key":"pj7hhjVTqfsjNw7vIMQFwT6nzdbHLNAyUveeRhv5vw4","short-id":"0960546b"}}
+  - {"name":"🇩🇪DE | vless | @Outlinev2rayNG | 5","type":"vless","server":"167.71.33.74","port":8080,"udp":true,"uuid":"fd8959a7-1e3d-41d3-bc03-60686c2081c9","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"itpsysteme.de","grpc-opts":{"grpc-service-name":"@ZEDMODEON"},"reality-opts":{"public-key":"TdyVchT3qabnfav2_oXs8JPA6EP4_1OLF4AM2uKTtU0","short-id":"977ebe48"}}
+  - {"name":"🇸🇪SE | vless | @kiava | 5","type":"vless","server":"16.16.139.103","port":443,"udp":true,"uuid":"2c59ff33-916d-459b-a4c0-8b7432c4c3bb","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"coinmarketcap.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"rrxaevH9D_L-Pnhfzkp2ZymkrYxtsJjVDRaeNm4PNAc","short-id":"1db3"}}
 proxy-groups:
   - name: MANUAL
     type: select
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇬🇧GB | vless | @EliV2ray | 14'
       - '🇫🇮FI | vless | @ipV2Ray | 17'
-      - '🇩🇪DE | vless | @v2logy | 15'
-      - '🇩🇪DE | vless | @azadi_az_inja_migzare | 10'
-      - '🏳️XX | vless | @fnet00 | 16'
-      - '🇸🇪SE | vless | @kiava | 4'
-      - '🇮🇷IR | vless | @Good_V2rayy | 3'
+      - '🏳️XX | vless | @fnet00 | 15'
+      - '🇩🇪DE | vless | @Outlinev2rayNG | 5'
+      - '🇸🇪SE | vless | @kiava | 5'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 60
     tolerance: 50
     proxies:
-      - '🇬🇧GB | vless | @EliV2ray | 14'
       - '🇫🇮FI | vless | @ipV2Ray | 17'
-      - '🇩🇪DE | vless | @v2logy | 15'
-      - '🇩🇪DE | vless | @azadi_az_inja_migzare | 10'
-      - '🏳️XX | vless | @fnet00 | 16'
-      - '🇸🇪SE | vless | @kiava | 4'
-      - '🇮🇷IR | vless | @Good_V2rayy | 3'
+      - '🏳️XX | vless | @fnet00 | 15'
+      - '🇩🇪DE | vless | @Outlinev2rayNG | 5'
+      - '🇸🇪SE | vless | @kiava | 5'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇬🇧GB | vless | @EliV2ray | 14'
       - '🇫🇮FI | vless | @ipV2Ray | 17'
-      - '🇩🇪DE | vless | @v2logy | 15'
-      - '🇩🇪DE | vless | @azadi_az_inja_migzare | 10'
-      - '🏳️XX | vless | @fnet00 | 16'
-      - '🇸🇪SE | vless | @kiava | 4'
-      - '🇮🇷IR | vless | @Good_V2rayy | 3'
+      - '🏳️XX | vless | @fnet00 | 15'
+      - '🇩🇪DE | vless | @Outlinev2rayNG | 5'
+      - '🇸🇪SE | vless | @kiava | 5'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
   ads: {type: http, format: text, behavior: domain, path: ./ruleset/ads.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ads.txt, interval: 86400}
