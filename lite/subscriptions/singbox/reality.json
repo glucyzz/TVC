@@ -107,11 +107,11 @@
             "outbounds": [
                 "URL-TEST",
                 "🇫🇮FI | vless | @ipV2Ray | 17",
-                "🏳️XX | vless | @fnet00 | 15",
-                "🇩🇪DE | vless | @Outlinev2rayNG | 5",
-                "🇫🇮FI | vless | @Capital_NET | 48",
+                "🏳️XX | vless | @fnet00 | 13",
+                "🏳️XX | vless | @Capital_NET | 48",
                 "🇸🇪SE | vless | @kiava | 5",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
+                "🇩🇪DE | vless | @freeconfigv2 | 13",
                 "🇬🇧GB | vless | @FoXrayIran | 4"
             ]
         },
@@ -120,11 +120,11 @@
             "type": "urltest",
             "outbounds": [
                 "🇫🇮FI | vless | @ipV2Ray | 17",
-                "🏳️XX | vless | @fnet00 | 15",
-                "🇩🇪DE | vless | @Outlinev2rayNG | 5",
-                "🇫🇮FI | vless | @Capital_NET | 48",
+                "🏳️XX | vless | @fnet00 | 13",
+                "🏳️XX | vless | @Capital_NET | 48",
                 "🇸🇪SE | vless | @kiava | 5",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
+                "🇩🇪DE | vless | @freeconfigv2 | 13",
                 "🇬🇧GB | vless | @FoXrayIran | 4"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -184,11 +184,11 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @fnet00 | 15",
+            "tag": "🏳️XX | vless | @fnet00 | 13",
             "type": "vless",
-            "server": "kamyarserver.camdvr.org",
+            "server": "kamyspeed.webredirect.org",
             "server_port": 443,
-            "uuid": "97b0db66-09d7-470b-a2a9-e1bc68f46f18",
+            "uuid": "c4352d94-2c0b-4c22-a1e5-7e0928cc499e",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -220,11 +220,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @Outlinev2rayNG | 5",
+            "tag": "🏳️XX | vless | @Capital_NET | 48",
             "type": "vless",
-            "server": "167.71.33.74",
-            "server_port": 8080,
-            "uuid": "fd8959a7-1e3d-41d3-bc03-60686c2081c9",
+            "server": "download.oapdis.com",
+            "server_port": 443,
+            "uuid": "6be7ac76-a575-4d2d-b4c0-62d21467bf60",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -234,7 +234,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "itpsysteme.de",
+                "server_name": "download.oapdis.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -243,52 +243,9 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "TdyVchT3qabnfav2_oXs8JPA6EP4_1OLF4AM2uKTtU0",
-                    "short_id": "977ebe48"
+                    "public_key": "xceYgV2SBE6XSZqe3RCWmpGb3GLEPcc4_IcR3TQ_3Bk",
+                    "short_id": "316d5439a4ae2184"
                 }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@ZEDMODEON",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇫🇮FI | vless | @Capital_NET | 48",
-            "type": "vless",
-            "server": "65.109.231.87",
-            "server_port": 443,
-            "uuid": "Source-ipV2Ray",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "gsmarena.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "MWTaO5y6KlDbY4sSfPsDuHjleTW_n__iNK7tGiPu_hQ",
-                    "short_id": "50509d19"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@ipV2Ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
@@ -354,6 +311,35 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @freeconfigv2 | 13",
+            "type": "vless",
+            "server": "51.75.86.63",
+            "server_port": 443,
+            "uuid": "d0e657b8-c01b-433c-b605-2bd475da74d9",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.flightradar24.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "edge"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "UDABcxpKzAYkuyE4pmST0OSzEUJpQNuSgYIKcgppeh8",
+                    "short_id": "d73382b02fa94fc2"
+                }
             }
         },
         {
