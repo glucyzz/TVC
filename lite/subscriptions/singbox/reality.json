@@ -106,9 +106,10 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇫🇮FI | vless | @ipV2Ray | 17",
+                "🇫🇮FI | vless | @ipV2Ray | 19",
+                "🇩🇪DE | vless | @v2logy | 13",
                 "🏳️XX | vless | @Capital_NET | 48",
-                "🇸🇪SE | vless | @kiava | 5",
+                "🇸🇪SE | vless | @kiava | 6",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
                 "🇬🇧GB | vless | @FoXrayIran | 4"
             ]
@@ -117,9 +118,10 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇫🇮FI | vless | @ipV2Ray | 17",
+                "🇫🇮FI | vless | @ipV2Ray | 19",
+                "🇩🇪DE | vless | @v2logy | 13",
                 "🏳️XX | vless | @Capital_NET | 48",
-                "🇸🇪SE | vless | @kiava | 5",
+                "🇸🇪SE | vless | @kiava | 6",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
                 "🇬🇧GB | vless | @FoXrayIran | 4"
             ],
@@ -144,7 +146,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇫🇮FI | vless | @ipV2Ray | 17",
+            "tag": "🇫🇮FI | vless | @ipV2Ray | 19",
             "type": "vless",
             "server": "95.216.170.113",
             "server_port": 443,
@@ -167,8 +169,44 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "XjP7jAIA1Y0QmNnNMlUGKsQnkP4HpbZtU5yPqesorm8",
+                    "public_key": "ebfVGwSeebvDeSEhjoW48UrjMhLj0PK2Rz0SI_GbXk8",
                     "short_id": "54052ca6"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @v2logy | 13",
+            "type": "vless",
+            "server": "49.12.38.31",
+            "server_port": 443,
+            "uuid": "ee10f005-86ad-4c45-99a7-6560cd199079",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "q23.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "H0lU99Tk_Uug1qas2s9GPaS93HV4khg287eSQ_hy1QM",
+                    "short_id": "961777e2"
                 }
             },
             "transport": {
@@ -209,7 +247,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @kiava | 5",
+            "tag": "🇸🇪SE | vless | @kiava | 6",
             "type": "vless",
             "server": "16.16.139.103",
             "server_port": 443,
