@@ -11,13 +11,13 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇺🇸US | ss | @OutlineVpnOfficial | 17 = ss, www.outline.network.ak2002.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou, 2443, encrypt-method = aes-256-gcm, password = hh4JlBhsJ0JthpDP3vIwxXvJWHknI16AijGx6sbcqWI=
-🏳️XX | ss | @proxy_mtm | 31 = ss, [0:0:0:0:0:ffff:0d30:2cc1], 8080, encrypt-method = chacha20-ietf-poly1305, password = CdlZIHkPi6PW7w8LE5JcHINBG8KeGYtxvoJpUCTU7tk=
-🇬🇧GB | ss | @ROMAX_VPN | 10 = ss, series-a2.samanehha.co, 443, encrypt-method = chacha20-ietf-poly1305, password = mps3FwmDjLrWaOVg
+🇺🇸US | ss | @DeamNet_Proxy | 19 = ss, 38.68.134.9, 5600, encrypt-method = aes-256-gcm, password = Y6R9pAtvxxzmGC
+🏳️XX | ss | @proxyymeliii | 19 = ss, [0:0:0:0:0:ffff:1010:4a42], 8080, encrypt-method = chacha20-ietf-poly1305, password = SD/MYCUQGXCC9TEnlz66Tdu4JDCH36LMMiV4a4VsJiI=
+🇦🇹AT | ss | @OutlineVpnOfficial | 15 = ss, 212.113.106.243, 12949, encrypt-method = chacha20-ietf-poly1305, password = P2zxXPewlV3BlfqqYiSthvtLc
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇺🇸US | ss | @OutlineVpnOfficial | 17,🏳️XX | ss | @proxy_mtm | 31,🇬🇧GB | ss | @ROMAX_VPN | 10
-URL-TEST = url-test,🇺🇸US | ss | @OutlineVpnOfficial | 17,🏳️XX | ss | @proxy_mtm | 31,🇬🇧GB | ss | @ROMAX_VPN | 10
-FALLBACK = fallback,🇺🇸US | ss | @OutlineVpnOfficial | 17,🏳️XX | ss | @proxy_mtm | 31,🇬🇧GB | ss | @ROMAX_VPN | 10
+MANUAL = select,URL-TEST,FALLBACK,🇺🇸US | ss | @DeamNet_Proxy | 19,🏳️XX | ss | @proxyymeliii | 19,🇦🇹AT | ss | @OutlineVpnOfficial | 15
+URL-TEST = url-test,🇺🇸US | ss | @DeamNet_Proxy | 19,🏳️XX | ss | @proxyymeliii | 19,🇦🇹AT | ss | @OutlineVpnOfficial | 15
+FALLBACK = fallback,🇺🇸US | ss | @DeamNet_Proxy | 19,🏳️XX | ss | @proxyymeliii | 19,🇦🇹AT | ss | @OutlineVpnOfficial | 15
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
