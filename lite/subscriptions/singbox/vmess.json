@@ -107,15 +107,16 @@
             "outbounds": [
                 "URL-TEST",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
-                "🇨🇳CN | vmess | @mftizi | 19",
-                "🇭🇰HK | vmess | @oneclickvpnkeys | 6",
-                "🇮🇷IR | vmess | @V2rayng_Fast | 1",
-                "🏳️XX | vmess | @Hope_Net | 4",
+                "🇨🇦CA | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
+                "🇮🇹IT | vmess | @oneclickvpnkeys | 5",
+                "🇨🇦CA | vmess | @prrofile_purple | 184",
+                "🇮🇷IR | vmess | @V2rayng_Fast | 4",
+                "🇨🇦CA | vmess | @v2ray_swhil | 23",
+                "🏳️XX | vmess | @Hope_Net | 2",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇦CA | vmess | @forwardv2ray | 18",
-                "🇷🇼RW | vmess | @FAKEOFTVC | 6",
-                "🇨🇦CA | vmess | @eliya_chiter0 | 9",
-                "🏳️XX | vmess | @SINABIGO | 6"
+                "🇬🇧GB | vmess | @forwardv2ray | 19",
+                "🇺🇸US | vmess | @eliya_chiter0 | 7"
             ]
         },
         {
@@ -123,15 +124,16 @@
             "type": "urltest",
             "outbounds": [
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
-                "🇨🇳CN | vmess | @mftizi | 19",
-                "🇭🇰HK | vmess | @oneclickvpnkeys | 6",
-                "🇮🇷IR | vmess | @V2rayng_Fast | 1",
-                "🏳️XX | vmess | @Hope_Net | 4",
+                "🇨🇦CA | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
+                "🇮🇹IT | vmess | @oneclickvpnkeys | 5",
+                "🇨🇦CA | vmess | @prrofile_purple | 184",
+                "🇮🇷IR | vmess | @V2rayng_Fast | 4",
+                "🇨🇦CA | vmess | @v2ray_swhil | 23",
+                "🏳️XX | vmess | @Hope_Net | 2",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇦CA | vmess | @forwardv2ray | 18",
-                "🇷🇼RW | vmess | @FAKEOFTVC | 6",
-                "🇨🇦CA | vmess | @eliya_chiter0 | 9",
-                "🏳️XX | vmess | @SINABIGO | 6"
+                "🇬🇧GB | vmess | @forwardv2ray | 19",
+                "🇺🇸US | vmess | @eliya_chiter0 | 7"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -171,11 +173,11 @@
             }
         },
         {
-            "tag": "🇨🇳CN | vmess | @mftizi | 19",
+            "tag": "🇨🇦CA | vmess | @mftizi | 19",
             "type": "vmess",
-            "server": "data-us-v1.shwjfkw.cn",
-            "server_port": 20401,
-            "uuid": "b1478e24-4916-3abe-8f17-15931012ecbe",
+            "server": "cfcdn1.sanfencdn9.com",
+            "server_port": 8880,
+            "uuid": "ae16d5a4-9a22-4177-8884-77aa3b309d30",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -188,18 +190,42 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/debian",
+                "path": "\/video\/bYdJ7Vc2We",
                 "headers": {
                     "Host": ""
                 }
             }
         },
         {
-            "tag": "🇭🇰HK | vmess | @oneclickvpnkeys | 6",
+            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
             "type": "vmess",
-            "server": "74.119.193.64",
+            "server": "172.67.229.13",
+            "server_port": 2086,
+            "uuid": "58fe1542-5290-40ad-815a-77707a81afe5",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/IOebhLMhl1CTbFHbL95myfRX2",
+                "headers": {
+                    "Host": "172.67.229.13"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇹IT | vmess | @oneclickvpnkeys | 5",
+            "type": "vmess",
+            "server": "45.82.101.5",
             "server_port": 443,
-            "uuid": "faa2d852-e7a4-40b3-a011-e028b8a21f3b",
+            "uuid": "726a0a65-04fd-4531-a96b-5510537737fc",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -212,7 +238,41 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "",
+                "server_name": "saber.serveirc.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@forwardv2ray",
+                "headers": {
+                    "Host": "saber.serveirc.com"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @prrofile_purple | 184",
+            "type": "vmess",
+            "server": "discord.com",
+            "server_port": 443,
+            "uuid": "06f477a1-71ea-4426-97b5-0ea84e77ac01",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "xqlcqrh.click",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -224,12 +284,12 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": ""
+                    "Host": "xqlcqrh.click"
                 }
             }
         },
         {
-            "tag": "🇮🇷IR | vmess | @V2rayng_Fast | 1",
+            "tag": "🇮🇷IR | vmess | @V2rayng_Fast | 4",
             "type": "vmess",
             "server": "81.12.27.108",
             "server_port": 16767,
@@ -246,11 +306,45 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @Hope_Net | 4",
+            "tag": "🇨🇦CA | vmess | @v2ray_swhil | 23",
+            "type": "vmess",
+            "server": "172.67.167.220",
+            "server_port": 2087,
+            "uuid": "5db4c51c-7304-4f0a-bbd8-083d258c04eb",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ryogplffcnsdgvvuwfuwtbgehdsgsgsgsgsfgegsgsgsghhddhdhdbhddhhtjsfjfjtjfwqdhwrjafjafjadhafhqfjqdhqdgdqhdqgegsofwnfianfaofnsifnaofnqfosjfsifjwfosmfaokfsofmwofsnfosmgsokfsofaofsmfowmfwofnwofnscoanowjfwofwofmwofnwofneciwbcuwbsogjsofsina.fpluuuxtoopgol.shop",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "dfgh",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🏳️XX | vmess | @Hope_Net | 2",
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 8080,
-            "uuid": "babcaca-acab-aabc-dbca-bccacbabaacb",
+            "uuid": "bcacaba-caba-aabc-bcad-bacbccaabacb",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -287,11 +381,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 18",
+            "tag": "🇬🇧GB | vmess | @forwardv2ray | 19",
             "type": "vmess",
-            "server": "104.22.51.162",
-            "server_port": 80,
-            "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+            "server": "185.162.228.99",
+            "server_port": 8080,
+            "uuid": "22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -304,69 +398,18 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/www.blueberrywindow.online\/",
                 "headers": {
                     "Host": ""
                 }
             }
         },
         {
-            "tag": "🇷🇼RW | vmess | @FAKEOFTVC | 6",
+            "tag": "🇺🇸US | vmess | @eliya_chiter0 | 7",
             "type": "vmess",
-            "server": "cloudbscrwanda.ednovas.org",
-            "server_port": 22222,
-            "uuid": "e4c9dc48-f9dc-4d9b-9318-a3933d113736",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @eliya_chiter0 | 9",
-            "type": "vmess",
-            "server": "172.67.220.64",
-            "server_port": 443,
-            "uuid": "f24bba0f-8656-44f8-b21e-a0e3a190c4c5",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.31000oooowe2.bf",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/df97b21e-3943-4865-af18-b5ea9676b037",
-                "headers": {
-                    "Host": "www.31000oooowe2.bf"
-                }
-            }
-        },
-        {
-            "tag": "🏳️XX | vmess | @SINABIGO | 6",
-            "type": "vmess",
-            "server": null,
-            "server_port": 0,
-            "uuid": null,
+            "server": "108.181.5.18",
+            "server_port": 18657,
+            "uuid": "636ba072-493e-4235-b7a8-822bd4e340d5",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
