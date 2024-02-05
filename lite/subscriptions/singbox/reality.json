@@ -106,8 +106,9 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪DE | vless | @ipV2Ray | 14",
+                "🇩🇪DE | vless | @ShadowProxy66 | 50",
                 "🇩🇪DE | vless | @v2ray1_ng | 4",
+                "🇩🇪DE | vless | @forwardv2ray | 19",
                 "🇸🇪SE | vless | @kiava | 6",
                 "🇹🇷TR | vless | @vpn_go67 | 23",
                 "🇬🇧GB | vless | @FoXrayIran | 4"
@@ -117,8 +118,9 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪DE | vless | @ipV2Ray | 14",
+                "🇩🇪DE | vless | @ShadowProxy66 | 50",
                 "🇩🇪DE | vless | @v2ray1_ng | 4",
+                "🇩🇪DE | vless | @forwardv2ray | 19",
                 "🇸🇪SE | vless | @kiava | 6",
                 "🇹🇷TR | vless | @vpn_go67 | 23",
                 "🇬🇧GB | vless | @FoXrayIran | 4"
@@ -144,11 +146,11 @@
             "type": "dns"
         },
         {
-            "tag": "🇩🇪DE | vless | @ipV2Ray | 14",
+            "tag": "🇩🇪DE | vless | @ShadowProxy66 | 50",
             "type": "vless",
-            "server": "188.34.194.108",
-            "server_port": 443,
-            "uuid": "cb00ef4a-fcf7-484a-8c49-6a2422ed84e6",
+            "server": "45.147.7.13",
+            "server_port": 8443,
+            "uuid": "9f76cfec-2931-4f9b-a992-1c5ebc86f72a",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -158,25 +160,18 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "ftp.debian.org",
+                "server_name": "speed.cloudflare.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "W6ol7KU4fjV1mBS2aG_xs8emIKsqF8y6Ufva-2MRa20",
-                    "short_id": "9d2b63ad"
+                    "public_key": "QEfpfYwKLNiQMxe5kSTCMCsxeRj3KUjT7DCQ5lsKHQo",
+                    "short_id": "1a16f64f"
                 }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@ipV2Ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
@@ -210,6 +205,42 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @forwardv2ray | 19",
+            "type": "vless",
+            "server": "fbbvssss.v2pedia.xyz",
+            "server_port": 8443,
+            "uuid": "8b2f1fc5-9d1c-4304-9c1d-91806eef4629",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "pubmed.ncbi.nlm.nih.gov",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "1XVNWscPjgvJ1uh9Tvk30Gh8dRlDL93jQEu2hk8YrRY",
+                    "short_id": "268ede"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram:@v2pedia,Telegram:@v2pedia,Telegram:@v2pedia,Telegram:@v2pedia,Telegram:@v2pedia,Telegram:@v2pedia,Telegram:@v2pedia,Telegram:@v2pedia",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
