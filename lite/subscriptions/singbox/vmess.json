@@ -108,11 +108,11 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇨🇷CR | vmess | @oneclickvpnkeys | 9",
-                "🇮🇷IR | vmess | @V2rayng_Fast | 2",
-                "🇨🇦CA | vmess | @Hope_Net | 9",
+                "🇮🇳IN | vmess | @oneclickvpnkeys | 10",
+                "🇮🇷IR | vmess | @V2rayng_Fast | 0",
+                "🇮🇳IN | vmess | @Hope_Net | 15",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇮🇷IR | vmess | @FAKEOFTVC | 4"
+                "🇨🇦CA | vmess | @eliya_chiter0 | 5"
             ]
         },
         {
@@ -121,11 +121,11 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇨🇷CR | vmess | @oneclickvpnkeys | 9",
-                "🇮🇷IR | vmess | @V2rayng_Fast | 2",
-                "🇨🇦CA | vmess | @Hope_Net | 9",
+                "🇮🇳IN | vmess | @oneclickvpnkeys | 10",
+                "🇮🇷IR | vmess | @V2rayng_Fast | 0",
+                "🇮🇳IN | vmess | @Hope_Net | 15",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇮🇷IR | vmess | @FAKEOFTVC | 4"
+                "🇨🇦CA | vmess | @eliya_chiter0 | 5"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -182,11 +182,11 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vmess | @oneclickvpnkeys | 9",
+            "tag": "🇮🇳IN | vmess | @oneclickvpnkeys | 10",
             "type": "vmess",
-            "server": "mci.mordad.shop",
-            "server_port": 2096,
-            "uuid": "12009e57-6fd8-46d6-94af-539514a7e7c7",
+            "server": "202.78.162.5",
+            "server_port": 443,
+            "uuid": "c43ba667-1d64-448a-9905-7477d8543268",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -199,7 +199,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "s1.shargh.shop",
+                "server_name": "kosar56.serveminecraft.net",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -209,18 +209,18 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/@forwardv2ray",
                 "headers": {
-                    "Host": "s1.shargh.shop"
+                    "Host": "kosar56.serveminecraft.net"
                 }
             }
         },
         {
-            "tag": "🇮🇷IR | vmess | @V2rayng_Fast | 2",
+            "tag": "🇮🇷IR | vmess | @V2rayng_Fast | 0",
             "type": "vmess",
-            "server": "81.12.27.108",
-            "server_port": 16767,
-            "uuid": "d30a1c51-d37c-4cb8-bee6-8f5cd746f9d7",
+            "server": "62.60.132.187",
+            "server_port": 47294,
+            "uuid": "ad87ea04-2017-4e84-cfdd-6b02bf02f622",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -233,11 +233,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 9",
+            "tag": "🇮🇳IN | vmess | @Hope_Net | 15",
             "type": "vmess",
-            "server": "shadow.hackers855.sbs",
-            "server_port": 2083,
-            "uuid": "c355694e-b143-4de1-a3c2-f416aa365404",
+            "server": "202.78.162.5",
+            "server_port": 443,
+            "uuid": "2ff97c6d-8557-42a4-b43f-19c77c5959ea",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -250,7 +250,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "shadow.hackers855.sbs",
+                "server_name": "",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -259,11 +259,11 @@
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "@hackers85",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/@forwardv2ray",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
@@ -291,11 +291,11 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vmess | @FAKEOFTVC | 4",
+            "tag": "🇨🇦CA | vmess | @eliya_chiter0 | 5",
             "type": "vmess",
-            "server": "81.12.27.108",
-            "server_port": 16767,
-            "uuid": "d30a1c51-d37c-4cb8-bee6-8f5cd746f9d7",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "bia-vpn-whal-bia-toosh",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -305,6 +305,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@vpn-whal,@vpn-whal",
+                "headers": {
+                    "Host": ""
+                }
             }
         }
     ],

@@ -11,19 +11,19 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇫🇷FR | trojan | @PrivateVPNs | 15 = trojan, 35.181.179.50, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.miwan.co.uk, ws = false
-🇸🇪SE | trojan | @DirectVPN | 15 = trojan, 16.16.180.228, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.miwan.co.uk, ws = false
-🇺🇸US | ss | @DeamNet_Proxy | 19 = ss, 38.121.43.97, 7001, encrypt-method = aes-256-gcm, password = RexnBgU7EV5ADxG
-🇨🇷CR | vmess | @oneclickvpnkeys | 9 = vmess, mci.mordad.shop, 2096, username = 12009e57-6fd8-46d6-94af-539514a7e7c7, ws = true, tls = 1, vmess-aead = true, ws-path = /, ws-headers = Host:"s1.shargh.shop", skip-cert-verify = true, tfo = false
-🇬🇧GB | ss | @VmessProtocol | 18 = ss, 51.104.229.3, 20843, encrypt-method = chacha20-ietf-poly1305, password = 9AxuisOgNqoWZw76Ue9nUK
+🇫🇷FR | trojan | @PrivateVPNs | 15 = trojan, 15.188.169.83, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.miwan.co.uk, ws = false
+🇸🇪SE | trojan | @DirectVPN | 15 = trojan, 13.48.9.192, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.miwan.co.uk, ws = false
+🇵🇱PL | ss | @DeamNet_Proxy | 19 = ss, 54.36.174.181, 6697, encrypt-method = aes-256-gcm, password = TEzjfAYq2IjtuoS
+🇮🇳IN | vmess | @oneclickvpnkeys | 10 = vmess, 202.78.162.5, 443, username = c43ba667-1d64-448a-9905-7477d8543268, ws = true, tls = 1, vmess-aead = true, ws-path = /@forwardv2ray, ws-headers = Host:"kosar56.serveminecraft.net", skip-cert-verify = true, tfo = false
+🇺🇸US | trojan | @V2RayTz | 9 = trojan, 18.219.43.124, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.miwan.co.uk, ws = false
 🇺🇸US | ss | @OutlineVpnOfficial | 17 = ss, www.outline.network.ak2002.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou, 2443, encrypt-method = aes-256-gcm, password = hh4JlBhsJ0JthpDP3vIwxXvJWHknI16AijGx6sbcqWI=
 🇨🇳CN | trojan | @yaney_01 | 7 = trojan, xibaozi.19890604.day, 10847, password = c1dc3493-2298-44ab-98c1-4abccbc350d1, udp-delay = true, skip-cert-verify = false, sni = cloudflare.node-ssl.cdn-alibaba.com, ws = false
+🇮🇳IN | vmess | @Hope_Net | 15 = vmess, 202.78.162.5, 443, username = 2ff97c6d-8557-42a4-b43f-19c77c5959ea, ws = true, tls = 1, vmess-aead = false, ws-path = /@forwardv2ray, ws-headers = Host:"irsoft.sytes.net", skip-cert-verify = true, tfo = false
 🇺🇸US | vmess | @v2Line | 6 = vmess, v2line.telegram.channel.1390.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou, 80, username = f61203bd-f386-4d12-9853-cc829d6b7c9d, ws = true, tls = , vmess-aead = true, ws-path = /vmess, ws-headers = Host:"ca2.xv2ray.net", skip-cert-verify = true, tfo = false
-🇸🇪SE | ss | @forwardv2ray | 17 = ss, 16.171.8.165, 8080, encrypt-method = chacha20-ietf-poly1305, password = o+O+GvqIh5cXZ8g4jTxG7+cPCU3C/UOGSF1Ax3LNUfg=
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇫🇷FR | trojan | @PrivateVPNs | 15,🇸🇪SE | trojan | @DirectVPN | 15,🇺🇸US | ss | @DeamNet_Proxy | 19,🇨🇷CR | vmess | @oneclickvpnkeys | 9,🇬🇧GB | ss | @VmessProtocol | 18,🇺🇸US | ss | @OutlineVpnOfficial | 17,🇨🇳CN | trojan | @yaney_01 | 7,🇺🇸US | vmess | @v2Line | 6,🇸🇪SE | ss | @forwardv2ray | 17
-URL-TEST = url-test,🇫🇷FR | trojan | @PrivateVPNs | 15,🇸🇪SE | trojan | @DirectVPN | 15,🇺🇸US | ss | @DeamNet_Proxy | 19,🇨🇷CR | vmess | @oneclickvpnkeys | 9,🇬🇧GB | ss | @VmessProtocol | 18,🇺🇸US | ss | @OutlineVpnOfficial | 17,🇨🇳CN | trojan | @yaney_01 | 7,🇺🇸US | vmess | @v2Line | 6,🇸🇪SE | ss | @forwardv2ray | 17
-FALLBACK = fallback,🇫🇷FR | trojan | @PrivateVPNs | 15,🇸🇪SE | trojan | @DirectVPN | 15,🇺🇸US | ss | @DeamNet_Proxy | 19,🇨🇷CR | vmess | @oneclickvpnkeys | 9,🇬🇧GB | ss | @VmessProtocol | 18,🇺🇸US | ss | @OutlineVpnOfficial | 17,🇨🇳CN | trojan | @yaney_01 | 7,🇺🇸US | vmess | @v2Line | 6,🇸🇪SE | ss | @forwardv2ray | 17
+MANUAL = select,URL-TEST,FALLBACK,🇫🇷FR | trojan | @PrivateVPNs | 15,🇸🇪SE | trojan | @DirectVPN | 15,🇵🇱PL | ss | @DeamNet_Proxy | 19,🇮🇳IN | vmess | @oneclickvpnkeys | 10,🇺🇸US | trojan | @V2RayTz | 9,🇺🇸US | ss | @OutlineVpnOfficial | 17,🇨🇳CN | trojan | @yaney_01 | 7,🇮🇳IN | vmess | @Hope_Net | 15,🇺🇸US | vmess | @v2Line | 6
+URL-TEST = url-test,🇫🇷FR | trojan | @PrivateVPNs | 15,🇸🇪SE | trojan | @DirectVPN | 15,🇵🇱PL | ss | @DeamNet_Proxy | 19,🇮🇳IN | vmess | @oneclickvpnkeys | 10,🇺🇸US | trojan | @V2RayTz | 9,🇺🇸US | ss | @OutlineVpnOfficial | 17,🇨🇳CN | trojan | @yaney_01 | 7,🇮🇳IN | vmess | @Hope_Net | 15,🇺🇸US | vmess | @v2Line | 6
+FALLBACK = fallback,🇫🇷FR | trojan | @PrivateVPNs | 15,🇸🇪SE | trojan | @DirectVPN | 15,🇵🇱PL | ss | @DeamNet_Proxy | 19,🇮🇳IN | vmess | @oneclickvpnkeys | 10,🇺🇸US | trojan | @V2RayTz | 9,🇺🇸US | ss | @OutlineVpnOfficial | 17,🇨🇳CN | trojan | @yaney_01 | 7,🇮🇳IN | vmess | @Hope_Net | 15,🇺🇸US | vmess | @v2Line | 6
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL

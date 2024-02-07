@@ -120,39 +120,35 @@ dns:
     'RULE-SET:ir,ircidr,geoip:ir,+.ir,+.bonyan.co': ["217.218.155.155", "217.218.127.127", "https://dns.403.online/dns-query", "https://dns.shecan.ir/dns-query"]
 
 proxies:
-  - {"name":"🇩🇪DE | vless | @NIM_VPN_ir | 8","type":"vless","server":"167.235.194.0","port":20832,"udp":true,"uuid":"3709d9c3-0287-498a-8663-c476db86a6a3","tls":true,"network":"tcp","client-fingerprint":"firefox","servername":"sourceforge.net","reality-opts":{"public-key":"ng6XQkeYA7Omk3Gbsj2famKYasixtk8mFpifFBRv8Qo","short-id":"914deebd"}}
-  - {"name":"🇬🇧GB | vless | @V2rayCollectorDonate | 19","type":"vless","server":"didi.pubgji.eu.org","port":39152,"udp":true,"uuid":"14895f01-3e17-4253-9913-bbc3dcb169b9","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"account.zula.ir","grpc-opts":{"grpc-service-name":""},"reality-opts":{"public-key":"sdBnam4YRnGK5b-jYt2DGOucuHh6Y0eUAOgnZuDt1Go","short-id":"0f50d389"}}
-  - {"name":"🇫🇮FI | vless | @v2ray_swhil | 27","type":"vless","server":"37.27.28.65","port":443,"udp":true,"uuid":"dbf9a864-95a3-415d-9d41-6a5cc25278f5","tls":true,"network":"grpc","client-fingerprint":"firefox","servername":"greenpepper.ir","grpc-opts":{"grpc-service-name":"@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray"},"reality-opts":{"public-key":"hv8rmIqgK13FnthDgzEgwcdzN0R8QEd49OqvPgXg-WQ","short-id":"775ee92c"}}
-  - {"name":"🇫🇮FI | vless | @Capoit | 5","type":"vless","server":"95.217.208.245","port":443,"udp":true,"uuid":"2b2e85fd-fb5f-4050-8af3-dc5b168fdf4e","tls":true,"network":"grpc","client-fingerprint":"firefox","servername":"*.gsmarena.com","grpc-opts":{"grpc-service-name":"@ipV2Ray"},"reality-opts":{"public-key":"ghLIwaKG9GWJLEV7PxdHKkW4a37QBfa30A0tufmJ6zw","short-id":"849f8532"}}
+  - {"name":"🇩🇪DE | vless | @EliV2ray | 17","type":"vless","server":"128.140.101.103","port":2087,"udp":true,"uuid":"e4527384-4f20-4378-95dc-403996f12588","tls":true,"network":"grpc","client-fingerprint":"firefox","servername":"dash.cloudflare.com","grpc-opts":{"grpc-service-name":""},"reality-opts":{"public-key":"GicA8fPbS9LksttApqa8gzOstomRFncKNoYGLCOqQF8","short-id":"fc805835"}}
+  - {"name":"🇫🇮FI | vless | @v2ray_swhil | 32","type":"vless","server":"37.27.28.65","port":443,"udp":true,"uuid":"dbf9a864-95a3-415d-9d41-6a5cc25278f5","tls":true,"network":"grpc","client-fingerprint":"firefox","servername":"greenpepper.ir","grpc-opts":{"grpc-service-name":"@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray"},"reality-opts":{"public-key":"hv8rmIqgK13FnthDgzEgwcdzN0R8QEd49OqvPgXg-WQ","short-id":"775ee92c"}}
+  - {"name":"🇫🇷FR | vless | @DailyV2RY | 117","type":"vless","server":"37.59.166.156","port":48576,"udp":true,"uuid":"d8253715-9664-4c3b-9ecd-e4805c8430f8","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"ea.com","grpc-opts":{"grpc-service-name":""},"reality-opts":{"public-key":"i-TBCDM3b7W2NE5JavNy7XBTsQwIjYD7qG9VEVfnxjg","short-id":"b1b454f6"}}
 proxy-groups:
   - name: MANUAL
     type: select
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇩🇪DE | vless | @NIM_VPN_ir | 8'
-      - '🇬🇧GB | vless | @V2rayCollectorDonate | 19'
-      - '🇫🇮FI | vless | @v2ray_swhil | 27'
-      - '🇫🇮FI | vless | @Capoit | 5'
+      - '🇩🇪DE | vless | @EliV2ray | 17'
+      - '🇫🇮FI | vless | @v2ray_swhil | 32'
+      - '🇫🇷FR | vless | @DailyV2RY | 117'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 60
     tolerance: 50
     proxies:
-      - '🇩🇪DE | vless | @NIM_VPN_ir | 8'
-      - '🇬🇧GB | vless | @V2rayCollectorDonate | 19'
-      - '🇫🇮FI | vless | @v2ray_swhil | 27'
-      - '🇫🇮FI | vless | @Capoit | 5'
+      - '🇩🇪DE | vless | @EliV2ray | 17'
+      - '🇫🇮FI | vless | @v2ray_swhil | 32'
+      - '🇫🇷FR | vless | @DailyV2RY | 117'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇩🇪DE | vless | @NIM_VPN_ir | 8'
-      - '🇬🇧GB | vless | @V2rayCollectorDonate | 19'
-      - '🇫🇮FI | vless | @v2ray_swhil | 27'
-      - '🇫🇮FI | vless | @Capoit | 5'
+      - '🇩🇪DE | vless | @EliV2ray | 17'
+      - '🇫🇮FI | vless | @v2ray_swhil | 32'
+      - '🇫🇷FR | vless | @DailyV2RY | 117'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
   ads: {type: http, format: text, behavior: domain, path: ./ruleset/ads.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ads.txt, interval: 86400}
