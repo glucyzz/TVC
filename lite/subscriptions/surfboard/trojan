@@ -11,14 +11,14 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇫🇷FR | trojan | @PrivateVPNs | 15 = trojan, 35.180.94.11, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.miwan.co.uk, ws = false
-🇫🇷FR | trojan | @DirectVPN | 14 = trojan, 15.237.163.97, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.miwan.co.uk, ws = false
-🇸🇬SG | trojan | @v2ray1_ng | 6 = trojan, 15.235.203.122, 80, password = VF1Al6V2fk, udp-delay = true, skip-cert-verify = false, ws = false
+🇫🇷FR | trojan | @PrivateVPNs | 15 = trojan, 13.38.139.137, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.miwan.co.uk, ws = false
+🇸🇪SE | trojan | @DirectVPN | 15 = trojan, 13.50.206.26, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.miwan.co.uk, ws = false
+🇨🇦CA | trojan | @oneclickvpnkeys | 8 = trojan, 172.67.204.84, 443, password = qj1Dz1CJmFQRhWr1SP80aA, udp-delay = true, skip-cert-verify = false, sni = cdn-21.gsmxreality.com, ws = false
 🇨🇳CN | trojan | @yaney_01 | 7 = trojan, xibaozi.19890604.day, 10847, password = c1dc3493-2298-44ab-98c1-4abccbc350d1, udp-delay = true, skip-cert-verify = false, sni = cloudflare.node-ssl.cdn-alibaba.com, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇫🇷FR | trojan | @PrivateVPNs | 15,🇫🇷FR | trojan | @DirectVPN | 14,🇸🇬SG | trojan | @v2ray1_ng | 6,🇨🇳CN | trojan | @yaney_01 | 7
-URL-TEST = url-test,🇫🇷FR | trojan | @PrivateVPNs | 15,🇫🇷FR | trojan | @DirectVPN | 14,🇸🇬SG | trojan | @v2ray1_ng | 6,🇨🇳CN | trojan | @yaney_01 | 7
-FALLBACK = fallback,🇫🇷FR | trojan | @PrivateVPNs | 15,🇫🇷FR | trojan | @DirectVPN | 14,🇸🇬SG | trojan | @v2ray1_ng | 6,🇨🇳CN | trojan | @yaney_01 | 7
+MANUAL = select,URL-TEST,FALLBACK,🇫🇷FR | trojan | @PrivateVPNs | 15,🇸🇪SE | trojan | @DirectVPN | 15,🇨🇦CA | trojan | @oneclickvpnkeys | 8,🇨🇳CN | trojan | @yaney_01 | 7
+URL-TEST = url-test,🇫🇷FR | trojan | @PrivateVPNs | 15,🇸🇪SE | trojan | @DirectVPN | 15,🇨🇦CA | trojan | @oneclickvpnkeys | 8,🇨🇳CN | trojan | @yaney_01 | 7
+FALLBACK = fallback,🇫🇷FR | trojan | @PrivateVPNs | 15,🇸🇪SE | trojan | @DirectVPN | 15,🇨🇦CA | trojan | @oneclickvpnkeys | 8,🇨🇳CN | trojan | @yaney_01 | 7
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
