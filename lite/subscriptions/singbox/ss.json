@@ -106,20 +106,16 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸US | ss | @DeamNet_Proxy | 19",
-                "🇬🇧GB | ss | @VmessProtocol | 15",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇷🇺RU | ss | @ROMAX_VPN | 14"
+                "🇸🇪SE | ss | @kingofilter | 8"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸US | ss | @DeamNet_Proxy | 19",
-                "🇬🇧GB | ss | @VmessProtocol | 15",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇷🇺RU | ss | @ROMAX_VPN | 14"
+                "🇸🇪SE | ss | @kingofilter | 8"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -142,26 +138,6 @@
             "type": "dns"
         },
         {
-            "tag": "🇺🇸US | ss | @DeamNet_Proxy | 19",
-            "type": "shadowsocks",
-            "server": "38.75.136.21",
-            "server_port": 6679,
-            "method": "aes-256-gcm",
-            "password": "TEzjfAYq2IjtuoS",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇬🇧GB | ss | @VmessProtocol | 15",
-            "type": "shadowsocks",
-            "server": "series-a2-mec.samanehha.co",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "u17T3BvpYaaiuW2c",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
             "tag": "🇺🇸US | ss | @OutlineVpnOfficial | 17",
             "type": "shadowsocks",
             "server": "www.outline.network.ak2002.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
@@ -172,12 +148,12 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇷🇺RU | ss | @ROMAX_VPN | 14",
+            "tag": "🇸🇪SE | ss | @kingofilter | 8",
             "type": "shadowsocks",
-            "server": "94.131.121.130",
-            "server_port": 49845,
+            "server": "16.16.210.97",
+            "server_port": 8080,
             "method": "chacha20-ietf-poly1305",
-            "password": "uUjyhRvJrLsMwDFxDUAtar",
+            "password": "q\/3DJoB2rYzaBPKQCLl\/rcXTj2vGTL8ho0KyW7swEW8=",
             "plugin": "",
             "plugin_opts": ""
         }
