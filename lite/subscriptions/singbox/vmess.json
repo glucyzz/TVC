@@ -106,34 +106,30 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪DE | vmess | @V2rayCollectorDonate | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇻🇳VN | vmess | @DeamNet_Proxy | 19",
-                "🇨🇦CA | vmess | @V2rayng_Fast | 0",
-                "🇩🇪DE | vmess | @v2ray1_ng | 7",
+                "🇨🇦CA | vmess | @V2rayng_Fast | 2",
+                "🇹🇼TW | vmess | @v2ray1_ng | 3",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
-                "🏳️XX | vmess | @Hope_Net | 0",
+                "🏳️XX | vmess | @Hope_Net | 7",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇮🇷IR | vmess | @forwardv2ray | 19",
-                "🇨🇦CA | vmess | @eliya_chiter0 | 2"
+                "🇨🇾CY | vmess | @forwardv2ray | 19",
+                "🇨🇦CA | vmess | @eliya_chiter0 | 1"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪DE | vmess | @V2rayCollectorDonate | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇻🇳VN | vmess | @DeamNet_Proxy | 19",
-                "🇨🇦CA | vmess | @V2rayng_Fast | 0",
-                "🇩🇪DE | vmess | @v2ray1_ng | 7",
+                "🇨🇦CA | vmess | @V2rayng_Fast | 2",
+                "🇹🇼TW | vmess | @v2ray1_ng | 3",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
-                "🏳️XX | vmess | @Hope_Net | 0",
+                "🏳️XX | vmess | @Hope_Net | 7",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇮🇷IR | vmess | @forwardv2ray | 19",
-                "🇨🇦CA | vmess | @eliya_chiter0 | 2"
+                "🇨🇾CY | vmess | @forwardv2ray | 19",
+                "🇨🇦CA | vmess | @eliya_chiter0 | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -154,23 +150,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇩🇪DE | vmess | @V2rayCollectorDonate | 19",
-            "type": "vmess",
-            "server": "cdn.servemp3.com",
-            "server_port": 2083,
-            "uuid": "136e1496-29d3-4961-8772-b6e1b8786728",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
         },
         {
             "tag": "🇫🇷FR | vmess | @v2ray_outlineir | 0",
@@ -207,31 +186,7 @@
             }
         },
         {
-            "tag": "🇻🇳VN | vmess | @DeamNet_Proxy | 19",
-            "type": "vmess",
-            "server": "125.212.231.79",
-            "server_port": 80,
-            "uuid": "bb4170c1-509b-4bb8-ac94-37f90f90b84d",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/VPNDATA.xYx",
-                "headers": {
-                    "Host": "125.212.231.79"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @V2rayng_Fast | 0",
+            "tag": "🇨🇦CA | vmess | @V2rayng_Fast | 2",
             "type": "vmess",
             "server": "discord.gg",
             "server_port": 80,
@@ -255,11 +210,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vmess | @v2ray1_ng | 7",
+            "tag": "🇹🇼TW | vmess | @v2ray1_ng | 3",
             "type": "vmess",
-            "server": "49.12.109.46",
-            "server_port": 8081,
-            "uuid": "9ebfbe92-13f8-46f4-b26a-5f21ab4bc464",
+            "server": "118.167.68.167",
+            "server_port": 12002,
+            "uuid": "60ab817e-0566-44cb-becd-6b51698d5672",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -296,11 +251,11 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @Hope_Net | 0",
+            "tag": "🏳️XX | vmess | @Hope_Net | 7",
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 8080,
-            "uuid": "aabcabc-caba-abca-cdba-acbabccbbcaa",
+            "uuid": "accabab-acba-abac-dabc-bacacccbbaba",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -337,28 +292,11 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vmess | @forwardv2ray | 19",
+            "tag": "🇨🇾CY | vmess | @forwardv2ray | 19",
             "type": "vmess",
-            "server": "youngx.melatmobile.com",
-            "server_port": 13397,
-            "uuid": "f9122264-0057-449e-ab40-e326d926fd79",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @eliya_chiter0 | 2",
-            "type": "vmess",
-            "server": "nelly.homes",
+            "server": "195.85.59.50",
             "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -371,7 +309,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "nelly.homes",
+                "server_name": "8wccc4a94-term-4a94.ketowil344.workers.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -381,9 +319,43 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkvws",
+                "path": "\/obdii.cfd\/linkws",
                 "headers": {
-                    "Host": "nelly.homes"
+                    "Host": "8wccc4a94-term-4a94.ketowil344.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @eliya_chiter0 | 1",
+            "type": "vmess",
+            "server": "172.67.71.160",
+            "server_port": 443,
+            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "obdii.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "obdii.cfd"
                 }
             }
         }
