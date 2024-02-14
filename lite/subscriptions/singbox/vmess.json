@@ -108,13 +108,14 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇨🇦CA | vmess | @V2rayng_Fast | 2",
-                "🇹🇼TW | vmess | @v2ray1_ng | 3",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 10",
+                "🇨🇦CA | vmess | @customv2ray | 7",
+                "🇨🇦CA | vmess | @V2rayng_Fast | 4",
+                "🇳🇱NL | vmess | @v2ray1_ng | 4",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
-                "🏳️XX | vmess | @Hope_Net | 7",
+                "🇨🇦CA | vmess | @Hope_Net | 15",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇾CY | vmess | @forwardv2ray | 19",
-                "🇨🇦CA | vmess | @eliya_chiter0 | 1"
+                "🇨🇦CA | vmess | @eliya_chiter0 | 3"
             ]
         },
         {
@@ -123,13 +124,14 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇨🇦CA | vmess | @V2rayng_Fast | 2",
-                "🇹🇼TW | vmess | @v2ray1_ng | 3",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 10",
+                "🇨🇦CA | vmess | @customv2ray | 7",
+                "🇨🇦CA | vmess | @V2rayng_Fast | 4",
+                "🇳🇱NL | vmess | @v2ray1_ng | 4",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
-                "🏳️XX | vmess | @Hope_Net | 7",
+                "🇨🇦CA | vmess | @Hope_Net | 15",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇾CY | vmess | @forwardv2ray | 19",
-                "🇨🇦CA | vmess | @eliya_chiter0 | 1"
+                "🇨🇦CA | vmess | @eliya_chiter0 | 3"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -186,7 +188,55 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @V2rayng_Fast | 2",
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 10",
+            "type": "vmess",
+            "server": "104.20.231.30",
+            "server_port": 80,
+            "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @customv2ray | 7",
+            "type": "vmess",
+            "server": "server32.beheshtbaneh.com",
+            "server_port": 8880,
+            "uuid": "044ba8ed-7285-472a-bc14-fb91dc6be4c9",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @V2rayng_Fast | 4",
             "type": "vmess",
             "server": "discord.gg",
             "server_port": 80,
@@ -210,11 +260,11 @@
             }
         },
         {
-            "tag": "🇹🇼TW | vmess | @v2ray1_ng | 3",
+            "tag": "🇳🇱NL | vmess | @v2ray1_ng | 4",
             "type": "vmess",
-            "server": "118.167.68.167",
-            "server_port": 12002,
-            "uuid": "60ab817e-0566-44cb-becd-6b51698d5672",
+            "server": "188.114.96.113",
+            "server_port": 80,
+            "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -224,6 +274,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
@@ -251,11 +308,11 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @Hope_Net | 7",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 15",
             "type": "vmess",
-            "server": "127.0.0.1",
-            "server_port": 8080,
-            "uuid": "accabab-acba-abac-dabc-bacacccbbaba",
+            "server": "162.159.200.7",
+            "server_port": 80,
+            "uuid": "384648b3-bcc5-401e-b145-dc91f57ee5e6",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -265,6 +322,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
@@ -292,41 +356,7 @@
             }
         },
         {
-            "tag": "🇨🇾CY | vmess | @forwardv2ray | 19",
-            "type": "vmess",
-            "server": "195.85.59.50",
-            "server_port": 443,
-            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "8wccc4a94-term-4a94.ketowil344.workers.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/obdii.cfd\/linkws",
-                "headers": {
-                    "Host": "8wccc4a94-term-4a94.ketowil344.workers.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @eliya_chiter0 | 1",
+            "tag": "🇨🇦CA | vmess | @eliya_chiter0 | 3",
             "type": "vmess",
             "server": "172.67.71.160",
             "server_port": 443,
