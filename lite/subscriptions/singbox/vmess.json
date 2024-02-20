@@ -108,12 +108,11 @@
                 "URL-TEST",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
-                "🇨🇦CA | vmess | @V2rayng_Fast | 1",
-                "🇨🇦CA | vmess | @v2ray_swhil | 21",
-                "🇨🇦CA | vmess | @free1_vpn | 1",
+                "🇨🇦CA | vmess | @V2rayng_Fast | 2",
+                "🇨🇦CA | vmess | @yaney_01 | 7",
+                "🇨🇦CA | vmess | @free1_vpn | 3",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇦CA | vmess | @eliya_chiter0 | 2"
+                "🇨🇦CA | vmess | @FoXrayIran | 1"
             ]
         },
         {
@@ -122,12 +121,11 @@
             "outbounds": [
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
-                "🇨🇦CA | vmess | @V2rayng_Fast | 1",
-                "🇨🇦CA | vmess | @v2ray_swhil | 21",
-                "🇨🇦CA | vmess | @free1_vpn | 1",
+                "🇨🇦CA | vmess | @V2rayng_Fast | 2",
+                "🇨🇦CA | vmess | @yaney_01 | 7",
+                "🇨🇦CA | vmess | @free1_vpn | 3",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇦CA | vmess | @eliya_chiter0 | 2"
+                "🇨🇦CA | vmess | @FoXrayIran | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -184,41 +182,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
-            "type": "vmess",
-            "server": "warp-sub.pages.dev",
-            "server_port": 443,
-            "uuid": "06195b5b-3815-4a07-96f7-47eefbb1b143",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/urnxewzvh.site:443\/kwhmvws",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @V2rayng_Fast | 1",
+            "tag": "🇨🇦CA | vmess | @V2rayng_Fast | 2",
             "type": "vmess",
             "server": "104.21.30.254",
             "server_port": 443,
@@ -252,11 +216,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @v2ray_swhil | 21",
+            "tag": "🇨🇦CA | vmess | @yaney_01 | 7",
             "type": "vmess",
-            "server": "vip2323.cfd",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "server": "172.67.217.144",
+            "server_port": 80,
+            "uuid": "85674552-ce41-44d9-bb2a-50f76450b3d8",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -267,26 +231,16 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "vip2323.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/linkvws",
+                "path": "\/",
                 "headers": {
-                    "Host": "vip2323.cfd"
+                    "Host": "172.67.217.144"
                 }
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @free1_vpn | 1",
+            "tag": "🇨🇦CA | vmess | @free1_vpn | 3",
             "type": "vmess",
             "server": "104.21.33.32",
             "server_port": 443,
@@ -344,11 +298,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @eliya_chiter0 | 2",
+            "tag": "🇨🇦CA | vmess | @FoXrayIran | 1",
             "type": "vmess",
-            "server": "172.67.131.108",
-            "server_port": 443,
-            "uuid": "1052f24e-7b09-45eb-b0c5-d858eb124192",
+            "server": "tl.iranray.online",
+            "server_port": 8080,
+            "uuid": "b3c20911-126d-4c30-bd32-10152bf0b593",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -359,21 +313,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "glweidf.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/",
                 "headers": {
-                    "Host": "glweidf.cfd"
+                    "Host": ""
                 }
             }
         }

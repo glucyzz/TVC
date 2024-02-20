@@ -106,20 +106,18 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🏳️XX | ss | @azadi_az_inja_migzare | 2",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
                 "🇬🇧GB | ss | @kingofilter | 5",
-                "🇺🇸US | ss | @ROMAX_VPN | 6"
+                "🏳️XX | ss | @ROMAX_VPN | 6"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🏳️XX | ss | @azadi_az_inja_migzare | 2",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
                 "🇬🇧GB | ss | @kingofilter | 5",
-                "🇺🇸US | ss | @ROMAX_VPN | 6"
+                "🏳️XX | ss | @ROMAX_VPN | 6"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -142,16 +140,6 @@
             "type": "dns"
         },
         {
-            "tag": "🏳️XX | ss | @azadi_az_inja_migzare | 2",
-            "type": "shadowsocks",
-            "server": "[::ffff:1285:d01c]",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "Bog0ELmMM9DSxDdQ",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
             "tag": "🇺🇸US | ss | @OutlineVpnOfficial | 17",
             "type": "shadowsocks",
             "server": "www.outline.network.ak2002.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
@@ -172,12 +160,12 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | ss | @ROMAX_VPN | 6",
+            "tag": "🏳️XX | ss | @ROMAX_VPN | 6",
             "type": "shadowsocks",
-            "server": "45.8.146.32",
-            "server_port": 50370,
+            "server": "fast_2ray_telchannelll.fast2rayy.eu.org",
+            "server_port": 443,
             "method": "chacha20-ietf-poly1305",
-            "password": "4sZ69FNmAPosCBiD6MUryB",
+            "password": "Bog0ELmMM9DSxDdQ",
             "plugin": "",
             "plugin_opts": ""
         }
