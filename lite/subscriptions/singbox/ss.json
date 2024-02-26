@@ -107,7 +107,8 @@
             "outbounds": [
                 "URL-TEST",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇸🇪SE | ss | @ROMAX_VPN | 4"
+                "🇨🇦CA | ss | @forwardv2ray | 18",
+                "🇫🇮FI | ss | @ROMAX_VPN | 4"
             ]
         },
         {
@@ -115,7 +116,8 @@
             "type": "urltest",
             "outbounds": [
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇸🇪SE | ss | @ROMAX_VPN | 4"
+                "🇨🇦CA | ss | @forwardv2ray | 18",
+                "🇫🇮FI | ss | @ROMAX_VPN | 4"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -148,12 +150,22 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇸🇪SE | ss | @ROMAX_VPN | 4",
+            "tag": "🇨🇦CA | ss | @forwardv2ray | 18",
             "type": "shadowsocks",
-            "server": "45.8.147.65",
-            "server_port": 37219,
+            "server": "toronto.telegavpn.org",
+            "server_port": 31024,
             "method": "chacha20-ietf-poly1305",
-            "password": "ETt8vY8HbPwOfk21c3i13h",
+            "password": "LYn57x2vD4r3AgM54eFVgR",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇫🇮FI | ss | @ROMAX_VPN | 4",
+            "type": "shadowsocks",
+            "server": "95.164.113.64",
+            "server_port": 7150,
+            "method": "chacha20-ietf-poly1305",
+            "password": "btzmpL7aOs7YbcLS4In6YX",
             "plugin": "",
             "plugin_opts": ""
         }
