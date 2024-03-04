@@ -120,11 +120,10 @@ dns:
     'RULE-SET:ir,ircidr,geoip:ir,+.ir,+.bonyan.co': ["217.218.155.155", "217.218.127.127", "https://dns.403.online/dns-query", "https://dns.shecan.ir/dns-query"]
 
 proxies:
-  - {"name":"🇫🇷FR | ss | @DeamNet_Proxy | 10","type":"ss","server":"149.202.82.172","port":5004,"password":"g5MeD6Ft3CWlJId","cipher":"aes-256-gcm"}
-  - {"name":"🇬🇧GB | ss | @proxyymeliii | 15","type":"ss","server":"wxwctxxx.arvancode.eu.org","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇩🇪DE | ss | @VmessProtocol | 7","type":"ss","server":"3.69.19.144","port":8080,"password":"806hBu5I2fH7kydewwTI6Pbv8l4GNQz1qYB5lX9fk9k=","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇩🇪DE | ss | @VmessProtocol | 8","type":"ss","server":"18.184.183.193","port":8080,"password":"3K9vIwvDuPm1D6q9jaZ94tvIwQBn65UZaR72scTUv8A=","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇩🇪DE | ss | @VmessProtocol | 12","type":"ss","server":"3.70.174.99","port":8080,"password":"ARC0u1LsngVI6YwK3Gcvl3Th7r3WxKFnlb0EXMjpH80=","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇮🇷IR | ss | @proxyymeliii | 5","type":"ss","server":"all-nets.0912.org","port":301,"password":"rXVRavlmnKtYE1jeO5NM7Q","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇩🇪DE | ss | @VmessProtocol | 8","type":"ss","server":"3.69.19.144","port":8080,"password":"806hBu5I2fH7kydewwTI6Pbv8l4GNQz1qYB5lX9fk9k=","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇩🇪DE | ss | @VmessProtocol | 9","type":"ss","server":"18.184.183.193","port":8080,"password":"3K9vIwvDuPm1D6q9jaZ94tvIwQBn65UZaR72scTUv8A=","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇩🇪DE | ss | @VmessProtocol | 13","type":"ss","server":"3.70.174.99","port":8080,"password":"ARC0u1LsngVI6YwK3Gcvl3Th7r3WxKFnlb0EXMjpH80=","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇸🇪SE | ss | @OutlineVpnOfficial | 3","type":"ss","server":"45.8.147.80","port":5741,"password":"Q5CEiebSuSl2qFkfE4ztG2","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇸🇬SG | ss | @OutlineVpnOfficial | 4","type":"ss","server":"sg-ss.ipracevpn.com","port":2443,"password":"DvMeY/S8c3hsSQqrL1aWblaHscEVQ03l5lFgneMx56c=","cipher":"aes-256-gcm"}
   - {"name":"🇷🇺RU | ss | @OutlineVpnOfficial | 5","type":"ss","server":"62.113.114.116","port":42320,"password":"dhXDSrO3HnkhOZWxNOrvII","cipher":"chacha20-ietf-poly1305"}
@@ -140,19 +139,17 @@ proxies:
   - {"name":"🇦🇹AT | ss | @OutlineVpnOfficial | 15","type":"ss","server":"212.113.106.243","port":12949,"password":"P2zxXPewlV3BlfqqYiSthvtLc","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇺🇸US | ss | @OutlineVpnOfficial | 16","type":"ss","server":"www.outline.network.ak2003.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou","port":2443,"password":"zekdk0MRWVx1zFASC+HAcmCVBA+TljWabwoF57zjIZA=","cipher":"aes-256-gcm"}
   - {"name":"🇺🇸US | ss | @OutlineVpnOfficial | 17","type":"ss","server":"www.outline.network.ak2002.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou","port":2443,"password":"hh4JlBhsJ0JthpDP3vIwxXvJWHknI16AijGx6sbcqWI=","cipher":"aes-256-gcm"}
-  - {"name":"🇨🇦CA | ss | @forwardv2ray | 4","type":"ss","server":"216.39.250.78","port":2375,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
-  - {"name":"🇸🇬SG | ss | @forwardv2ray | 8","type":"ss","server":"singapore.telegavpn.org","port":16759,"password":"BAmKuK4VJQRECYRIJgpPt9","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇩🇪DE | ss | @forwardv2ray | 7","type":"ss","server":"18.153.109.157","port":8080,"password":"a+AW1ER7heNxES9uvlBx7KBcsYdnCGU3XvlagTOVt+I=","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: MANUAL
     type: select
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇫🇷FR | ss | @DeamNet_Proxy | 10'
-      - '🇬🇧GB | ss | @proxyymeliii | 15'
-      - '🇩🇪DE | ss | @VmessProtocol | 7'
+      - '🇮🇷IR | ss | @proxyymeliii | 5'
       - '🇩🇪DE | ss | @VmessProtocol | 8'
-      - '🇩🇪DE | ss | @VmessProtocol | 12'
+      - '🇩🇪DE | ss | @VmessProtocol | 9'
+      - '🇩🇪DE | ss | @VmessProtocol | 13'
       - '🇸🇪SE | ss | @OutlineVpnOfficial | 3'
       - '🇸🇬SG | ss | @OutlineVpnOfficial | 4'
       - '🇷🇺RU | ss | @OutlineVpnOfficial | 5'
@@ -168,19 +165,17 @@ proxy-groups:
       - '🇦🇹AT | ss | @OutlineVpnOfficial | 15'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 16'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 17'
-      - '🇨🇦CA | ss | @forwardv2ray | 4'
-      - '🇸🇬SG | ss | @forwardv2ray | 8'
+      - '🇩🇪DE | ss | @forwardv2ray | 7'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 60
     tolerance: 50
     proxies:
-      - '🇫🇷FR | ss | @DeamNet_Proxy | 10'
-      - '🇬🇧GB | ss | @proxyymeliii | 15'
-      - '🇩🇪DE | ss | @VmessProtocol | 7'
+      - '🇮🇷IR | ss | @proxyymeliii | 5'
       - '🇩🇪DE | ss | @VmessProtocol | 8'
-      - '🇩🇪DE | ss | @VmessProtocol | 12'
+      - '🇩🇪DE | ss | @VmessProtocol | 9'
+      - '🇩🇪DE | ss | @VmessProtocol | 13'
       - '🇸🇪SE | ss | @OutlineVpnOfficial | 3'
       - '🇸🇬SG | ss | @OutlineVpnOfficial | 4'
       - '🇷🇺RU | ss | @OutlineVpnOfficial | 5'
@@ -196,18 +191,16 @@ proxy-groups:
       - '🇦🇹AT | ss | @OutlineVpnOfficial | 15'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 16'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 17'
-      - '🇨🇦CA | ss | @forwardv2ray | 4'
-      - '🇸🇬SG | ss | @forwardv2ray | 8'
+      - '🇩🇪DE | ss | @forwardv2ray | 7'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇫🇷FR | ss | @DeamNet_Proxy | 10'
-      - '🇬🇧GB | ss | @proxyymeliii | 15'
-      - '🇩🇪DE | ss | @VmessProtocol | 7'
+      - '🇮🇷IR | ss | @proxyymeliii | 5'
       - '🇩🇪DE | ss | @VmessProtocol | 8'
-      - '🇩🇪DE | ss | @VmessProtocol | 12'
+      - '🇩🇪DE | ss | @VmessProtocol | 9'
+      - '🇩🇪DE | ss | @VmessProtocol | 13'
       - '🇸🇪SE | ss | @OutlineVpnOfficial | 3'
       - '🇸🇬SG | ss | @OutlineVpnOfficial | 4'
       - '🇷🇺RU | ss | @OutlineVpnOfficial | 5'
@@ -223,8 +216,7 @@ proxy-groups:
       - '🇦🇹AT | ss | @OutlineVpnOfficial | 15'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 16'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 17'
-      - '🇨🇦CA | ss | @forwardv2ray | 4'
-      - '🇸🇬SG | ss | @forwardv2ray | 8'
+      - '🇩🇪DE | ss | @forwardv2ray | 7'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
   ads: {type: http, format: text, behavior: domain, path: ./ruleset/ads.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ads.txt, interval: 86400}

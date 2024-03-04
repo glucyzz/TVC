@@ -106,11 +106,10 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇫🇷FR | ss | @DeamNet_Proxy | 10",
-                "🇬🇧GB | ss | @proxyymeliii | 15",
-                "🇩🇪DE | ss | @VmessProtocol | 7",
+                "🇮🇷IR | ss | @proxyymeliii | 5",
                 "🇩🇪DE | ss | @VmessProtocol | 8",
-                "🇩🇪DE | ss | @VmessProtocol | 12",
+                "🇩🇪DE | ss | @VmessProtocol | 9",
+                "🇩🇪DE | ss | @VmessProtocol | 13",
                 "🇸🇪SE | ss | @OutlineVpnOfficial | 3",
                 "🇸🇬SG | ss | @OutlineVpnOfficial | 4",
                 "🇷🇺RU | ss | @OutlineVpnOfficial | 5",
@@ -126,19 +125,17 @@
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 16",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | ss | @forwardv2ray | 4",
-                "🇸🇬SG | ss | @forwardv2ray | 8"
+                "🇩🇪DE | ss | @forwardv2ray | 7"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇫🇷FR | ss | @DeamNet_Proxy | 10",
-                "🇬🇧GB | ss | @proxyymeliii | 15",
-                "🇩🇪DE | ss | @VmessProtocol | 7",
+                "🇮🇷IR | ss | @proxyymeliii | 5",
                 "🇩🇪DE | ss | @VmessProtocol | 8",
-                "🇩🇪DE | ss | @VmessProtocol | 12",
+                "🇩🇪DE | ss | @VmessProtocol | 9",
+                "🇩🇪DE | ss | @VmessProtocol | 13",
                 "🇸🇪SE | ss | @OutlineVpnOfficial | 3",
                 "🇸🇬SG | ss | @OutlineVpnOfficial | 4",
                 "🇷🇺RU | ss | @OutlineVpnOfficial | 5",
@@ -154,8 +151,7 @@
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 16",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | ss | @forwardv2ray | 4",
-                "🇸🇬SG | ss | @forwardv2ray | 8"
+                "🇩🇪DE | ss | @forwardv2ray | 7"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -178,27 +174,17 @@
             "type": "dns"
         },
         {
-            "tag": "🇫🇷FR | ss | @DeamNet_Proxy | 10",
+            "tag": "🇮🇷IR | ss | @proxyymeliii | 5",
             "type": "shadowsocks",
-            "server": "149.202.82.172",
-            "server_port": 5004,
-            "method": "aes-256-gcm",
-            "password": "g5MeD6Ft3CWlJId",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇬🇧GB | ss | @proxyymeliii | 15",
-            "type": "shadowsocks",
-            "server": "wxwctxxx.arvancode.eu.org",
-            "server_port": 443,
+            "server": "all-nets.0912.org",
+            "server_port": 301,
             "method": "chacha20-ietf-poly1305",
-            "password": "u17T3BvpYaaiuW2c",
+            "password": "rXVRavlmnKtYE1jeO5NM7Q",
             "plugin": "",
             "plugin_opts": ""
         },
         {
-            "tag": "🇩🇪DE | ss | @VmessProtocol | 7",
+            "tag": "🇩🇪DE | ss | @VmessProtocol | 8",
             "type": "shadowsocks",
             "server": "3.69.19.144",
             "server_port": 8080,
@@ -208,7 +194,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇩🇪DE | ss | @VmessProtocol | 8",
+            "tag": "🇩🇪DE | ss | @VmessProtocol | 9",
             "type": "shadowsocks",
             "server": "18.184.183.193",
             "server_port": 8080,
@@ -218,7 +204,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇩🇪DE | ss | @VmessProtocol | 12",
+            "tag": "🇩🇪DE | ss | @VmessProtocol | 13",
             "type": "shadowsocks",
             "server": "3.70.174.99",
             "server_port": 8080,
@@ -378,22 +364,12 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | ss | @forwardv2ray | 4",
+            "tag": "🇩🇪DE | ss | @forwardv2ray | 7",
             "type": "shadowsocks",
-            "server": "216.39.250.78",
-            "server_port": 2375,
-            "method": "aes-256-gcm",
-            "password": "faBAoD54k87UJG7",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇸🇬SG | ss | @forwardv2ray | 8",
-            "type": "shadowsocks",
-            "server": "singapore.telegavpn.org",
-            "server_port": 16759,
+            "server": "18.153.109.157",
+            "server_port": 8080,
             "method": "chacha20-ietf-poly1305",
-            "password": "BAmKuK4VJQRECYRIJgpPt9",
+            "password": "a+AW1ER7heNxES9uvlBx7KBcsYdnCGU3XvlagTOVt+I=",
             "plugin": "",
             "plugin_opts": ""
         }
