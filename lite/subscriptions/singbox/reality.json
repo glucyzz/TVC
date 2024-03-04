@@ -107,10 +107,9 @@
             "outbounds": [
                 "URL-TEST",
                 "🇩🇪DE | vless | @ipV2Ray | 9",
-                "🇩🇪DE | vless | @ARv2ray | 13",
                 "🇩🇪DE | vless | @v2logy | 6",
-                "🇩🇪DE | vless | @v2rayNG_Matsuri | 9",
-                "🇩🇪DE | vless | @free1_vpn | 2",
+                "🇬🇧GB | vless | @v2rayNG_Matsuri | 9",
+                "🇩🇪DE | vless | @free1_vpn | 0",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🏳️XX | vless | @vpn_go67 | 23"
             ]
@@ -120,10 +119,9 @@
             "type": "urltest",
             "outbounds": [
                 "🇩🇪DE | vless | @ipV2Ray | 9",
-                "🇩🇪DE | vless | @ARv2ray | 13",
                 "🇩🇪DE | vless | @v2logy | 6",
-                "🇩🇪DE | vless | @v2rayNG_Matsuri | 9",
-                "🇩🇪DE | vless | @free1_vpn | 2",
+                "🇬🇧GB | vless | @v2rayNG_Matsuri | 9",
+                "🇩🇪DE | vless | @free1_vpn | 0",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🏳️XX | vless | @vpn_go67 | 23"
             ],
@@ -150,9 +148,9 @@
         {
             "tag": "🇩🇪DE | vless | @ipV2Ray | 9",
             "type": "vless",
-            "server": "88.99.171.219",
+            "server": "164.92.250.121",
             "server_port": 443,
-            "uuid": "49cfba31-47ee-4b84-99cc-5a40da4f8e71",
+            "uuid": "107e6e81-80da-47b0-a125-449f7c4b38e3",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -162,7 +160,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "*.atg-autoteile.at",
+                "server_name": "*.dsp-redirect.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -171,49 +169,13 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "Qiyaewww1I5WmR0pSCDK2LmTe3_V4IQ0bcTcRZNn4TA",
-                    "short_id": "20aef060"
+                    "public_key": "BxRvYZ4Jfff0ozG7aLyOqnCsUVq0O_ws1t21PEHlWx4",
+                    "short_id": "a3f0945a"
                 }
             },
             "transport": {
                 "type": "grpc",
                 "service_name": "@ipV2Ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @ARv2ray | 13",
-            "type": "vless",
-            "server": "78.46.186.163",
-            "server_port": 443,
-            "uuid": "telegram-id-ArV2ray",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ftp.debian.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "aTSvhfg0nF-ZuKgE-mzH5YYNUXRzEVhBOuyNdQG-aR8",
-                    "short_id": "55d743bf"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
@@ -256,11 +218,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @v2rayNG_Matsuri | 9",
+            "tag": "🇬🇧GB | vless | @v2rayNG_Matsuri | 9",
             "type": "vless",
-            "server": "49.13.69.46",
-            "server_port": 56078,
-            "uuid": "dbff34ab-eb96-441d-9f07-30f0a7776037",
+            "server": "143.47.241.46",
+            "server_port": 16097,
+            "uuid": "378387d5-4370-4e38-9661-25796e8630ba",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -270,7 +232,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "canva.com",
+                "server_name": "www.amazon.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -279,17 +241,17 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "SUCJ94wKPUdfkBJw8VnANql6kevueb6EyA71C3AfKFs",
-                    "short_id": "bf44fc2c"
+                    "public_key": "qMH_7IYKzR0mOLN35mnQijwzN8IiWdudhryTHaQzWS0",
+                    "short_id": ""
                 }
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @free1_vpn | 2",
+            "tag": "🇩🇪DE | vless | @free1_vpn | 0",
             "type": "vless",
-            "server": "142.93.166.107",
+            "server": "68.183.79.49",
             "server_port": 443,
-            "uuid": "5c20c2fe-1b2f-45fd-96a1-657354624f5b",
+            "uuid": "939f6f91-951f-42b1-b035-314166fd4686",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -299,7 +261,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "*.octopad.ch",
+                "server_name": "*.medsolutions.gr",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -308,8 +270,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "LD8y7bs5T8tNSLcB83NQXpo0_LfHk76WWykNwXJRG3I",
-                    "short_id": "304a9854"
+                    "public_key": "E6bDsuyFsDorOm3K0EdQSf06_1DFNXLa1g6_tliNNjY",
+                    "short_id": "ae1ae8df"
                 }
             },
             "transport": {
