@@ -107,8 +107,9 @@
             "outbounds": [
                 "URL-TEST",
                 "🇩🇪DE | vless | @ipV2Ray | 9",
+                "🇩🇪DE | vless | @V2pedia | 19",
                 "🇩🇪DE | vless | @v2logy | 6",
-                "🇬🇧GB | vless | @v2rayNG_Matsuri | 9",
+                "🏳️XX | vless | @proxyymeliii | 14",
                 "🇩🇪DE | vless | @free1_vpn | 0",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🏳️XX | vless | @vpn_go67 | 23"
@@ -119,8 +120,9 @@
             "type": "urltest",
             "outbounds": [
                 "🇩🇪DE | vless | @ipV2Ray | 9",
+                "🇩🇪DE | vless | @V2pedia | 19",
                 "🇩🇪DE | vless | @v2logy | 6",
-                "🇬🇧GB | vless | @v2rayNG_Matsuri | 9",
+                "🏳️XX | vless | @proxyymeliii | 14",
                 "🇩🇪DE | vless | @free1_vpn | 0",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🏳️XX | vless | @vpn_go67 | 23"
@@ -148,9 +150,9 @@
         {
             "tag": "🇩🇪DE | vless | @ipV2Ray | 9",
             "type": "vless",
-            "server": "164.92.250.121",
+            "server": "142.93.166.107",
             "server_port": 443,
-            "uuid": "107e6e81-80da-47b0-a125-449f7c4b38e3",
+            "uuid": "5c20c2fe-1b2f-45fd-96a1-657354624f5b",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -160,7 +162,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "*.dsp-redirect.com",
+                "server_name": "*.octopad.ch",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -169,13 +171,49 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "BxRvYZ4Jfff0ozG7aLyOqnCsUVq0O_ws1t21PEHlWx4",
-                    "short_id": "a3f0945a"
+                    "public_key": "LD8y7bs5T8tNSLcB83NQXpo0_LfHk76WWykNwXJRG3I",
+                    "short_id": "304a9854"
                 }
             },
             "transport": {
                 "type": "grpc",
                 "service_name": "@ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @V2pedia | 19",
+            "type": "vless",
+            "server": "49.13.119.48",
+            "server_port": 443,
+            "uuid": "telegram-id-ArV2ray",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ftp.debian.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "UpCUC8wyxeS7cRw2vI5zdl8b5z3jlGs5Ok6gfJP3vCI",
+                    "short_id": "cf9bc318"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
@@ -218,11 +256,11 @@
             }
         },
         {
-            "tag": "🇬🇧GB | vless | @v2rayNG_Matsuri | 9",
+            "tag": "🏳️XX | vless | @proxyymeliii | 14",
             "type": "vless",
-            "server": "143.47.241.46",
-            "server_port": 16097,
-            "uuid": "378387d5-4370-4e38-9661-25796e8630ba",
+            "server": "ar5v5dys494b.todayisagoodday.today",
+            "server_port": 2083,
+            "uuid": "158f4702-8259-4654-a6da-904417842663",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -232,17 +270,17 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "www.amazon.com",
+                "server_name": "ar5v5dys494b.todayisagoodday.today",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "firefox"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "qMH_7IYKzR0mOLN35mnQijwzN8IiWdudhryTHaQzWS0",
-                    "short_id": ""
+                    "public_key": "PCEpWJ3IRzVogqaQfAppzuJhFpnHzIw-12HZzMFJ9wE",
+                    "short_id": "8b80305a"
                 }
             }
         },
