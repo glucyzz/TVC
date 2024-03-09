@@ -106,16 +106,16 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪DE | ss | @VmessProtocol | 15",
-                "🇮🇳IN | ss | @OutlineVpnOfficial | 18"
+                "🇩🇪DE | ss | @VmessProtocol | 16",
+                "🇵🇱PL | ss | @OutlineVpnOfficial | 17"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪DE | ss | @VmessProtocol | 15",
-                "🇮🇳IN | ss | @OutlineVpnOfficial | 18"
+                "🇩🇪DE | ss | @VmessProtocol | 16",
+                "🇵🇱PL | ss | @OutlineVpnOfficial | 17"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -138,7 +138,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇩🇪DE | ss | @VmessProtocol | 15",
+            "tag": "🇩🇪DE | ss | @VmessProtocol | 16",
             "type": "shadowsocks",
             "server": "18.184.183.193",
             "server_port": 8080,
@@ -148,12 +148,12 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇮🇳IN | ss | @OutlineVpnOfficial | 18",
+            "tag": "🇵🇱PL | ss | @OutlineVpnOfficial | 17",
             "type": "shadowsocks",
-            "server": "in-ss.ipracevpn.com",
-            "server_port": 2443,
+            "server": "54.36.174.181",
+            "server_port": 9102,
             "method": "aes-256-gcm",
-            "password": "kQx+WWm60LryeUOpxsz1cPGgCBBL3WBzUOxKbl71iyA=",
+            "password": "e4FCWrgpkji3QY",
             "plugin": "",
             "plugin_opts": ""
         }
