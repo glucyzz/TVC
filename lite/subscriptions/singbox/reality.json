@@ -106,8 +106,9 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪DE | vless | @ipV2Ray | 9",
+                "🇩🇪DE | vless | @ipV2Ray | 10",
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 13",
+                "🇳🇱NL | vless | @FalconPolV2rayNG | 7",
                 "🇩🇪DE | vless | @fnet00 | 1",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🏳️XX | vless | @vpn_go67 | 23"
@@ -117,8 +118,9 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪DE | vless | @ipV2Ray | 9",
+                "🇩🇪DE | vless | @ipV2Ray | 10",
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 13",
+                "🇳🇱NL | vless | @FalconPolV2rayNG | 7",
                 "🇩🇪DE | vless | @fnet00 | 1",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🏳️XX | vless | @vpn_go67 | 23"
@@ -144,9 +146,9 @@
             "type": "dns"
         },
         {
-            "tag": "🇩🇪DE | vless | @ipV2Ray | 9",
+            "tag": "🇩🇪DE | vless | @ipV2Ray | 10",
             "type": "vless",
-            "server": "128.140.44.61",
+            "server": "116.203.42.172",
             "server_port": 443,
             "uuid": "423456a7-7895-49fc-8589-d4d5ebc26b3d",
             "flow": "xtls-rprx-vision",
@@ -158,7 +160,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "baharan.net",
+                "server_name": "*.nutriprimus.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -167,7 +169,7 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "mgAFVACxJq3PAcJ-MotpvLU8jRYZ30nYXgekSUL5gH8",
+                    "public_key": "HTsLQYZqpJgeYcdlyQGAkrwJ7XutZAMIhgzC6Pjwgyo",
                     "short_id": "420f8f45"
                 }
             },
@@ -210,6 +212,42 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "www.tgju.org",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇳🇱NL | vless | @FalconPolV2rayNG | 7",
+            "type": "vless",
+            "server": "104.248.194.223",
+            "server_port": 443,
+            "uuid": "01b6b661-4ab1-482f-a881-1ae895bc24e5",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "*.housepets.space",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "IizwPX5xVViOal5eU9u-Nkd7OZbnsLhQtclLWklAezI",
+                    "short_id": "189f1252"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ipV2Ray",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false

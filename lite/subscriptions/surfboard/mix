@@ -11,17 +11,19 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇩🇪DE | trojan | @PrivateVPNs | 17 = trojan, 3.68.179.125, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.miwan.co.uk, ws = false
-🇸🇪SE | trojan | @DirectVPN | 16 = trojan, 13.50.175.187, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.miwan.co.uk, ws = false
-🇺🇸US | vmess | @DeamNet_Proxy | 18 = vmess, 206.168.190.218, 8443, username = 7e348dc0-df7b-11ee-b235-205c6d5f5d78, ws = true, tls = 1, vmess-aead = true, ws-path = /@V2RayyNGvpn, ws-headers = Host:"ba24.ir", skip-cert-verify = true, tfo = false
+🇩🇪DE | trojan | @PrivateVPNs | 17 = trojan, 3.77.9.94, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.miwan.co.uk, ws = false
+🇩🇪DE | trojan | @DirectVPN | 17 = trojan, 18.197.23.165, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.miwan.co.uk, ws = false
+🇬🇧GB | trojan | @oneclickvpnkeys | 9 = trojan, 209.97.134.140, 443, password = 354ca566-3ab4-4e4e-9594-8693d78bc2c7, udp-delay = true, skip-cert-verify = false, sni = uk2-full.privateip.net, ws = false
+🇨🇦CA | vmess | @ShadowProxy66 | 14 = vmess, 104.21.24.72, 80, username = 5120d7e0-5ba9-4164-b61b-0f8fefabab34, ws = true, tls = , vmess-aead = true, ws-path = /vmess, ws-headers = Host:"no1.xv2ray.net", skip-cert-verify = true, tfo = false
 🇬🇧GB | ss | @VmessProtocol | 11 = ss, series-a2-mec.samanehha.co, 443, encrypt-method = chacha20-ietf-poly1305, password = u17T3BvpYaaiuW2c
-🇦🇺AU | ss | @OutlineVpnOfficial | 16 = ss, 170.64.188.248, 61073, encrypt-method = aes-256-gcm, password = 3kgL53ljUrCdKoSH
-🇩🇪DE | vmess | @Hope_Net | 2 = vmess, 80.71.157.105, 80, username = b656b441-2cfd-44b8-9b2e-646e9925f8f6, ws = true, tls = , vmess-aead = true, ws-path = /vmess, ws-headers = Host:"نام.کانال.تلگرام.VPNHTTPInjectorfree", skip-cert-verify = true, tfo = false
-🇫🇷FR | ss | @forwardv2ray | 18 = ss, 92.243.27.51, 9802, encrypt-method = chacha20-ietf-poly1305, password = SDa2bd3xIOMAgCaGPMQPHn
+🇦🇺AU | ss | @OutlineVpnOfficial | 17 = ss, 170.64.188.248, 61073, encrypt-method = aes-256-gcm, password = 3kgL53ljUrCdKoSH
+🇭🇰HK | vmess | @v2Line | 6 = vmess, hk1.xv2ray.net, 80, username = 6f20c1ae-c712-4a26-a9f4-5e5b3c480b9d, ws = true, tls = , vmess-aead = true, ws-path = /vmess, ws-headers = Host:"hk1.xv2ray.net", skip-cert-verify = true, tfo = false
+🇺🇸US | vmess | @FAKEOFTVC | 4 = vmess, gcore.com, 80, username = dffbbc86-4360-4727-9b36-91625369f6ad, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"filimo-movie.ir", skip-cert-verify = true, tfo = false
+🇨🇦CA | trojan | @kingofilter | 8 = trojan, 104.16.123.175, 2083, password = qG9K8AGnn9XH5jUqeFu96g, udp-delay = true, skip-cert-verify = false, sni = cdn13.cdn2cdn.com, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇩🇪DE | trojan | @PrivateVPNs | 17,🇸🇪SE | trojan | @DirectVPN | 16,🇺🇸US | vmess | @DeamNet_Proxy | 18,🇬🇧GB | ss | @VmessProtocol | 11,🇦🇺AU | ss | @OutlineVpnOfficial | 16,🇩🇪DE | vmess | @Hope_Net | 2,🇫🇷FR | ss | @forwardv2ray | 18
-URL-TEST = url-test,🇩🇪DE | trojan | @PrivateVPNs | 17,🇸🇪SE | trojan | @DirectVPN | 16,🇺🇸US | vmess | @DeamNet_Proxy | 18,🇬🇧GB | ss | @VmessProtocol | 11,🇦🇺AU | ss | @OutlineVpnOfficial | 16,🇩🇪DE | vmess | @Hope_Net | 2,🇫🇷FR | ss | @forwardv2ray | 18
-FALLBACK = fallback,🇩🇪DE | trojan | @PrivateVPNs | 17,🇸🇪SE | trojan | @DirectVPN | 16,🇺🇸US | vmess | @DeamNet_Proxy | 18,🇬🇧GB | ss | @VmessProtocol | 11,🇦🇺AU | ss | @OutlineVpnOfficial | 16,🇩🇪DE | vmess | @Hope_Net | 2,🇫🇷FR | ss | @forwardv2ray | 18
+MANUAL = select,URL-TEST,FALLBACK,🇩🇪DE | trojan | @PrivateVPNs | 17,🇩🇪DE | trojan | @DirectVPN | 17,🇬🇧GB | trojan | @oneclickvpnkeys | 9,🇨🇦CA | vmess | @ShadowProxy66 | 14,🇬🇧GB | ss | @VmessProtocol | 11,🇦🇺AU | ss | @OutlineVpnOfficial | 17,🇭🇰HK | vmess | @v2Line | 6,🇺🇸US | vmess | @FAKEOFTVC | 4,🇨🇦CA | trojan | @kingofilter | 8
+URL-TEST = url-test,🇩🇪DE | trojan | @PrivateVPNs | 17,🇩🇪DE | trojan | @DirectVPN | 17,🇬🇧GB | trojan | @oneclickvpnkeys | 9,🇨🇦CA | vmess | @ShadowProxy66 | 14,🇬🇧GB | ss | @VmessProtocol | 11,🇦🇺AU | ss | @OutlineVpnOfficial | 17,🇭🇰HK | vmess | @v2Line | 6,🇺🇸US | vmess | @FAKEOFTVC | 4,🇨🇦CA | trojan | @kingofilter | 8
+FALLBACK = fallback,🇩🇪DE | trojan | @PrivateVPNs | 17,🇩🇪DE | trojan | @DirectVPN | 17,🇬🇧GB | trojan | @oneclickvpnkeys | 9,🇨🇦CA | vmess | @ShadowProxy66 | 14,🇬🇧GB | ss | @VmessProtocol | 11,🇦🇺AU | ss | @OutlineVpnOfficial | 17,🇭🇰HK | vmess | @v2Line | 6,🇺🇸US | vmess | @FAKEOFTVC | 4,🇨🇦CA | trojan | @kingofilter | 8
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
