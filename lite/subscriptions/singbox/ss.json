@@ -106,16 +106,18 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇬🇧GB | ss | @VmessProtocol | 11",
-                "🇦🇺AU | ss | @OutlineVpnOfficial | 17"
+                "🇵🇱PL | ss | @DeamNet_Proxy | 19",
+                "🇬🇧GB | ss | @proxyymeliii | 16",
+                "🇦🇺AU | ss | @OutlineVpnOfficial | 19"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇬🇧GB | ss | @VmessProtocol | 11",
-                "🇦🇺AU | ss | @OutlineVpnOfficial | 17"
+                "🇵🇱PL | ss | @DeamNet_Proxy | 19",
+                "🇬🇧GB | ss | @proxyymeliii | 16",
+                "🇦🇺AU | ss | @OutlineVpnOfficial | 19"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -138,7 +140,17 @@
             "type": "dns"
         },
         {
-            "tag": "🇬🇧GB | ss | @VmessProtocol | 11",
+            "tag": "🇵🇱PL | ss | @DeamNet_Proxy | 19",
+            "type": "shadowsocks",
+            "server": "54.36.174.181",
+            "server_port": 7306,
+            "method": "aes-256-gcm",
+            "password": "FoOiGlkAA9yPEGP",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇬🇧GB | ss | @proxyymeliii | 16",
             "type": "shadowsocks",
             "server": "series-a2-mec.samanehha.co",
             "server_port": 443,
@@ -148,7 +160,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇦🇺AU | ss | @OutlineVpnOfficial | 17",
+            "tag": "🇦🇺AU | ss | @OutlineVpnOfficial | 19",
             "type": "shadowsocks",
             "server": "170.64.188.248",
             "server_port": 61073,
