@@ -107,16 +107,15 @@
             "outbounds": [
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇺🇸US | vmess | @mftizi | 18",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 10",
-                "🇨🇦CA | vmess | @ShadowProxy66 | 14",
+                "🇨🇦CA | vmess | @mftizi | 18",
+                "🇭🇰HK | vmess | @oneclickvpnkeys | 9",
+                "🇨🇦CA | vmess | @ShadowProxy66 | 37",
                 "🇸🇬SG | vmess | @V2rayng_Fast | 0",
+                "🇨🇦CA | vmess | @DailyV2RY | 143",
                 "🇸🇬SG | vmess | @yaney_01 | 2",
-                "🏳️XX | vmess | @Hope_Net | 1",
+                "🇮🇷IR | vmess | @Hope_Net | 8",
                 "🇨🇦CA | vmess | @v2Line | 7",
-                "🇨🇦CA | vmess | @forwardv2ray | 18",
-                "🇺🇸US | vmess | @nofiltering2 | 1",
-                "🇨🇦CA | vmess | @eliya_chiter0 | 0"
+                "🇺🇸US | vmess | @nofiltering2 | 1"
             ]
         },
         {
@@ -124,16 +123,15 @@
             "type": "urltest",
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇺🇸US | vmess | @mftizi | 18",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 10",
-                "🇨🇦CA | vmess | @ShadowProxy66 | 14",
+                "🇨🇦CA | vmess | @mftizi | 18",
+                "🇭🇰HK | vmess | @oneclickvpnkeys | 9",
+                "🇨🇦CA | vmess | @ShadowProxy66 | 37",
                 "🇸🇬SG | vmess | @V2rayng_Fast | 0",
+                "🇨🇦CA | vmess | @DailyV2RY | 143",
                 "🇸🇬SG | vmess | @yaney_01 | 2",
-                "🏳️XX | vmess | @Hope_Net | 1",
+                "🇮🇷IR | vmess | @Hope_Net | 8",
                 "🇨🇦CA | vmess | @v2Line | 7",
-                "🇨🇦CA | vmess | @forwardv2ray | 18",
-                "🇺🇸US | vmess | @nofiltering2 | 1",
-                "🇨🇦CA | vmess | @eliya_chiter0 | 0"
+                "🇺🇸US | vmess | @nofiltering2 | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -173,11 +171,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @mftizi | 18",
+            "tag": "🇨🇦CA | vmess | @mftizi | 18",
             "type": "vmess",
-            "server": "38.147.191.185",
-            "server_port": 10241,
-            "uuid": "e820d6f7-57ef-4575-99da-bcd7d318c742",
+            "server": "cfcdn3.sanfencdn9.com",
+            "server_port": 80,
+            "uuid": "e393dd86-fddc-4bce-8abe-d902cf831670",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -187,44 +185,34 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 10",
-            "type": "vmess",
-            "server": "auth.speedtest.net",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "nelly.homes",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkvws",
+                "path": "\/video\/VDXcaM7r",
                 "headers": {
-                    "Host": "nelly.homes"
+                    "Host": ""
                 }
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @ShadowProxy66 | 14",
+            "tag": "🇭🇰HK | vmess | @oneclickvpnkeys | 9",
+            "type": "vmess",
+            "server": "103.30.76.87",
+            "server_port": 25469,
+            "uuid": "8691b44b-3736-4576-b2d1-b70e4bea5044",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @ShadowProxy66 | 37",
             "type": "vmess",
             "server": "104.21.24.72",
             "server_port": 80,
@@ -272,6 +260,40 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vmess | @DailyV2RY | 143",
+            "type": "vmess",
+            "server": "172.67.68.246",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vip2323.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "vip2323.cfd"
+                }
+            }
+        },
+        {
             "tag": "🇸🇬SG | vmess | @yaney_01 | 2",
             "type": "vmess",
             "server": "8.222.154.110",
@@ -289,11 +311,11 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @Hope_Net | 1",
+            "tag": "🇮🇷IR | vmess | @Hope_Net | 8",
             "type": "vmess",
-            "server": "127.0.0.1",
-            "server_port": 8080,
-            "uuid": "cabaacb-caab-acab-cdba-cccacabbbaba",
+            "server": "185.132.81.204",
+            "server_port": 24775,
+            "uuid": "cba4bf82-6356-4266-85c4-4225c0c2f625",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -330,40 +352,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 18",
-            "type": "vmess",
-            "server": "104.21.12.173",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "meroiy.icu",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "meroiy.icu"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸US | vmess | @nofiltering2 | 1",
             "type": "vmess",
             "server": "172.67.196.110",
@@ -394,40 +382,6 @@
                 "path": "\/linkvws",
                 "headers": {
                     "Host": "kellie.makeup"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @eliya_chiter0 | 0",
-            "type": "vmess",
-            "server": "zula.ir",
-            "server_port": 443,
-            "uuid": "36ae64b0-2fe1-4915-a50e-9108fcf6d84c",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "be3-vmess.sshmax.xyz",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vmess",
-                "headers": {
-                    "Host": "be3-vmess.sshmax.xyz"
                 }
             }
         }
