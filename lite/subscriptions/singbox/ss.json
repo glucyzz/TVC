@@ -106,14 +106,18 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇪🇪EE | ss | @OutlineVpnOfficial | 17"
+                "🇦🇪AE | ss | @OutlineVpnOfficial | 15",
+                "🇬🇧GB | ss | @proxy_mtm | 1",
+                "🇹🇷TR | ss | @ROMAX_VPN | 9"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇪🇪EE | ss | @OutlineVpnOfficial | 17"
+                "🇦🇪AE | ss | @OutlineVpnOfficial | 15",
+                "🇬🇧GB | ss | @proxy_mtm | 1",
+                "🇹🇷TR | ss | @ROMAX_VPN | 9"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -136,12 +140,32 @@
             "type": "dns"
         },
         {
-            "tag": "🇪🇪EE | ss | @OutlineVpnOfficial | 17",
+            "tag": "🇦🇪AE | ss | @OutlineVpnOfficial | 15",
             "type": "shadowsocks",
-            "server": "193.228.128.143",
-            "server_port": 27981,
+            "server": "java.ct.arvancode.eu.org",
+            "server_port": 443,
             "method": "chacha20-ietf-poly1305",
-            "password": "pg6G3tuVQllmcS7zCo5Fce",
+            "password": "W74XFALLLuw6m5IA",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇬🇧GB | ss | @proxy_mtm | 1",
+            "type": "shadowsocks",
+            "server": "series-a2-mec.samanehha.co",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "u17T3BvpYaaiuW2c",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇹🇷TR | ss | @ROMAX_VPN | 9",
+            "type": "shadowsocks",
+            "server": "95.164.11.94",
+            "server_port": 1080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "6x8ogTsPzMnizbFkFndqAQ",
             "plugin": "",
             "plugin_opts": ""
         }

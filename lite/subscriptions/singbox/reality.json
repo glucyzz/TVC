@@ -106,10 +106,8 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇫🇮FI | vless | @ipV2Ray | 16",
-                "🇩🇪DE | vless | @v2rayNG_Matsuri | 5",
+                "🇫🇮FI | vless | @ipV2Ray | 18",
                 "🇳🇱NL | vless | @FalconPolV2rayNG | 9",
-                "🇹🇷TR | vless | @DailyV2RY | 152",
                 "🇩🇪DE | vless | @fnet00 | 1",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🏳️XX | vless | @vpn_go67 | 23"
@@ -119,10 +117,8 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇫🇮FI | vless | @ipV2Ray | 16",
-                "🇩🇪DE | vless | @v2rayNG_Matsuri | 5",
+                "🇫🇮FI | vless | @ipV2Ray | 18",
                 "🇳🇱NL | vless | @FalconPolV2rayNG | 9",
-                "🇹🇷TR | vless | @DailyV2RY | 152",
                 "🇩🇪DE | vless | @fnet00 | 1",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🏳️XX | vless | @vpn_go67 | 23"
@@ -148,9 +144,9 @@
             "type": "dns"
         },
         {
-            "tag": "🇫🇮FI | vless | @ipV2Ray | 16",
+            "tag": "🇫🇮FI | vless | @ipV2Ray | 18",
             "type": "vless",
-            "server": "65.108.250.181",
+            "server": "65.21.6.250",
             "server_port": 443,
             "uuid": "8868424f-35a6-4886-a9df-20f67704919c",
             "flow": "xtls-rprx-vision",
@@ -162,7 +158,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "*.dnschecker.org",
+                "server_name": "*.hetzner.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -171,49 +167,13 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "YZw32YUNbz5VD75WtzTNbj-qaxLODUlyVIuqAmZ0s2c",
+                    "public_key": "XO6bppSNKR3MhQFkfnU2hQmWWJpm7iB9EHRFNH4A3GU",
                     "short_id": "f01aead4"
                 }
             },
             "transport": {
                 "type": "grpc",
                 "service_name": "@ipV2Ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @v2rayNG_Matsuri | 5",
-            "type": "vless",
-            "server": "35.156.202.181",
-            "server_port": 2082,
-            "uuid": "87c86835-d800-40d1-8903-6676869884d6",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "mail.google.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "af0bgH4-m3NbjsyY0k1ffXn3bE3rrcK2lZNo5vmJxHQ",
-                    "short_id": "6d1a3ecd"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "kiava",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
@@ -253,35 +213,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇹🇷TR | vless | @DailyV2RY | 152",
-            "type": "vless",
-            "server": "turkey-01.ptu.ink",
-            "server_port": 443,
-            "uuid": "8633c34c-573a-4e2c-b3bf-1b6ea42101f0",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.microsoft.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "zGp41QGUA2TBVirEaFS34_n05w38JxQHKbqQxS-iHzM",
-                    "short_id": "cd2ccdd9761335d4"
-                }
             }
         },
         {
