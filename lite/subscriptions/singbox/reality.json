@@ -106,9 +106,10 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇫🇮FI | vless | @ipV2Ray | 18",
+                "🇫🇮FI | vless | @ipV2Ray | 19",
+                "🇪🇸ES | vless | @azadi_az_inja_migzare | 0",
                 "🇳🇱NL | vless | @FalconPolV2rayNG | 9",
-                "🇩🇪DE | vless | @fnet00 | 1",
+                "🇩🇪DE | vless | @fnet00 | 2",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🏳️XX | vless | @vpn_go67 | 23"
             ]
@@ -117,9 +118,10 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇫🇮FI | vless | @ipV2Ray | 18",
+                "🇫🇮FI | vless | @ipV2Ray | 19",
+                "🇪🇸ES | vless | @azadi_az_inja_migzare | 0",
                 "🇳🇱NL | vless | @FalconPolV2rayNG | 9",
-                "🇩🇪DE | vless | @fnet00 | 1",
+                "🇩🇪DE | vless | @fnet00 | 2",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🏳️XX | vless | @vpn_go67 | 23"
             ],
@@ -144,9 +146,9 @@
             "type": "dns"
         },
         {
-            "tag": "🇫🇮FI | vless | @ipV2Ray | 18",
+            "tag": "🇫🇮FI | vless | @ipV2Ray | 19",
             "type": "vless",
-            "server": "65.21.6.250",
+            "server": "37.27.5.187",
             "server_port": 443,
             "uuid": "8868424f-35a6-4886-a9df-20f67704919c",
             "flow": "xtls-rprx-vision",
@@ -158,7 +160,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "*.hetzner.com",
+                "server_name": "*.gsmarena.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -167,7 +169,7 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "XO6bppSNKR3MhQFkfnU2hQmWWJpm7iB9EHRFNH4A3GU",
+                    "public_key": "0KtTey0BDzrZabYz2XwnXv2T51padzl--vbl1HjppDU",
                     "short_id": "f01aead4"
                 }
             },
@@ -177,6 +179,35 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇪🇸ES | vless | @azadi_az_inja_migzare | 0",
+            "type": "vless",
+            "server": "208.85.19.150",
+            "server_port": 443,
+            "uuid": "03107017-354b-4376-97e4-41cbe56e14c2",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.speedtest.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "GW8CCzXJ_5Nu6tHaYeY4TPKQVgPbt10jZy7GjU9_zXQ",
+                    "short_id": "73104ca0377c653f"
+                }
             }
         },
         {
@@ -216,7 +247,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @fnet00 | 1",
+            "tag": "🇩🇪DE | vless | @fnet00 | 2",
             "type": "vless",
             "server": "91.107.199.96",
             "server_port": 443,

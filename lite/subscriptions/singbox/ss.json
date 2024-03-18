@@ -106,8 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇦🇪AE | ss | @OutlineVpnOfficial | 15",
-                "🇬🇧GB | ss | @proxy_mtm | 1",
+                "🇫🇮FI | ss | @OutlineVpnOfficial | 19",
                 "🇹🇷TR | ss | @ROMAX_VPN | 9"
             ]
         },
@@ -115,8 +114,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇦🇪AE | ss | @OutlineVpnOfficial | 15",
-                "🇬🇧GB | ss | @proxy_mtm | 1",
+                "🇫🇮FI | ss | @OutlineVpnOfficial | 19",
                 "🇹🇷TR | ss | @ROMAX_VPN | 9"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -140,22 +138,12 @@
             "type": "dns"
         },
         {
-            "tag": "🇦🇪AE | ss | @OutlineVpnOfficial | 15",
+            "tag": "🇫🇮FI | ss | @OutlineVpnOfficial | 19",
             "type": "shadowsocks",
-            "server": "java.ct.arvancode.eu.org",
-            "server_port": 443,
+            "server": "78.153.139.25",
+            "server_port": 5636,
             "method": "chacha20-ietf-poly1305",
-            "password": "W74XFALLLuw6m5IA",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇬🇧GB | ss | @proxy_mtm | 1",
-            "type": "shadowsocks",
-            "server": "series-a2-mec.samanehha.co",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "u17T3BvpYaaiuW2c",
+            "password": "spLaujVWfuUms5xzcCbA6z",
             "plugin": "",
             "plugin_opts": ""
         },
