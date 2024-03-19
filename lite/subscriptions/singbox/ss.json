@@ -106,16 +106,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇫🇮FI | ss | @OutlineVpnOfficial | 19",
-                "🇹🇷TR | ss | @ROMAX_VPN | 9"
+                "🇮🇪IE | ss | @OutlineVpnOfficial | 17"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇫🇮FI | ss | @OutlineVpnOfficial | 19",
-                "🇹🇷TR | ss | @ROMAX_VPN | 9"
+                "🇮🇪IE | ss | @OutlineVpnOfficial | 17"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -138,22 +136,12 @@
             "type": "dns"
         },
         {
-            "tag": "🇫🇮FI | ss | @OutlineVpnOfficial | 19",
+            "tag": "🇮🇪IE | ss | @OutlineVpnOfficial | 17",
             "type": "shadowsocks",
-            "server": "78.153.139.25",
-            "server_port": 5636,
+            "server": "52.178.209.160",
+            "server_port": 2606,
             "method": "chacha20-ietf-poly1305",
-            "password": "spLaujVWfuUms5xzcCbA6z",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇹🇷TR | ss | @ROMAX_VPN | 9",
-            "type": "shadowsocks",
-            "server": "95.164.11.94",
-            "server_port": 1080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "6x8ogTsPzMnizbFkFndqAQ",
+            "password": "zh7ETDQRvHCsIIPIrSHwHa",
             "plugin": "",
             "plugin_opts": ""
         }
