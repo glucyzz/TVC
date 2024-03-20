@@ -108,14 +108,11 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🏳️XX | vmess | @oneclickvpnkeys | 9",
-                "🇨🇦CA | vmess | @V2rayng_Fast | 0",
-                "🇨🇦CA | vmess | @proxyymeliii | 12",
-                "🇨🇦CA | vmess | @proxystore11 | 9",
+                "🇺🇸US | vmess | @oneclickvpnkeys | 9",
+                "🇨🇦CA | vmess | @DailyV2RY | 131",
                 "🇨🇳CN | vmess | @yaney_01 | 1",
                 "🏳️XX | vmess | @Hope_Net | 13",
-                "🇵🇱PL | vmess | @v2Line | 9",
-                "🇨🇦CA | vmess | @OpenSSTPVpn | 1"
+                "🇵🇱PL | vmess | @v2Line | 9"
             ]
         },
         {
@@ -124,14 +121,11 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🏳️XX | vmess | @oneclickvpnkeys | 9",
-                "🇨🇦CA | vmess | @V2rayng_Fast | 0",
-                "🇨🇦CA | vmess | @proxyymeliii | 12",
-                "🇨🇦CA | vmess | @proxystore11 | 9",
+                "🇺🇸US | vmess | @oneclickvpnkeys | 9",
+                "🇨🇦CA | vmess | @DailyV2RY | 131",
                 "🇨🇳CN | vmess | @yaney_01 | 1",
                 "🏳️XX | vmess | @Hope_Net | 13",
-                "🇵🇱PL | vmess | @v2Line | 9",
-                "🇨🇦CA | vmess | @OpenSSTPVpn | 1"
+                "🇵🇱PL | vmess | @v2Line | 9"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -195,67 +189,9 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @oneclickvpnkeys | 9",
+            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 9",
             "type": "vmess",
-            "server": "blog.clean100.ir",
-            "server_port": 443,
-            "uuid": "9ecf4499-42ee-4837-a28c-6b648a9896ee",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/M0BOgOW7W2xZntbQPuBi62",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @V2rayng_Fast | 0",
-            "type": "vmess",
-            "server": "104.21.90.218",
-            "server_port": 2086,
-            "uuid": "e690ff9e-1676-4be3-d136-dcae586cb1e7",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @proxyymeliii | 12",
-            "type": "vmess",
-            "server": "104.16.216.241",
+            "server": "506.outline-vpn.cloud",
             "server_port": 443,
             "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
@@ -270,7 +206,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "nelly.homes",
+                "server_name": "marien.motorcycles",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -282,16 +218,16 @@
                 "type": "ws",
                 "path": "\/linkvws",
                 "headers": {
-                    "Host": "nelly.homes"
+                    "Host": "marien.motorcycles"
                 }
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @proxystore11 | 9",
+            "tag": "🇨🇦CA | vmess | @DailyV2RY | 131",
             "type": "vmess",
-            "server": "104.21.75.244",
+            "server": "172.67.71.160",
             "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -304,7 +240,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "janett.click",
+                "server_name": "obdii.cfd",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -314,9 +250,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkvws",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": "janett.click"
+                    "Host": "obdii.cfd"
                 }
             }
         },
@@ -382,40 +318,6 @@
                 "path": "\/vmess",
                 "headers": {
                     "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @OpenSSTPVpn | 1",
-            "type": "vmess",
-            "server": "172.67.71.160",
-            "server_port": 443,
-            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "obdii.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "obdii.cfd"
                 }
             }
         }
