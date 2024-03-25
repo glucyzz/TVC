@@ -106,16 +106,18 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇧🇭BH | ss | @VmessProtocol | 9",
-                "🇮🇪IE | ss | @OutlineVpnOfficial | 19"
+                "🇸🇬SG | ss | @OutlineVpnOfficial | 17",
+                "🇦🇪AE | ss | @forwardv2ray | 18",
+                "🇦🇪AE | ss | @proxy_mtm | 5"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇧🇭BH | ss | @VmessProtocol | 9",
-                "🇮🇪IE | ss | @OutlineVpnOfficial | 19"
+                "🇸🇬SG | ss | @OutlineVpnOfficial | 17",
+                "🇦🇪AE | ss | @forwardv2ray | 18",
+                "🇦🇪AE | ss | @proxy_mtm | 5"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -138,22 +140,32 @@
             "type": "dns"
         },
         {
-            "tag": "🇧🇭BH | ss | @VmessProtocol | 9",
+            "tag": "🇸🇬SG | ss | @OutlineVpnOfficial | 17",
             "type": "shadowsocks",
-            "server": "series-a2-me.samanehha.co",
-            "server_port": 443,
+            "server": "91.192.81.21",
+            "server_port": 8388,
             "method": "chacha20-ietf-poly1305",
-            "password": "Bog0ELmMM9DSxDdQ",
+            "password": "1q7RNKaIk2wYO8fEPmEX0vWQ7Va+QRTA",
             "plugin": "",
             "plugin_opts": ""
         },
         {
-            "tag": "🇮🇪IE | ss | @OutlineVpnOfficial | 19",
+            "tag": "🇦🇪AE | ss | @forwardv2ray | 18",
             "type": "shadowsocks",
-            "server": "52.178.209.160",
-            "server_port": 2606,
+            "server": "series-a1.samanehha.co",
+            "server_port": 443,
             "method": "chacha20-ietf-poly1305",
-            "password": "zh7ETDQRvHCsIIPIrSHwHa",
+            "password": "W74XFALLLuw6m5IA",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇦🇪AE | ss | @proxy_mtm | 5",
+            "type": "shadowsocks",
+            "server": "java.ct.arvancode.eu.org",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "W74XFALLLuw6m5IA",
             "plugin": "",
             "plugin_opts": ""
         }
