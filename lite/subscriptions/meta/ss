@@ -120,35 +120,27 @@ dns:
     'RULE-SET:ir,ircidr,geoip:ir,+.ir,+.bonyan.co': ["217.218.155.155", "217.218.127.127", "https://dns.403.online/dns-query", "https://dns.shecan.ir/dns-query"]
 
 proxies:
-  - {"name":"🇸🇬SG | ss | @OutlineVpnOfficial | 17","type":"ss","server":"91.192.81.21","port":8388,"password":"1q7RNKaIk2wYO8fEPmEX0vWQ7Va+QRTA","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇦🇪AE | ss | @forwardv2ray | 18","type":"ss","server":"series-a1.samanehha.co","port":443,"password":"W74XFALLLuw6m5IA","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇦🇪AE | ss | @proxy_mtm | 5","type":"ss","server":"java.ct.arvancode.eu.org","port":443,"password":"W74XFALLLuw6m5IA","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇷🇺RU | ss | @OutlineVpnOfficial | 15","type":"ss","server":"62.113.115.180","port":21309,"password":"mpKoYQtkF4Xz3TrZ","cipher":"aes-256-gcm"}
 proxy-groups:
   - name: MANUAL
     type: select
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇸🇬SG | ss | @OutlineVpnOfficial | 17'
-      - '🇦🇪AE | ss | @forwardv2ray | 18'
-      - '🇦🇪AE | ss | @proxy_mtm | 5'
+      - '🇷🇺RU | ss | @OutlineVpnOfficial | 15'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 60
     tolerance: 50
     proxies:
-      - '🇸🇬SG | ss | @OutlineVpnOfficial | 17'
-      - '🇦🇪AE | ss | @forwardv2ray | 18'
-      - '🇦🇪AE | ss | @proxy_mtm | 5'
+      - '🇷🇺RU | ss | @OutlineVpnOfficial | 15'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇸🇬SG | ss | @OutlineVpnOfficial | 17'
-      - '🇦🇪AE | ss | @forwardv2ray | 18'
-      - '🇦🇪AE | ss | @proxy_mtm | 5'
+      - '🇷🇺RU | ss | @OutlineVpnOfficial | 15'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
   ads: {type: http, format: text, behavior: domain, path: ./ruleset/ads.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ads.txt, interval: 86400}
