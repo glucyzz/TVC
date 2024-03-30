@@ -107,11 +107,10 @@
             "outbounds": [
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇨🇳CN | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @oneclickvpnkeys | 13",
-                "🇺🇸US | vmess | @ShadowProxy66 | 65",
-                "🇨🇦CA | vmess | @V2rayng_Fast | 0",
-                "🇨🇦CA | vmess | @v2ray1_ng | 5",
+                "🇭🇰HK | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 14",
+                "🇩🇪DE | vmess | @prrofile_purple | 177",
+                "🇬🇧GB | vmess | @ShadowProxy66 | 67",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vmess | @v2Line | 10",
@@ -123,11 +122,10 @@
             "type": "urltest",
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇨🇳CN | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @oneclickvpnkeys | 13",
-                "🇺🇸US | vmess | @ShadowProxy66 | 65",
-                "🇨🇦CA | vmess | @V2rayng_Fast | 0",
-                "🇨🇦CA | vmess | @v2ray1_ng | 5",
+                "🇭🇰HK | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 14",
+                "🇩🇪DE | vmess | @prrofile_purple | 177",
+                "🇬🇧GB | vmess | @ShadowProxy66 | 67",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vmess | @v2Line | 10",
@@ -171,11 +169,11 @@
             }
         },
         {
-            "tag": "🇨🇳CN | vmess | @mftizi | 19",
+            "tag": "🇭🇰HK | vmess | @mftizi | 19",
             "type": "vmess",
-            "server": "183.232.170.22",
-            "server_port": 30057,
-            "uuid": "6ae43308-07ef-4f0d-aa8f-25e480de542c",
+            "server": "156.251.217.24",
+            "server_port": 31464,
+            "uuid": "403af391-7108-47ef-9239-0236359f010a",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -188,45 +186,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 13",
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 14",
             "type": "vmess",
-            "server": "140.82.20.60",
-            "server_port": 39164,
-            "uuid": "0520cc8d-b5ae-4880-e193-c2cbc9f8627a",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @ShadowProxy66 | 65",
-            "type": "vmess",
-            "server": "140.82.4.81",
-            "server_port": 45970,
-            "uuid": "eb6340dd-9c48-427f-ebda-b548c4b7942b",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @V2rayng_Fast | 0",
-            "type": "vmess",
-            "server": "172.67.71.160",
+            "server": "ftp-localcdn.kiava-cloud.us.to",
             "server_port": 443,
-            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
+            "uuid": "36cc4baf-8abf-4b98-91bb-79a5cd12ad29",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -239,7 +203,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "obdii.cfd",
+                "server_name": "ftp-localcdn.kiava-cloud.us.to",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -249,18 +213,18 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/linkiava",
                 "headers": {
-                    "Host": "obdii.cfd"
+                    "Host": "ftp-localcdn.kiava-cloud.us.to"
                 }
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @v2ray1_ng | 5",
+            "tag": "🇩🇪DE | vmess | @prrofile_purple | 177",
             "type": "vmess",
-            "server": "172.67.173.199",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "server": "45.32.158.65",
+            "server_port": 27663,
+            "uuid": "5789382f-2bb4-4817-ba71-2e5f21a27268",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -270,23 +234,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "jader.fun",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "jader.fun"
-                }
+            }
+        },
+        {
+            "tag": "🇬🇧GB | vmess | @ShadowProxy66 | 67",
+            "type": "vmess",
+            "server": "213.32.63.176",
+            "server_port": 3586,
+            "uuid": "acba8460-6c85-4d67-8f74-5a51da5e8393",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
@@ -374,9 +338,9 @@
         {
             "tag": "🇨🇦CA | vmess | @forwardv2ray | 19",
             "type": "vmess",
-            "server": "www.speedtest.net",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "server": "cloudflare.b4a-devs.org",
+            "server_port": 2083,
+            "uuid": "0a40bceb-6a30-4da2-b90b-2ae5ed018e98",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -389,7 +353,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "kellie.makeup",
+                "server_name": "cloudflare.b4a-devs.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -399,9 +363,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkvws",
+                "path": "\/cloudflare",
                 "headers": {
-                    "Host": "kellie.makeup"
+                    "Host": "cloudflare.b4a-devs.org"
                 }
             }
         }

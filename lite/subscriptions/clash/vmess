@@ -119,9 +119,12 @@ dns:
 
 proxies:
   - {"name":"🇫🇷FR | vmess | @v2ray_outlineir | 0","type":"vmess","server":"146.59.147.250","port":"29776","cipher":"auto","uuid":"82447abf-dcb9-408a-9ca6-79e0a7698d08","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇳CN | vmess | @mftizi | 19","type":"vmess","server":"183.232.170.22","port":"30057","cipher":"auto","uuid":"6ae43308-07ef-4f0d-aa8f-25e480de542c","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇦CA | vmess | @V2rayng_Fast | 0","type":"vmess","server":"172.67.71.160","port":"443","cipher":"auto","uuid":"05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"obdii.cfd"}}}
+  - {"name":"🇭🇰HK | vmess | @mftizi | 19","type":"vmess","server":"156.251.217.24","port":"31464","cipher":"auto","uuid":"403af391-7108-47ef-9239-0236359f010a","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇨🇦CA | vmess | @oneclickvpnkeys | 14","type":"vmess","server":"ftp-localcdn.kiava-cloud.us.to","port":"443","cipher":"auto","uuid":"36cc4baf-8abf-4b98-91bb-79a5cd12ad29","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkiava","headers":{"host":"ftp-localcdn.kiava-cloud.us.to"}}}
+  - {"name":"🇩🇪DE | vmess | @prrofile_purple | 177","type":"vmess","server":"45.32.158.65","port":"27663","cipher":"auto","uuid":"5789382f-2bb4-4817-ba71-2e5f21a27268","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇬🇧GB | vmess | @ShadowProxy66 | 67","type":"vmess","server":"213.32.63.176","port":"3586","cipher":"auto","uuid":"acba8460-6c85-4d67-8f74-5a51da5e8393","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇦CA | vmess | @yaney_01 | 1","type":"vmess","server":"www.visa.com.hk","port":"80","cipher":"auto","uuid":"e184e964-518c-4ddf-ab05-f0a2ecff2f42","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"ydmmamd2.mac2win.top"}}}
+  - {"name":"🇨🇦CA | vmess | @forwardv2ray | 19","type":"vmess","server":"cloudflare.b4a-devs.org","port":"2083","cipher":"auto","uuid":"0a40bceb-6a30-4da2-b90b-2ae5ed018e98","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/cloudflare","headers":{"host":"cloudflare.b4a-devs.org"}}}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -129,9 +132,12 @@ proxy-groups:
       - URL-TEST
       - FALLBACK
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
-      - '🇨🇳CN | vmess | @mftizi | 19'
-      - '🇨🇦CA | vmess | @V2rayng_Fast | 0'
+      - '🇭🇰HK | vmess | @mftizi | 19'
+      - '🇨🇦CA | vmess | @oneclickvpnkeys | 14'
+      - '🇩🇪DE | vmess | @prrofile_purple | 177'
+      - '🇬🇧GB | vmess | @ShadowProxy66 | 67'
       - '🇨🇦CA | vmess | @yaney_01 | 1'
+      - '🇨🇦CA | vmess | @forwardv2ray | 19'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -139,18 +145,24 @@ proxy-groups:
     tolerance: 50
     proxies:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
-      - '🇨🇳CN | vmess | @mftizi | 19'
-      - '🇨🇦CA | vmess | @V2rayng_Fast | 0'
+      - '🇭🇰HK | vmess | @mftizi | 19'
+      - '🇨🇦CA | vmess | @oneclickvpnkeys | 14'
+      - '🇩🇪DE | vmess | @prrofile_purple | 177'
+      - '🇬🇧GB | vmess | @ShadowProxy66 | 67'
       - '🇨🇦CA | vmess | @yaney_01 | 1'
+      - '🇨🇦CA | vmess | @forwardv2ray | 19'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
-      - '🇨🇳CN | vmess | @mftizi | 19'
-      - '🇨🇦CA | vmess | @V2rayng_Fast | 0'
+      - '🇭🇰HK | vmess | @mftizi | 19'
+      - '🇨🇦CA | vmess | @oneclickvpnkeys | 14'
+      - '🇩🇪DE | vmess | @prrofile_purple | 177'
+      - '🇬🇧GB | vmess | @ShadowProxy66 | 67'
       - '🇨🇦CA | vmess | @yaney_01 | 1'
+      - '🇨🇦CA | vmess | @forwardv2ray | 19'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
