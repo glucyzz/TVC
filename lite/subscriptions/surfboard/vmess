@@ -11,13 +11,13 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇨🇦CA | vmess | @oneclickvpnkeys | 14 = vmess, ftp-localcdn.kiava-cloud.us.to, 443, username = 36cc4baf-8abf-4b98-91bb-79a5cd12ad29, ws = true, tls = 1, vmess-aead = true, ws-path = /linkiava, ws-headers = Host:"ftp-localcdn.kiava-cloud.us.to", skip-cert-verify = true, tfo = false
+🇩🇪DE | vmess | @DeamNet_Proxy | 18 = vmess, de3-vmess.sshmax.xyz, 80, username = 92c01cad-f307-4512-bbb2-cdc1ce32e19c, ws = true, tls = , vmess-aead = false, ws-path = /vmess, ws-headers = Host:"", skip-cert-verify = true, tfo = false
+🇨🇿CZ | vmess | @ShadowProxy66 | 23 = vmess, 94.131.97.127, 80, username = 3669d547-ee0c-477d-8e47-c4400965db74, ws = true, tls = , vmess-aead = true, ws-path = /vmess, ws-headers = Host:"cz2-vmess.sshmax.xyz", skip-cert-verify = true, tfo = false
 🇨🇦CA | vmess | @yaney_01 | 1 = vmess, www.visa.com.hk, 80, username = e184e964-518c-4ddf-ab05-f0a2ecff2f42, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"ydmmamd2.mac2win.top", skip-cert-verify = true, tfo = false
-🇨🇦CA | vmess | @forwardv2ray | 19 = vmess, cloudflare.b4a-devs.org, 2083, username = 0a40bceb-6a30-4da2-b90b-2ae5ed018e98, ws = true, tls = 1, vmess-aead = true, ws-path = /cloudflare, ws-headers = Host:"cloudflare.b4a-devs.org", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | vmess | @oneclickvpnkeys | 14,🇨🇦CA | vmess | @yaney_01 | 1,🇨🇦CA | vmess | @forwardv2ray | 19
-URL-TEST = url-test,🇨🇦CA | vmess | @oneclickvpnkeys | 14,🇨🇦CA | vmess | @yaney_01 | 1,🇨🇦CA | vmess | @forwardv2ray | 19
-FALLBACK = fallback,🇨🇦CA | vmess | @oneclickvpnkeys | 14,🇨🇦CA | vmess | @yaney_01 | 1,🇨🇦CA | vmess | @forwardv2ray | 19
+MANUAL = select,URL-TEST,FALLBACK,🇩🇪DE | vmess | @DeamNet_Proxy | 18,🇨🇿CZ | vmess | @ShadowProxy66 | 23,🇨🇦CA | vmess | @yaney_01 | 1
+URL-TEST = url-test,🇩🇪DE | vmess | @DeamNet_Proxy | 18,🇨🇿CZ | vmess | @ShadowProxy66 | 23,🇨🇦CA | vmess | @yaney_01 | 1
+FALLBACK = fallback,🇩🇪DE | vmess | @DeamNet_Proxy | 18,🇨🇿CZ | vmess | @ShadowProxy66 | 23,🇨🇦CA | vmess | @yaney_01 | 1
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
