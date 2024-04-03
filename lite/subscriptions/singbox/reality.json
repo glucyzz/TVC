@@ -106,11 +106,12 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🏳️XX | vless | @DailyV2RY | 130",
+                "🇬🇧GB | vless | @EliV2ray | 13",
+                "🇹🇷TR | vless | @NIM_VPN_ir | 10",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🏳️XX | vless | @vpn_go67 | 23",
-                "🇩🇪DE | vless | @GozargahVPN | 11",
+                "🇩🇪DE | vless | @GozargahVPN | 12",
                 "🇩🇪DE | vless | @freeconfigv2 | 11",
                 "🇮🇷IR | vless | @Good_V2rayy | 1"
             ]
@@ -119,11 +120,12 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🏳️XX | vless | @DailyV2RY | 130",
+                "🇬🇧GB | vless | @EliV2ray | 13",
+                "🇹🇷TR | vless | @NIM_VPN_ir | 10",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🏳️XX | vless | @vpn_go67 | 23",
-                "🇩🇪DE | vless | @GozargahVPN | 11",
+                "🇩🇪DE | vless | @GozargahVPN | 12",
                 "🇩🇪DE | vless | @freeconfigv2 | 11",
                 "🇮🇷IR | vless | @Good_V2rayy | 1"
             ],
@@ -148,11 +150,11 @@
             "type": "dns"
         },
         {
-            "tag": "🏳️XX | vless | @DailyV2RY | 130",
+            "tag": "🇬🇧GB | vless | @EliV2ray | 13",
             "type": "vless",
-            "server": "[2a01:4f8:1c1b:223e::1]",
-            "server_port": 25365,
-            "uuid": "045a48ee-04f0-49b0-b9cc-997bd6684fb1",
+            "server": "165.22.120.153",
+            "server_port": 443,
+            "uuid": "fa2dedd2-9f9e-4905-bd00-555d0fa25702",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -162,22 +164,58 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "sourceforge.net",
+                "server_name": "speedtest.plutex.de",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "randomized"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "tw5Q89ViqUr1RR398Q3wwcJOqzwlYRDuOczjyFHND0s",
-                    "short_id": "44a02299"
+                    "public_key": "Nln0pa_TGktLiJu3sKL-nxmGv-lZb1xGZ_Ig0wP_5R4",
+                    "short_id": "98ed59f5"
                 }
             },
             "transport": {
                 "type": "grpc",
-                "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON",
+                "service_name": "new.vipstore.cfd",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇹🇷TR | vless | @NIM_VPN_ir | 10",
+            "type": "vless",
+            "server": "213.217.31.43",
+            "server_port": 8080,
+            "uuid": "8d002366-cecc-4bf6-b353-ca3a68a1731c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "discord.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "mrfbA_MYn7EoNJrtyJp6OjpSxYH-dA78HduJ5UeHiCc",
+                    "short_id": "40aee5a0"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@BugFreeNet@BugFreeNet@BugFreeNet@BugFreeNet@BugFreeNet@BugFreeNet@BugFreeNet@BugFreeNet@BugFreeNet@BugFreeNet@BugFreeNet@BugFreeNet@BugFreeNet",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
@@ -285,7 +323,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @GozargahVPN | 11",
+            "tag": "🇩🇪DE | vless | @GozargahVPN | 12",
             "type": "vless",
             "server": "45.32.157.52",
             "server_port": 443,
