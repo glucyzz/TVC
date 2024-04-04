@@ -106,8 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇬🇧GB | vless | @EliV2ray | 13",
-                "🇹🇷TR | vless | @NIM_VPN_ir | 10",
+                "🇦🇱AL | vless | @azadi_az_inja_migzare | 2",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -120,8 +119,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇬🇧GB | vless | @EliV2ray | 13",
-                "🇹🇷TR | vless | @NIM_VPN_ir | 10",
+                "🇦🇱AL | vless | @azadi_az_inja_migzare | 2",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -150,11 +148,11 @@
             "type": "dns"
         },
         {
-            "tag": "🇬🇧GB | vless | @EliV2ray | 13",
+            "tag": "🇦🇱AL | vless | @azadi_az_inja_migzare | 2",
             "type": "vless",
-            "server": "165.22.120.153",
-            "server_port": 443,
-            "uuid": "fa2dedd2-9f9e-4905-bd00-555d0fa25702",
+            "server": "zerocool.cheshmsabz.toP",
+            "server_port": 45102,
+            "uuid": "687970f6-cd47-4fc2-91a4-6f0e4d49089f",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -164,61 +162,18 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "speedtest.plutex.de",
+                "server_name": "icloud.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "randomized"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "Nln0pa_TGktLiJu3sKL-nxmGv-lZb1xGZ_Ig0wP_5R4",
-                    "short_id": "98ed59f5"
+                    "public_key": "FZ9taGSf9n6JNSUnjR7kilCKmfXMZHbbOf7skIDNUSQ",
+                    "short_id": "9f935adfaf516589"
                 }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "new.vipstore.cfd",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇹🇷TR | vless | @NIM_VPN_ir | 10",
-            "type": "vless",
-            "server": "213.217.31.43",
-            "server_port": 8080,
-            "uuid": "8d002366-cecc-4bf6-b353-ca3a68a1731c",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "discord.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "mrfbA_MYn7EoNJrtyJp6OjpSxYH-dA78HduJ5UeHiCc",
-                    "short_id": "40aee5a0"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@BugFreeNet@BugFreeNet@BugFreeNet@BugFreeNet@BugFreeNet@BugFreeNet@BugFreeNet@BugFreeNet@BugFreeNet@BugFreeNet@BugFreeNet@BugFreeNet@BugFreeNet",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {

@@ -120,8 +120,11 @@ dns:
     'RULE-SET:ir,ircidr,geoip:ir,+.ir,+.bonyan.co': ["217.218.155.155", "217.218.127.127", "https://dns.403.online/dns-query", "https://dns.shecan.ir/dns-query"]
 
 proxies:
-  - {"name":"🇩🇪DE | ss | @VmessProtocol | 16","type":"ss","server":"18.159.252.71","port":2087,"password":"VeU08K3XooFPKyaszR2k+vL8clIlwuctf5SaDabfvIo=","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇵🇱PL | ss | @OutlineVpnOfficial | 14","type":"ss","server":"51.77.53.200","port":5000,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇩🇪DE | ss | @VmessProtocol | 16","type":"ss","server":"3.70.18.26","port":2087,"password":"LvaBI83AuvAKv3hWmGXE5lVwrdM10uAtGCvdODCmod4=","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇵🇱PL | ss | @OutlineVpnOfficial | 16","type":"ss","server":"51.77.53.200","port":5000,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇩🇪DE | ss | @forwardv2ray | 17","type":"ss","server":"49.13.10.50","port":1194,"password":"Uxm4ADwftKdXq5qRA4ZfHS","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇬🇧GB | ss | @FAKEOFTVC | 3","type":"ss","server":"51.140.37.163","port":34417,"password":"OZ2VmWR9pI74zoLstexAee","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🏳️XX | ss | @ROMAX_VPN | 7","type":"ss","server":"[2a12:5940:5237::2]","port":7261,"password":"pZvwP17Nlz2z6jsYnVgZgf","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -129,7 +132,10 @@ proxy-groups:
       - URL-TEST
       - FALLBACK
       - '🇩🇪DE | ss | @VmessProtocol | 16'
-      - '🇵🇱PL | ss | @OutlineVpnOfficial | 14'
+      - '🇵🇱PL | ss | @OutlineVpnOfficial | 16'
+      - '🇩🇪DE | ss | @forwardv2ray | 17'
+      - '🇬🇧GB | ss | @FAKEOFTVC | 3'
+      - '🏳️XX | ss | @ROMAX_VPN | 7'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -137,14 +143,20 @@ proxy-groups:
     tolerance: 50
     proxies:
       - '🇩🇪DE | ss | @VmessProtocol | 16'
-      - '🇵🇱PL | ss | @OutlineVpnOfficial | 14'
+      - '🇵🇱PL | ss | @OutlineVpnOfficial | 16'
+      - '🇩🇪DE | ss | @forwardv2ray | 17'
+      - '🇬🇧GB | ss | @FAKEOFTVC | 3'
+      - '🏳️XX | ss | @ROMAX_VPN | 7'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
       - '🇩🇪DE | ss | @VmessProtocol | 16'
-      - '🇵🇱PL | ss | @OutlineVpnOfficial | 14'
+      - '🇵🇱PL | ss | @OutlineVpnOfficial | 16'
+      - '🇩🇪DE | ss | @forwardv2ray | 17'
+      - '🇬🇧GB | ss | @FAKEOFTVC | 3'
+      - '🏳️XX | ss | @ROMAX_VPN | 7'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
   ads: {type: http, format: text, behavior: domain, path: ./ruleset/ads.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ads.txt, interval: 86400}
