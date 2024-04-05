@@ -12,14 +12,12 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 🇩🇪DE | ss | @VmessProtocol | 16 = ss, 3.70.18.26, 2087, encrypt-method = chacha20-ietf-poly1305, password = LvaBI83AuvAKv3hWmGXE5lVwrdM10uAtGCvdODCmod4=
-🇵🇱PL | ss | @OutlineVpnOfficial | 16 = ss, 51.77.53.200, 5000, encrypt-method = aes-256-gcm, password = Y6R9pAtvxxzmGC
-🇩🇪DE | ss | @forwardv2ray | 17 = ss, 49.13.10.50, 1194, encrypt-method = chacha20-ietf-poly1305, password = Uxm4ADwftKdXq5qRA4ZfHS
-🇬🇧GB | ss | @FAKEOFTVC | 3 = ss, 51.140.37.163, 34417, encrypt-method = chacha20-ietf-poly1305, password = OZ2VmWR9pI74zoLstexAee
-🏳️XX | ss | @ROMAX_VPN | 7 = ss, [2a12:5940:5237::2], 7261, encrypt-method = chacha20-ietf-poly1305, password = pZvwP17Nlz2z6jsYnVgZgf
+🇯🇵JP | ss | @OutlineVpnOfficial | 18 = ss, 185.172.113.182, 801, encrypt-method = chacha20-ietf-poly1305, password = G!yBwPWH3Vao
+🇬🇧GB | ss | @FAKEOFTVC | 5 = ss, 51.140.37.163, 34417, encrypt-method = chacha20-ietf-poly1305, password = OZ2VmWR9pI74zoLstexAee
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇩🇪DE | ss | @VmessProtocol | 16,🇵🇱PL | ss | @OutlineVpnOfficial | 16,🇩🇪DE | ss | @forwardv2ray | 17,🇬🇧GB | ss | @FAKEOFTVC | 3,🏳️XX | ss | @ROMAX_VPN | 7
-URL-TEST = url-test,🇩🇪DE | ss | @VmessProtocol | 16,🇵🇱PL | ss | @OutlineVpnOfficial | 16,🇩🇪DE | ss | @forwardv2ray | 17,🇬🇧GB | ss | @FAKEOFTVC | 3,🏳️XX | ss | @ROMAX_VPN | 7
-FALLBACK = fallback,🇩🇪DE | ss | @VmessProtocol | 16,🇵🇱PL | ss | @OutlineVpnOfficial | 16,🇩🇪DE | ss | @forwardv2ray | 17,🇬🇧GB | ss | @FAKEOFTVC | 3,🏳️XX | ss | @ROMAX_VPN | 7
+MANUAL = select,URL-TEST,FALLBACK,🇩🇪DE | ss | @VmessProtocol | 16,🇯🇵JP | ss | @OutlineVpnOfficial | 18,🇬🇧GB | ss | @FAKEOFTVC | 5
+URL-TEST = url-test,🇩🇪DE | ss | @VmessProtocol | 16,🇯🇵JP | ss | @OutlineVpnOfficial | 18,🇬🇧GB | ss | @FAKEOFTVC | 5
+FALLBACK = fallback,🇩🇪DE | ss | @VmessProtocol | 16,🇯🇵JP | ss | @OutlineVpnOfficial | 18,🇬🇧GB | ss | @FAKEOFTVC | 5
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
