@@ -11,13 +11,13 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
+🏳️XX | ss | @proxyymeliii | 13 = ss, [2a0d:c740:3c:1::4d56:7f45], 47529, encrypt-method = aes-256-gcm, password = @GetNetworkBot
 🇩🇪DE | ss | @VmessProtocol | 16 = ss, 3.70.18.26, 2087, encrypt-method = chacha20-ietf-poly1305, password = LvaBI83AuvAKv3hWmGXE5lVwrdM10uAtGCvdODCmod4=
-🇺🇸US | ss | @OutlineVpnOfficial | 17 = ss, 38.121.43.248, 8882, encrypt-method = aes-256-gcm, password = kDWvXYZoTBcGkC4
-🇺🇸US | ss | @FAKEOFTVC | 7 = ss, 167.88.62.62, 7307, encrypt-method = aes-256-gcm, password = FoOiGlkAA9yPEGP
+🇧🇷BR | ss | @OutlineVpnOfficial | 15 = ss, 186.233.118.171, 5600, encrypt-method = chacha20-ietf-poly1305, password = 30b5ZoERozKG4dr0Va3DXbCUUQxuUBjIZ9F80qqIvf0=
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇩🇪DE | ss | @VmessProtocol | 16,🇺🇸US | ss | @OutlineVpnOfficial | 17,🇺🇸US | ss | @FAKEOFTVC | 7
-URL-TEST = url-test,🇩🇪DE | ss | @VmessProtocol | 16,🇺🇸US | ss | @OutlineVpnOfficial | 17,🇺🇸US | ss | @FAKEOFTVC | 7
-FALLBACK = fallback,🇩🇪DE | ss | @VmessProtocol | 16,🇺🇸US | ss | @OutlineVpnOfficial | 17,🇺🇸US | ss | @FAKEOFTVC | 7
+MANUAL = select,URL-TEST,FALLBACK,🏳️XX | ss | @proxyymeliii | 13,🇩🇪DE | ss | @VmessProtocol | 16,🇧🇷BR | ss | @OutlineVpnOfficial | 15
+URL-TEST = url-test,🏳️XX | ss | @proxyymeliii | 13,🇩🇪DE | ss | @VmessProtocol | 16,🇧🇷BR | ss | @OutlineVpnOfficial | 15
+FALLBACK = fallback,🏳️XX | ss | @proxyymeliii | 13,🇩🇪DE | ss | @VmessProtocol | 16,🇧🇷BR | ss | @OutlineVpnOfficial | 15
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
