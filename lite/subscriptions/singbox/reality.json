@@ -106,7 +106,9 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇪🇸ES | vless | @azadi_az_inja_migzare | 8",
                 "🇩🇪DE | vless | @Capital_NET | 45",
+                "🇩🇪DE | vless | @FAKEOFTVC | 4",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇩🇪DE | vless | @freeconfigv2 | 11",
@@ -118,7 +120,9 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇪🇸ES | vless | @azadi_az_inja_migzare | 8",
                 "🇩🇪DE | vless | @Capital_NET | 45",
+                "🇩🇪DE | vless | @FAKEOFTVC | 4",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇩🇪DE | vless | @freeconfigv2 | 11",
@@ -146,6 +150,35 @@
             "type": "dns"
         },
         {
+            "tag": "🇪🇸ES | vless | @azadi_az_inja_migzare | 8",
+            "type": "vless",
+            "server": "frc0000000000-00.Cheshmsabz.toP",
+            "server_port": 45102,
+            "uuid": "de85f08e-b381-4d54-931d-f8a24f49b3ed",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "icloud.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "FZ9taGSf9n6JNSUnjR7kilCKmfXMZHbbOf7skIDNUSQ",
+                    "short_id": "9f935adfaf516589"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪DE | vless | @Capital_NET | 45",
             "type": "vless",
             "server": "four.felinetest.site",
@@ -171,6 +204,35 @@
                     "enabled": true,
                     "public_key": "fabWUdBWxh7NsMaqOF35petD3ljQbKf6OSDnROV9jDs",
                     "short_id": "6f9deca7"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @FAKEOFTVC | 4",
+            "type": "vless",
+            "server": "188.40.202.25",
+            "server_port": 8443,
+            "uuid": "bdf90cae-da65-4bd7-9200-a5903c2eff13",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "cdn.discordapp.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "mrsV5dPIWx0dtPzo9u4FdkZi3Ly3hh8CGN-gHuZY4S8",
+                    "short_id": ""
                 }
             }
         },
