@@ -108,13 +108,13 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
-                "🇫🇮FI | vmess | @ShadowProxy66 | 40",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
+                "🇳🇱NL | vmess | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🇮🇷IR | vmess | @Hope_Net | 19",
-                "🇺🇸US | vmess | @v2Line | 10",
-                "🏳️XX | vmess | @eliya_chiter0 | 0",
-                "🇺🇸US | vmess | @ROMAX_VPN | 6"
+                "🇨🇦CA | vmess | @Hope_Net | 13",
+                "🇻🇳VN | vmess | @v2Line | 11",
+                "🇨🇦CA | vmess | @nofiltering2 | 1",
+                "🇺🇸US | vmess | @ROMAX_VPN | 7"
             ]
         },
         {
@@ -123,13 +123,13 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
-                "🇫🇮FI | vmess | @ShadowProxy66 | 40",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
+                "🇳🇱NL | vmess | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🇮🇷IR | vmess | @Hope_Net | 19",
-                "🇺🇸US | vmess | @v2Line | 10",
-                "🏳️XX | vmess | @eliya_chiter0 | 0",
-                "🇺🇸US | vmess | @ROMAX_VPN | 6"
+                "🇨🇦CA | vmess | @Hope_Net | 13",
+                "🇻🇳VN | vmess | @v2Line | 11",
+                "🇨🇦CA | vmess | @nofiltering2 | 1",
+                "🇺🇸US | vmess | @ROMAX_VPN | 7"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -193,11 +193,35 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
             "type": "vmess",
-            "server": "104.21.15.36",
+            "server": "fcdn.flha.ru",
+            "server_port": 2095,
+            "uuid": "7a737f41-b792-4260-94ff-3d864da67b80",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱NL | vmess | @proxystore11 | 14",
+            "type": "vmess",
+            "server": "188.114.96.3",
             "server_port": 443,
-            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
+            "uuid": "bc864078-dcf3-4bf4-8dbf-ca9f200b56be",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -210,7 +234,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "linde06.indiavideo.sbs",
+                "server_name": "proxystore11.Eu.ORG",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -220,27 +244,10 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/gwdef.sbs\/linkws",
                 "headers": {
-                    "Host": "linde06.indiavideo.sbs"
+                    "Host": "proxystore11.Eu.ORG"
                 }
-            }
-        },
-        {
-            "tag": "🇫🇮FI | vmess | @ShadowProxy66 | 40",
-            "type": "vmess",
-            "server": "65.109.196.156",
-            "server_port": 42659,
-            "uuid": "31e95bad-6767-45cc-a0e3-b71542198c38",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
@@ -278,28 +285,11 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vmess | @Hope_Net | 19",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 13",
             "type": "vmess",
-            "server": "89.39.208.217",
-            "server_port": 7021,
-            "uuid": "a5e6f758-2f93-41f9-bc63-40f7efc58013",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @v2Line | 10",
-            "type": "vmess",
-            "server": "173.245.58.37",
-            "server_port": 443,
-            "uuid": "a1655f51-1e20-4a92-8a11-b7ca30a7a353",
+            "server": "c7.610710.xyz",
+            "server_port": 8443,
+            "uuid": "0200841c-53bb-4a08-aaaf-c149225b4473",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -312,7 +302,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "7wih-darkness-f0af.jivegoh116.workers.dev",
+                "server_name": "c7.610710.xyz",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -322,18 +312,18 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/afrhms07.xfixedfloat.cfd\/linkws",
+                "path": "\/",
                 "headers": {
-                    "Host": "7wih-darkness-f0af.jivegoh116.workers.dev"
+                    "Host": "c7.610710.xyz"
                 }
             }
         },
         {
-            "tag": "🏳️XX | vmess | @eliya_chiter0 | 0",
+            "tag": "🇻🇳VN | vmess | @v2Line | 11",
             "type": "vmess",
-            "server": "obgmfvcr28b1.clearbluesky.world",
-            "server_port": 30843,
-            "uuid": "fca67c91-3c04-4be0-baad-e7a2590901fc",
+            "server": "bs1.loadingip.com",
+            "server_port": 80,
+            "uuid": "9e5999ba-870a-46b1-8500-37c640371ec6",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -343,10 +333,51 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/bs",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @ROMAX_VPN | 6",
+            "tag": "🇨🇦CA | vmess | @nofiltering2 | 1",
+            "type": "vmess",
+            "server": "104.21.83.108",
+            "server_port": 443,
+            "uuid": "6c168fcc-2231-4f3b-8c1e-f6391692df4a",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "hms02.fxiaomi.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/link",
+                "headers": {
+                    "Host": "hms02.fxiaomi.sbs"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @ROMAX_VPN | 7",
             "type": "vmess",
             "server": "iran-011-join.outline-vpn.cloud",
             "server_port": 443,
