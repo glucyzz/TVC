@@ -106,14 +106,16 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇪🇪EE | ss | @OutlineVpnOfficial | 15"
+                "🇬🇧GB | ss | @OutlineVpnOfficial | 14",
+                "🏳️XX | ss | @kingofilter | 1"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇪🇪EE | ss | @OutlineVpnOfficial | 15"
+                "🇬🇧GB | ss | @OutlineVpnOfficial | 14",
+                "🏳️XX | ss | @kingofilter | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -136,12 +138,22 @@
             "type": "dns"
         },
         {
-            "tag": "🇪🇪EE | ss | @OutlineVpnOfficial | 15",
+            "tag": "🇬🇧GB | ss | @OutlineVpnOfficial | 14",
             "type": "shadowsocks",
-            "server": "193.228.128.143",
-            "server_port": 27981,
+            "server": "51.195.149.115",
+            "server_port": 45816,
+            "method": "aes-256-gcm",
+            "password": "KkDzY101Oe",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🏳️XX | ss | @kingofilter | 1",
+            "type": "shadowsocks",
+            "server": "13.vip-archive69.site",
+            "server_port": 443,
             "method": "chacha20-ietf-poly1305",
-            "password": "4pWVbIVIuw4LK9wvMgcHW5",
+            "password": "telegram-id-Alfred-Config",
             "plugin": "",
             "plugin_opts": ""
         }
