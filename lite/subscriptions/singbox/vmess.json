@@ -108,9 +108,10 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
+                "🇮🇷IR | vmess | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🇨🇦CA | vmess | @Hope_Net | 10",
+                "🏳️XX | vmess | @Hope_Net | 9",
                 "🇨🇦CA | vmess | @v2Line | 11",
                 "🇨🇦CA | vmess | @nofiltering2 | 3"
             ]
@@ -121,9 +122,10 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
+                "🇮🇷IR | vmess | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🇨🇦CA | vmess | @Hope_Net | 10",
+                "🏳️XX | vmess | @Hope_Net | 9",
                 "🇨🇦CA | vmess | @v2Line | 11",
                 "🇨🇦CA | vmess | @nofiltering2 | 3"
             ],
@@ -182,11 +184,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
             "type": "vmess",
-            "server": "us-b.sbyt01.shop",
+            "server": "172.67.222.164",
             "server_port": 443,
-            "uuid": "9c9afd21-e3cf-4e6b-a342-51e4eb52f227",
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -199,7 +201,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "",
+                "server_name": "novia.makeup",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -209,10 +211,27 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/v2ray",
+                "path": "\/linkvws",
                 "headers": {
-                    "Host": ""
+                    "Host": "novia.makeup"
                 }
+            }
+        },
+        {
+            "tag": "🇮🇷IR | vmess | @proxystore11 | 13",
+            "type": "vmess",
+            "server": "vip.soheilsat.com",
+            "server_port": 7021,
+            "uuid": "a5e6f758-2f93-41f9-bc63-40f7efc58013",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
@@ -250,11 +269,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 10",
+            "tag": "🏳️XX | vmess | @Hope_Net | 9",
             "type": "vmess",
-            "server": "c2.v2raybrasil.cloud",
-            "server_port": 2082,
-            "uuid": "009d320a-5960-49e6-99c3-301966ff6fea",
+            "server": "megaan.homes",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -265,11 +284,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "megaan.homes",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/linkvws",
                 "headers": {
-                    "Host": ""
+                    "Host": "megaan.homes"
                 }
             }
         },
