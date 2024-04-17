@@ -106,7 +106,6 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇰🇿KZ | ss | @OutlineVpnOfficial | 0",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 2",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 3",
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 4",
@@ -118,15 +117,15 @@
                 "🇮🇳IN | ss | @OutlineVpnOfficial | 12",
                 "🇮🇱IL | ss | @OutlineVpnOfficial | 13",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 14",
+                "🇫🇷FR | ss | @OutlineVpnOfficial | 15",
                 "🏳️XX | ss | @kingofilter | 1",
-                "🇪🇪EE | ss | @ednovasfree | 0"
+                "🇪🇪EE | ss | @ednovasfree | 1"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇰🇿KZ | ss | @OutlineVpnOfficial | 0",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 2",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 3",
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 4",
@@ -138,8 +137,9 @@
                 "🇮🇳IN | ss | @OutlineVpnOfficial | 12",
                 "🇮🇱IL | ss | @OutlineVpnOfficial | 13",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 14",
+                "🇫🇷FR | ss | @OutlineVpnOfficial | 15",
                 "🏳️XX | ss | @kingofilter | 1",
-                "🇪🇪EE | ss | @ednovasfree | 0"
+                "🇪🇪EE | ss | @ednovasfree | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -160,16 +160,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇰🇿KZ | ss | @OutlineVpnOfficial | 0",
-            "type": "shadowsocks",
-            "server": "95.164.19.233",
-            "server_port": 17038,
-            "method": "aes-256-gcm",
-            "password": "q06CbkhVXx7XVv0D",
-            "plugin": "",
-            "plugin_opts": ""
         },
         {
             "tag": "🇬🇧GB | ss | @OutlineVpnOfficial | 2",
@@ -282,6 +272,16 @@
             "plugin_opts": ""
         },
         {
+            "tag": "🇫🇷FR | ss | @OutlineVpnOfficial | 15",
+            "type": "shadowsocks",
+            "server": "149.202.82.172",
+            "server_port": 8009,
+            "method": "aes-256-gcm",
+            "password": "XKFKl2rULjIp74",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
             "tag": "🏳️XX | ss | @kingofilter | 1",
             "type": "shadowsocks",
             "server": "13.vip-archive69.site",
@@ -292,7 +292,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇪🇪EE | ss | @ednovasfree | 0",
+            "tag": "🇪🇪EE | ss | @ednovasfree | 1",
             "type": "shadowsocks",
             "server": "193.228.128.143",
             "server_port": 27981,
