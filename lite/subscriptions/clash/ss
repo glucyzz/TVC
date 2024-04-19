@@ -118,31 +118,31 @@ dns:
     - "https://8.8.4.4/dns-query"
 
 proxies:
-  - {"name":"🇫🇮FI | ss | @OutlineVpnOfficial | 17","type":"ss","server":"fl3.dart-vpn.com","port":443,"password":"X7eoEBrARWsBUiVfchVEdH","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🏳️XX | ss | @kingofilter | 1","type":"ss","server":"13.vip-archive69.site","port":443,"password":"telegram-id-Alfred-Config","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇸🇪SE | ss | @OutlineVpnOfficial | 13","type":"ss","server":"94.228.165.234","port":15214,"password":"DmMQUmI7pgQDnrWqLXC00L","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🏳️XX | ss | @kingofilter | 4","type":"ss","server":"13.vip-archive69.site","port":443,"password":"telegram-id-Alfred-Config","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: MANUAL
     type: select
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇫🇮FI | ss | @OutlineVpnOfficial | 17'
-      - '🏳️XX | ss | @kingofilter | 1'
+      - '🇸🇪SE | ss | @OutlineVpnOfficial | 13'
+      - '🏳️XX | ss | @kingofilter | 4'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 60
     tolerance: 50
     proxies:
-      - '🇫🇮FI | ss | @OutlineVpnOfficial | 17'
-      - '🏳️XX | ss | @kingofilter | 1'
+      - '🇸🇪SE | ss | @OutlineVpnOfficial | 13'
+      - '🏳️XX | ss | @kingofilter | 4'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇫🇮FI | ss | @OutlineVpnOfficial | 17'
-      - '🏳️XX | ss | @kingofilter | 1'
+      - '🇸🇪SE | ss | @OutlineVpnOfficial | 13'
+      - '🏳️XX | ss | @kingofilter | 4'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve

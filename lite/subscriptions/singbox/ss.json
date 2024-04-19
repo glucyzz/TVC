@@ -106,16 +106,16 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇫🇮FI | ss | @OutlineVpnOfficial | 17",
-                "🏳️XX | ss | @kingofilter | 1"
+                "🇸🇪SE | ss | @OutlineVpnOfficial | 13",
+                "🏳️XX | ss | @kingofilter | 4"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇫🇮FI | ss | @OutlineVpnOfficial | 17",
-                "🏳️XX | ss | @kingofilter | 1"
+                "🇸🇪SE | ss | @OutlineVpnOfficial | 13",
+                "🏳️XX | ss | @kingofilter | 4"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -138,17 +138,17 @@
             "type": "dns"
         },
         {
-            "tag": "🇫🇮FI | ss | @OutlineVpnOfficial | 17",
+            "tag": "🇸🇪SE | ss | @OutlineVpnOfficial | 13",
             "type": "shadowsocks",
-            "server": "fl3.dart-vpn.com",
-            "server_port": 443,
+            "server": "94.228.165.234",
+            "server_port": 15214,
             "method": "chacha20-ietf-poly1305",
-            "password": "X7eoEBrARWsBUiVfchVEdH",
+            "password": "DmMQUmI7pgQDnrWqLXC00L",
             "plugin": "",
             "plugin_opts": ""
         },
         {
-            "tag": "🏳️XX | ss | @kingofilter | 1",
+            "tag": "🏳️XX | ss | @kingofilter | 4",
             "type": "shadowsocks",
             "server": "13.vip-archive69.site",
             "server_port": 443,
