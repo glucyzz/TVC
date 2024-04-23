@@ -107,16 +107,15 @@
             "outbounds": [
                 "URL-TEST",
                 "🏳️XX | vless | @Helix_Servers | 1",
-                "🏳️XX | vless | @V2pedia | 41",
                 "🏳️XX | vless | @V2pedia | 44",
-                "🏳️XX | vless | @V2pedia | 50",
+                "🏳️XX | vless | @V2pedia | 47",
+                "🏳️XX | vless | @V2pedia | 53",
                 "🇩🇪DE | vless | @vpn_xw | 0",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 2",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 5",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 6",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 9",
                 "🇫🇷FR | vless | @CUSTOMVPNSERVER | 10",
-                "🇫🇮FI | vless | @V2RayTz | 11",
                 "🇩🇪DE | vless | @VmessProtocol | 10",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
@@ -158,16 +157,15 @@
             "type": "urltest",
             "outbounds": [
                 "🏳️XX | vless | @Helix_Servers | 1",
-                "🏳️XX | vless | @V2pedia | 41",
                 "🏳️XX | vless | @V2pedia | 44",
-                "🏳️XX | vless | @V2pedia | 50",
+                "🏳️XX | vless | @V2pedia | 47",
+                "🏳️XX | vless | @V2pedia | 53",
                 "🇩🇪DE | vless | @vpn_xw | 0",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 2",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 5",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 6",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 9",
                 "🇫🇷FR | vless | @CUSTOMVPNSERVER | 10",
-                "🇫🇮FI | vless | @V2RayTz | 11",
                 "🇩🇪DE | vless | @VmessProtocol | 10",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
@@ -253,7 +251,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @V2pedia | 41",
+            "tag": "🏳️XX | vless | @V2pedia | 44",
             "type": "vless",
             "server": "[2a12:5940:f667::2]",
             "server_port": 25365,
@@ -289,7 +287,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @V2pedia | 44",
+            "tag": "🏳️XX | vless | @V2pedia | 47",
             "type": "vless",
             "server": "[2a01:4f8:1c1b:223e::1]",
             "server_port": 25365,
@@ -325,7 +323,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @V2pedia | 50",
+            "tag": "🏳️XX | vless | @V2pedia | 53",
             "type": "vless",
             "server": "[2a01:4f8:1c1b:223e::1]",
             "server_port": 25365,
@@ -539,42 +537,6 @@
                     "public_key": "3WnHdv9A0tNParChTLxPnDteRD841h8thOGR7MBgAhY",
                     "short_id": ""
                 }
-            }
-        },
-        {
-            "tag": "🇫🇮FI | vless | @V2RayTz | 11",
-            "type": "vless",
-            "server": "37.27.35.223",
-            "server_port": 443,
-            "uuid": "ItsLegendaryking",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "wordpress.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "XMkMBzxqwN1nH4cHl1q2zAhywQbDDbWTO7qjWzt9skA",
-                    "short_id": "76beea70"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
