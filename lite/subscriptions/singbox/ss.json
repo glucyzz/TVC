@@ -106,18 +106,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇦🇹AT | ss | @OutlineVpnOfficial | 13",
-                "🏳️XX | ss | @kingofilter | 6",
-                "🇬🇧GB | ss | @ROMAX_VPN | 1"
+                "🏳️XX | ss | @kingofilter | 6"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇦🇹AT | ss | @OutlineVpnOfficial | 13",
-                "🏳️XX | ss | @kingofilter | 6",
-                "🇬🇧GB | ss | @ROMAX_VPN | 1"
+                "🏳️XX | ss | @kingofilter | 6"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -140,32 +136,12 @@
             "type": "dns"
         },
         {
-            "tag": "🇦🇹AT | ss | @OutlineVpnOfficial | 13",
-            "type": "shadowsocks",
-            "server": "95.164.9.144",
-            "server_port": 2927,
-            "method": "chacha20-ietf-poly1305",
-            "password": "ug4Fu79SEREdFGlt2sUyT4",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
             "tag": "🏳️XX | ss | @kingofilter | 6",
             "type": "shadowsocks",
             "server": "13.vip-archive69.site",
             "server_port": 443,
             "method": "chacha20-ietf-poly1305",
             "password": "telegram-id-Alfred-Config",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇬🇧GB | ss | @ROMAX_VPN | 1",
-            "type": "shadowsocks",
-            "server": "account-mec.emofid.co",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "7ivrGEHY88sQk3DP",
             "plugin": "",
             "plugin_opts": ""
         }
