@@ -106,8 +106,11 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇦🇪AE | ss | @VmessProtocol | 2",
-                "🇬🇧GB | ss | @VmessProtocol | 4",
+                "🇫🇮FI | ss | @DeamNet_Proxy | 4",
+                "🇧🇭BH | ss | @DeamNet_Proxy | 6",
+                "🇦🇪AE | ss | @DeamNet_Proxy | 16",
+                "🇦🇪AE | ss | @VmessProtocol | 5",
+                "🇬🇧GB | ss | @VmessProtocol | 7",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 1",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 2",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 3",
@@ -128,8 +131,11 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇦🇪AE | ss | @VmessProtocol | 2",
-                "🇬🇧GB | ss | @VmessProtocol | 4",
+                "🇫🇮FI | ss | @DeamNet_Proxy | 4",
+                "🇧🇭BH | ss | @DeamNet_Proxy | 6",
+                "🇦🇪AE | ss | @DeamNet_Proxy | 16",
+                "🇦🇪AE | ss | @VmessProtocol | 5",
+                "🇬🇧GB | ss | @VmessProtocol | 7",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 1",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 2",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 3",
@@ -166,7 +172,37 @@
             "type": "dns"
         },
         {
-            "tag": "🇦🇪AE | ss | @VmessProtocol | 2",
+            "tag": "🇫🇮FI | ss | @DeamNet_Proxy | 4",
+            "type": "shadowsocks",
+            "server": "78.153.139.25",
+            "server_port": 32147,
+            "method": "chacha20-ietf-poly1305",
+            "password": "M807YF1oYc9DhVonmTYecH",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇧🇭BH | ss | @DeamNet_Proxy | 6",
+            "type": "shadowsocks",
+            "server": "series-a2-me.varzesh360.co",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "Q3S7TeYjDW7dZ6eD",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇦🇪AE | ss | @DeamNet_Proxy | 16",
+            "type": "shadowsocks",
+            "server": "account.emofid.co",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "nDBZ6xm7IKdyXKnA",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇦🇪AE | ss | @VmessProtocol | 5",
             "type": "shadowsocks",
             "server": "series-a2.samanehha.co",
             "server_port": 443,
@@ -176,7 +212,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇬🇧GB | ss | @VmessProtocol | 4",
+            "tag": "🇬🇧GB | ss | @VmessProtocol | 7",
             "type": "shadowsocks",
             "server": "series-a2-mec.samanehha.co",
             "server_port": 443,
