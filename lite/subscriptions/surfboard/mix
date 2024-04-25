@@ -11,15 +11,13 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇸🇪SE | trojan | @PrivateVPNs | 19 = trojan, 51.20.215.157, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🇨🇦CA | trojan | @DirectVPN | 19 = trojan, 3.97.28.196, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🇨🇦CA | vmess | @v2ray1_ng | 21 = vmess, 104.21.15.212, 443, username = 76221bfb-e92f-4e80-81c5-6fe48f50ac0b, ws = true, tls = 1, vmess-aead = true, ws-path = /linkws, ws-headers = Host:"glweidf.sbs", skip-cert-verify = true, tfo = false
-🇨🇦CA | vmess | @FreakConfig | 6 = vmess, 172.67.188.156, 8880, username = 0d1bf26a-ce97-4707-a270-7f4d2ae37334, ws = true, tls = , vmess-aead = true, ws-path = , ws-headers = Host:"cdn.vds-server.ir", skip-cert-verify = true, tfo = false
+🇸🇪SE | trojan | @PrivateVPNs | 19 = trojan, 13.50.255.142, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇸🇪SE | trojan | @DirectVPN | 19 = trojan, 13.48.233.30, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 🏳️XX | ss | @kingofilter | 6 = ss, 13.vip-archive69.site, 443, encrypt-method = chacha20-ietf-poly1305, password = telegram-id-Alfred-Config
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇸🇪SE | trojan | @PrivateVPNs | 19,🇨🇦CA | trojan | @DirectVPN | 19,🇨🇦CA | vmess | @v2ray1_ng | 21,🇨🇦CA | vmess | @FreakConfig | 6,🏳️XX | ss | @kingofilter | 6
-URL-TEST = url-test,🇸🇪SE | trojan | @PrivateVPNs | 19,🇨🇦CA | trojan | @DirectVPN | 19,🇨🇦CA | vmess | @v2ray1_ng | 21,🇨🇦CA | vmess | @FreakConfig | 6,🏳️XX | ss | @kingofilter | 6
-FALLBACK = fallback,🇸🇪SE | trojan | @PrivateVPNs | 19,🇨🇦CA | trojan | @DirectVPN | 19,🇨🇦CA | vmess | @v2ray1_ng | 21,🇨🇦CA | vmess | @FreakConfig | 6,🏳️XX | ss | @kingofilter | 6
+MANUAL = select,URL-TEST,FALLBACK,🇸🇪SE | trojan | @PrivateVPNs | 19,🇸🇪SE | trojan | @DirectVPN | 19,🏳️XX | ss | @kingofilter | 6
+URL-TEST = url-test,🇸🇪SE | trojan | @PrivateVPNs | 19,🇸🇪SE | trojan | @DirectVPN | 19,🏳️XX | ss | @kingofilter | 6
+FALLBACK = fallback,🇸🇪SE | trojan | @PrivateVPNs | 19,🇸🇪SE | trojan | @DirectVPN | 19,🏳️XX | ss | @kingofilter | 6
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL

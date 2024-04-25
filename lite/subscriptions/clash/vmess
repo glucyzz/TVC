@@ -119,10 +119,8 @@ dns:
 
 proxies:
   - {"name":"🇫🇷FR | vmess | @v2ray_outlineir | 0","type":"vmess","server":"146.59.147.250","port":"29776","cipher":"auto","uuid":"82447abf-dcb9-408a-9ca6-79e0a7698d08","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇭🇰HK | vmess | @mftizi | 19","type":"vmess","server":"38.147.189.180","port":"37078","cipher":"auto","uuid":"d5e16a28-afa8-4b64-a459-db32d14cd4d1","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇦CA | vmess | @v2ray1_ng | 21","type":"vmess","server":"104.21.15.212","port":"443","cipher":"auto","uuid":"76221bfb-e92f-4e80-81c5-6fe48f50ac0b","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"glweidf.sbs"}}}
-  - {"name":"🇮🇷IR | vmess | @Hope_Net | 19","type":"vmess","server":"194.5.54.152","port":"55735","cipher":"auto","uuid":"20706074-7b56-4062-b898-b076837bfd63","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇦CA | vmess | @FreakConfig | 6","type":"vmess","server":"172.67.188.156","port":"8880","cipher":"auto","uuid":"0d1bf26a-ce97-4707-a270-7f4d2ae37334","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"cdn.vds-server.ir"}}}
+  - {"name":"🇨🇳CN | vmess | @mftizi | 19","type":"vmess","server":"120.238.122.147","port":"53942","cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇭🇰HK | vmess | @Hope_Net | 19","type":"vmess","server":"141.11.90.115","port":48890,"cipher":"auto","uuid":"54de5bc2-fd5d-4aa1-adc8-6beb11e402b5","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇮🇷IR | vmess | @nofiltering2 | 1","type":"vmess","server":"178.239.150.170","port":"80","cipher":"auto","uuid":"2b7ce1d2-0372-4104-aa06-f7d999f26e1d","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
 proxy-groups:
   - name: MANUAL
@@ -131,10 +129,8 @@ proxy-groups:
       - URL-TEST
       - FALLBACK
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
-      - '🇭🇰HK | vmess | @mftizi | 19'
-      - '🇨🇦CA | vmess | @v2ray1_ng | 21'
-      - '🇮🇷IR | vmess | @Hope_Net | 19'
-      - '🇨🇦CA | vmess | @FreakConfig | 6'
+      - '🇨🇳CN | vmess | @mftizi | 19'
+      - '🇭🇰HK | vmess | @Hope_Net | 19'
       - '🇮🇷IR | vmess | @nofiltering2 | 1'
   - name: URL-TEST
     type: url-test
@@ -143,10 +139,8 @@ proxy-groups:
     tolerance: 50
     proxies:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
-      - '🇭🇰HK | vmess | @mftizi | 19'
-      - '🇨🇦CA | vmess | @v2ray1_ng | 21'
-      - '🇮🇷IR | vmess | @Hope_Net | 19'
-      - '🇨🇦CA | vmess | @FreakConfig | 6'
+      - '🇨🇳CN | vmess | @mftizi | 19'
+      - '🇭🇰HK | vmess | @Hope_Net | 19'
       - '🇮🇷IR | vmess | @nofiltering2 | 1'
   - name: FALLBACK
     type: fallback
@@ -154,10 +148,8 @@ proxy-groups:
     interval: 60
     proxies:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
-      - '🇭🇰HK | vmess | @mftizi | 19'
-      - '🇨🇦CA | vmess | @v2ray1_ng | 21'
-      - '🇮🇷IR | vmess | @Hope_Net | 19'
-      - '🇨🇦CA | vmess | @FreakConfig | 6'
+      - '🇨🇳CN | vmess | @mftizi | 19'
+      - '🇭🇰HK | vmess | @Hope_Net | 19'
       - '🇮🇷IR | vmess | @nofiltering2 | 1'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
