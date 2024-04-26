@@ -107,6 +107,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🏳️XX | vless | @Helix_Servers | 1",
+                "🇩🇪DE | vless | @melov2ray | 2",
                 "🏳️XX | vless | @V2pedia | 44",
                 "🏳️XX | vless | @V2pedia | 47",
                 "🏳️XX | vless | @V2pedia | 53",
@@ -116,6 +117,7 @@
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 6",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 9",
                 "🇫🇷FR | vless | @CUSTOMVPNSERVER | 10",
+                "🇩🇪DE | vless | @VmessProtocol | 8",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -147,7 +149,6 @@
                 "🏳️XX | vless | @vpn_go67 | 21",
                 "🏳️XX | vless | @vpn_go67 | 22",
                 "🏳️XX | vless | @vpn_go67 | 23",
-                "🇸🇪SE | vless | @freeconfigv2 | 1",
                 "🇮🇷IR | vless | @Good_V2rayy | 1"
             ]
         },
@@ -156,6 +157,7 @@
             "type": "urltest",
             "outbounds": [
                 "🏳️XX | vless | @Helix_Servers | 1",
+                "🇩🇪DE | vless | @melov2ray | 2",
                 "🏳️XX | vless | @V2pedia | 44",
                 "🏳️XX | vless | @V2pedia | 47",
                 "🏳️XX | vless | @V2pedia | 53",
@@ -165,6 +167,7 @@
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 6",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 9",
                 "🇫🇷FR | vless | @CUSTOMVPNSERVER | 10",
+                "🇩🇪DE | vless | @VmessProtocol | 8",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -196,7 +199,6 @@
                 "🏳️XX | vless | @vpn_go67 | 21",
                 "🏳️XX | vless | @vpn_go67 | 22",
                 "🏳️XX | vless | @vpn_go67 | 23",
-                "🇸🇪SE | vless | @freeconfigv2 | 1",
                 "🇮🇷IR | vless | @Good_V2rayy | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -246,6 +248,42 @@
                     "public_key": "xnLXDcGVZwMsFOjXT6SFK1cPJO66a1kfgn94x2Ih6UA",
                     "short_id": "122efac9"
                 }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @melov2ray | 2",
+            "type": "vless",
+            "server": "142.132.189.159",
+            "server_port": 8443,
+            "uuid": "15b49a69-013f-4c64-9a64-aac0fcbc63bd",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "discord.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "ImnVH3mK86iRKeSSANgSeUd7TeP-_cuiRkdu8PD8kAo",
+                    "short_id": "32fd2962"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "melov2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -534,6 +572,35 @@
                     "enabled": true,
                     "public_key": "3WnHdv9A0tNParChTLxPnDteRD841h8thOGR7MBgAhY",
                     "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @VmessProtocol | 8",
+            "type": "vless",
+            "server": "23.88.38.184",
+            "server_port": 2096,
+            "uuid": "fe9195e9-04ac-4310-dccd-cf2d2b779715",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "discord.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "ajP1Rru1bbPArjvPZ5kEpbuoWyhHesYcooXEp9cSviQ",
+                    "short_id": "7b4d7885"
                 }
             }
         },
@@ -1567,35 +1634,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇸🇪SE | vless | @freeconfigv2 | 1",
-            "type": "vless",
-            "server": "185.139.228.13",
-            "server_port": 2083,
-            "uuid": "282bed58-1451-419f-a5b3-ed6f65ab8850",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.speedtest.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "x-Zv8k40O3rJ8sjJknVpimNI4dhEk3WRCyKeRb5NeEU",
-                    "short_id": "b756e372b9623b22"
-                }
             }
         },
         {
