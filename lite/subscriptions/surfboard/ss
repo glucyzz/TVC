@@ -11,11 +11,13 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
+🇸🇪SE | ss | @OutlineVpnOfficial | 17 = ss, 94.228.165.234, 15214, encrypt-method = chacha20-ietf-poly1305, password = DmMQUmI7pgQDnrWqLXC00L
+🇬🇧GB | ss | @proxy_mtm | 10 = ss, series-a2-mec.varzesh360.co, 443, encrypt-method = chacha20-ietf-poly1305, password = u17T3BvpYaaiuW2c
 🏳️XX | ss | @kingofilter | 6 = ss, 13.vip-archive69.site, 443, encrypt-method = chacha20-ietf-poly1305, password = telegram-id-Alfred-Config
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🏳️XX | ss | @kingofilter | 6
-URL-TEST = url-test,🏳️XX | ss | @kingofilter | 6
-FALLBACK = fallback,🏳️XX | ss | @kingofilter | 6
+MANUAL = select,URL-TEST,FALLBACK,🇸🇪SE | ss | @OutlineVpnOfficial | 17,🇬🇧GB | ss | @proxy_mtm | 10,🏳️XX | ss | @kingofilter | 6
+URL-TEST = url-test,🇸🇪SE | ss | @OutlineVpnOfficial | 17,🇬🇧GB | ss | @proxy_mtm | 10,🏳️XX | ss | @kingofilter | 6
+FALLBACK = fallback,🇸🇪SE | ss | @OutlineVpnOfficial | 17,🇬🇧GB | ss | @proxy_mtm | 10,🏳️XX | ss | @kingofilter | 6
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
