@@ -11,10 +11,12 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
+🇨🇦CA | vmess | @mftizi | 19 = vmess, onea.flha.ru, 2095, username = 7a737f41-b792-4260-94ff-3d864da67b80, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"", skip-cert-verify = true, tfo = false
+🇨🇦CA | vmess | @oneclickvpnkeys | 9 = vmess, kkyx.yydsii.com, 8080, username = b551aa22-22af-11ee-b8d8-f23c932eb68d, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"oiictw.yydsii.com", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK
-URL-TEST = url-test
-FALLBACK = fallback
+MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | vmess | @mftizi | 19,🇨🇦CA | vmess | @oneclickvpnkeys | 9
+URL-TEST = url-test,🇨🇦CA | vmess | @mftizi | 19,🇨🇦CA | vmess | @oneclickvpnkeys | 9
+FALLBACK = fallback,🇨🇦CA | vmess | @mftizi | 19,🇨🇦CA | vmess | @oneclickvpnkeys | 9
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL

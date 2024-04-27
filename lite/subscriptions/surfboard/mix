@@ -11,15 +11,16 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇸🇪SE | trojan | @PrivateVPNs | 19 = trojan, 16.16.175.249, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🇸🇪SE | trojan | @DirectVPN | 19 = trojan, 16.171.95.242, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇷🇺RU | ss | @azadi_az_inja_migzare | 3 = ss, moscow.telegavpn.com, 60422, encrypt-method = chacha20-ietf-poly1305, password = qIwr0gh6nlnJCTlpDDsGw3
+🇸🇪SE | trojan | @PrivateVPNs | 18 = trojan, 13.49.220.28, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇩🇪DE | trojan | @DirectVPN | 18 = trojan, 3.77.242.252, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇨🇦CA | vmess | @mftizi | 19 = vmess, onea.flha.ru, 2095, username = 7a737f41-b792-4260-94ff-3d864da67b80, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"", skip-cert-verify = true, tfo = false
+🇨🇦CA | vmess | @oneclickvpnkeys | 9 = vmess, kkyx.yydsii.com, 8080, username = b551aa22-22af-11ee-b8d8-f23c932eb68d, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"oiictw.yydsii.com", skip-cert-verify = true, tfo = false
 🇸🇪SE | ss | @OutlineVpnOfficial | 17 = ss, 94.228.165.234, 15214, encrypt-method = chacha20-ietf-poly1305, password = DmMQUmI7pgQDnrWqLXC00L
-🇬🇧GB | ss | @proxy_mtm | 10 = ss, series-a2-mec.varzesh360.co, 443, encrypt-method = chacha20-ietf-poly1305, password = u17T3BvpYaaiuW2c
-🏳️XX | ss | @kingofilter | 6 = ss, 13.vip-archive69.site, 443, encrypt-method = chacha20-ietf-poly1305, password = telegram-id-Alfred-Config
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇸🇪SE | trojan | @PrivateVPNs | 19,🇸🇪SE | trojan | @DirectVPN | 19,🇸🇪SE | ss | @OutlineVpnOfficial | 17,🇬🇧GB | ss | @proxy_mtm | 10,🏳️XX | ss | @kingofilter | 6
-URL-TEST = url-test,🇸🇪SE | trojan | @PrivateVPNs | 19,🇸🇪SE | trojan | @DirectVPN | 19,🇸🇪SE | ss | @OutlineVpnOfficial | 17,🇬🇧GB | ss | @proxy_mtm | 10,🏳️XX | ss | @kingofilter | 6
-FALLBACK = fallback,🇸🇪SE | trojan | @PrivateVPNs | 19,🇸🇪SE | trojan | @DirectVPN | 19,🇸🇪SE | ss | @OutlineVpnOfficial | 17,🇬🇧GB | ss | @proxy_mtm | 10,🏳️XX | ss | @kingofilter | 6
+MANUAL = select,URL-TEST,FALLBACK,🇷🇺RU | ss | @azadi_az_inja_migzare | 3,🇸🇪SE | trojan | @PrivateVPNs | 18,🇩🇪DE | trojan | @DirectVPN | 18,🇨🇦CA | vmess | @mftizi | 19,🇨🇦CA | vmess | @oneclickvpnkeys | 9,🇸🇪SE | ss | @OutlineVpnOfficial | 17
+URL-TEST = url-test,🇷🇺RU | ss | @azadi_az_inja_migzare | 3,🇸🇪SE | trojan | @PrivateVPNs | 18,🇩🇪DE | trojan | @DirectVPN | 18,🇨🇦CA | vmess | @mftizi | 19,🇨🇦CA | vmess | @oneclickvpnkeys | 9,🇸🇪SE | ss | @OutlineVpnOfficial | 17
+FALLBACK = fallback,🇷🇺RU | ss | @azadi_az_inja_migzare | 3,🇸🇪SE | trojan | @PrivateVPNs | 18,🇩🇪DE | trojan | @DirectVPN | 18,🇨🇦CA | vmess | @mftizi | 19,🇨🇦CA | vmess | @oneclickvpnkeys | 9,🇸🇪SE | ss | @OutlineVpnOfficial | 17
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL

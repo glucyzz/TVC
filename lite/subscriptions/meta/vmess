@@ -121,9 +121,10 @@ dns:
 
 proxies:
   - {"name":"🇫🇷FR | vmess | @v2ray_outlineir | 0","type":"vmess","server":"146.59.147.250","port":"29776","cipher":"auto","uuid":"82447abf-dcb9-408a-9ca6-79e0a7698d08","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇳CN | vmess | @mftizi | 19","type":"vmess","server":"120.238.122.147","port":"53942","cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇳🇱NL | vmess | @Hope_Net | 19","type":"vmess","server":"156.253.5.63","port":"15843","cipher":"auto","uuid":"63d39605-332b-4e67-aa33-aa142d897730","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇨🇦CA | vmess | @mftizi | 19","type":"vmess","server":"onea.flha.ru","port":"2095","cipher":"auto","uuid":"7a737f41-b792-4260-94ff-3d864da67b80","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":""}}}
+  - {"name":"🇨🇦CA | vmess | @oneclickvpnkeys | 9","type":"vmess","server":"kkyx.yydsii.com","port":"8080","cipher":"auto","uuid":"b551aa22-22af-11ee-b8d8-f23c932eb68d","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"oiictw.yydsii.com"}}}
   - {"name":"🇮🇷IR | vmess | @nofiltering2 | 1","type":"vmess","server":"178.239.150.170","port":"80","cipher":"auto","uuid":"2b7ce1d2-0372-4104-aa06-f7d999f26e1d","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🏳️XX | vmess | @ROMAX_VPN | 1","type":"vmess","server":"f42.maryam1500.top","port":"2098","cipher":"auto","uuid":"83876222-64a4-4912-aa18-b7d9d34959de","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -131,9 +132,10 @@ proxy-groups:
       - URL-TEST
       - FALLBACK
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
-      - '🇨🇳CN | vmess | @mftizi | 19'
-      - '🇳🇱NL | vmess | @Hope_Net | 19'
+      - '🇨🇦CA | vmess | @mftizi | 19'
+      - '🇨🇦CA | vmess | @oneclickvpnkeys | 9'
       - '🇮🇷IR | vmess | @nofiltering2 | 1'
+      - '🏳️XX | vmess | @ROMAX_VPN | 1'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -141,18 +143,20 @@ proxy-groups:
     tolerance: 50
     proxies:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
-      - '🇨🇳CN | vmess | @mftizi | 19'
-      - '🇳🇱NL | vmess | @Hope_Net | 19'
+      - '🇨🇦CA | vmess | @mftizi | 19'
+      - '🇨🇦CA | vmess | @oneclickvpnkeys | 9'
       - '🇮🇷IR | vmess | @nofiltering2 | 1'
+      - '🏳️XX | vmess | @ROMAX_VPN | 1'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
-      - '🇨🇳CN | vmess | @mftizi | 19'
-      - '🇳🇱NL | vmess | @Hope_Net | 19'
+      - '🇨🇦CA | vmess | @mftizi | 19'
+      - '🇨🇦CA | vmess | @oneclickvpnkeys | 9'
       - '🇮🇷IR | vmess | @nofiltering2 | 1'
+      - '🏳️XX | vmess | @ROMAX_VPN | 1'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
   ads: {type: http, format: text, behavior: domain, path: ./ruleset/ads.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ads.txt, interval: 86400}
