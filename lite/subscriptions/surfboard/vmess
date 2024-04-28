@@ -11,12 +11,12 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇨🇦CA | vmess | @mftizi | 19 = vmess, onea.flha.ru, 2095, username = 7a737f41-b792-4260-94ff-3d864da67b80, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"", skip-cert-verify = true, tfo = false
-🇨🇦CA | vmess | @oneclickvpnkeys | 9 = vmess, kkyx.yydsii.com, 8080, username = b551aa22-22af-11ee-b8d8-f23c932eb68d, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"oiictw.yydsii.com", skip-cert-verify = true, tfo = false
+🇺🇸US | vmess | @mftizi | 19 = vmess, 45.92.218.249, 29928, username = ceb251d4-277d-4f43-b381-c5103172a990, ws = true, tls = , vmess-aead = true, ws-path = /ceb251d4, ws-headers = Host:"", skip-cert-verify = true, tfo = false
+🇨🇦CA | vmess | @proxyymeliii | 21 = vmess, www.gov.se, 8443, username = ba9f34d1-ae47-4bd0-9f9e-d5dd5460e4f1, ws = true, tls = 1, vmess-aead = true, ws-path = /@asrnovin_ir, ws-headers = Host:"ipvv6.asrenet.ru", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | vmess | @mftizi | 19,🇨🇦CA | vmess | @oneclickvpnkeys | 9
-URL-TEST = url-test,🇨🇦CA | vmess | @mftizi | 19,🇨🇦CA | vmess | @oneclickvpnkeys | 9
-FALLBACK = fallback,🇨🇦CA | vmess | @mftizi | 19,🇨🇦CA | vmess | @oneclickvpnkeys | 9
+MANUAL = select,URL-TEST,FALLBACK,🇺🇸US | vmess | @mftizi | 19,🇨🇦CA | vmess | @proxyymeliii | 21
+URL-TEST = url-test,🇺🇸US | vmess | @mftizi | 19,🇨🇦CA | vmess | @proxyymeliii | 21
+FALLBACK = fallback,🇺🇸US | vmess | @mftizi | 19,🇨🇦CA | vmess | @proxyymeliii | 21
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
