@@ -107,11 +107,12 @@
             "outbounds": [
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
+                "🇨🇦CA | vmess | @mftizi | 19",
+                "🇺🇸US | vmess | @oneclickvpnkeys | 7",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇮🇷IR | vmess | @Hope_Net | 17",
+                "🇭🇰HK | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 10",
+                "🇺🇸US | vmess | @FAKEOFTVC | 0",
                 "🏳️XX | vmess | @ROMAX_VPN | 1"
             ]
         },
@@ -120,11 +121,12 @@
             "type": "urltest",
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
+                "🇨🇦CA | vmess | @mftizi | 19",
+                "🇺🇸US | vmess | @oneclickvpnkeys | 7",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇮🇷IR | vmess | @Hope_Net | 17",
+                "🇭🇰HK | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 10",
+                "🇺🇸US | vmess | @FAKEOFTVC | 0",
                 "🏳️XX | vmess | @ROMAX_VPN | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -165,11 +167,11 @@
             }
         },
         {
-            "tag": "🇨🇳CN | vmess | @mftizi | 19",
+            "tag": "🇨🇦CA | vmess | @mftizi | 19",
             "type": "vmess",
-            "server": "223.113.130.58",
-            "server_port": 50080,
-            "uuid": "842bca7e-7fae-3e92-ba62-8c5e010c24cf",
+            "server": "104.21.224.221",
+            "server_port": 80,
+            "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -182,18 +184,18 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/db00",
+                "path": "\/",
                 "headers": {
                     "Host": ""
                 }
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
+            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 7",
             "type": "vmess",
-            "server": "104.21.15.36",
-            "server_port": 443,
-            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
+            "server": "64.23.190.208",
+            "server_port": 59703,
+            "uuid": "6748ac8e-91a2-46d6-ec84-e629ae21edea",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -204,21 +206,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "linde06.indiavideo.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/",
                 "headers": {
-                    "Host": "linde06.indiavideo.sbs"
+                    "Host": ""
                 }
             }
         },
@@ -257,11 +249,11 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vmess | @Hope_Net | 17",
+            "tag": "🇭🇰HK | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "2.189.130.71",
-            "server_port": 10429,
-            "uuid": "362a4ade-15ff-4540-a132-ab10294b76bf",
+            "server": "141.11.90.115",
+            "server_port": 13118,
+            "uuid": "54de5bc2-fd5d-4aa1-adc8-6beb11e402b5",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -271,13 +263,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
@@ -311,6 +296,30 @@
                 "path": "\/linkvws",
                 "headers": {
                     "Host": "kittiy.sbs"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @FAKEOFTVC | 0",
+            "type": "vmess",
+            "server": "cf.hy2.one",
+            "server_port": 2052,
+            "uuid": "5edafe88-b558-4129-a86d-58fd84be79f0",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
                 }
             }
         },
