@@ -119,8 +119,11 @@ dns:
 
 proxies:
   - {"name":"🇫🇷FR | vmess | @v2ray_outlineir | 0","type":"vmess","server":"146.59.147.250","port":"29776","cipher":"auto","uuid":"82447abf-dcb9-408a-9ca6-79e0a7698d08","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇩🇪DE | vmess | @ShadowProxy66 | 26","type":"vmess","server":"5.75.202.76","port":"39523","cipher":"auto","uuid":"e7e75749-9a57-4471-a9a7-5472be0a0cda","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇦CA | vmess | @Hope_Net | 19","type":"vmess","server":"108.162.192.154","port":"2087","cipher":"auto","uuid":"2a3263e2-891c-4446-b474-a8c63acb6e25","alterId":"0","tls":true,"skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"","grpc-mode":"gun"}}
+  - {"name":"🇳🇱NL | vmess | @oneclickvpnkeys | 10","type":"vmess","server":"188.114.97.3","port":"443","cipher":"auto","uuid":"f584de15-2034-4170-a723-f48c2bae5e0f","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"afrhms16v.bestxray.buzz"}}}
+  - {"name":"🇨🇦CA | vmess | @ShadowProxy66 | 14","type":"vmess","server":"172.67.207.26","port":"443","cipher":"auto","uuid":"76221bfb-e92f-4e80-81c5-6fe48f50ac0b","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"glweidf.sbs"}}}
+  - {"name":"🇩🇪DE | vmess | @V2rayng_Fast | 1","type":"vmess","server":"5.75.202.76","port":"39523","cipher":"auto","uuid":"e7e75749-9a57-4471-a9a7-5472be0a0cda","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇨🇦CA | vmess | @Hope_Net | 19","type":"vmess","server":"ip.sb","port":"2053","cipher":"none","uuid":"b2aba745-50f4-45e0-b4c0-6e230b99fb2e","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/argox-vm","headers":{"host":"flat-reserves-stroke-guyana.trycloudflare.com"}}}
+  - {"name":"🇨🇦CA | vmess | @v2Line | 7","type":"vmess","server":"w.outline-vpn.cloud","port":"2086","cipher":"auto","uuid":"58fe1542-5290-40ad-815a-77707a81afe5","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/IOebhLMhl1CTbFHbL95myfRX2","headers":{"host":"ca6.tehme100.fun"}}}
   - {"name":"🇨🇦CA | vmess | @FAKEOFTVC | 0","type":"vmess","server":"cf.hy2.one","port":"2052","cipher":"auto","uuid":"5edafe88-b558-4129-a86d-58fd84be79f0","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"hk07.hy-2.one"}}}
   - {"name":"🏳️XX | vmess | @ROMAX_VPN | 1","type":"vmess","server":"f42.maryam1500.top","port":"2098","cipher":"auto","uuid":"83876222-64a4-4912-aa18-b7d9d34959de","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
 proxy-groups:
@@ -130,8 +133,11 @@ proxy-groups:
       - URL-TEST
       - FALLBACK
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
-      - '🇩🇪DE | vmess | @ShadowProxy66 | 26'
+      - '🇳🇱NL | vmess | @oneclickvpnkeys | 10'
+      - '🇨🇦CA | vmess | @ShadowProxy66 | 14'
+      - '🇩🇪DE | vmess | @V2rayng_Fast | 1'
       - '🇨🇦CA | vmess | @Hope_Net | 19'
+      - '🇨🇦CA | vmess | @v2Line | 7'
       - '🇨🇦CA | vmess | @FAKEOFTVC | 0'
       - '🏳️XX | vmess | @ROMAX_VPN | 1'
   - name: URL-TEST
@@ -141,8 +147,11 @@ proxy-groups:
     tolerance: 50
     proxies:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
-      - '🇩🇪DE | vmess | @ShadowProxy66 | 26'
+      - '🇳🇱NL | vmess | @oneclickvpnkeys | 10'
+      - '🇨🇦CA | vmess | @ShadowProxy66 | 14'
+      - '🇩🇪DE | vmess | @V2rayng_Fast | 1'
       - '🇨🇦CA | vmess | @Hope_Net | 19'
+      - '🇨🇦CA | vmess | @v2Line | 7'
       - '🇨🇦CA | vmess | @FAKEOFTVC | 0'
       - '🏳️XX | vmess | @ROMAX_VPN | 1'
   - name: FALLBACK
@@ -151,8 +160,11 @@ proxy-groups:
     interval: 60
     proxies:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
-      - '🇩🇪DE | vmess | @ShadowProxy66 | 26'
+      - '🇳🇱NL | vmess | @oneclickvpnkeys | 10'
+      - '🇨🇦CA | vmess | @ShadowProxy66 | 14'
+      - '🇩🇪DE | vmess | @V2rayng_Fast | 1'
       - '🇨🇦CA | vmess | @Hope_Net | 19'
+      - '🇨🇦CA | vmess | @v2Line | 7'
       - '🇨🇦CA | vmess | @FAKEOFTVC | 0'
       - '🏳️XX | vmess | @ROMAX_VPN | 1'
 rules:
