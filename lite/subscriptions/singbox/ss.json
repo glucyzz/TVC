@@ -106,16 +106,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇰🇿KZ | ss | @OutlineVpnOfficial | 18",
-                "🇳🇱NL | ss | @kingofilter | 4"
+                "🇵🇱PL | ss | @OutlineVpnOfficial | 18"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇰🇿KZ | ss | @OutlineVpnOfficial | 18",
-                "🇳🇱NL | ss | @kingofilter | 4"
+                "🇵🇱PL | ss | @OutlineVpnOfficial | 18"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -138,22 +136,12 @@
             "type": "dns"
         },
         {
-            "tag": "🇰🇿KZ | ss | @OutlineVpnOfficial | 18",
+            "tag": "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
             "type": "shadowsocks",
-            "server": "95.164.19.233",
-            "server_port": 17038,
+            "server": "51.77.53.200",
+            "server_port": 5001,
             "method": "aes-256-gcm",
-            "password": "q06CbkhVXx7XVv0D",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇳🇱NL | ss | @kingofilter | 4",
-            "type": "shadowsocks",
-            "server": "88.210.6.98",
-            "server_port": 60869,
-            "method": "chacha20-ietf-poly1305",
-            "password": "lPT3Mi25IXYP3iWzPJaryQ",
+            "password": "Y6R9pAtvxxzmGC",
             "plugin": "",
             "plugin_opts": ""
         }
