@@ -106,7 +106,8 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪DE | vless | @V2rayNGmat | 3",
+                "🇫🇷FR | vless | @EliV2ray | 4",
+                "🇩🇪DE | vless | @V2rayNGmat | 6",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇩🇪DE | vless | @kiava | 5",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -117,7 +118,8 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪DE | vless | @V2rayNGmat | 3",
+                "🇫🇷FR | vless | @EliV2ray | 4",
+                "🇩🇪DE | vless | @V2rayNGmat | 6",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇩🇪DE | vless | @kiava | 5",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -144,7 +146,36 @@
             "type": "dns"
         },
         {
-            "tag": "🇩🇪DE | vless | @V2rayNGmat | 3",
+            "tag": "🇫🇷FR | vless | @EliV2ray | 4",
+            "type": "vless",
+            "server": "86.104.74.224",
+            "server_port": 8443,
+            "uuid": "4a3d9d02-f003-423c-80b4-8c5d89147281",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "discordapp.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @V2rayNGmat | 6",
             "type": "vless",
             "server": "ch.9cel.com",
             "server_port": 443,
@@ -211,9 +242,9 @@
         {
             "tag": "🇩🇪DE | vless | @kiava | 5",
             "type": "vless",
-            "server": "3.66.226.207",
+            "server": "3.76.82.84",
             "server_port": 2082,
-            "uuid": "adabaaf2-600f-4223-991a-3c3add5176cf",
+            "uuid": "527a5f50-dd61-46b8-b87f-93b6fbf85322",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -232,8 +263,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "vaCJNNqruwoMBKFZJWJzyd6fBd5LE-28oLHMTrs6ryM",
-                    "short_id": "8e230eb7"
+                    "public_key": "Yx9mjMxSVMEjVd_m9_A-bXz4n_KyjRVooeUQ-DvNYno",
+                    "short_id": "3a07dc6f"
                 }
             }
         },

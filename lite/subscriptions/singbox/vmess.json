@@ -109,12 +109,10 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
-                "🇺🇸US | vmess | @vless_vmess | 15",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 6",
-                "🇺🇸US | vmess | @v2Line | 10",
-                "🇨🇦CA | vmess | @nofiltering2 | 1",
-                "🇨🇦CA | vmess | @kingofilter | 3",
+                "🇨🇦CA | vmess | @Hope_Net | 17",
+                "🇨🇦CA | vmess | @v2Line | 10",
+                "🇨🇦CA | vmess | @nofiltering2 | 4",
                 "🏳️XX | vmess | @ROMAX_VPN | 1"
             ]
         },
@@ -125,12 +123,10 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
-                "🇺🇸US | vmess | @vless_vmess | 15",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 6",
-                "🇺🇸US | vmess | @v2Line | 10",
-                "🇨🇦CA | vmess | @nofiltering2 | 1",
-                "🇨🇦CA | vmess | @kingofilter | 3",
+                "🇨🇦CA | vmess | @Hope_Net | 17",
+                "🇨🇦CA | vmess | @v2Line | 10",
+                "🇨🇦CA | vmess | @nofiltering2 | 4",
                 "🏳️XX | vmess | @ROMAX_VPN | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -197,9 +193,9 @@
         {
             "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
             "type": "vmess",
-            "server": "172.67.199.185",
-            "server_port": 8080,
-            "uuid": "b551aa22-22af-11ee-b8d8-f23c932eb68d",
+            "server": "104.26.6.65",
+            "server_port": 443,
+            "uuid": "441da342-ce90-441e-bff9-d2ceb55e68ca",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -210,35 +206,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
+            "tls": {
+                "enabled": true,
+                "server_name": "mikasa.yaemiko.cloudns.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @vless_vmess | 15",
-            "type": "vmess",
-            "server": "205.164.28.228",
-            "server_port": 29655,
-            "uuid": "bdd7d510-f28f-4d76-c236-11336fa0386e",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             },
             "transport": {
                 "type": "ws",
-                "path": "\/bdd7d510",
+                "path": "\/ivideos.sbs\/linkws",
                 "headers": {
-                    "Host": ""
+                    "Host": "mikasa.yaemiko.cloudns.org"
                 }
             }
         },
@@ -277,11 +259,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 6",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 17",
             "type": "vmess",
-            "server": "104.19.43.138",
-            "server_port": 80,
-            "uuid": "c0453a16-67e9-4eab-bdc9-b9624ad6bd29",
+            "server": "104.21.44.106",
+            "server_port": 443,
+            "uuid": "93ea486a-bada-42a4-ac38-d088b320fa1e",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -292,20 +274,30 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "xmivideo.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": "104.19.43.138"
+                    "Host": "xmivideo.cfd"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @v2Line | 10",
+            "tag": "🇨🇦CA | vmess | @v2Line | 10",
             "type": "vmess",
-            "server": "75.102.51.45",
-            "server_port": 58701,
-            "uuid": "b72eda2c-7b68-4813-ef86-086c8afc8e57",
+            "server": "sefarat24.com",
+            "server_port": 443,
+            "uuid": "298cfba1-2f02-4e61-b689-e58adbf9de53",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -315,10 +307,27 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ru1-vmess.sshmax.xyz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vmess",
+                "headers": {
+                    "Host": "ru1-vmess.sshmax.xyz"
+                }
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @nofiltering2 | 1",
+            "tag": "🇨🇦CA | vmess | @nofiltering2 | 4",
             "type": "vmess",
             "server": "104.21.4.6",
             "server_port": 443,
@@ -348,40 +357,6 @@
                 "path": "\/linkws",
                 "headers": {
                     "Host": "glweidf.cfd"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @kingofilter | 3",
-            "type": "vmess",
-            "server": "104.26.6.65",
-            "server_port": 443,
-            "uuid": "441da342-ce90-441e-bff9-d2ceb55e68ca",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "mikasa.yaemiko.cloudns.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/ivideos.sbs\/linkws",
-                "headers": {
-                    "Host": "mikasa.yaemiko.cloudns.org"
                 }
             }
         },
