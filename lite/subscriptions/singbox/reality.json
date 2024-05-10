@@ -106,10 +106,9 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇫🇷FR | vless | @EliV2ray | 4",
-                "🇩🇪DE | vless | @V2rayNGmat | 6",
+                "🇫🇷FR | vless | @EliV2ray | 9",
+                "🇩🇪DE | vless | @V2rayNGmat | 5",
                 "🇺🇸US | vless | @Capital_NET | 45",
-                "🇩🇪DE | vless | @kiava | 5",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇮🇷IR | vless | @Good_V2rayy | 1"
             ]
@@ -118,10 +117,9 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇫🇷FR | vless | @EliV2ray | 4",
-                "🇩🇪DE | vless | @V2rayNGmat | 6",
+                "🇫🇷FR | vless | @EliV2ray | 9",
+                "🇩🇪DE | vless | @V2rayNGmat | 5",
                 "🇺🇸US | vless | @Capital_NET | 45",
-                "🇩🇪DE | vless | @kiava | 5",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇮🇷IR | vless | @Good_V2rayy | 1"
             ],
@@ -146,7 +144,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇫🇷FR | vless | @EliV2ray | 4",
+            "tag": "🇫🇷FR | vless | @EliV2ray | 9",
             "type": "vless",
             "server": "86.104.74.224",
             "server_port": 8443,
@@ -175,11 +173,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @V2rayNGmat | 6",
+            "tag": "🇩🇪DE | vless | @V2rayNGmat | 5",
             "type": "vless",
             "server": "ch.9cel.com",
             "server_port": 443,
-            "uuid": "TelegrammServerNewV2rayNgMat",
+            "uuid": "TelegrammmServerNewV2rayNgMat",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -236,35 +234,6 @@
                     "enabled": true,
                     "public_key": "fabWUdBWxh7NsMaqOF35petD3ljQbKf6OSDnROV9jDs",
                     "short_id": "6f9deca7"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @kiava | 5",
-            "type": "vless",
-            "server": "3.76.82.84",
-            "server_port": 2082,
-            "uuid": "527a5f50-dd61-46b8-b87f-93b6fbf85322",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "mail.google.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Yx9mjMxSVMEjVd_m9_A-bXz4n_KyjRVooeUQ-DvNYno",
-                    "short_id": "3a07dc6f"
                 }
             }
         },
