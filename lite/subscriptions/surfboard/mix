@@ -11,18 +11,16 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇸🇪SE | trojan | @PrivateVPNs | 19 = trojan, 16.170.67.171, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🇸🇪SE | trojan | @DirectVPN | 19 = trojan, 13.51.74.70, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🇨🇳CN | vmess | @mftizi | 19 = vmess, zf.lalayun.cyou, 10163, username = b1553abe-6f1f-3288-bfc2-908b2f9fc4fc, ws = true, tls = , vmess-aead = true, ws-path = /v2ray, ws-headers = Host:"hk.lalayunssl.xyz", skip-cert-verify = true, tfo = false
-🇨🇦CA | vmess | @oneclickvpnkeys | 8 = vmess, 104.17.197.31, 443, username = 950db6aa-4926-4616-816e-ec0312dcb87b, ws = true, tls = 1, vmess-aead = true, ws-path = /jahfkjha.cfd/linkws, ws-headers = Host:"quiet-moon-132a.xetag42714.workers.dev", skip-cert-verify = true, tfo = false
+🇸🇪SE | trojan | @PrivateVPNs | 19 = trojan, 13.51.52.209, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇸🇪SE | trojan | @DirectVPN | 19 = trojan, 13.50.126.14, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇷🇺RU | vmess | @oneclickvpnkeys | 10 = vmess, 103.113.68.233, 8880, username = fddb3781-7e15-4731-a933-94db110b4bbc, ws = true, tls = , vmess-aead = true, ws-path = /vmess, ws-headers = Host:"103.113.68.233", skip-cert-verify = true, tfo = false
 🇨🇦CA | vmess | @ShadowProxy66 | 4 = vmess, hms24.ivideos.sbs, 443, username = 441da342-ce90-441e-bff9-d2ceb55e68ca, ws = true, tls = 1, vmess-aead = true, ws-path = /linkws, ws-headers = Host:"ivideos.sbs", skip-cert-verify = true, tfo = false
-🇨🇦CA | ss | @OutlineVpnOfficial | 19 = ss, 134.195.196.178, 808, encrypt-method = chacha20-ietf-poly1305, password = G!yBwPWH3Vao
-🇨🇦CA | vmess | @Hope_Net | 17 = vmess, noozchat.ir, 443, username = 3ed9ac53-ce00-4aa5-9f7a-a2e6fab0e14a, ws = true, tls = 1, vmess-aead = true, ws-path = /wss49406, ws-headers = Host:"Tree.Blanku.Me", skip-cert-verify = true, tfo = false
-🇨🇦CA | vmess | @nofiltering2 | 1 = vmess, 104.21.4.6, 443, username = 1052f24e-7b09-45eb-b0c5-d858eb124192, ws = true, tls = 1, vmess-aead = true, ws-path = /linkws, ws-headers = Host:"glweidf.cfd", skip-cert-verify = true, tfo = false
+🇺🇸US | ss | @OutlineVpnOfficial | 19 = ss, 38.121.43.65, 3306, encrypt-method = aes-256-gcm, password = Y6R9pAtvxxzmGC
+🇩🇪DE | trojan | @FAKEOFTVC | 0 = trojan, shop.safeconfs.cloud, 443, password = k8cnte5cbage, udp-delay = true, skip-cert-verify = false, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇸🇪SE | trojan | @PrivateVPNs | 19,🇸🇪SE | trojan | @DirectVPN | 19,🇨🇳CN | vmess | @mftizi | 19,🇨🇦CA | vmess | @oneclickvpnkeys | 8,🇨🇦CA | vmess | @ShadowProxy66 | 4,🇨🇦CA | ss | @OutlineVpnOfficial | 19,🇨🇦CA | vmess | @Hope_Net | 17,🇨🇦CA | vmess | @nofiltering2 | 1
-URL-TEST = url-test,🇸🇪SE | trojan | @PrivateVPNs | 19,🇸🇪SE | trojan | @DirectVPN | 19,🇨🇳CN | vmess | @mftizi | 19,🇨🇦CA | vmess | @oneclickvpnkeys | 8,🇨🇦CA | vmess | @ShadowProxy66 | 4,🇨🇦CA | ss | @OutlineVpnOfficial | 19,🇨🇦CA | vmess | @Hope_Net | 17,🇨🇦CA | vmess | @nofiltering2 | 1
-FALLBACK = fallback,🇸🇪SE | trojan | @PrivateVPNs | 19,🇸🇪SE | trojan | @DirectVPN | 19,🇨🇳CN | vmess | @mftizi | 19,🇨🇦CA | vmess | @oneclickvpnkeys | 8,🇨🇦CA | vmess | @ShadowProxy66 | 4,🇨🇦CA | ss | @OutlineVpnOfficial | 19,🇨🇦CA | vmess | @Hope_Net | 17,🇨🇦CA | vmess | @nofiltering2 | 1
+MANUAL = select,URL-TEST,FALLBACK,🇸🇪SE | trojan | @PrivateVPNs | 19,🇸🇪SE | trojan | @DirectVPN | 19,🇷🇺RU | vmess | @oneclickvpnkeys | 10,🇨🇦CA | vmess | @ShadowProxy66 | 4,🇺🇸US | ss | @OutlineVpnOfficial | 19,🇩🇪DE | trojan | @FAKEOFTVC | 0
+URL-TEST = url-test,🇸🇪SE | trojan | @PrivateVPNs | 19,🇸🇪SE | trojan | @DirectVPN | 19,🇷🇺RU | vmess | @oneclickvpnkeys | 10,🇨🇦CA | vmess | @ShadowProxy66 | 4,🇺🇸US | ss | @OutlineVpnOfficial | 19,🇩🇪DE | trojan | @FAKEOFTVC | 0
+FALLBACK = fallback,🇸🇪SE | trojan | @PrivateVPNs | 19,🇸🇪SE | trojan | @DirectVPN | 19,🇷🇺RU | vmess | @oneclickvpnkeys | 10,🇨🇦CA | vmess | @ShadowProxy66 | 4,🇺🇸US | ss | @OutlineVpnOfficial | 19,🇩🇪DE | trojan | @FAKEOFTVC | 0
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL

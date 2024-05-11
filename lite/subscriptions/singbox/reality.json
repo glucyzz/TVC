@@ -106,8 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇫🇷FR | vless | @EliV2ray | 9",
-                "🇩🇪DE | vless | @V2rayNGmat | 5",
+                "🇩🇪DE | vless | @V2rayNGmat | 7",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇮🇷IR | vless | @Good_V2rayy | 1"
@@ -117,8 +116,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇫🇷FR | vless | @EliV2ray | 9",
-                "🇩🇪DE | vless | @V2rayNGmat | 5",
+                "🇩🇪DE | vless | @V2rayNGmat | 7",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇮🇷IR | vless | @Good_V2rayy | 1"
@@ -144,36 +142,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇫🇷FR | vless | @EliV2ray | 9",
-            "type": "vless",
-            "server": "86.104.74.224",
-            "server_port": 8443,
-            "uuid": "4a3d9d02-f003-423c-80b4-8c5d89147281",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "discordapp.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-                    "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @V2rayNGmat | 5",
+            "tag": "🇩🇪DE | vless | @V2rayNGmat | 7",
             "type": "vless",
             "server": "ch.9cel.com",
             "server_port": 443,
