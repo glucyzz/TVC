@@ -107,12 +107,12 @@
             "outbounds": [
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇭🇰HK | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
+                "🇨🇳CN | vmess | @mftizi | 19",
+                "🇸🇪SE | vmess | @oneclickvpnkeys | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇸🇪SE | vmess | @Hope_Net | 9",
-                "🇨🇦CA | vmess | @v2Line | 9",
-                "🇨🇦CA | vmess | @nofiltering2 | 1",
+                "🇨🇦CA | vmess | @Hope_Net | 3",
+                "🇺🇸US | vmess | @v2Line | 8",
+                "🇺🇸US | vmess | @nofiltering2 | 1",
                 "🏳️XX | vmess | @ROMAX_VPN | 2"
             ]
         },
@@ -121,12 +121,12 @@
             "type": "urltest",
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇭🇰HK | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
+                "🇨🇳CN | vmess | @mftizi | 19",
+                "🇸🇪SE | vmess | @oneclickvpnkeys | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇸🇪SE | vmess | @Hope_Net | 9",
-                "🇨🇦CA | vmess | @v2Line | 9",
-                "🇨🇦CA | vmess | @nofiltering2 | 1",
+                "🇨🇦CA | vmess | @Hope_Net | 3",
+                "🇺🇸US | vmess | @v2Line | 8",
+                "🇺🇸US | vmess | @nofiltering2 | 1",
                 "🏳️XX | vmess | @ROMAX_VPN | 2"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -167,13 +167,13 @@
             }
         },
         {
-            "tag": "🇭🇰HK | vmess | @mftizi | 19",
+            "tag": "🇨🇳CN | vmess | @mftizi | 19",
             "type": "vmess",
-            "server": "n1709457297.aaigefm.cn",
-            "server_port": 443,
-            "uuid": "4cbaa418-9762-41d4-b144-835922d2deba",
+            "server": "183.236.51.59",
+            "server_port": 54437,
+            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
             "security": "auto",
-            "alter_id": 0,
+            "alter_id": 64,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -181,31 +181,14 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "n1709457297.aaigefm.cn",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "n1709457297.aaigefm.cn"
-                }
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
+            "tag": "🇸🇪SE | vmess | @oneclickvpnkeys | 4",
             "type": "vmess",
-            "server": "104.26.6.65",
-            "server_port": 443,
-            "uuid": "441da342-ce90-441e-bff9-d2ceb55e68ca",
+            "server": "185.146.173.237",
+            "server_port": 2052,
+            "uuid": "0c67786d-985e-4c67-a0dc-67827f37f050",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -216,21 +199,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "mikasa.yaemiko.cloudns.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/ivideos.sbs\/linkws",
+                "path": "\/@mehrosaboran",
                 "headers": {
-                    "Host": "mikasa.yaemiko.cloudns.org"
+                    "Host": ""
                 }
             }
         },
@@ -269,11 +242,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vmess | @Hope_Net | 9",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 3",
             "type": "vmess",
-            "server": "se1.vpnjantit.com",
-            "server_port": 10000,
-            "uuid": "68737d4a-12d6-11ef-b1df-00163c623140",
+            "server": "104.19.52.115",
+            "server_port": 80,
+            "uuid": "c0453a16-67e9-4eab-bdc9-b9624ad6bd29",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -286,18 +259,18 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/vpnjantit",
+                "path": "\/&Telegram🇨🇳 @WangCai_8",
                 "headers": {
-                    "Host": ""
+                    "Host": "104.19.52.115"
                 }
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @v2Line | 9",
+            "tag": "🇺🇸US | vmess | @v2Line | 8",
             "type": "vmess",
-            "server": "104.21.15.36",
-            "server_port": 443,
-            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
+            "server": "205.234.231.35",
+            "server_port": 31433,
+            "uuid": "50e82581-bd14-4527-f7d6-e7824cd26f57",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -307,27 +280,10 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "linde06.indiavideo.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "linde06.indiavideo.sbs"
-                }
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @nofiltering2 | 1",
+            "tag": "🇺🇸US | vmess | @nofiltering2 | 1",
             "type": "vmess",
             "server": "172.67.74.4",
             "server_port": 443,

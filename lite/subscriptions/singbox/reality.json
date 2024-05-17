@@ -106,7 +106,6 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇫🇷FR | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇮🇷IR | vless | @Good_V2rayy | 1"
@@ -116,7 +115,6 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇫🇷FR | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇮🇷IR | vless | @Good_V2rayy | 1"
@@ -140,35 +138,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇫🇷FR | vless | @CUSTOMVPNSERVER | 14",
-            "type": "vless",
-            "server": "193.168.145.2",
-            "server_port": 443,
-            "uuid": "58aec3a8-5d65-4acf-9ed3-f34edf157d68",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "fr.4cdn.de",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "3WnHdv9A0tNParChTLxPnDteRD841h8thOGR7MBgAhY",
-                    "short_id": ""
-                }
-            }
         },
         {
             "tag": "🇺🇸US | vless | @Capital_NET | 45",

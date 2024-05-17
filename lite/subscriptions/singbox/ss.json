@@ -106,14 +106,16 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇬🇧GB | ss | @OutlineVpnOfficial | 18"
+                "🇨🇦CA | ss | @OutlineVpnOfficial | 18",
+                "🇬🇧GB | ss | @proxy_mtm | 1"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇬🇧GB | ss | @OutlineVpnOfficial | 18"
+                "🇨🇦CA | ss | @OutlineVpnOfficial | 18",
+                "🇬🇧GB | ss | @proxy_mtm | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -136,12 +138,22 @@
             "type": "dns"
         },
         {
-            "tag": "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
+            "tag": "🇨🇦CA | ss | @OutlineVpnOfficial | 18",
             "type": "shadowsocks",
-            "server": "46.226.162.112",
-            "server_port": 32913,
+            "server": "134.195.196.178",
+            "server_port": 804,
             "method": "chacha20-ietf-poly1305",
-            "password": "KTwIQM1cQJwtkrjfld6Usn",
+            "password": "G!yBwPWH3Vao",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇬🇧GB | ss | @proxy_mtm | 1",
+            "type": "shadowsocks",
+            "server": "series-a2.varzesh360.co",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "mps3FwmDjLrWaOVg",
             "plugin": "",
             "plugin_opts": ""
         }
