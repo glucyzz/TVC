@@ -11,12 +11,11 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇨🇦CA | ss | @OutlineVpnOfficial | 18 = ss, 134.195.196.178, 804, encrypt-method = chacha20-ietf-poly1305, password = G!yBwPWH3Vao
-🇬🇧GB | ss | @proxy_mtm | 1 = ss, series-a2.varzesh360.co, 443, encrypt-method = chacha20-ietf-poly1305, password = mps3FwmDjLrWaOVg
+🇫🇮FI | ss | @OutlineVpnOfficial | 18 = ss, 185.174.137.72, 57262, encrypt-method = chacha20-ietf-poly1305, password = WrszSP43UAOcFljDkb8vAL
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | ss | @OutlineVpnOfficial | 18,🇬🇧GB | ss | @proxy_mtm | 1
-URL-TEST = url-test,🇨🇦CA | ss | @OutlineVpnOfficial | 18,🇬🇧GB | ss | @proxy_mtm | 1
-FALLBACK = fallback,🇨🇦CA | ss | @OutlineVpnOfficial | 18,🇬🇧GB | ss | @proxy_mtm | 1
+MANUAL = select,URL-TEST,FALLBACK,🇫🇮FI | ss | @OutlineVpnOfficial | 18
+URL-TEST = url-test,🇫🇮FI | ss | @OutlineVpnOfficial | 18
+FALLBACK = fallback,🇫🇮FI | ss | @OutlineVpnOfficial | 18
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL

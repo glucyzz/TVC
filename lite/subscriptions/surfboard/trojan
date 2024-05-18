@@ -11,13 +11,13 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇸🇪SE | trojan | @PrivateVPNs | 19 = trojan, 16.170.72.144, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-TVCyzkeskqlxu = trojan, , , password = , udp-delay = true, skip-cert-verify = false, ws = false
+🇫🇷FR | trojan | @PrivateVPNs | 15 = trojan, 13.38.232.79, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇫🇷FR | trojan | @DirectVPN | 15 = trojan, 15.237.234.236, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 🇨🇦CA | trojan | @kingofilter | 0 = trojan, 198.41.220.10, 443, password = 2cba4104747d49d18319e5ade1b93ab5, udp-delay = true, skip-cert-verify = false, sni = jobscareerforstudent.com, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇸🇪SE | trojan | @PrivateVPNs | 19,TVCyzkeskqlxu,🇨🇦CA | trojan | @kingofilter | 0
-URL-TEST = url-test,🇸🇪SE | trojan | @PrivateVPNs | 19,TVCyzkeskqlxu,🇨🇦CA | trojan | @kingofilter | 0
-FALLBACK = fallback,🇸🇪SE | trojan | @PrivateVPNs | 19,TVCyzkeskqlxu,🇨🇦CA | trojan | @kingofilter | 0
+MANUAL = select,URL-TEST,FALLBACK,🇫🇷FR | trojan | @PrivateVPNs | 15,🇫🇷FR | trojan | @DirectVPN | 15,🇨🇦CA | trojan | @kingofilter | 0
+URL-TEST = url-test,🇫🇷FR | trojan | @PrivateVPNs | 15,🇫🇷FR | trojan | @DirectVPN | 15,🇨🇦CA | trojan | @kingofilter | 0
+FALLBACK = fallback,🇫🇷FR | trojan | @PrivateVPNs | 15,🇫🇷FR | trojan | @DirectVPN | 15,🇨🇦CA | trojan | @kingofilter | 0
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
