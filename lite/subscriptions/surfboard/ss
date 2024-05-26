@@ -11,10 +11,11 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
+🇵🇱PL | ss | @OutlineVpnOfficial | 16 = ss, 51.77.53.200, 7002, encrypt-method = aes-256-gcm, password = RexnBgU7EV5ADxG
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK
-URL-TEST = url-test
-FALLBACK = fallback
+MANUAL = select,URL-TEST,FALLBACK,🇵🇱PL | ss | @OutlineVpnOfficial | 16
+URL-TEST = url-test,🇵🇱PL | ss | @OutlineVpnOfficial | 16
+FALLBACK = fallback,🇵🇱PL | ss | @OutlineVpnOfficial | 16
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL

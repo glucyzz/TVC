@@ -120,9 +120,11 @@ dns:
 proxies:
   - {"name":"🇫🇷FR | vmess | @v2ray_outlineir | 0","type":"vmess","server":"146.59.147.250","port":"29776","cipher":"auto","uuid":"82447abf-dcb9-408a-9ca6-79e0a7698d08","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇳CN | vmess | @mftizi | 19","type":"vmess","server":"m.cnmjin.net","port":"16632","cipher":"auto","uuid":"2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com"}}}
-  - {"name":"🇨🇦CA | vmess | @oneclickvpnkeys | 6","type":"vmess","server":"visa.com","port":"443","cipher":"none","uuid":"f5f123f8-123e-40bf-b1c1-1c9f0c3dcfbd","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"de3.v2vmess.site"}}}
-  - {"name":"🇨🇦CA | vmess | @v2Line | 7","type":"vmess","server":"188.114.97.3","port":"443","cipher":"auto","uuid":"f584de15-2034-4170-a723-f48c2bae5e0f","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"afrhms16v.bestxray.buzz"}}}
-  - {"name":"🇮🇷IR | vmess | @ROMAX_VPN | 3","type":"vmess","server":"178.239.150.170","port":"80","cipher":"auto","uuid":"2b7ce1d2-0372-4104-aa06-f7d999f26e1d","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇨🇦CA | vmess | @oneclickvpnkeys | 7","type":"vmess","server":"104.21.15.36","port":"443","cipher":"auto","uuid":"edbb1059-1633-4271-b66e-ed4fba47a1bf","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"linde06.indiavideo.sbs"}}}
+  - {"name":"🇨🇦CA | vmess | @ShadowProxy66 | 13","type":"vmess","server":"188.114.97.3","port":"443","cipher":"auto","uuid":"f584de15-2034-4170-a723-f48c2bae5e0f","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"afrhms16v.bestxray.buzz"}}}
+  - {"name":"🇺🇸US | vmess | @Hope_Net | 2","type":"vmess","server":"50.114.243.61","port":"43834","cipher":"auto","uuid":"b246e34d-bbd1-4016-8f74-ea461c37e411","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇨🇦CA | vmess | @v2Line | 7","type":"vmess","server":"104.26.6.65","port":"443","cipher":"auto","uuid":"441da342-ce90-441e-bff9-d2ceb55e68ca","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ivideos.sbs/linkws","headers":{"host":"mikasa.yaemiko.cloudns.org"}}}
+  - {"name":"🇮🇷IR | vmess | @ROMAX_VPN | 4","type":"vmess","server":"178.239.150.170","port":"80","cipher":"auto","uuid":"2b7ce1d2-0372-4104-aa06-f7d999f26e1d","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -131,9 +133,11 @@ proxy-groups:
       - FALLBACK
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇨🇳CN | vmess | @mftizi | 19'
-      - '🇨🇦CA | vmess | @oneclickvpnkeys | 6'
+      - '🇨🇦CA | vmess | @oneclickvpnkeys | 7'
+      - '🇨🇦CA | vmess | @ShadowProxy66 | 13'
+      - '🇺🇸US | vmess | @Hope_Net | 2'
       - '🇨🇦CA | vmess | @v2Line | 7'
-      - '🇮🇷IR | vmess | @ROMAX_VPN | 3'
+      - '🇮🇷IR | vmess | @ROMAX_VPN | 4'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -142,9 +146,11 @@ proxy-groups:
     proxies:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇨🇳CN | vmess | @mftizi | 19'
-      - '🇨🇦CA | vmess | @oneclickvpnkeys | 6'
+      - '🇨🇦CA | vmess | @oneclickvpnkeys | 7'
+      - '🇨🇦CA | vmess | @ShadowProxy66 | 13'
+      - '🇺🇸US | vmess | @Hope_Net | 2'
       - '🇨🇦CA | vmess | @v2Line | 7'
-      - '🇮🇷IR | vmess | @ROMAX_VPN | 3'
+      - '🇮🇷IR | vmess | @ROMAX_VPN | 4'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -152,9 +158,11 @@ proxy-groups:
     proxies:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇨🇳CN | vmess | @mftizi | 19'
-      - '🇨🇦CA | vmess | @oneclickvpnkeys | 6'
+      - '🇨🇦CA | vmess | @oneclickvpnkeys | 7'
+      - '🇨🇦CA | vmess | @ShadowProxy66 | 13'
+      - '🇺🇸US | vmess | @Hope_Net | 2'
       - '🇨🇦CA | vmess | @v2Line | 7'
-      - '🇮🇷IR | vmess | @ROMAX_VPN | 3'
+      - '🇮🇷IR | vmess | @ROMAX_VPN | 4'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
