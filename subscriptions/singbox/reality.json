@@ -106,11 +106,11 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇫🇷FR | vless | @EliV2ray | 4",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 9",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 12",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 13",
-                "🇳🇴NO | vless | @VmessProtocol | 6",
+                "🇳🇴NO | vless | @VmessProtocol | 14",
+                "🇺🇸US | vless | @Outlinev2rayNG | 11",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -123,8 +123,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇺🇸US | vless | @Capital_NET | 45",
-                "🇩🇪DE | vless | @mehrosaboran | 0",
-                "🏳️XX | vless | @kiava | 9",
+                "🏳️XX | vless | @kiava | 10",
                 "🏳️XX | vless | @vpn_go67 | 9",
                 "🏳️XX | vless | @vpn_go67 | 10",
                 "🏳️XX | vless | @vpn_go67 | 11",
@@ -147,11 +146,11 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇫🇷FR | vless | @EliV2ray | 4",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 9",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 12",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 13",
-                "🇳🇴NO | vless | @VmessProtocol | 6",
+                "🇳🇴NO | vless | @VmessProtocol | 14",
+                "🇺🇸US | vless | @Outlinev2rayNG | 11",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -164,8 +163,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇺🇸US | vless | @Capital_NET | 45",
-                "🇩🇪DE | vless | @mehrosaboran | 0",
-                "🏳️XX | vless | @kiava | 9",
+                "🏳️XX | vless | @kiava | 10",
                 "🏳️XX | vless | @vpn_go67 | 9",
                 "🏳️XX | vless | @vpn_go67 | 10",
                 "🏳️XX | vless | @vpn_go67 | 11",
@@ -202,42 +200,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇫🇷FR | vless | @EliV2ray | 4",
-            "type": "vless",
-            "server": "77.221.153.68",
-            "server_port": 52761,
-            "uuid": "9450802e-0837-4cb4-bd94-9202f53a04ef",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.speedtest.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "atUztFxLhBPFwMHDQEvRFStJ9WvwToEudFv1IXLJTBg",
-                    "short_id": ""
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "www.speedtest.net",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
         },
         {
             "tag": "🇩🇪DE | vless | @CUSTOMVPNSERVER | 9",
@@ -327,7 +289,7 @@
             }
         },
         {
-            "tag": "🇳🇴NO | vless | @VmessProtocol | 6",
+            "tag": "🇳🇴NO | vless | @VmessProtocol | 14",
             "type": "vless",
             "server": "185.125.171.13",
             "server_port": 443,
@@ -352,6 +314,35 @@
                     "enabled": true,
                     "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
                     "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | @Outlinev2rayNG | 11",
+            "type": "vless",
+            "server": "74.48.95.50",
+            "server_port": 17974,
+            "uuid": "64db2a61-4296-4747-8f50-017201a4c5e4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.yahoo.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "17FnGUGQ9rrtCtJvtYWywWCYtAc0dyxVbwNbNEp05yE",
+                    "short_id": "6a565d14"
                 }
             }
         },
@@ -718,43 +709,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @mehrosaboran | 0",
-            "type": "vless",
-            "server": "49.12.115.182",
-            "server_port": 443,
-            "uuid": "telegram-id-ArV2ray",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ftp.debian.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "_qU_9tQ5O-ihnxtRi4bjThstIweFaH4OAVE3eyFrhi0",
-                    "short_id": "493d0240"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🏳️XX | vless | @kiava | 9",
+            "tag": "🏳️XX | vless | @kiava | 10",
             "type": "vless",
             "server": "cloud.kiava.fun",
             "server_port": 443,
