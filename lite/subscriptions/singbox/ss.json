@@ -106,16 +106,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
-                "🇮🇷IR | ss | @FAKEOFTVC | 5"
+                "🇵🇱PL | ss | @OutlineVpnOfficial | 18"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
-                "🇮🇷IR | ss | @FAKEOFTVC | 5"
+                "🇵🇱PL | ss | @OutlineVpnOfficial | 18"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -138,22 +136,12 @@
             "type": "dns"
         },
         {
-            "tag": "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
+            "tag": "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
             "type": "shadowsocks",
-            "server": "145.239.6.202",
-            "server_port": 4444,
+            "server": "51.77.53.200",
+            "server_port": 5500,
             "method": "aes-256-gcm",
-            "password": "pKEW8JPByTVTLtM",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇮🇷IR | ss | @FAKEOFTVC | 5",
-            "type": "shadowsocks",
-            "server": "eu-legion-10.kevinzone.online",
-            "server_port": 31158,
-            "method": "chacha20-ietf-poly1305",
-            "password": "0ac82bf5f8b22ec",
+            "password": "KixLvKzwjekG00rm",
             "plugin": "",
             "plugin_opts": ""
         }
