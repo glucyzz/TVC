@@ -107,10 +107,11 @@
             "outbounds": [
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇨🇦CA | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
-                "🇨🇦CA | vmess | @customv2ray | 13",
+                "🇨🇳CN | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
+                "🇨🇷CR | vmess | @vless_vmess | 4",
                 "🇺🇸US | vmess | @yaney_01 | 5",
+                "🇺🇸US | vmess | @Hope_Net | 7",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 5",
                 "🇺🇸US | vmess | @v2Line | 10",
                 "🇺🇸US | vmess | @ROMAX_VPN | 6"
@@ -121,10 +122,11 @@
             "type": "urltest",
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇨🇦CA | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
-                "🇨🇦CA | vmess | @customv2ray | 13",
+                "🇨🇳CN | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
+                "🇨🇷CR | vmess | @vless_vmess | 4",
                 "🇺🇸US | vmess | @yaney_01 | 5",
+                "🇺🇸US | vmess | @Hope_Net | 7",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 5",
                 "🇺🇸US | vmess | @v2Line | 10",
                 "🇺🇸US | vmess | @ROMAX_VPN | 6"
@@ -167,11 +169,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @mftizi | 19",
+            "tag": "🇨🇳CN | vmess | @mftizi | 19",
             "type": "vmess",
-            "server": "hk.wish.ml",
-            "server_port": 2052,
-            "uuid": "4168440c-41a1-4671-a5b2-8abfe318e1bb",
+            "server": "m.cnmjin.net",
+            "server_port": 16632,
+            "uuid": "2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -191,11 +193,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
             "type": "vmess",
-            "server": "172.67.171.49",
-            "server_port": 80,
-            "uuid": "10c580e4-f83b-42f1-8e6a-25fc8add4da7",
+            "server": "855.outline-vpn.cloud",
+            "server_port": 443,
+            "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -206,20 +208,30 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "afrhms16v.bestxray.buzz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/vmess#DONT-FORGET-TO-SUPPORT-SSHMAX.NET-TO-KEEP-THIS-SERVER-ALIVE",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": ""
+                    "Host": "afrhms16v.bestxray.buzz"
                 }
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @customv2ray | 13",
+            "tag": "🇨🇷CR | vmess | @vless_vmess | 4",
             "type": "vmess",
-            "server": "Tgju.org",
-            "server_port": 2052,
-            "uuid": "5f12b2e0-11b0-4b1e-863c-164e4606028c",
+            "server": "190.93.247.155",
+            "server_port": 80,
+            "uuid": "d9aaf6f8-0ef7-499c-830a-c7e5e56f3bd8",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -232,7 +244,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@HosseinStore_Za\/@HosseinStore_Za\/@HosseinStore_Za\/@HosseinStore_Za\/@HosseinStore_Za\/@HosseinStore_Za\/@HosseinStore_Za",
+                "path": "\/",
                 "headers": {
                     "Host": ""
                 }
@@ -270,6 +282,23 @@
                 "headers": {
                     "Host": "104.26.8.210"
                 }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @Hope_Net | 7",
+            "type": "vmess",
+            "server": "107.148.192.148",
+            "server_port": 41911,
+            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+            "security": "auto",
+            "alter_id": 64,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {

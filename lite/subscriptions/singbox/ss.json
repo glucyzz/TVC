@@ -106,6 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇦🇪AE | ss | @vmess_vless_v2rayng | 48",
                 "🇷🇺RU | ss | @OutlineVpnOfficial | 18"
             ]
         },
@@ -113,6 +114,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇦🇪AE | ss | @vmess_vless_v2rayng | 48",
                 "🇷🇺RU | ss | @OutlineVpnOfficial | 18"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -134,6 +136,16 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇦🇪AE | ss | @vmess_vless_v2rayng | 48",
+            "type": "shadowsocks",
+            "server": "51.112.118.115",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "mps3FwmDjLrWaOVg",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇷🇺RU | ss | @OutlineVpnOfficial | 18",

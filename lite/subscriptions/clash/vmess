@@ -119,9 +119,10 @@ dns:
 
 proxies:
   - {"name":"🇫🇷FR | vmess | @v2ray_outlineir | 0","type":"vmess","server":"146.59.147.250","port":"29776","cipher":"auto","uuid":"82447abf-dcb9-408a-9ca6-79e0a7698d08","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇦CA | vmess | @mftizi | 19","type":"vmess","server":"hk.wish.ml","port":"2052","cipher":"auto","uuid":"4168440c-41a1-4671-a5b2-8abfe318e1bb","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"hk2.wish.ml"}}}
-  - {"name":"🇨🇦CA | vmess | @oneclickvpnkeys | 7","type":"vmess","server":"172.67.171.49","port":"80","cipher":"auto","uuid":"10c580e4-f83b-42f1-8e6a-25fc8add4da7","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess#DONT-FORGET-TO-SUPPORT-SSHMAX.NET-TO-KEEP-THIS-SERVER-ALIVE","headers":{"host":"No1.vmess.site."}}}
-  - {"name":"🇨🇦CA | vmess | @customv2ray | 13","type":"vmess","server":"Tgju.org","port":"2052","cipher":"auto","uuid":"5f12b2e0-11b0-4b1e-863c-164e4606028c","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za","headers":{"host":"Asdfghjkl10.unique69.com"}}}
+  - {"name":"🇨🇳CN | vmess | @mftizi | 19","type":"vmess","server":"m.cnmjin.net","port":"16632","cipher":"auto","uuid":"2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com"}}}
+  - {"name":"🇨🇦CA | vmess | @oneclickvpnkeys | 6","type":"vmess","server":"855.outline-vpn.cloud","port":"443","cipher":"auto","uuid":"f584de15-2034-4170-a723-f48c2bae5e0f","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"afrhms16v.bestxray.buzz"}}}
+  - {"name":"🇨🇷CR | vmess | @vless_vmess | 4","type":"vmess","server":"190.93.247.155","port":"80","cipher":"none","uuid":"d9aaf6f8-0ef7-499c-830a-c7e5e56f3bd8","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"Uk2.vmess.site."}}}
+  - {"name":"🇺🇸US | vmess | @Hope_Net | 7","type":"vmess","server":"107.148.192.148","port":"41911","cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇺🇸US | vmess | @v2Line | 10","type":"vmess","server":"172.67.170.103","port":"443","cipher":"auto","uuid":"76221bfb-e92f-4e80-81c5-6fe48f50ac0b","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"glweidf.sbs"}}}
   - {"name":"🇺🇸US | vmess | @ROMAX_VPN | 6","type":"vmess","server":"172.67.166.192","port":"80","cipher":"auto","uuid":"cd1db809-2de0-409c-aef5-861e95eff53e","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"ua1-vmess.sshmax.xyz"}}}
 proxy-groups:
@@ -131,9 +132,10 @@ proxy-groups:
       - URL-TEST
       - FALLBACK
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
-      - '🇨🇦CA | vmess | @mftizi | 19'
-      - '🇨🇦CA | vmess | @oneclickvpnkeys | 7'
-      - '🇨🇦CA | vmess | @customv2ray | 13'
+      - '🇨🇳CN | vmess | @mftizi | 19'
+      - '🇨🇦CA | vmess | @oneclickvpnkeys | 6'
+      - '🇨🇷CR | vmess | @vless_vmess | 4'
+      - '🇺🇸US | vmess | @Hope_Net | 7'
       - '🇺🇸US | vmess | @v2Line | 10'
       - '🇺🇸US | vmess | @ROMAX_VPN | 6'
   - name: URL-TEST
@@ -143,9 +145,10 @@ proxy-groups:
     tolerance: 50
     proxies:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
-      - '🇨🇦CA | vmess | @mftizi | 19'
-      - '🇨🇦CA | vmess | @oneclickvpnkeys | 7'
-      - '🇨🇦CA | vmess | @customv2ray | 13'
+      - '🇨🇳CN | vmess | @mftizi | 19'
+      - '🇨🇦CA | vmess | @oneclickvpnkeys | 6'
+      - '🇨🇷CR | vmess | @vless_vmess | 4'
+      - '🇺🇸US | vmess | @Hope_Net | 7'
       - '🇺🇸US | vmess | @v2Line | 10'
       - '🇺🇸US | vmess | @ROMAX_VPN | 6'
   - name: FALLBACK
@@ -154,9 +157,10 @@ proxy-groups:
     interval: 60
     proxies:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
-      - '🇨🇦CA | vmess | @mftizi | 19'
-      - '🇨🇦CA | vmess | @oneclickvpnkeys | 7'
-      - '🇨🇦CA | vmess | @customv2ray | 13'
+      - '🇨🇳CN | vmess | @mftizi | 19'
+      - '🇨🇦CA | vmess | @oneclickvpnkeys | 6'
+      - '🇨🇷CR | vmess | @vless_vmess | 4'
+      - '🇺🇸US | vmess | @Hope_Net | 7'
       - '🇺🇸US | vmess | @v2Line | 10'
       - '🇺🇸US | vmess | @ROMAX_VPN | 6'
 rules:
