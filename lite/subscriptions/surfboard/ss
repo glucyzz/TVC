@@ -11,12 +11,12 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇦🇪AE | ss | @vmess_vless_v2rayng | 48 = ss, 51.112.118.115, 443, encrypt-method = chacha20-ietf-poly1305, password = mps3FwmDjLrWaOVg
+🇸🇪SE | ss | @DeamNet_Proxy | 17 = ss, 217.196.103.206, 29312, encrypt-method = chacha20-ietf-poly1305, password = qgpdyzHj8rZW9fDxxkUHRI
 🇷🇺RU | ss | @OutlineVpnOfficial | 18 = ss, 194.26.229.18, 50744, encrypt-method = chacha20-ietf-poly1305, password = sIZ80DZsAC9ZSshS69gYql
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇦🇪AE | ss | @vmess_vless_v2rayng | 48,🇷🇺RU | ss | @OutlineVpnOfficial | 18
-URL-TEST = url-test,🇦🇪AE | ss | @vmess_vless_v2rayng | 48,🇷🇺RU | ss | @OutlineVpnOfficial | 18
-FALLBACK = fallback,🇦🇪AE | ss | @vmess_vless_v2rayng | 48,🇷🇺RU | ss | @OutlineVpnOfficial | 18
+MANUAL = select,URL-TEST,FALLBACK,🇸🇪SE | ss | @DeamNet_Proxy | 17,🇷🇺RU | ss | @OutlineVpnOfficial | 18
+URL-TEST = url-test,🇸🇪SE | ss | @DeamNet_Proxy | 17,🇷🇺RU | ss | @OutlineVpnOfficial | 18
+FALLBACK = fallback,🇸🇪SE | ss | @DeamNet_Proxy | 17,🇷🇺RU | ss | @OutlineVpnOfficial | 18
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
