@@ -107,7 +107,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇸🇪SE | ss | @DeamNet_Proxy | 17",
-                "🇬🇧GB | ss | @VmessProtocol | 15",
+                "🇺🇸US | ss | @VmessProtocol | 2",
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 4",
                 "🇨🇭CH | ss | @OutlineVpnOfficial | 5",
                 "🇨🇦CA | ss | @OutlineVpnOfficial | 6",
@@ -122,8 +122,7 @@
                 "🇨🇦CA | ss | @OutlineVpnOfficial | 15",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 16",
                 "🇷🇺RU | ss | @OutlineVpnOfficial | 17",
-                "🇷🇺RU | ss | @OutlineVpnOfficial | 18",
-                "🇦🇪AE | ss | @proxy_mtm | 0"
+                "🇷🇺RU | ss | @OutlineVpnOfficial | 18"
             ]
         },
         {
@@ -131,7 +130,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇸🇪SE | ss | @DeamNet_Proxy | 17",
-                "🇬🇧GB | ss | @VmessProtocol | 15",
+                "🇺🇸US | ss | @VmessProtocol | 2",
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 4",
                 "🇨🇭CH | ss | @OutlineVpnOfficial | 5",
                 "🇨🇦CA | ss | @OutlineVpnOfficial | 6",
@@ -146,8 +145,7 @@
                 "🇨🇦CA | ss | @OutlineVpnOfficial | 15",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 16",
                 "🇷🇺RU | ss | @OutlineVpnOfficial | 17",
-                "🇷🇺RU | ss | @OutlineVpnOfficial | 18",
-                "🇦🇪AE | ss | @proxy_mtm | 0"
+                "🇷🇺RU | ss | @OutlineVpnOfficial | 18"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -180,12 +178,12 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇬🇧GB | ss | @VmessProtocol | 15",
+            "tag": "🇺🇸US | ss | @VmessProtocol | 2",
             "type": "shadowsocks",
-            "server": "series-a2.samanehha.co",
+            "server": "205.134.180.139",
             "server_port": 443,
             "method": "chacha20-ietf-poly1305",
-            "password": "mps3FwmDjLrWaOVg",
+            "password": "lWaGPVFjmnag",
             "plugin": "",
             "plugin_opts": ""
         },
@@ -336,16 +334,6 @@
             "server_port": 50744,
             "method": "chacha20-ietf-poly1305",
             "password": "sIZ80DZsAC9ZSshS69gYql",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇦🇪AE | ss | @proxy_mtm | 0",
-            "type": "shadowsocks",
-            "server": "51.112.118.115",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "mps3FwmDjLrWaOVg",
             "plugin": "",
             "plugin_opts": ""
         }
