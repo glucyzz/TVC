@@ -11,14 +11,13 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇸🇪SE | trojan | @PrivateVPNs | 18 = trojan, 13.49.188.46, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🇩🇪DE | trojan | @DirectVPN | 18 = trojan, 3.124.238.139, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🇨🇦CA | trojan | @oneclickvpnkeys | 5 = trojan, ca-full.privateip.net, 443, password = e0557db1-585e-4469-aaab-3e9061fc53ac, udp-delay = true, skip-cert-verify = false, ws = false
-🇩🇪DE | trojan | @proxystore11 | 4 = trojan, 3.70.146.72, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇩🇪DE | trojan | @PrivateVPNs | 16 = trojan, 3.127.204.106, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇸🇪SE | trojan | @DirectVPN | 16 = trojan, 51.20.28.241, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇩🇪DE | trojan | @proxystore11 | 5 = trojan, 3.70.146.72, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇸🇪SE | trojan | @PrivateVPNs | 18,🇩🇪DE | trojan | @DirectVPN | 18,🇨🇦CA | trojan | @oneclickvpnkeys | 5,🇩🇪DE | trojan | @proxystore11 | 4
-URL-TEST = url-test,🇸🇪SE | trojan | @PrivateVPNs | 18,🇩🇪DE | trojan | @DirectVPN | 18,🇨🇦CA | trojan | @oneclickvpnkeys | 5,🇩🇪DE | trojan | @proxystore11 | 4
-FALLBACK = fallback,🇸🇪SE | trojan | @PrivateVPNs | 18,🇩🇪DE | trojan | @DirectVPN | 18,🇨🇦CA | trojan | @oneclickvpnkeys | 5,🇩🇪DE | trojan | @proxystore11 | 4
+MANUAL = select,URL-TEST,FALLBACK,🇩🇪DE | trojan | @PrivateVPNs | 16,🇸🇪SE | trojan | @DirectVPN | 16,🇩🇪DE | trojan | @proxystore11 | 5
+URL-TEST = url-test,🇩🇪DE | trojan | @PrivateVPNs | 16,🇸🇪SE | trojan | @DirectVPN | 16,🇩🇪DE | trojan | @proxystore11 | 5
+FALLBACK = fallback,🇩🇪DE | trojan | @PrivateVPNs | 16,🇸🇪SE | trojan | @DirectVPN | 16,🇩🇪DE | trojan | @proxystore11 | 5
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
