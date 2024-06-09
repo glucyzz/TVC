@@ -109,13 +109,11 @@
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 9",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 12",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 13",
-                "🇩🇪DE | vless | @v2rayNG_Matsuri | 20",
-                "🏳️XX | vless | @v2ray_swhil | 10",
-                "🇩🇪DE | vless | @proxyymeliii | 22",
-                "🇩🇪DE | vless | @proxyymeliii | 23",
-                "🇩🇪DE | vless | @VmessProtocol | 4",
-                "🇩🇪DE | vless | @VmessProtocol | 5",
-                "🇳🇴NO | vless | @VmessProtocol | 10",
+                "🏳️XX | vless | @prrofile_purple | 172",
+                "🏳️XX | vless | @v2ray_swhil | 11",
+                "🇩🇪DE | vless | @VmessProtocol | 7",
+                "🇩🇪DE | vless | @VmessProtocol | 8",
+                "🇳🇴NO | vless | @VmessProtocol | 13",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -143,7 +141,7 @@
                 "🏳️XX | vless | @vpn_go67 | 21",
                 "🏳️XX | vless | @vpn_go67 | 22",
                 "🏳️XX | vless | @vpn_go67 | 23",
-                "🇳🇱NL | vless | @GozargahVPN | 5"
+                "🏳️XX | vless | @GozargahVPN | 7"
             ]
         },
         {
@@ -153,13 +151,11 @@
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 9",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 12",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 13",
-                "🇩🇪DE | vless | @v2rayNG_Matsuri | 20",
-                "🏳️XX | vless | @v2ray_swhil | 10",
-                "🇩🇪DE | vless | @proxyymeliii | 22",
-                "🇩🇪DE | vless | @proxyymeliii | 23",
-                "🇩🇪DE | vless | @VmessProtocol | 4",
-                "🇩🇪DE | vless | @VmessProtocol | 5",
-                "🇳🇴NO | vless | @VmessProtocol | 10",
+                "🏳️XX | vless | @prrofile_purple | 172",
+                "🏳️XX | vless | @v2ray_swhil | 11",
+                "🇩🇪DE | vless | @VmessProtocol | 7",
+                "🇩🇪DE | vless | @VmessProtocol | 8",
+                "🇳🇴NO | vless | @VmessProtocol | 13",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -187,7 +183,7 @@
                 "🏳️XX | vless | @vpn_go67 | 21",
                 "🏳️XX | vless | @vpn_go67 | 22",
                 "🏳️XX | vless | @vpn_go67 | 23",
-                "🇳🇱NL | vless | @GozargahVPN | 5"
+                "🏳️XX | vless | @GozargahVPN | 7"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -297,11 +293,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @v2rayNG_Matsuri | 20",
+            "tag": "🏳️XX | vless | @prrofile_purple | 172",
             "type": "vless",
-            "server": "3.76.7.64",
-            "server_port": 443,
-            "uuid": "4c10355d-4269-43c1-96cb-e7a794d102fc",
+            "server": "[2a0d:5940:48:11::]",
+            "server_port": 25365,
+            "uuid": "4dd45d15-59b5-48ee-b81f-37e6ae1a5276",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -311,22 +307,29 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "www.tgju.org",
+                "server_name": "sourceforge.net",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "mgL6BgbmKbzsngIMqe_PTsFdFBVuYJVkGoTDgIn3O2M",
-                    "short_id": "39a26a2ba3b26562"
+                    "public_key": "ymlZt4QJK8CcSzjnQMTTlt4gxp6dhPzgJXl1uRSJWk8",
+                    "short_id": "1f240620"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
-            "tag": "🏳️XX | vless | @v2ray_swhil | 10",
+            "tag": "🏳️XX | vless | @v2ray_swhil | 11",
             "type": "vless",
             "server": "[2a0d:5940:48:11::]",
             "server_port": 25365,
@@ -362,72 +365,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @proxyymeliii | 22",
-            "type": "vless",
-            "server": "194.87.148.205",
-            "server_port": 2053,
-            "uuid": "52079469-96e1-403e-87e4-f9497c07048b",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "discordapp.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-                    "short_id": ""
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "xyz",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @proxyymeliii | 23",
-            "type": "vless",
-            "server": "194.87.148.205",
-            "server_port": 8443,
-            "uuid": "52079469-96e1-403e-87e4-f9497c07048b",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "discordapp.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-                    "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @VmessProtocol | 4",
+            "tag": "🇩🇪DE | vless | @VmessProtocol | 7",
             "type": "vless",
             "server": "95.164.68.37",
             "server_port": 8443,
@@ -456,7 +394,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @VmessProtocol | 5",
+            "tag": "🇩🇪DE | vless | @VmessProtocol | 8",
             "type": "vless",
             "server": "91.107.176.13",
             "server_port": 8080,
@@ -485,7 +423,7 @@
             }
         },
         {
-            "tag": "🇳🇴NO | vless | @VmessProtocol | 10",
+            "tag": "🇳🇴NO | vless | @VmessProtocol | 13",
             "type": "vless",
             "server": "185.125.171.13",
             "server_port": 443,
@@ -1416,7 +1354,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vless | @GozargahVPN | 5",
+            "tag": "🏳️XX | vless | @GozargahVPN | 7",
             "type": "vless",
             "server": "GozargahVPN.anten.cloud",
             "server_port": 443,
