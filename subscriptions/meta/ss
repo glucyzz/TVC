@@ -120,9 +120,7 @@ dns:
     'RULE-SET:ir,ircidr,geoip:ir,+.ir,+.bonyan.co': ["217.218.155.155", "217.218.127.127", "https://dns.403.online/dns-query", "https://dns.shecan.ir/dns-query"]
 
 proxies:
-  - {"name":"🇺🇸US | ss | @DeamNet_Proxy | 11","type":"ss","server":"15.204.87.225","port":9090,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
-  - {"name":"🇨🇦CA | ss | @DeamNet_Proxy | 13","type":"ss","server":"134.195.196.178","port":805,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸US | ss | @VmessProtocol | 12","type":"ss","server":"205.134.180.139","port":443,"password":"lWaGPVFjmnag","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸US | ss | @VmessProtocol | 15","type":"ss","server":"205.134.180.139","port":443,"password":"lWaGPVFjmnag","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇬🇧GB | ss | @OutlineVpnOfficial | 5","type":"ss","server":"51.145.96.134","port":18869,"password":"V8QywnpW9gaAwJfzkStkVp","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🏳️XX | ss | @OutlineVpnOfficial | 6","type":"ss","server":"[::ffff:185.231.205.80]","port":1443,"password":"YjA5YmMx","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇫🇮FI | ss | @OutlineVpnOfficial | 7","type":"ss","server":"185.174.137.72","port":57262,"password":"WrszSP43UAOcFljDkb8vAL","cipher":"chacha20-ietf-poly1305"}
@@ -143,9 +141,7 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇺🇸US | ss | @DeamNet_Proxy | 11'
-      - '🇨🇦CA | ss | @DeamNet_Proxy | 13'
-      - '🇺🇸US | ss | @VmessProtocol | 12'
+      - '🇺🇸US | ss | @VmessProtocol | 15'
       - '🇬🇧GB | ss | @OutlineVpnOfficial | 5'
       - '🏳️XX | ss | @OutlineVpnOfficial | 6'
       - '🇫🇮FI | ss | @OutlineVpnOfficial | 7'
@@ -166,9 +162,7 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
-      - '🇺🇸US | ss | @DeamNet_Proxy | 11'
-      - '🇨🇦CA | ss | @DeamNet_Proxy | 13'
-      - '🇺🇸US | ss | @VmessProtocol | 12'
+      - '🇺🇸US | ss | @VmessProtocol | 15'
       - '🇬🇧GB | ss | @OutlineVpnOfficial | 5'
       - '🏳️XX | ss | @OutlineVpnOfficial | 6'
       - '🇫🇮FI | ss | @OutlineVpnOfficial | 7'
@@ -188,9 +182,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇺🇸US | ss | @DeamNet_Proxy | 11'
-      - '🇨🇦CA | ss | @DeamNet_Proxy | 13'
-      - '🇺🇸US | ss | @VmessProtocol | 12'
+      - '🇺🇸US | ss | @VmessProtocol | 15'
       - '🇬🇧GB | ss | @OutlineVpnOfficial | 5'
       - '🏳️XX | ss | @OutlineVpnOfficial | 6'
       - '🇫🇮FI | ss | @OutlineVpnOfficial | 7'
