@@ -118,35 +118,35 @@ dns:
     - "https://8.8.4.4/dns-query"
 
 proxies:
-  - {"name":"🇸🇪SE | trojan | @PrivateVPNs | 18","type":"trojan","server":"16.171.247.229","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇩🇪DE | trojan | @DirectVPN | 18","type":"trojan","server":"35.157.53.88","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇺🇸US | trojan | @VmessProtocol | 14","type":"trojan","server":"138.199.41.25","port":43118,"udp":false,"password":"ypDt8RkT7J","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"dngn.phooeyunfold.com"}
+  - {"name":"🇩🇪DE | trojan | @PrivateVPNs | 17","type":"trojan","server":"3.77.25.153","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇩🇪DE | trojan | @DirectVPN | 17","type":"trojan","server":"3.76.236.211","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇨🇦CA | trojan | @oneclickvpnkeys | 4","type":"trojan","server":"138.199.57.185","port":43118,"udp":false,"password":"ypDt8RkT7J","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"eiety.phooeyunfold.com"}
 proxy-groups:
   - name: MANUAL
     type: select
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇸🇪SE | trojan | @PrivateVPNs | 18'
-      - '🇩🇪DE | trojan | @DirectVPN | 18'
-      - '🇺🇸US | trojan | @VmessProtocol | 14'
+      - '🇩🇪DE | trojan | @PrivateVPNs | 17'
+      - '🇩🇪DE | trojan | @DirectVPN | 17'
+      - '🇨🇦CA | trojan | @oneclickvpnkeys | 4'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 60
     tolerance: 50
     proxies:
-      - '🇸🇪SE | trojan | @PrivateVPNs | 18'
-      - '🇩🇪DE | trojan | @DirectVPN | 18'
-      - '🇺🇸US | trojan | @VmessProtocol | 14'
+      - '🇩🇪DE | trojan | @PrivateVPNs | 17'
+      - '🇩🇪DE | trojan | @DirectVPN | 17'
+      - '🇨🇦CA | trojan | @oneclickvpnkeys | 4'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇸🇪SE | trojan | @PrivateVPNs | 18'
-      - '🇩🇪DE | trojan | @DirectVPN | 18'
-      - '🇺🇸US | trojan | @VmessProtocol | 14'
+      - '🇩🇪DE | trojan | @PrivateVPNs | 17'
+      - '🇩🇪DE | trojan | @DirectVPN | 17'
+      - '🇨🇦CA | trojan | @oneclickvpnkeys | 4'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
