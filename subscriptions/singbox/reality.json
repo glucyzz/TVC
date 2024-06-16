@@ -109,11 +109,10 @@
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 9",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 12",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 13",
-                "🏳️XX | vless | @prrofile_purple | 173",
-                "🏳️XX | vless | @customv2ray | 8",
-                "🏳️XX | vless | @customv2ray | 9",
-                "🇩🇪DE | vless | @v2rayNG_Matsuri | 5",
-                "🇺🇸US | vless | @VmessProtocol | 6",
+                "🏳️XX | vless | @prrofile_purple | 181",
+                "🇩🇪DE | vless | @v2rayNG_Matsuri | 13",
+                "🇺🇸US | vless | @VmessProtocol | 1",
+                "🇺🇸US | vless | @VmessProtocol | 13",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -151,11 +150,10 @@
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 9",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 12",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 13",
-                "🏳️XX | vless | @prrofile_purple | 173",
-                "🏳️XX | vless | @customv2ray | 8",
-                "🏳️XX | vless | @customv2ray | 9",
-                "🇩🇪DE | vless | @v2rayNG_Matsuri | 5",
-                "🇺🇸US | vless | @VmessProtocol | 6",
+                "🏳️XX | vless | @prrofile_purple | 181",
+                "🇩🇪DE | vless | @v2rayNG_Matsuri | 13",
+                "🇺🇸US | vless | @VmessProtocol | 1",
+                "🇺🇸US | vless | @VmessProtocol | 13",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -293,7 +291,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @prrofile_purple | 173",
+            "tag": "🏳️XX | vless | @prrofile_purple | 181",
             "type": "vless",
             "server": "[2a0d:5940:48:11::]",
             "server_port": 25365,
@@ -329,79 +327,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @customv2ray | 8",
-            "type": "vless",
-            "server": "[2a0d:5940:102:2::]",
-            "server_port": 2096,
-            "uuid": "join--ZEDMODEON",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "sourceforge.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "fzW-iIhMTwl5Nk0Fwib5mpa689qxf7O3MXZTwLAVeVk",
-                    "short_id": "f5c75ba6"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🏳️XX | vless | @customv2ray | 9",
-            "type": "vless",
-            "server": "[2a0d:5940:47:13::]",
-            "server_port": 25365,
-            "uuid": "76bc5015-07f8-43af-8ae2-f393097f6cfb",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "sourceforge.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "-xFRd71SbWASTse3t8L3-z6rkRGpIs6g0d2s_0sjsiY",
-                    "short_id": "d350998a"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @v2rayNG_Matsuri | 5",
+            "tag": "🇩🇪DE | vless | @v2rayNG_Matsuri | 13",
             "type": "vless",
             "server": "3.120.224.79",
             "server_port": 2083,
@@ -430,7 +356,36 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @VmessProtocol | 6",
+            "tag": "🇺🇸US | vless | @VmessProtocol | 1",
+            "type": "vless",
+            "server": "104.168.107.230",
+            "server_port": 4212,
+            "uuid": "db9abed0-d37a-49bc-aa8e-8321e02bc9e6",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "poynter.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "QQHxQK7ocGHvaCmqtW3QapnKiBVd4ZjjM3zhCGVMPS4",
+                    "short_id": "db68e802226b21cd"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | @VmessProtocol | 13",
             "type": "vless",
             "server": "104.168.107.230",
             "server_port": 4342,
