@@ -107,11 +107,11 @@
             "outbounds": [
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇨🇦CA | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 3",
+                "🇨🇳CN | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
                 "🇺🇸US | vmess | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 8",
+                "🇨🇦CA | vmess | @Hope_Net | 7",
                 "🇺🇸US | vmess | @v2Line | 8",
                 "🇺🇸US | vmess | @ROMAX_VPN | 5"
             ]
@@ -121,11 +121,11 @@
             "type": "urltest",
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇨🇦CA | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 3",
+                "🇨🇳CN | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
                 "🇺🇸US | vmess | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 8",
+                "🇨🇦CA | vmess | @Hope_Net | 7",
                 "🇺🇸US | vmess | @v2Line | 8",
                 "🇺🇸US | vmess | @ROMAX_VPN | 5"
             ],
@@ -167,11 +167,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @mftizi | 19",
+            "tag": "🇨🇳CN | vmess | @mftizi | 19",
             "type": "vmess",
-            "server": "hk.wish.ml",
-            "server_port": 2052,
-            "uuid": "c286daa2-59de-455c-8de8-ec032b6ce2e8",
+            "server": "183.232.199.28",
+            "server_port": 15605,
+            "uuid": "aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -181,21 +181,14 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 3",
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
             "type": "vmess",
-            "server": "188.114.97.3",
+            "server": "172.67.170.13",
             "server_port": 443,
-            "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
+            "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -208,7 +201,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "afrhms16v.bestxray.buzz",
+                "server_name": "glweidf.sbs",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -220,7 +213,7 @@
                 "type": "ws",
                 "path": "\/linkws",
                 "headers": {
-                    "Host": "afrhms16v.bestxray.buzz"
+                    "Host": "glweidf.sbs"
                 }
             }
         },
@@ -293,11 +286,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 8",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 7",
             "type": "vmess",
-            "server": "108.162.192.154",
-            "server_port": 2087,
-            "uuid": "2a3263e2-891c-4446-b474-a8c63acb6e25",
+            "server": "sareikela.com",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -310,7 +303,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "108.162.192.154",
+                "server_name": "sareikela.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -319,11 +312,11 @@
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "\/",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "sareikela.com"
+                }
             }
         },
         {
