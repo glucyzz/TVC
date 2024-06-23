@@ -106,7 +106,6 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸US | ss | @DeamNet_Proxy | 8",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 4",
                 "🇸🇪SE | ss | @OutlineVpnOfficial | 5",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 6",
@@ -120,14 +119,14 @@
                 "🇺🇸US | ss | @OutlineVpnOfficial | 15",
                 "🇸🇬SG | ss | @OutlineVpnOfficial | 16",
                 "🇸🇪SE | ss | @OutlineVpnOfficial | 17",
-                "🇵🇱PL | ss | @OutlineVpnOfficial | 18"
+                "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
+                "🇬🇧GB | ss | @proxy_mtm | 1"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸US | ss | @DeamNet_Proxy | 8",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 4",
                 "🇸🇪SE | ss | @OutlineVpnOfficial | 5",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 6",
@@ -141,7 +140,8 @@
                 "🇺🇸US | ss | @OutlineVpnOfficial | 15",
                 "🇸🇬SG | ss | @OutlineVpnOfficial | 16",
                 "🇸🇪SE | ss | @OutlineVpnOfficial | 17",
-                "🇵🇱PL | ss | @OutlineVpnOfficial | 18"
+                "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
+                "🇬🇧GB | ss | @proxy_mtm | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -162,16 +162,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇺🇸US | ss | @DeamNet_Proxy | 8",
-            "type": "shadowsocks",
-            "server": "15.204.87.225",
-            "server_port": 5499,
-            "method": "aes-256-gcm",
-            "password": "lGqs95QkFHo2NV",
-            "plugin": "",
-            "plugin_opts": ""
         },
         {
             "tag": "🇺🇸US | ss | @OutlineVpnOfficial | 4",
@@ -310,6 +300,16 @@
             "server_port": 6679,
             "method": "aes-256-gcm",
             "password": "TEzjfAYq2IjtuoS",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇬🇧GB | ss | @proxy_mtm | 1",
+            "type": "shadowsocks",
+            "server": "series-a1.samanehha.co",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "W74XFALLLuw6m5IA",
             "plugin": "",
             "plugin_opts": ""
         }

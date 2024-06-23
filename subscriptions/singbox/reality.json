@@ -109,8 +109,9 @@
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 9",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 12",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 13",
-                "🇰🇷KR | vless | @vless_vmess | 11",
-                "🇩🇰DK | vless | @proxystore11 | 5",
+                "🇩🇪DE | vless | @customv2ray | 3",
+                "🇰🇷KR | vless | @vless_vmess | 13",
+                "🇩🇰DK | vless | @proxystore11 | 11",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -123,6 +124,8 @@
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇺🇸US | vless | @Capital_NET | 45",
+                "🇩🇪DE | vless | @FAKEOFTVC | 1",
+                "🇩🇪DE | vless | @FAKEOFTVC | 2",
                 "🏳️XX | vless | @vpn_go67 | 7",
                 "🏳️XX | vless | @vpn_go67 | 8",
                 "🏳️XX | vless | @vpn_go67 | 9",
@@ -148,8 +151,9 @@
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 9",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 12",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 13",
-                "🇰🇷KR | vless | @vless_vmess | 11",
-                "🇩🇰DK | vless | @proxystore11 | 5",
+                "🇩🇪DE | vless | @customv2ray | 3",
+                "🇰🇷KR | vless | @vless_vmess | 13",
+                "🇩🇰DK | vless | @proxystore11 | 11",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -162,6 +166,8 @@
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇺🇸US | vless | @Capital_NET | 45",
+                "🇩🇪DE | vless | @FAKEOFTVC | 1",
+                "🇩🇪DE | vless | @FAKEOFTVC | 2",
                 "🏳️XX | vless | @vpn_go67 | 7",
                 "🏳️XX | vless | @vpn_go67 | 8",
                 "🏳️XX | vless | @vpn_go67 | 9",
@@ -287,7 +293,36 @@
             }
         },
         {
-            "tag": "🇰🇷KR | vless | @vless_vmess | 11",
+            "tag": "🇩🇪DE | vless | @customv2ray | 3",
+            "type": "vless",
+            "server": "159.69.114.213",
+            "server_port": 8443,
+            "uuid": "0de3b67a-2df6-4504-88b9-a7e910e799c3",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "cdn.discordapp.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇰🇷KR | vless | @vless_vmess | 13",
             "type": "vless",
             "server": "132.226.172.147",
             "server_port": 62001,
@@ -316,7 +351,7 @@
             }
         },
         {
-            "tag": "🇩🇰DK | vless | @proxystore11 | 5",
+            "tag": "🇩🇰DK | vless | @proxystore11 | 11",
             "type": "vless",
             "server": "46.29.235.78",
             "server_port": 80,
@@ -703,6 +738,64 @@
                     "enabled": true,
                     "public_key": "fabWUdBWxh7NsMaqOF35petD3ljQbKf6OSDnROV9jDs",
                     "short_id": "6f9deca7"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @FAKEOFTVC | 1",
+            "type": "vless",
+            "server": "49.13.142.254",
+            "server_port": 8443,
+            "uuid": "0de3b67a-2df6-4504-88b9-a7e910e799c3",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "cdn.discordapp.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @FAKEOFTVC | 2",
+            "type": "vless",
+            "server": "159.69.114.213",
+            "server_port": 8443,
+            "uuid": "0de3b67a-2df6-4504-88b9-a7e910e799c3",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "cdn.discordapp.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+                    "short_id": ""
                 }
             }
         },
