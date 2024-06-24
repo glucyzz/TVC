@@ -109,9 +109,11 @@
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 9",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 12",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 13",
-                "🇩🇪DE | vless | @customv2ray | 3",
+                "🇩🇪DE | vless | @customv2ray | 11",
                 "🇰🇷KR | vless | @vless_vmess | 13",
-                "🇩🇰DK | vless | @proxystore11 | 11",
+                "🇩🇪DE | vless | @VmessProtocol | 2",
+                "🇩🇪DE | vless | @ConfigsHUB | 6",
+                "🇩🇪DE | vless | @ConfigsHUB | 7",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -151,9 +153,11 @@
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 9",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 12",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 13",
-                "🇩🇪DE | vless | @customv2ray | 3",
+                "🇩🇪DE | vless | @customv2ray | 11",
                 "🇰🇷KR | vless | @vless_vmess | 13",
-                "🇩🇰DK | vless | @proxystore11 | 11",
+                "🇩🇪DE | vless | @VmessProtocol | 2",
+                "🇩🇪DE | vless | @ConfigsHUB | 6",
+                "🇩🇪DE | vless | @ConfigsHUB | 7",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -293,7 +297,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @customv2ray | 3",
+            "tag": "🇩🇪DE | vless | @customv2ray | 11",
             "type": "vless",
             "server": "159.69.114.213",
             "server_port": 8443,
@@ -351,11 +355,11 @@
             }
         },
         {
-            "tag": "🇩🇰DK | vless | @proxystore11 | 11",
+            "tag": "🇩🇪DE | vless | @VmessProtocol | 2",
             "type": "vless",
-            "server": "46.29.235.78",
-            "server_port": 80,
-            "uuid": "7e08dc93-a81d-4a24-995e-76ce0e11defa",
+            "server": "91.107.242.3",
+            "server_port": 443,
+            "uuid": "a988198c-d793-483b-c79b-96b31efdb5ad",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -365,7 +369,36 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "dash.cloudflare.com",
+                "server_name": "app.hubspot.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "KBf_UOkidK_CdR4aJrJbLQpWXlmaAON3XAiPEtP0PjY",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @ConfigsHUB | 6",
+            "type": "vless",
+            "server": "194.195.245.94",
+            "server_port": 443,
+            "uuid": "98b20c65-91ee-4ec2-9fe2-f6e6d8a19678",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "androidstar.ir",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -374,8 +407,37 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "tv78GZDfmDnF6B9h4lnnELyRI2pKxixviayB6W4bOE0",
-                    "short_id": "95becf1c4d3adc04"
+                    "public_key": "vgdXg4IhfRkQr5dz2Vr7BLeChU_Q1O_B9oaMz1H8yA8",
+                    "short_id": "f7a1e4a6"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @ConfigsHUB | 7",
+            "type": "vless",
+            "server": "192.248.184.178",
+            "server_port": 443,
+            "uuid": "2f7122e2-39f0-4c5b-813a-3d581b579636",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "androidstar.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "wGbITLZZbmAZV_su8RmS8yRnG0Pl3I_wRtM2_PKc_nI",
+                    "short_id": "ff2fd4fa"
                 }
             }
         },
