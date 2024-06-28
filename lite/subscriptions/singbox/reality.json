@@ -106,8 +106,9 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇰🇷KR | vless | @Watashi_VPN | 0",
                 "🇺🇸US | vless | @Capital_NET | 45",
-                "🇩🇪DE | vless | @FAKEOFTVC | 2",
+                "🇩🇪DE | vless | @FAKEOFTVC | 6",
                 "🏳️XX | vless | @vpn_go67 | 21"
             ]
         },
@@ -115,8 +116,9 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇰🇷KR | vless | @Watashi_VPN | 0",
                 "🇺🇸US | vless | @Capital_NET | 45",
-                "🇩🇪DE | vless | @FAKEOFTVC | 2",
+                "🇩🇪DE | vless | @FAKEOFTVC | 6",
                 "🏳️XX | vless | @vpn_go67 | 21"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -138,6 +140,35 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇰🇷KR | vless | @Watashi_VPN | 0",
+            "type": "vless",
+            "server": "158.180.69.174",
+            "server_port": 39193,
+            "uuid": "29ac9b7e-b5ef-42e6-8c11-00441d6af76f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "download-installer.cdn.mozilla.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "safari"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "fGc5_76xeIvGaobieJalJow4MRsVX7LJsand8O2ZlU4",
+                    "short_id": "5c53b7e0"
+                }
+            }
         },
         {
             "tag": "🇺🇸US | vless | @Capital_NET | 45",
@@ -169,11 +200,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @FAKEOFTVC | 2",
+            "tag": "🇩🇪DE | vless | @FAKEOFTVC | 6",
             "type": "vless",
-            "server": "159.69.114.213",
+            "server": "49.13.142.254",
             "server_port": 8443,
-            "uuid": "0de3b67a-2df6-4504-88b9-a7e910e799c3",
+            "uuid": "f9ce83cc-d862-4233-abc8-b58cd8b5f546",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
