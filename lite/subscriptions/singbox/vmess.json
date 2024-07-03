@@ -108,14 +108,14 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 3",
                 "🇨🇦CA | vmess | @customv2ray | 17",
-                "🇹🇷TR | vmess | @ShadowProxy66 | 21",
-                "🇺🇸US | vmess | @DailyV2RY | 72",
+                "🇹🇷TR | vmess | @ShadowProxy66 | 22",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 8",
-                "🇺🇸US | vmess | @v2Line | 7",
+                "🇨🇦CA | vmess | @Hope_Net | 8",
+                "🇹🇷TR | vmess | @v2Line | 7",
                 "🏳️XX | vmess | @nofiltering2 | 2",
-                "🇺🇸US | vmess | @SINABIGO | 1",
+                "🇺🇸US | vmess | @SINABIGO | 2",
                 "🇺🇸US | vmess | @ROMAX_VPN | 4"
             ]
         },
@@ -125,14 +125,14 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 3",
                 "🇨🇦CA | vmess | @customv2ray | 17",
-                "🇹🇷TR | vmess | @ShadowProxy66 | 21",
-                "🇺🇸US | vmess | @DailyV2RY | 72",
+                "🇹🇷TR | vmess | @ShadowProxy66 | 22",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 8",
-                "🇺🇸US | vmess | @v2Line | 7",
+                "🇨🇦CA | vmess | @Hope_Net | 8",
+                "🇹🇷TR | vmess | @v2Line | 7",
                 "🏳️XX | vmess | @nofiltering2 | 2",
-                "🇺🇸US | vmess | @SINABIGO | 1",
+                "🇺🇸US | vmess | @SINABIGO | 2",
                 "🇺🇸US | vmess | @ROMAX_VPN | 4"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -175,9 +175,26 @@
         {
             "tag": "🇨🇳CN | vmess | @mftizi | 19",
             "type": "vmess",
-            "server": "183.232.199.61",
-            "server_port": 15607,
-            "uuid": "aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad",
+            "server": "183.238.202.173",
+            "server_port": 51193,
+            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+            "security": "auto",
+            "alter_id": 64,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 3",
+            "type": "vmess",
+            "server": "172.67.175.56",
+            "server_port": 443,
+            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -187,6 +204,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "obdii.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "obdii.cfd"
+                }
             }
         },
         {
@@ -214,28 +248,11 @@
             }
         },
         {
-            "tag": "🇹🇷TR | vmess | @ShadowProxy66 | 21",
+            "tag": "🇹🇷TR | vmess | @ShadowProxy66 | 22",
             "type": "vmess",
             "server": "45.89.52.114",
             "server_port": 13701,
             "uuid": "86a0c17d-1871-40e3-db65-2b9bf1a7650e",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @DailyV2RY | 72",
-            "type": "vmess",
-            "server": "45.32.201.78",
-            "server_port": 8881,
-            "uuid": "db5afae4-ac23-41a6-8378-f307a9a47436",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -282,7 +299,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 8",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 8",
             "type": "vmess",
             "server": "russia.com",
             "server_port": 2095,
@@ -306,11 +323,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @v2Line | 7",
+            "tag": "🇹🇷TR | vmess | @v2Line | 7",
             "type": "vmess",
-            "server": "104.21.83.108",
-            "server_port": 443,
-            "uuid": "6c168fcc-2231-4f3b-8c1e-f6391692df4a",
+            "server": "45.89.52.114",
+            "server_port": 13701,
+            "uuid": "86a0c17d-1871-40e3-db65-2b9bf1a7650e",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -320,23 +337,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "hms02.fxiaomi.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/link",
-                "headers": {
-                    "Host": "hms02.fxiaomi.sbs"
-                }
             }
         },
         {
@@ -357,7 +357,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @SINABIGO | 1",
+            "tag": "🇺🇸US | vmess | @SINABIGO | 2",
             "type": "vmess",
             "server": "Lousaper.digifashop.ir.",
             "server_port": 443,

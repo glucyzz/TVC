@@ -118,31 +118,35 @@ dns:
     - "https://8.8.4.4/dns-query"
 
 proxies:
-  - {"name":"🇦🇪AE | ss | @VmessProtocol | 8","type":"ss","server":"series-a2-mec.varzesh360.co","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇨🇦CA | ss | @OutlineVpnOfficial | 17","type":"ss","server":"23.162.200.181","port":4444,"password":"pKEW8JPByTVTLtM","cipher":"aes-256-gcm"}
+  - {"name":"🇦🇪AE | ss | @VmessProtocol | 9","type":"ss","server":"series-a2-mec.varzesh360.co","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇩🇰DK | ss | @OutlineVpnOfficial | 19","type":"ss","server":"95.164.10.184","port":10430,"password":"61TfjZsloIEuanRSAeBIjj","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇬🇧GB | ss | @proxy_mtm | 3","type":"ss","server":"series-a1.samanehha.co","port":443,"password":"W74XFALLLuw6m5IA","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: MANUAL
     type: select
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇦🇪AE | ss | @VmessProtocol | 8'
-      - '🇨🇦CA | ss | @OutlineVpnOfficial | 17'
+      - '🇦🇪AE | ss | @VmessProtocol | 9'
+      - '🇩🇰DK | ss | @OutlineVpnOfficial | 19'
+      - '🇬🇧GB | ss | @proxy_mtm | 3'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 60
     tolerance: 50
     proxies:
-      - '🇦🇪AE | ss | @VmessProtocol | 8'
-      - '🇨🇦CA | ss | @OutlineVpnOfficial | 17'
+      - '🇦🇪AE | ss | @VmessProtocol | 9'
+      - '🇩🇰DK | ss | @OutlineVpnOfficial | 19'
+      - '🇬🇧GB | ss | @proxy_mtm | 3'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇦🇪AE | ss | @VmessProtocol | 8'
-      - '🇨🇦CA | ss | @OutlineVpnOfficial | 17'
+      - '🇦🇪AE | ss | @VmessProtocol | 9'
+      - '🇩🇰DK | ss | @OutlineVpnOfficial | 19'
+      - '🇬🇧GB | ss | @proxy_mtm | 3'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
