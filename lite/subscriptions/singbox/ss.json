@@ -105,20 +105,13 @@
             "tag": "proxy",
             "type": "selector",
             "outbounds": [
-                "URL-TEST",
-                "🇦🇪AE | ss | @VmessProtocol | 9",
-                "🇩🇰DK | ss | @OutlineVpnOfficial | 19",
-                "🇬🇧GB | ss | @proxy_mtm | 3"
+                "URL-TEST"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
-            "outbounds": [
-                "🇦🇪AE | ss | @VmessProtocol | 9",
-                "🇩🇰DK | ss | @OutlineVpnOfficial | 19",
-                "🇬🇧GB | ss | @proxy_mtm | 3"
-            ],
+            "outbounds": [],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
             "tolerance": 50
@@ -138,36 +131,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇦🇪AE | ss | @VmessProtocol | 9",
-            "type": "shadowsocks",
-            "server": "series-a2-mec.varzesh360.co",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "u17T3BvpYaaiuW2c",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇩🇰DK | ss | @OutlineVpnOfficial | 19",
-            "type": "shadowsocks",
-            "server": "95.164.10.184",
-            "server_port": 10430,
-            "method": "chacha20-ietf-poly1305",
-            "password": "61TfjZsloIEuanRSAeBIjj",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇬🇧GB | ss | @proxy_mtm | 3",
-            "type": "shadowsocks",
-            "server": "series-a1.samanehha.co",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "W74XFALLLuw6m5IA",
-            "plugin": "",
-            "plugin_opts": ""
         }
     ],
     "route": {
