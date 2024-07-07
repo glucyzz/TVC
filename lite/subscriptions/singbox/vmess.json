@@ -108,13 +108,11 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇭CH | vmess | @oneclickvpnkeys | 5",
-                "🇨🇦CA | vmess | @customv2ray | 17",
-                "🇺🇸US | vmess | @DailyV2RY | 105",
+                "🇫🇷FR | vmess | @oneclickvpnkeys | 1",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇸🇬SG | vmess | @Hope_Net | 4",
-                "🇨🇦CA | vmess | @v2rayng_config_amin | 3",
-                "🇺🇸US | vmess | @v2Line | 2",
+                "🇺🇸US | vmess | @v2rayng_config_amin | 3",
+                "🇺🇸US | vmess | @v2Line | 0",
                 "🇺🇸US | vmess | @ROMAX_VPN | 4"
             ]
         },
@@ -124,13 +122,11 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇭CH | vmess | @oneclickvpnkeys | 5",
-                "🇨🇦CA | vmess | @customv2ray | 17",
-                "🇺🇸US | vmess | @DailyV2RY | 105",
+                "🇫🇷FR | vmess | @oneclickvpnkeys | 1",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇸🇬SG | vmess | @Hope_Net | 4",
-                "🇨🇦CA | vmess | @v2rayng_config_amin | 3",
-                "🇺🇸US | vmess | @v2Line | 2",
+                "🇺🇸US | vmess | @v2rayng_config_amin | 3",
+                "🇺🇸US | vmess | @v2Line | 0",
                 "🇺🇸US | vmess | @ROMAX_VPN | 4"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -188,52 +184,11 @@
             }
         },
         {
-            "tag": "🇨🇭CH | vmess | @oneclickvpnkeys | 5",
+            "tag": "🇫🇷FR | vmess | @oneclickvpnkeys | 1",
             "type": "vmess",
-            "server": "23.166.88.101",
+            "server": "23.162.152.6",
             "server_port": 22324,
             "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @customv2ray | 17",
-            "type": "vmess",
-            "server": "104.16.219.108",
-            "server_port": 80,
-            "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram\/XV2ray",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @DailyV2RY | 105",
-            "type": "vmess",
-            "server": "155.138.247.68",
-            "server_port": 8881,
-            "uuid": "db5afae4-ac23-41a6-8378-f307a9a47436",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -314,7 +269,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @v2rayng_config_amin | 3",
+            "tag": "🇺🇸US | vmess | @v2rayng_config_amin | 3",
             "type": "vmess",
             "server": "505.outline-vpn.cloud",
             "server_port": 443,
@@ -348,11 +303,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @v2Line | 2",
+            "tag": "🇺🇸US | vmess | @v2Line | 0",
             "type": "vmess",
-            "server": "172.67.71.160",
+            "server": "188.114.97.3",
             "server_port": 443,
-            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
+            "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -365,7 +320,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "obdii.cfd",
+                "server_name": "afrhms16v.bestxray.buzz",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -377,7 +332,7 @@
                 "type": "ws",
                 "path": "\/linkws",
                 "headers": {
-                    "Host": "obdii.cfd"
+                    "Host": "afrhms16v.bestxray.buzz"
                 }
             }
         },
