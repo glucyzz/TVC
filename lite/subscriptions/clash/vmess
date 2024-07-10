@@ -120,8 +120,11 @@ dns:
 proxies:
   - {"name":"🇫🇷FR | vmess | @v2ray_outlineir | 0","type":"vmess","server":"146.59.147.250","port":"29776","cipher":"auto","uuid":"82447abf-dcb9-408a-9ca6-79e0a7698d08","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇳CN | vmess | @mftizi | 19","type":"vmess","server":"183.238.202.173","port":"51193","cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸US | vmess | @v2Line | 3","type":"vmess","server":"172.67.175.56","port":"443","cipher":"auto","uuid":"05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"obdii.cfd"}}}
-  - {"name":"🇺🇸US | vmess | @kingofilter | 13","type":"vmess","server":"zula.ir","port":2096,"cipher":"auto","uuid":"ddeea8a5-260e-4b6e-9cbb-804f106d5bee","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"kingo.hightechservice.ir"}}}
+  - {"name":"🇫🇷FR | vmess | @oneclickvpnkeys | 3","type":"vmess","server":"23.162.152.6","port":"22324","cipher":"auto","uuid":"04621bae-ab36-11ec-b909-0242ac120002","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸US | vmess | @DailyV2RY | 165","type":"vmess","server":"155.138.164.71","port":"8881","cipher":"auto","uuid":"db5afae4-ac23-41a6-8378-f307a9a47436","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇨🇦CA | vmess | @Hope_Net | 1","type":"vmess","server":"104.20.239.88","port":"80","cipher":"none","uuid":"9ac947aa-de86-41c3-9a60-4c061c7c95f0","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"dl3.plot.cценарий.劇情голов0рез.fir3brand.煽動者追逐雷恩.погонезаpейн.wonkacapitano.buzz."}}}
+  - {"name":"🇺🇸US | vmess | @v2Line | 4","type":"vmess","server":"172.67.175.56","port":"443","cipher":"auto","uuid":"05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"obdii.cfd"}}}
+  - {"name":"🇺🇸US | vmess | @kingofilter | 16","type":"vmess","server":"198.41.193.181","port":"80","cipher":"none","uuid":"92791642-1471-4b93-980a-81030985f3ce","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"127.0.0.1.mrarsha.kомната0.房間騎自行車的人.bелосипедисты.bikeriders.wonkacapitano.buzz."}}}
   - {"name":"🇺🇸US | vmess | @ROMAX_VPN | 2","type":"vmess","server":"nodejs.org","port":"443","cipher":"auto","uuid":"6b880b07-e952-4c0b-b4a3-6c9ac4cf9d3f","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/QvtvPdDXXIlSdZMqnuxG","headers":{"host":"hdfy1c1.cpiforpersia.uk"}}}
 proxy-groups:
   - name: MANUAL
@@ -131,8 +134,11 @@ proxy-groups:
       - FALLBACK
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇨🇳CN | vmess | @mftizi | 19'
-      - '🇺🇸US | vmess | @v2Line | 3'
-      - '🇺🇸US | vmess | @kingofilter | 13'
+      - '🇫🇷FR | vmess | @oneclickvpnkeys | 3'
+      - '🇺🇸US | vmess | @DailyV2RY | 165'
+      - '🇨🇦CA | vmess | @Hope_Net | 1'
+      - '🇺🇸US | vmess | @v2Line | 4'
+      - '🇺🇸US | vmess | @kingofilter | 16'
       - '🇺🇸US | vmess | @ROMAX_VPN | 2'
   - name: URL-TEST
     type: url-test
@@ -142,8 +148,11 @@ proxy-groups:
     proxies:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇨🇳CN | vmess | @mftizi | 19'
-      - '🇺🇸US | vmess | @v2Line | 3'
-      - '🇺🇸US | vmess | @kingofilter | 13'
+      - '🇫🇷FR | vmess | @oneclickvpnkeys | 3'
+      - '🇺🇸US | vmess | @DailyV2RY | 165'
+      - '🇨🇦CA | vmess | @Hope_Net | 1'
+      - '🇺🇸US | vmess | @v2Line | 4'
+      - '🇺🇸US | vmess | @kingofilter | 16'
       - '🇺🇸US | vmess | @ROMAX_VPN | 2'
   - name: FALLBACK
     type: fallback
@@ -152,8 +161,11 @@ proxy-groups:
     proxies:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇨🇳CN | vmess | @mftizi | 19'
-      - '🇺🇸US | vmess | @v2Line | 3'
-      - '🇺🇸US | vmess | @kingofilter | 13'
+      - '🇫🇷FR | vmess | @oneclickvpnkeys | 3'
+      - '🇺🇸US | vmess | @DailyV2RY | 165'
+      - '🇨🇦CA | vmess | @Hope_Net | 1'
+      - '🇺🇸US | vmess | @v2Line | 4'
+      - '🇺🇸US | vmess | @kingofilter | 16'
       - '🇺🇸US | vmess | @ROMAX_VPN | 2'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve

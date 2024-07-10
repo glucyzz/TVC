@@ -107,7 +107,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇰🇷KR | vless | @Watashi_VPN | 0",
-                "🇸🇪SE | vless | @VmessProtocol | 9",
+                "🇹🇷TR | vless | @Outline_Vpn | 18",
                 "🇳🇱NL | vless | @sinabigo | 2",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🏳️XX | vless | @vpn_go67 | 21"
@@ -118,7 +118,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇰🇷KR | vless | @Watashi_VPN | 0",
-                "🇸🇪SE | vless | @VmessProtocol | 9",
+                "🇹🇷TR | vless | @Outline_Vpn | 18",
                 "🇳🇱NL | vless | @sinabigo | 2",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🏳️XX | vless | @vpn_go67 | 21"
@@ -173,11 +173,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @VmessProtocol | 9",
+            "tag": "🇹🇷TR | vless | @Outline_Vpn | 18",
             "type": "vless",
-            "server": "77.221.143.183",
-            "server_port": 33000,
-            "uuid": "d5e775de-0530-4062-a654-25dd2ba648d2",
+            "server": "80.253.255.10",
+            "server_port": 443,
+            "uuid": "7c7af2de-bb97-429f-ac3c-8ef849717491",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -187,7 +187,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "www.speedtest.net",
+                "server_name": "www.upci.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -196,16 +196,9 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "JrN7nZEbUeBJFHTAKwtz5Dmd10SGgA8UCHEMLA2xOg0",
-                    "short_id": "be7f13dd"
+                    "public_key": "jSuIvIWLecUXhjia1bHBwo5sHiYkKsdtdy0x6N-4A1s",
+                    "short_id": "ee46"
                 }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "b",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
