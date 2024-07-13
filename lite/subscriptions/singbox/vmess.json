@@ -106,28 +106,30 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇩🇪DE | vmess | @azadi_az_inja_migzare | 0",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇮🇷IR | vmess | @prrofile_purple | 179",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 3",
+                "🇨🇦CA | vmess | @v2ray1_ng | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vmess | @Hope_Net | 4",
-                "🇺🇸US | vmess | @v2Line | 5",
-                "🇺🇸US | vmess | @kingofilter | 14",
-                "🇺🇸US | vmess | @ROMAX_VPN | 1"
+                "🇺🇸US | vmess | @v2Line | 3",
+                "🇺🇸US | vmess | @ROMAX_VPN | 2"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇩🇪DE | vmess | @azadi_az_inja_migzare | 0",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇮🇷IR | vmess | @prrofile_purple | 179",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 3",
+                "🇨🇦CA | vmess | @v2ray1_ng | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vmess | @Hope_Net | 4",
-                "🇺🇸US | vmess | @v2Line | 5",
-                "🇺🇸US | vmess | @kingofilter | 14",
-                "🇺🇸US | vmess | @ROMAX_VPN | 1"
+                "🇺🇸US | vmess | @v2Line | 3",
+                "🇺🇸US | vmess | @ROMAX_VPN | 2"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -148,6 +150,23 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇩🇪DE | vmess | @azadi_az_inja_migzare | 0",
+            "type": "vmess",
+            "server": "188.245.73.139",
+            "server_port": 41858,
+            "uuid": "acbc72c9-5b2b-4be2-8ffd-262cda898a3a",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
         },
         {
             "tag": "🇫🇷FR | vmess | @v2ray_outlineir | 0",
@@ -191,11 +210,11 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vmess | @prrofile_purple | 179",
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 3",
             "type": "vmess",
-            "server": "dl-g2.arashdownload.ir",
-            "server_port": 33431,
-            "uuid": "4a049f0e-ba67-4a36-853f-a74df24368ec",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "cc142606-f36d-4004-bd2d-c5c2aa7efd4d",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -205,6 +224,37 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/RACEVPN",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @v2ray1_ng | 13",
+            "type": "vmess",
+            "server": "188.114.98.40",
+            "server_port": 80,
+            "uuid": "f491cbe4-7548-446c-8d3e-64008e3b1325",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vmess",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
@@ -266,11 +316,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @v2Line | 5",
+            "tag": "🇺🇸US | vmess | @v2Line | 3",
             "type": "vmess",
-            "server": "172.67.175.56",
+            "server": "jahfkjha.cfd",
             "server_port": 443,
-            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
+            "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -283,7 +333,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "obdii.cfd",
+                "server_name": "",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -295,46 +345,12 @@
                 "type": "ws",
                 "path": "\/linkws",
                 "headers": {
-                    "Host": "obdii.cfd"
+                    "Host": ""
                 }
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @kingofilter | 14",
-            "type": "vmess",
-            "server": "zula.ir",
-            "server_port": 2096,
-            "uuid": "2f86e97a-1ea0-4221-96cc-12210730e0c9",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "kingo.hightechservice.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "kingo.hightechservice.ir"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @ROMAX_VPN | 1",
+            "tag": "🇺🇸US | vmess | @ROMAX_VPN | 2",
             "type": "vmess",
             "server": "nodejs.org",
             "server_port": 443,
