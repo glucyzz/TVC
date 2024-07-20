@@ -106,14 +106,16 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇳🇱NL | ss | @OutlineVpnOfficial | 17"
+                "🇺🇸US | ss | @DeamNet_Proxy | 18",
+                "🇺🇸US | ss | @OutlineVpnOfficial | 17"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇳🇱NL | ss | @OutlineVpnOfficial | 17"
+                "🇺🇸US | ss | @DeamNet_Proxy | 18",
+                "🇺🇸US | ss | @OutlineVpnOfficial | 17"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -136,12 +138,22 @@
             "type": "dns"
         },
         {
-            "tag": "🇳🇱NL | ss | @OutlineVpnOfficial | 17",
+            "tag": "🇺🇸US | ss | @DeamNet_Proxy | 18",
             "type": "shadowsocks",
-            "server": "188.212.132.20",
-            "server_port": 52952,
+            "server": "205.134.180.139",
+            "server_port": 443,
             "method": "chacha20-ietf-poly1305",
-            "password": "LMSNh21TrXjR2ok25Q2nE8ENT2zoBmPvka3RCCUAHZELCnWoekVjvaf89qwcRkdbxEfep2bc2aUtmnxqvF1ayQRez1JHjULj",
+            "password": "lWaGPVFjmnag",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇺🇸US | ss | @OutlineVpnOfficial | 17",
+            "type": "shadowsocks",
+            "server": "69.50.95.39",
+            "server_port": 9101,
+            "method": "aes-256-gcm",
+            "password": "e4FCWrgpkji3QY",
             "plugin": "",
             "plugin_opts": ""
         }

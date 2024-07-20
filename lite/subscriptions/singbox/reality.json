@@ -107,9 +107,9 @@
             "outbounds": [
                 "URL-TEST",
                 "🇰🇷KR | vless | @Watashi_VPN | 2",
-                "🇬🇧GB | vless | @vless_vmess | 12",
                 "🇺🇸US | vless | @Capital_NET | 45",
-                "🏳️XX | vless | @vpn_go67 | 21"
+                "🏳️XX | vless | @vpn_go67 | 21",
+                "🇩🇪DE | vless | @SvnTeam | 8"
             ]
         },
         {
@@ -117,9 +117,9 @@
             "type": "urltest",
             "outbounds": [
                 "🇰🇷KR | vless | @Watashi_VPN | 2",
-                "🇬🇧GB | vless | @vless_vmess | 12",
                 "🇺🇸US | vless | @Capital_NET | 45",
-                "🏳️XX | vless | @vpn_go67 | 21"
+                "🏳️XX | vless | @vpn_go67 | 21",
+                "🇩🇪DE | vless | @SvnTeam | 8"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -167,35 +167,6 @@
                     "enabled": true,
                     "public_key": "fGc5_76xeIvGaobieJalJow4MRsVX7LJsand8O2ZlU4",
                     "short_id": "5c53b7e0"
-                }
-            }
-        },
-        {
-            "tag": "🇬🇧GB | vless | @vless_vmess | 12",
-            "type": "vless",
-            "server": "45.140.167.94",
-            "server_port": 2096,
-            "uuid": "c274799d-6bbd-48a8-b985-e203217f79b2",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "2606:4700:4700::1111",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "random"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "IqnFESYrPnkV7KUaekX8cL8TSRwDZHuUIKmD0N99Fxc",
-                    "short_id": "2880ee24bb417d46"
                 }
             }
         },
@@ -262,6 +233,35 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @SvnTeam | 8",
+            "type": "vless",
+            "server": "xn--tr8h.snappfoodi.com.",
+            "server_port": 8081,
+            "uuid": "SVNTEAM",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "discord.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "0eHwd7gjc3HkKzk1mCWhSt-Yt2efpwH4gA6bFZ7IRCA",
+                    "short_id": "eab22c4c"
+                }
             }
         }
     ],
