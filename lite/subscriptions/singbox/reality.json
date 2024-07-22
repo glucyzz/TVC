@@ -106,22 +106,20 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸US | vless | @DailyV2RY | 203",
+                "🇩🇪DE | vless | @VmessProtocol | 19",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🏳️XX | vless | @vpn_go67 | 21",
-                "🏳️XX | vless | @GozargahVPN | 15",
-                "🇩🇪DE | vless | @SvnTeam | 8"
+                "🏳️XX | vless | @GozargahVPN | 15"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸US | vless | @DailyV2RY | 203",
+                "🇩🇪DE | vless | @VmessProtocol | 19",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🏳️XX | vless | @vpn_go67 | 21",
-                "🏳️XX | vless | @GozargahVPN | 15",
-                "🇩🇪DE | vless | @SvnTeam | 8"
+                "🏳️XX | vless | @GozargahVPN | 15"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -144,11 +142,11 @@
             "type": "dns"
         },
         {
-            "tag": "🇺🇸US | vless | @DailyV2RY | 203",
+            "tag": "🇩🇪DE | vless | @VmessProtocol | 19",
             "type": "vless",
-            "server": "134.122.21.204",
-            "server_port": 12345,
-            "uuid": "177dfbdf-8337-40ea-8791-906924b9fb2f",
+            "server": "141.95.75.212",
+            "server_port": 443,
+            "uuid": "200e059b-51ec-4825-8e95-5e49db5d22ad",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -158,7 +156,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "refersion.com",
+                "server_name": "analytics.google.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -167,16 +165,9 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "0hue6xKKmwuEefA0eMXQszxESSoagq2kqLB_gPrRc3s",
-                    "short_id": "c57d2373"
+                    "public_key": "yiHA11T4BplJbQxAfsQkiiAzAmyxWau-KR7dQptwjDU",
+                    "short_id": "c741ad33"
                 }
-            },
-            "transport": {
-                "type": "http",
-                "host": [
-                    "refersion.com"
-                ],
-                "path": "\/"
             }
         },
         {
@@ -270,35 +261,6 @@
                     "enabled": true,
                     "public_key": "iM2Akh6iaoP_wLD1i-tIr6NTUP8HsIrPAB1-h3p-wGo",
                     "short_id": "e0"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @SvnTeam | 8",
-            "type": "vless",
-            "server": "xn--tr8h.snappfoodi.com.",
-            "server_port": 8081,
-            "uuid": "SVNTEAM",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "discord.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "0eHwd7gjc3HkKzk1mCWhSt-Yt2efpwH4gA6bFZ7IRCA",
-                    "short_id": "eab22c4c"
                 }
             }
         }
