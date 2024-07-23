@@ -106,20 +106,20 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪DE | vless | @VmessProtocol | 19",
+                "🇺🇸US | vless | @DailyV2RY | 197",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🏳️XX | vless | @vpn_go67 | 21",
-                "🏳️XX | vless | @GozargahVPN | 15"
+                "🏳️XX | vless | @GozargahVPN | 17"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪DE | vless | @VmessProtocol | 19",
+                "🇺🇸US | vless | @DailyV2RY | 197",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🏳️XX | vless | @vpn_go67 | 21",
-                "🏳️XX | vless | @GozargahVPN | 15"
+                "🏳️XX | vless | @GozargahVPN | 17"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -142,11 +142,11 @@
             "type": "dns"
         },
         {
-            "tag": "🇩🇪DE | vless | @VmessProtocol | 19",
+            "tag": "🇺🇸US | vless | @DailyV2RY | 197",
             "type": "vless",
-            "server": "141.95.75.212",
+            "server": "157.230.222.237",
             "server_port": 443,
-            "uuid": "200e059b-51ec-4825-8e95-5e49db5d22ad",
+            "uuid": "b927294d-b137-45ff-ac76-86d774a15c0a",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -156,7 +156,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "analytics.google.com",
+                "server_name": "zula.ir",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -165,8 +165,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "yiHA11T4BplJbQxAfsQkiiAzAmyxWau-KR7dQptwjDU",
-                    "short_id": "c741ad33"
+                    "public_key": "ypqMZeJHgAmookEe0qEObGo4kiEcTIu3nyV6AFfGDRU",
+                    "short_id": "f394b7d3"
                 }
             }
         },
@@ -236,7 +236,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @GozargahVPN | 15",
+            "tag": "🏳️XX | vless | @GozargahVPN | 17",
             "type": "vless",
             "server": "GozargahVPN.anten.cloud",
             "server_port": 443,
