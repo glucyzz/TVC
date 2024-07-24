@@ -11,12 +11,11 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇷🇺RU | ss | @OutlineVpnOfficial | 16 = ss, moscow.telegavpn.com, 60422, encrypt-method = chacha20-ietf-poly1305, password = KvEboxbgHMCFq3hTg5d1J5
-🇮🇪IE | ss | @FAKEOFTVC | 14 = ss, 13.74.171.103, 46541, encrypt-method = chacha20-ietf-poly1305, password = lZJqAB32wR97hbobEBmWV0
+🇩🇪DE | ss | @OutlineVpnOfficial | 19 = ss, 136.244.81.170, 20888, encrypt-method = chacha20-ietf-poly1305, password = Ogwe91HAvsUbekR0J8fLEr
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇷🇺RU | ss | @OutlineVpnOfficial | 16,🇮🇪IE | ss | @FAKEOFTVC | 14
-URL-TEST = url-test,🇷🇺RU | ss | @OutlineVpnOfficial | 16,🇮🇪IE | ss | @FAKEOFTVC | 14
-FALLBACK = fallback,🇷🇺RU | ss | @OutlineVpnOfficial | 16,🇮🇪IE | ss | @FAKEOFTVC | 14
+MANUAL = select,URL-TEST,FALLBACK,🇩🇪DE | ss | @OutlineVpnOfficial | 19
+URL-TEST = url-test,🇩🇪DE | ss | @OutlineVpnOfficial | 19
+FALLBACK = fallback,🇩🇪DE | ss | @OutlineVpnOfficial | 19
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL

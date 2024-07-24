@@ -106,16 +106,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇷🇺RU | ss | @OutlineVpnOfficial | 16",
-                "🇮🇪IE | ss | @FAKEOFTVC | 14"
+                "🇩🇪DE | ss | @OutlineVpnOfficial | 19"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇷🇺RU | ss | @OutlineVpnOfficial | 16",
-                "🇮🇪IE | ss | @FAKEOFTVC | 14"
+                "🇩🇪DE | ss | @OutlineVpnOfficial | 19"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -138,22 +136,12 @@
             "type": "dns"
         },
         {
-            "tag": "🇷🇺RU | ss | @OutlineVpnOfficial | 16",
+            "tag": "🇩🇪DE | ss | @OutlineVpnOfficial | 19",
             "type": "shadowsocks",
-            "server": "moscow.telegavpn.com",
-            "server_port": 60422,
+            "server": "136.244.81.170",
+            "server_port": 20888,
             "method": "chacha20-ietf-poly1305",
-            "password": "KvEboxbgHMCFq3hTg5d1J5",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇮🇪IE | ss | @FAKEOFTVC | 14",
-            "type": "shadowsocks",
-            "server": "13.74.171.103",
-            "server_port": 46541,
-            "method": "chacha20-ietf-poly1305",
-            "password": "lZJqAB32wR97hbobEBmWV0",
+            "password": "Ogwe91HAvsUbekR0J8fLEr",
             "plugin": "",
             "plugin_opts": ""
         }

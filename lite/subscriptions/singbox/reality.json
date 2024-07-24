@@ -106,7 +106,8 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸US | vless | @DailyV2RY | 197",
+                "🇩🇪DE | vless | @free_v2rayyy | 4",
+                "🇩🇪DE | vless | @VmessProtocol | 24",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🏳️XX | vless | @vpn_go67 | 21",
                 "🏳️XX | vless | @GozargahVPN | 17"
@@ -116,7 +117,8 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸US | vless | @DailyV2RY | 197",
+                "🇩🇪DE | vless | @free_v2rayyy | 4",
+                "🇩🇪DE | vless | @VmessProtocol | 24",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🏳️XX | vless | @vpn_go67 | 21",
                 "🏳️XX | vless | @GozargahVPN | 17"
@@ -142,11 +144,11 @@
             "type": "dns"
         },
         {
-            "tag": "🇺🇸US | vless | @DailyV2RY | 197",
+            "tag": "🇩🇪DE | vless | @free_v2rayyy | 4",
             "type": "vless",
-            "server": "157.230.222.237",
-            "server_port": 443,
-            "uuid": "b927294d-b137-45ff-ac76-86d774a15c0a",
+            "server": "108.61.178.212",
+            "server_port": 2053,
+            "uuid": "abe82e5c-363b-44e1-8f13-b049bbb66cb5",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -156,7 +158,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "zula.ir",
+                "server_name": "discordapp.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -165,9 +167,52 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "ypqMZeJHgAmookEe0qEObGo4kiEcTIu3nyV6AFfGDRU",
-                    "short_id": "f394b7d3"
+                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+                    "short_id": ""
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "xyz",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @VmessProtocol | 24",
+            "type": "vless",
+            "server": "95.164.68.37",
+            "server_port": 8443,
+            "uuid": "77649599-d5b0-4d0c-ba92-a4d751d1b769",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "104.21.70.42",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "cuDCgrTnGQZJ07hEuNqq10lp_XnAb-NYiBGvv_DOHzw",
+                    "short_id": "0b3d7e6a1ce3cee3"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "grpc",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
