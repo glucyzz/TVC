@@ -106,38 +106,46 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪DE | ss | @OutlineVpnOfficial | 5",
-                "🇳🇱NL | ss | @OutlineVpnOfficial | 6",
-                "🇺🇸US | ss | @OutlineVpnOfficial | 7",
-                "🇳🇱NL | ss | @OutlineVpnOfficial | 8",
-                "🇫🇷FR | ss | @OutlineVpnOfficial | 9",
-                "🇦🇹AT | ss | @OutlineVpnOfficial | 10",
+                "🇬🇧GB | ss | @OutlineVpnOfficial | 5",
+                "🇫🇷FR | ss | @OutlineVpnOfficial | 6",
+                "🇩🇪DE | ss | @OutlineVpnOfficial | 7",
+                "🇨🇦CA | ss | @OutlineVpnOfficial | 8",
+                "🇩🇪DE | ss | @OutlineVpnOfficial | 9",
+                "🇳🇱NL | ss | @OutlineVpnOfficial | 10",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 11",
                 "🇳🇱NL | ss | @OutlineVpnOfficial | 12",
-                "🇺🇸US | ss | @OutlineVpnOfficial | 13",
-                "🇫🇷FR | ss | @OutlineVpnOfficial | 14",
-                "🇦🇪AE | ss | @OutlineVpnOfficial | 15",
-                "🇧🇭BH | ss | @OutlineVpnOfficial | 17",
-                "🇩🇪DE | ss | @OutlineVpnOfficial | 19"
+                "🇫🇷FR | ss | @OutlineVpnOfficial | 13",
+                "🇦🇹AT | ss | @OutlineVpnOfficial | 14",
+                "🇺🇸US | ss | @OutlineVpnOfficial | 15",
+                "🇳🇱NL | ss | @OutlineVpnOfficial | 16",
+                "🇺🇸US | ss | @OutlineVpnOfficial | 17",
+                "🇫🇷FR | ss | @OutlineVpnOfficial | 18",
+                "🇦🇪AE | ss | @OutlineVpnOfficial | 19",
+                "🇮🇪IE | ss | @FAKEOFTVC | 2",
+                "🇬🇧GB | ss | @FAKEOFTVC | 3"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪DE | ss | @OutlineVpnOfficial | 5",
-                "🇳🇱NL | ss | @OutlineVpnOfficial | 6",
-                "🇺🇸US | ss | @OutlineVpnOfficial | 7",
-                "🇳🇱NL | ss | @OutlineVpnOfficial | 8",
-                "🇫🇷FR | ss | @OutlineVpnOfficial | 9",
-                "🇦🇹AT | ss | @OutlineVpnOfficial | 10",
+                "🇬🇧GB | ss | @OutlineVpnOfficial | 5",
+                "🇫🇷FR | ss | @OutlineVpnOfficial | 6",
+                "🇩🇪DE | ss | @OutlineVpnOfficial | 7",
+                "🇨🇦CA | ss | @OutlineVpnOfficial | 8",
+                "🇩🇪DE | ss | @OutlineVpnOfficial | 9",
+                "🇳🇱NL | ss | @OutlineVpnOfficial | 10",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 11",
                 "🇳🇱NL | ss | @OutlineVpnOfficial | 12",
-                "🇺🇸US | ss | @OutlineVpnOfficial | 13",
-                "🇫🇷FR | ss | @OutlineVpnOfficial | 14",
-                "🇦🇪AE | ss | @OutlineVpnOfficial | 15",
-                "🇧🇭BH | ss | @OutlineVpnOfficial | 17",
-                "🇩🇪DE | ss | @OutlineVpnOfficial | 19"
+                "🇫🇷FR | ss | @OutlineVpnOfficial | 13",
+                "🇦🇹AT | ss | @OutlineVpnOfficial | 14",
+                "🇺🇸US | ss | @OutlineVpnOfficial | 15",
+                "🇳🇱NL | ss | @OutlineVpnOfficial | 16",
+                "🇺🇸US | ss | @OutlineVpnOfficial | 17",
+                "🇫🇷FR | ss | @OutlineVpnOfficial | 18",
+                "🇦🇪AE | ss | @OutlineVpnOfficial | 19",
+                "🇮🇪IE | ss | @FAKEOFTVC | 2",
+                "🇬🇧GB | ss | @FAKEOFTVC | 3"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -160,7 +168,47 @@
             "type": "dns"
         },
         {
-            "tag": "🇩🇪DE | ss | @OutlineVpnOfficial | 5",
+            "tag": "🇬🇧GB | ss | @OutlineVpnOfficial | 5",
+            "type": "shadowsocks",
+            "server": "142.202.51.58",
+            "server_port": 8080,
+            "method": "aes-256-gcm",
+            "password": "KixLvKzwjekG00rm",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇫🇷FR | ss | @OutlineVpnOfficial | 6",
+            "type": "shadowsocks",
+            "server": "149.202.82.172",
+            "server_port": 8008,
+            "method": "aes-256-gcm",
+            "password": "XKFKl2rULjIp74",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇩🇪DE | ss | @OutlineVpnOfficial | 7",
+            "type": "shadowsocks",
+            "server": "81.19.141.45",
+            "server_port": 52873,
+            "method": "chacha20-ietf-poly1305",
+            "password": "BXkeUSabwj1rRTj4cLT3O5",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇨🇦CA | ss | @OutlineVpnOfficial | 8",
+            "type": "shadowsocks",
+            "server": "23.162.200.28",
+            "server_port": 3389,
+            "method": "aes-256-gcm",
+            "password": "Y6R9pAtvxxzmGC",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇩🇪DE | ss | @OutlineVpnOfficial | 9",
             "type": "shadowsocks",
             "server": "185.65.202.99",
             "server_port": 49318,
@@ -170,7 +218,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇳🇱NL | ss | @OutlineVpnOfficial | 6",
+            "tag": "🇳🇱NL | ss | @OutlineVpnOfficial | 10",
             "type": "shadowsocks",
             "server": "193.29.139.162",
             "server_port": 8080,
@@ -180,7 +228,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | ss | @OutlineVpnOfficial | 7",
+            "tag": "🇺🇸US | ss | @OutlineVpnOfficial | 11",
             "type": "shadowsocks",
             "server": "69.50.95.53",
             "server_port": 5498,
@@ -190,7 +238,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇳🇱NL | ss | @OutlineVpnOfficial | 8",
+            "tag": "🇳🇱NL | ss | @OutlineVpnOfficial | 12",
             "type": "shadowsocks",
             "server": "193.29.139.237",
             "server_port": 8080,
@@ -200,7 +248,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇫🇷FR | ss | @OutlineVpnOfficial | 9",
+            "tag": "🇫🇷FR | ss | @OutlineVpnOfficial | 13",
             "type": "shadowsocks",
             "server": "92.243.27.51",
             "server_port": 9802,
@@ -210,7 +258,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇦🇹AT | ss | @OutlineVpnOfficial | 10",
+            "tag": "🇦🇹AT | ss | @OutlineVpnOfficial | 14",
             "type": "shadowsocks",
             "server": "212.113.106.76",
             "server_port": 61992,
@@ -220,7 +268,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | ss | @OutlineVpnOfficial | 11",
+            "tag": "🇺🇸US | ss | @OutlineVpnOfficial | 15",
             "type": "shadowsocks",
             "server": "69.50.95.53",
             "server_port": 8091,
@@ -230,7 +278,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇳🇱NL | ss | @OutlineVpnOfficial | 12",
+            "tag": "🇳🇱NL | ss | @OutlineVpnOfficial | 16",
             "type": "shadowsocks",
             "server": "45.158.171.148",
             "server_port": 8080,
@@ -240,7 +288,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | ss | @OutlineVpnOfficial | 13",
+            "tag": "🇺🇸US | ss | @OutlineVpnOfficial | 17",
             "type": "shadowsocks",
             "server": "69.50.95.53",
             "server_port": 8118,
@@ -250,7 +298,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇫🇷FR | ss | @OutlineVpnOfficial | 14",
+            "tag": "🇫🇷FR | ss | @OutlineVpnOfficial | 18",
             "type": "shadowsocks",
             "server": "paris.telegavpn.com",
             "server_port": 9802,
@@ -260,7 +308,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇦🇪AE | ss | @OutlineVpnOfficial | 15",
+            "tag": "🇦🇪AE | ss | @OutlineVpnOfficial | 19",
             "type": "shadowsocks",
             "server": "irancell.xn--g28h.dns-dynamic.net.cdn.cloudflare.net",
             "server_port": 443,
@@ -270,22 +318,22 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇧🇭BH | ss | @OutlineVpnOfficial | 17",
+            "tag": "🇮🇪IE | ss | @FAKEOFTVC | 2",
             "type": "shadowsocks",
-            "server": "15.184.18.52",
-            "server_port": 443,
+            "server": "13.94.117.31",
+            "server_port": 10238,
             "method": "chacha20-ietf-poly1305",
-            "password": "Bog0ELmMM9DSxDdQ",
+            "password": "xPrKUBQPwCFeXEQ5uXlRNX",
             "plugin": "",
             "plugin_opts": ""
         },
         {
-            "tag": "🇩🇪DE | ss | @OutlineVpnOfficial | 19",
+            "tag": "🇬🇧GB | ss | @FAKEOFTVC | 3",
             "type": "shadowsocks",
-            "server": "136.244.81.170",
-            "server_port": 20888,
+            "server": "4.158.26.91",
+            "server_port": 443,
             "method": "chacha20-ietf-poly1305",
-            "password": "Ogwe91HAvsUbekR0J8fLEr",
+            "password": "Bog0ELmMM9DSxDdQ",
             "plugin": "",
             "plugin_opts": ""
         }
