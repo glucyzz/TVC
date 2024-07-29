@@ -117,8 +117,9 @@
                 "🇩🇪DE | vless | @proxyymeliii | 4",
                 "🇩🇪DE | vless | @proxyymeliii | 6",
                 "🇩🇪DE | vless | @proxyymeliii | 10",
-                "🇸🇬SG | vless | @VmessProtocol | 14",
-                "🇰🇷KR | vless | @VmessProtocol | 20",
+                "🇸🇬SG | vless | @VmessProtocol | 15",
+                "🇰🇷KR | vless | @VmessProtocol | 21",
+                "🇹🇷TR | vless | @DailyV2RY | 188",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -163,8 +164,9 @@
                 "🇩🇪DE | vless | @proxyymeliii | 4",
                 "🇩🇪DE | vless | @proxyymeliii | 6",
                 "🇩🇪DE | vless | @proxyymeliii | 10",
-                "🇸🇬SG | vless | @VmessProtocol | 14",
-                "🇰🇷KR | vless | @VmessProtocol | 20",
+                "🇸🇬SG | vless | @VmessProtocol | 15",
+                "🇰🇷KR | vless | @VmessProtocol | 21",
+                "🇹🇷TR | vless | @DailyV2RY | 188",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -509,7 +511,7 @@
             }
         },
         {
-            "tag": "🇸🇬SG | vless | @VmessProtocol | 14",
+            "tag": "🇸🇬SG | vless | @VmessProtocol | 15",
             "type": "vless",
             "server": "82.153.135.50",
             "server_port": 34171,
@@ -538,7 +540,7 @@
             }
         },
         {
-            "tag": "🇰🇷KR | vless | @VmessProtocol | 20",
+            "tag": "🇰🇷KR | vless | @VmessProtocol | 21",
             "type": "vless",
             "server": "132.226.172.147",
             "server_port": 62001,
@@ -563,6 +565,35 @@
                     "enabled": true,
                     "public_key": "9rx7JwMO-KRZZEM9TQBO19BOAmmGjJyjN86ll2J7uVc",
                     "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇹🇷TR | vless | @DailyV2RY | 188",
+            "type": "vless",
+            "server": "tr1.tradex2080.com",
+            "server_port": 443,
+            "uuid": "7c7af2de-bb97-429f-ac3c-8ef849717491",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.upci.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "jSuIvIWLecUXhjia1bHBwo5sHiYkKsdtdy0x6N-4A1s",
+                    "short_id": "ee46"
                 }
             }
         },
