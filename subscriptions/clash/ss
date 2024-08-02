@@ -118,7 +118,7 @@ dns:
     - "https://8.8.4.4/dns-query"
 
 proxies:
-  - {"name":"🇦🇹AT | ss | @VmessProtocol | 8","type":"ss","server":"212.113.106.76","port":61992,"password":"PToksYwBeZWcIeKXP6nnU7","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇦🇹AT | ss | @VmessProtocol | 9","type":"ss","server":"212.113.106.76","port":61992,"password":"PToksYwBeZWcIeKXP6nnU7","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇵🇱PL | ss | @OutlineVpnOfficial | 5","type":"ss","server":"54.36.174.181","port":2375,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
   - {"name":"🇩🇪DE | ss | @OutlineVpnOfficial | 6","type":"ss","server":"81.19.141.45","port":52873,"password":"x13Cv63IdnCZCBNwY0E9dQ","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇨🇦CA | ss | @OutlineVpnOfficial | 7","type":"ss","server":"ca225.vpnbook.com","port":80,"password":"JIhN6rBKkaEboLNXVSv5rq","cipher":"chacha20-ietf-poly1305"}
@@ -133,14 +133,14 @@ proxies:
   - {"name":"🇦🇹AT | ss | @OutlineVpnOfficial | 17","type":"ss","server":"95.164.9.144","port":2927,"password":"ug4Fu79SEREdFGlt2sUyT4","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇺🇸US | ss | @OutlineVpnOfficial | 18","type":"ss","server":"38.86.135.225","port":8090,"password":"PCnnH6SQSnfoS27","cipher":"aes-256-gcm"}
   - {"name":"🇵🇱PL | ss | @OutlineVpnOfficial | 19","type":"ss","server":"51.77.53.200","port":9101,"password":"e4FCWrgpkji3QY","cipher":"aes-256-gcm"}
-  - {"name":"🇦🇪AE | ss | @proxy_mtm | 1","type":"ss","server":"series-a2-mec.samanehha.co","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇦🇪AE | ss | @proxy_mtm | 3","type":"ss","server":"series-a2-mec.samanehha.co","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: MANUAL
     type: select
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇦🇹AT | ss | @VmessProtocol | 8'
+      - '🇦🇹AT | ss | @VmessProtocol | 9'
       - '🇵🇱PL | ss | @OutlineVpnOfficial | 5'
       - '🇩🇪DE | ss | @OutlineVpnOfficial | 6'
       - '🇨🇦CA | ss | @OutlineVpnOfficial | 7'
@@ -155,14 +155,14 @@ proxy-groups:
       - '🇦🇹AT | ss | @OutlineVpnOfficial | 17'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 18'
       - '🇵🇱PL | ss | @OutlineVpnOfficial | 19'
-      - '🇦🇪AE | ss | @proxy_mtm | 1'
+      - '🇦🇪AE | ss | @proxy_mtm | 3'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 60
     tolerance: 50
     proxies:
-      - '🇦🇹AT | ss | @VmessProtocol | 8'
+      - '🇦🇹AT | ss | @VmessProtocol | 9'
       - '🇵🇱PL | ss | @OutlineVpnOfficial | 5'
       - '🇩🇪DE | ss | @OutlineVpnOfficial | 6'
       - '🇨🇦CA | ss | @OutlineVpnOfficial | 7'
@@ -177,13 +177,13 @@ proxy-groups:
       - '🇦🇹AT | ss | @OutlineVpnOfficial | 17'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 18'
       - '🇵🇱PL | ss | @OutlineVpnOfficial | 19'
-      - '🇦🇪AE | ss | @proxy_mtm | 1'
+      - '🇦🇪AE | ss | @proxy_mtm | 3'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇦🇹AT | ss | @VmessProtocol | 8'
+      - '🇦🇹AT | ss | @VmessProtocol | 9'
       - '🇵🇱PL | ss | @OutlineVpnOfficial | 5'
       - '🇩🇪DE | ss | @OutlineVpnOfficial | 6'
       - '🇨🇦CA | ss | @OutlineVpnOfficial | 7'
@@ -198,7 +198,7 @@ proxy-groups:
       - '🇦🇹AT | ss | @OutlineVpnOfficial | 17'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 18'
       - '🇵🇱PL | ss | @OutlineVpnOfficial | 19'
-      - '🇦🇪AE | ss | @proxy_mtm | 1'
+      - '🇦🇪AE | ss | @proxy_mtm | 3'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
