@@ -106,7 +106,6 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪DE | vless | @EliV2ray | 5",
                 "🏳️XX | vless | @V2pedia | 1",
                 "🏳️XX | vless | @V2pedia | 3",
                 "🏳️XX | vless | @V2pedia | 5",
@@ -117,13 +116,13 @@
                 "🇩🇪DE | vless | @proxyymeliii | 4",
                 "🇩🇪DE | vless | @proxyymeliii | 6",
                 "🇩🇪DE | vless | @proxyymeliii | 10",
-                "🇺🇸US | vless | @VmessProtocol | 7",
-                "🇺🇸US | vless | @VmessProtocol | 8",
-                "🇫🇷FR | vless | @VmessProtocol | 12",
-                "🇩🇪DE | vless | @VmessProtocol | 13",
-                "🇸🇬SG | vless | @VmessProtocol | 15",
-                "🇺🇸US | vless | @VmessProtocol | 16",
-                "🇳🇱NL | vless | @VmessProtocol | 17",
+                "🇺🇸US | vless | @VmessProtocol | 9",
+                "🇺🇸US | vless | @VmessProtocol | 10",
+                "🇫🇷FR | vless | @VmessProtocol | 14",
+                "🇩🇪DE | vless | @VmessProtocol | 15",
+                "🇸🇬SG | vless | @VmessProtocol | 17",
+                "🇺🇸US | vless | @VmessProtocol | 18",
+                "🇹🇷TR | vless | @DailyV2RY | 220",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -157,7 +156,6 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪DE | vless | @EliV2ray | 5",
                 "🏳️XX | vless | @V2pedia | 1",
                 "🏳️XX | vless | @V2pedia | 3",
                 "🏳️XX | vless | @V2pedia | 5",
@@ -168,13 +166,13 @@
                 "🇩🇪DE | vless | @proxyymeliii | 4",
                 "🇩🇪DE | vless | @proxyymeliii | 6",
                 "🇩🇪DE | vless | @proxyymeliii | 10",
-                "🇺🇸US | vless | @VmessProtocol | 7",
-                "🇺🇸US | vless | @VmessProtocol | 8",
-                "🇫🇷FR | vless | @VmessProtocol | 12",
-                "🇩🇪DE | vless | @VmessProtocol | 13",
-                "🇸🇬SG | vless | @VmessProtocol | 15",
-                "🇺🇸US | vless | @VmessProtocol | 16",
-                "🇳🇱NL | vless | @VmessProtocol | 17",
+                "🇺🇸US | vless | @VmessProtocol | 9",
+                "🇺🇸US | vless | @VmessProtocol | 10",
+                "🇫🇷FR | vless | @VmessProtocol | 14",
+                "🇩🇪DE | vless | @VmessProtocol | 15",
+                "🇸🇬SG | vless | @VmessProtocol | 17",
+                "🇺🇸US | vless | @VmessProtocol | 18",
+                "🇹🇷TR | vless | @DailyV2RY | 220",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -222,35 +220,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇩🇪DE | vless | @EliV2ray | 5",
-            "type": "vless",
-            "server": "188.245.61.146",
-            "server_port": 8001,
-            "uuid": "510d82c4-20c6-4605-9e92-cf49c1e9f900",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "oMIdmAHBouBI.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "W0BYEeLEqNRk8Bn2G27x5G9ALICJxePV6hxZG2A4Jmg",
-                    "short_id": ""
-                }
-            }
         },
         {
             "tag": "🏳️XX | vless | @V2pedia | 1",
@@ -526,7 +495,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @VmessProtocol | 7",
+            "tag": "🇺🇸US | vless | @VmessProtocol | 9",
             "type": "vless",
             "server": "67.205.179.1",
             "server_port": 443,
@@ -555,7 +524,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @VmessProtocol | 8",
+            "tag": "🇺🇸US | vless | @VmessProtocol | 10",
             "type": "vless",
             "server": "167.172.137.111",
             "server_port": 12345,
@@ -591,7 +560,7 @@
             }
         },
         {
-            "tag": "🇫🇷FR | vless | @VmessProtocol | 12",
+            "tag": "🇫🇷FR | vless | @VmessProtocol | 14",
             "type": "vless",
             "server": "51.159.213.39",
             "server_port": 18700,
@@ -620,7 +589,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @VmessProtocol | 13",
+            "tag": "🇩🇪DE | vless | @VmessProtocol | 15",
             "type": "vless",
             "server": "136.244.84.182",
             "server_port": 443,
@@ -649,7 +618,7 @@
             }
         },
         {
-            "tag": "🇸🇬SG | vless | @VmessProtocol | 15",
+            "tag": "🇸🇬SG | vless | @VmessProtocol | 17",
             "type": "vless",
             "server": "13.229.225.169",
             "server_port": 443,
@@ -678,7 +647,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @VmessProtocol | 16",
+            "tag": "🇺🇸US | vless | @VmessProtocol | 18",
             "type": "vless",
             "server": "137.184.210.82",
             "server_port": 12345,
@@ -714,11 +683,11 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vless | @VmessProtocol | 17",
+            "tag": "🇹🇷TR | vless | @DailyV2RY | 220",
             "type": "vless",
-            "server": "81.31.245.106",
+            "server": "tr1.tradex2080.com",
             "server_port": 443,
-            "uuid": "a034f973-9a9c-4dfa-897e-e10647ac7109",
+            "uuid": "7c7af2de-bb97-429f-ac3c-8ef849717491",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -728,7 +697,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "microsoft.com",
+                "server_name": "www.upci.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -737,8 +706,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "5JA5Y0-T4zvUCJ018TbvhhZ0jkNPjuUFbdm2K2Rwiz4",
-                    "short_id": "182f0114"
+                    "public_key": "jSuIvIWLecUXhjia1bHBwo5sHiYkKsdtdy0x6N-4A1s",
+                    "short_id": "ee46"
                 }
             }
         },
