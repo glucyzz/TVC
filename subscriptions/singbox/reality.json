@@ -116,7 +116,8 @@
                 "🇩🇪DE | vless | @proxyymeliii | 4",
                 "🇩🇪DE | vless | @proxyymeliii | 6",
                 "🇩🇪DE | vless | @proxyymeliii | 10",
-                "🇹🇷TR | vless | @DailyV2RY | 347",
+                "🇦🇪AE | vless | @VmessProtocol | 0",
+                "🇹🇷TR | vless | @DailyV2RY | 343",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -160,7 +161,8 @@
                 "🇩🇪DE | vless | @proxyymeliii | 4",
                 "🇩🇪DE | vless | @proxyymeliii | 6",
                 "🇩🇪DE | vless | @proxyymeliii | 10",
-                "🇹🇷TR | vless | @DailyV2RY | 347",
+                "🇦🇪AE | vless | @VmessProtocol | 0",
+                "🇹🇷TR | vless | @DailyV2RY | 343",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -483,7 +485,36 @@
             }
         },
         {
-            "tag": "🇹🇷TR | vless | @DailyV2RY | 347",
+            "tag": "🇦🇪AE | vless | @VmessProtocol | 0",
+            "type": "vless",
+            "server": "193.123.77.11",
+            "server_port": 23702,
+            "uuid": "66a3a32a-9493-417b-8aec-9c1e82146dc3",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.python.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "tchQjYmlQaMfS_nz2zDaA4cdo_4jxv27nnk40ggxpGU",
+                    "short_id": "bbddf1ac"
+                }
+            }
+        },
+        {
+            "tag": "🇹🇷TR | vless | @DailyV2RY | 343",
             "type": "vless",
             "server": "tr1.tradex2080.com",
             "server_port": 443,
