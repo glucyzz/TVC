@@ -118,8 +118,8 @@ dns:
     - "https://8.8.4.4/dns-query"
 
 proxies:
-  - {"name":"🇳🇴NO | ss | @VmessProtocol | 0","type":"ss","server":"mx2.drawnrisha.one","port":55988,"password":"oU6i3qFHJpGDpMDAkDabGz5TZTCXSSKQVV4rWuppErHvmnBbQPeZ1wF8Usz2Gy9bxDDjCTGuMYMCzvpNnepjBBae8MMYxr7M","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇧🇭BH | ss | @VmessProtocol | 4","type":"ss","server":"series-a2-me.varzesh360.co","port":443,"password":"Bog0ELmMM9DSxDdQ","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇳🇴NO | ss | @VmessProtocol | 3","type":"ss","server":"mx2.drawnrisha.one","port":55988,"password":"oU6i3qFHJpGDpMDAkDabGz5TZTCXSSKQVV4rWuppErHvmnBbQPeZ1wF8Usz2Gy9bxDDjCTGuMYMCzvpNnepjBBae8MMYxr7M","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇧🇭BH | ss | @VmessProtocol | 7","type":"ss","server":"series-a2-me.varzesh360.co","port":443,"password":"Bog0ELmMM9DSxDdQ","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇺🇸US | ss | @OutlineVpnOfficial | 22","type":"ss","server":"107.173.192.238","port":9875,"password":"BoiX102924","cipher":"aes-256-gcm"}
   - {"name":"🇫🇷FR | ss | @OutlineVpnOfficial | 23","type":"ss","server":"149.202.82.172","port":5004,"password":"g5MeD6Ft3CWlJId","cipher":"aes-256-gcm"}
   - {"name":"🇰🇿KZ | ss | @OutlineVpnOfficial | 24","type":"ss","server":"89.44.193.112","port":51348,"password":"04yG0sOWSRVSlid9mfKUmmj8U4XgVlodu4oSRU90ey2e0CQ2","cipher":"chacha20-ietf-poly1305"}
@@ -134,18 +134,17 @@ proxies:
   - {"name":"🇵🇱PL | ss | @OutlineVpnOfficial | 33","type":"ss","server":"51.77.53.200","port":8882,"password":"kDWvXYZoTBcGkC4","cipher":"aes-256-gcm"}
   - {"name":"🇳🇱NL | ss | @OutlineVpnOfficial | 34","type":"ss","server":"188.212.132.20","port":52952,"password":"XRUwpkSouW5HCTUFUxErfnL5AmahofrjznVrAu2iNFMFGUCrChznAULhuHGAQdC463mzcgo2jV546Ut5HKhk3pz956cHYYyc","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇬🇧GB | ss | @OutlineVpnOfficial | 35","type":"ss","server":"142.202.51.58","port":3389,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
-  - {"name":"🇷🇺RU | ss | @FAKEOFTVC | 14","type":"ss","server":"195.2.76.71","port":60422,"password":"9CZ99gRHmzp4SlKF2NxaxR","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇩🇪DE | ss | @FAKEOFTVC | 15","type":"ss","server":"23.158.56.196","port":8882,"password":"kDWvXYZoTBcGkC4","cipher":"aes-256-gcm"}
-  - {"name":"🇳🇴NO | ss | @proxy_mtm | 1","type":"ss","server":"mx2.drawnrisha.one","port":55988,"password":"T7RiWuXdE9yMFc4JHJXS6XdvFUVBHoLLfhydG2VA3VnQqRZbsCqD7setfVxFFrdJRhxUcdEF9ZekzUK45AJUhsJXnjESNP6A","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇦🇪AE | ss | @proxy_mtm | 4","type":"ss","server":"series-a2-mec.samanehha.co","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇫🇮FI | ss | @FAKEOFTVC | 7","type":"ss","server":"141.98.169.248","port":25757,"password":"kywNKLOlAakmgRxa9xqvHU","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇷🇺RU | ss | @FAKEOFTVC | 17","type":"ss","server":"195.2.76.71","port":60422,"password":"9CZ99gRHmzp4SlKF2NxaxR","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇩🇪DE | ss | @FAKEOFTVC | 18","type":"ss","server":"23.158.56.196","port":8882,"password":"kDWvXYZoTBcGkC4","cipher":"aes-256-gcm"}
 proxy-groups:
   - name: MANUAL
     type: select
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇳🇴NO | ss | @VmessProtocol | 0'
-      - '🇧🇭BH | ss | @VmessProtocol | 4'
+      - '🇳🇴NO | ss | @VmessProtocol | 3'
+      - '🇧🇭BH | ss | @VmessProtocol | 7'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 22'
       - '🇫🇷FR | ss | @OutlineVpnOfficial | 23'
       - '🇰🇿KZ | ss | @OutlineVpnOfficial | 24'
@@ -160,18 +159,17 @@ proxy-groups:
       - '🇵🇱PL | ss | @OutlineVpnOfficial | 33'
       - '🇳🇱NL | ss | @OutlineVpnOfficial | 34'
       - '🇬🇧GB | ss | @OutlineVpnOfficial | 35'
-      - '🇷🇺RU | ss | @FAKEOFTVC | 14'
-      - '🇩🇪DE | ss | @FAKEOFTVC | 15'
-      - '🇳🇴NO | ss | @proxy_mtm | 1'
-      - '🇦🇪AE | ss | @proxy_mtm | 4'
+      - '🇫🇮FI | ss | @FAKEOFTVC | 7'
+      - '🇷🇺RU | ss | @FAKEOFTVC | 17'
+      - '🇩🇪DE | ss | @FAKEOFTVC | 18'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 60
     tolerance: 50
     proxies:
-      - '🇳🇴NO | ss | @VmessProtocol | 0'
-      - '🇧🇭BH | ss | @VmessProtocol | 4'
+      - '🇳🇴NO | ss | @VmessProtocol | 3'
+      - '🇧🇭BH | ss | @VmessProtocol | 7'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 22'
       - '🇫🇷FR | ss | @OutlineVpnOfficial | 23'
       - '🇰🇿KZ | ss | @OutlineVpnOfficial | 24'
@@ -186,17 +184,16 @@ proxy-groups:
       - '🇵🇱PL | ss | @OutlineVpnOfficial | 33'
       - '🇳🇱NL | ss | @OutlineVpnOfficial | 34'
       - '🇬🇧GB | ss | @OutlineVpnOfficial | 35'
-      - '🇷🇺RU | ss | @FAKEOFTVC | 14'
-      - '🇩🇪DE | ss | @FAKEOFTVC | 15'
-      - '🇳🇴NO | ss | @proxy_mtm | 1'
-      - '🇦🇪AE | ss | @proxy_mtm | 4'
+      - '🇫🇮FI | ss | @FAKEOFTVC | 7'
+      - '🇷🇺RU | ss | @FAKEOFTVC | 17'
+      - '🇩🇪DE | ss | @FAKEOFTVC | 18'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇳🇴NO | ss | @VmessProtocol | 0'
-      - '🇧🇭BH | ss | @VmessProtocol | 4'
+      - '🇳🇴NO | ss | @VmessProtocol | 3'
+      - '🇧🇭BH | ss | @VmessProtocol | 7'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 22'
       - '🇫🇷FR | ss | @OutlineVpnOfficial | 23'
       - '🇰🇿KZ | ss | @OutlineVpnOfficial | 24'
@@ -211,10 +208,9 @@ proxy-groups:
       - '🇵🇱PL | ss | @OutlineVpnOfficial | 33'
       - '🇳🇱NL | ss | @OutlineVpnOfficial | 34'
       - '🇬🇧GB | ss | @OutlineVpnOfficial | 35'
-      - '🇷🇺RU | ss | @FAKEOFTVC | 14'
-      - '🇩🇪DE | ss | @FAKEOFTVC | 15'
-      - '🇳🇴NO | ss | @proxy_mtm | 1'
-      - '🇦🇪AE | ss | @proxy_mtm | 4'
+      - '🇫🇮FI | ss | @FAKEOFTVC | 7'
+      - '🇷🇺RU | ss | @FAKEOFTVC | 17'
+      - '🇩🇪DE | ss | @FAKEOFTVC | 18'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
