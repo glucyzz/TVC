@@ -115,7 +115,7 @@
                 "🇩🇪DE | vless | @proxyymeliii | 4",
                 "🇩🇪DE | vless | @proxyymeliii | 6",
                 "🇩🇪DE | vless | @proxyymeliii | 10",
-                "🇦🇪AE | vless | @VmessProtocol | 11",
+                "🇫🇷FR | vless | @VmessProtocol | 1",
                 "🇩🇪DE | vless | @proxystore11 | 8",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
@@ -129,8 +129,8 @@
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇺🇸US | vless | @Capital_NET | 45",
-                "🇩🇪DE | vless | @FreakConfig | 3",
-                "🇺🇸US | vless | @FAKEOFTVC | 4",
+                "🇩🇪DE | vless | @FreakConfig | 5",
+                "🇺🇸US | vless | @FAKEOFTVC | 7",
                 "🏳️XX | vless | @vpn_go67 | 7",
                 "🏳️XX | vless | @vpn_go67 | 8",
                 "🏳️XX | vless | @vpn_go67 | 9",
@@ -161,7 +161,7 @@
                 "🇩🇪DE | vless | @proxyymeliii | 4",
                 "🇩🇪DE | vless | @proxyymeliii | 6",
                 "🇩🇪DE | vless | @proxyymeliii | 10",
-                "🇦🇪AE | vless | @VmessProtocol | 11",
+                "🇫🇷FR | vless | @VmessProtocol | 1",
                 "🇩🇪DE | vless | @proxystore11 | 8",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
@@ -175,8 +175,8 @@
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇺🇸US | vless | @Capital_NET | 45",
-                "🇩🇪DE | vless | @FreakConfig | 3",
-                "🇺🇸US | vless | @FAKEOFTVC | 4",
+                "🇩🇪DE | vless | @FreakConfig | 5",
+                "🇺🇸US | vless | @FAKEOFTVC | 7",
                 "🏳️XX | vless | @vpn_go67 | 7",
                 "🏳️XX | vless | @vpn_go67 | 8",
                 "🏳️XX | vless | @vpn_go67 | 9",
@@ -451,11 +451,11 @@
             }
         },
         {
-            "tag": "🇦🇪AE | vless | @VmessProtocol | 11",
+            "tag": "🇫🇷FR | vless | @VmessProtocol | 1",
             "type": "vless",
-            "server": "193.123.77.11",
-            "server_port": 23702,
-            "uuid": "66a3a32a-9493-417b-8aec-9c1e82146dc3",
+            "server": "172.232.38.249",
+            "server_port": 12345,
+            "uuid": "c6b18efd-56a6-4c99-9b64-0918e18893df",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -465,18 +465,25 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "www.python.org",
+                "server_name": "www.stackoverflow.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "tchQjYmlQaMfS_nz2zDaA4cdo_4jxv27nnk40ggxpGU",
-                    "short_id": "bbddf1ac"
+                    "public_key": "hCnI4M-irNCDqaQ_g9rJMr1PvgKr_zwB8Xu3Cl1YYQ8",
+                    "short_id": "cc068f12f9db3887"
                 }
+            },
+            "transport": {
+                "type": "http",
+                "host": [
+                    "www.stackoverflow.com"
+                ],
+                "path": "\/"
             }
         },
         {
@@ -871,7 +878,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @FreakConfig | 3",
+            "tag": "🇩🇪DE | vless | @FreakConfig | 5",
             "type": "vless",
             "server": "89.187.169.71",
             "server_port": 443,
@@ -900,7 +907,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @FAKEOFTVC | 4",
+            "tag": "🇺🇸US | vless | @FAKEOFTVC | 7",
             "type": "vless",
             "server": "46.3.100.51",
             "server_port": 21846,
