@@ -111,11 +111,12 @@
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 9",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 12",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 13",
+                "🏳️XX | vless | @proxy_kafee | 0",
                 "🇩🇪DE | vless | @v2logy | 6",
                 "🇩🇪DE | vless | @proxyymeliii | 4",
                 "🇩🇪DE | vless | @proxyymeliii | 6",
                 "🇩🇪DE | vless | @proxyymeliii | 10",
-                "🇫🇷FR | vless | @VmessProtocol | 1",
+                "🇫🇷FR | vless | @VmessProtocol | 5",
                 "🇩🇪DE | vless | @proxystore11 | 8",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
@@ -129,8 +130,8 @@
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇺🇸US | vless | @Capital_NET | 45",
-                "🇩🇪DE | vless | @FreakConfig | 5",
-                "🇺🇸US | vless | @FAKEOFTVC | 7",
+                "🇩🇪DE | vless | @FreakConfig | 8",
+                "🇺🇸US | vless | @FAKEOFTVC | 10",
                 "🏳️XX | vless | @vpn_go67 | 7",
                 "🏳️XX | vless | @vpn_go67 | 8",
                 "🏳️XX | vless | @vpn_go67 | 9",
@@ -157,11 +158,12 @@
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 9",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 12",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 13",
+                "🏳️XX | vless | @proxy_kafee | 0",
                 "🇩🇪DE | vless | @v2logy | 6",
                 "🇩🇪DE | vless | @proxyymeliii | 4",
                 "🇩🇪DE | vless | @proxyymeliii | 6",
                 "🇩🇪DE | vless | @proxyymeliii | 10",
-                "🇫🇷FR | vless | @VmessProtocol | 1",
+                "🇫🇷FR | vless | @VmessProtocol | 5",
                 "🇩🇪DE | vless | @proxystore11 | 8",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
@@ -175,8 +177,8 @@
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇺🇸US | vless | @Capital_NET | 45",
-                "🇩🇪DE | vless | @FreakConfig | 5",
-                "🇺🇸US | vless | @FAKEOFTVC | 7",
+                "🇩🇪DE | vless | @FreakConfig | 8",
+                "🇺🇸US | vless | @FAKEOFTVC | 10",
                 "🏳️XX | vless | @vpn_go67 | 7",
                 "🏳️XX | vless | @vpn_go67 | 8",
                 "🏳️XX | vless | @vpn_go67 | 9",
@@ -373,6 +375,42 @@
             }
         },
         {
+            "tag": "🏳️XX | vless | @proxy_kafee | 0",
+            "type": "vless",
+            "server": "[2a0d:5940:48:11::]",
+            "server_port": 25365,
+            "uuid": "bia--ZEDMODEON",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "eset.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "mNXGayaz2RA0KmAo0w53rGs5yB1LsYuqxlO3Rpp23U4",
+                    "short_id": "5ee683a4"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-BIA-ZEDMODEON",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
             "tag": "🇩🇪DE | vless | @v2logy | 6",
             "type": "vless",
             "server": "188.245.65.59",
@@ -451,7 +489,7 @@
             }
         },
         {
-            "tag": "🇫🇷FR | vless | @VmessProtocol | 1",
+            "tag": "🇫🇷FR | vless | @VmessProtocol | 5",
             "type": "vless",
             "server": "172.232.38.249",
             "server_port": 12345,
@@ -878,7 +916,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @FreakConfig | 5",
+            "tag": "🇩🇪DE | vless | @FreakConfig | 8",
             "type": "vless",
             "server": "89.187.169.71",
             "server_port": 443,
@@ -907,7 +945,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @FAKEOFTVC | 7",
+            "tag": "🇺🇸US | vless | @FAKEOFTVC | 10",
             "type": "vless",
             "server": "46.3.100.51",
             "server_port": 21846,
