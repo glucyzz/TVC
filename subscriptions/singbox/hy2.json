@@ -106,14 +106,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🏳️XX | hy2 | @V2rayCollector | 0"
+                "🇹🇷TR | hy2 | @FAKEOFTVC | 0"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🏳️XX | hy2 | @V2rayCollector | 0"
+                "🇹🇷TR | hy2 | @FAKEOFTVC | 0"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -136,22 +136,22 @@
             "type": "dns"
         },
         {
-            "tag": "🏳️XX | hy2 | @V2rayCollector | 0",
+            "tag": "🇹🇷TR | hy2 | @FAKEOFTVC | 0",
             "type": "hysteria2",
-            "server": "[2001:19f0:1000:6daf:5400:4ff:feba:32c3]",
+            "server": "free.netmh3.pro",
             "server_port": 443,
             "up_mbps": 0,
             "down_mbps": 0,
-            "password": "f6e4b19a3110d19d",
+            "password": "4c559a537ab2b12e",
             "network": "tcp",
             "obfs": {
                 "type": "salamander",
-                "password": "8c3ce17b"
+                "password": "159836e3"
             },
             "tls": {
                 "enabled": true,
-                "disable_sni": false,
-                "server_name": "www.apple.com\n",
+                "disable_sni": true,
+                "server_name": "",
                 "insecure": true,
                 "alpn": [
                     "h3"
