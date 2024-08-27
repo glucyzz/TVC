@@ -106,7 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇪🇸ES | vless | @EliV2ray | 9",
+                "🇪🇸ES | vless | @EliV2ray | 12",
                 "🏳️XX | vless | @V2pedia | 1",
                 "🏳️XX | vless | @V2pedia | 3",
                 "🏳️XX | vless | @V2pedia | 6",
@@ -118,7 +118,6 @@
                 "🇩🇪DE | vless | @proxyymeliii | 4",
                 "🇩🇪DE | vless | @proxyymeliii | 6",
                 "🇩🇪DE | vless | @proxyymeliii | 10",
-                "🇫🇷FR | vless | @VmessProtocol | 10",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -152,7 +151,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇪🇸ES | vless | @EliV2ray | 9",
+                "🇪🇸ES | vless | @EliV2ray | 12",
                 "🏳️XX | vless | @V2pedia | 1",
                 "🏳️XX | vless | @V2pedia | 3",
                 "🏳️XX | vless | @V2pedia | 6",
@@ -164,7 +163,6 @@
                 "🇩🇪DE | vless | @proxyymeliii | 4",
                 "🇩🇪DE | vless | @proxyymeliii | 6",
                 "🇩🇪DE | vless | @proxyymeliii | 10",
-                "🇫🇷FR | vless | @VmessProtocol | 10",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -214,7 +212,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇪🇸ES | vless | @EliV2ray | 9",
+            "tag": "🇪🇸ES | vless | @EliV2ray | 12",
             "type": "vless",
             "server": "172.233.111.206",
             "server_port": 2093,
@@ -556,42 +554,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇫🇷FR | vless | @VmessProtocol | 10",
-            "type": "vless",
-            "server": "172.232.38.249",
-            "server_port": 12345,
-            "uuid": "c6b18efd-56a6-4c99-9b64-0918e18893df",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.stackoverflow.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "hCnI4M-irNCDqaQ_g9rJMr1PvgKr_zwB8Xu3Cl1YYQ8",
-                    "short_id": "cc068f12f9db3887"
-                }
-            },
-            "transport": {
-                "type": "http",
-                "host": [
-                    "www.stackoverflow.com"
-                ],
-                "path": "\/"
             }
         },
         {
