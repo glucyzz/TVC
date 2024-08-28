@@ -106,7 +106,6 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇪🇸ES | vless | @EliV2ray | 12",
                 "🏳️XX | vless | @V2pedia | 1",
                 "🏳️XX | vless | @V2pedia | 3",
                 "🏳️XX | vless | @V2pedia | 6",
@@ -115,6 +114,7 @@
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 12",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 13",
                 "🇩🇪DE | vless | @v2logy | 6",
+                "🇩🇪DE | vless | @ProxyForOpeta | 0",
                 "🇩🇪DE | vless | @proxyymeliii | 4",
                 "🇩🇪DE | vless | @proxyymeliii | 6",
                 "🇩🇪DE | vless | @proxyymeliii | 10",
@@ -151,7 +151,6 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇪🇸ES | vless | @EliV2ray | 12",
                 "🏳️XX | vless | @V2pedia | 1",
                 "🏳️XX | vless | @V2pedia | 3",
                 "🏳️XX | vless | @V2pedia | 6",
@@ -160,6 +159,7 @@
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 12",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 13",
                 "🇩🇪DE | vless | @v2logy | 6",
+                "🇩🇪DE | vless | @ProxyForOpeta | 0",
                 "🇩🇪DE | vless | @proxyymeliii | 4",
                 "🇩🇪DE | vless | @proxyymeliii | 6",
                 "🇩🇪DE | vless | @proxyymeliii | 10",
@@ -210,42 +210,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇪🇸ES | vless | @EliV2ray | 12",
-            "type": "vless",
-            "server": "172.233.111.206",
-            "server_port": 2093,
-            "uuid": "6944df44-2a95-45e6-b228-b381af37ddf9",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "stackoverflow.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "7kjyM2dPWAj_zy6VnB88fevwjT4m3XRna6H2rfSEdH0",
-                    "short_id": "d710e2b9"
-                }
-            },
-            "transport": {
-                "type": "http",
-                "host": [
-                    "stackoverflow.com"
-                ],
-                "path": "\/"
-            }
         },
         {
             "tag": "🏳️XX | vless | @V2pedia | 1",
@@ -512,6 +476,35 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @ProxyForOpeta | 0",
+            "type": "vless",
+            "server": "188.245.124.204",
+            "server_port": 443,
+            "uuid": "bbbcba63-d5b2-4aee-a5f2-ad8a3ab0115d",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mdundo.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "f9yPFWY54wzWAvcPgsg8KqW1wvKhWbHHiP9pQzpD5mM",
+                    "short_id": "9d152a93"
+                }
             }
         },
         {
