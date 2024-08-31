@@ -106,16 +106,15 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🏳️XX | vless | @V2pedia | 1",
                 "🏳️XX | vless | @V2pedia | 3",
-                "🏳️XX | vless | @V2pedia | 6",
-                "🏳️XX | vless | @V2pedia | 10",
+                "🏳️XX | vless | @V2pedia | 5",
+                "🏳️XX | vless | @V2pedia | 8",
+                "🏳️XX | vless | @V2pedia | 12",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 9",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 12",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 13",
                 "🏳️XX | vless | @proxy_kafee | 2",
                 "🇩🇪DE | vless | @v2logy | 6",
-                "🏳️XX | vless | @ProxyForOpeta | 0",
                 "🇩🇪DE | vless | @proxyymeliii | 4",
                 "🇩🇪DE | vless | @proxyymeliii | 6",
                 "🇩🇪DE | vless | @proxyymeliii | 10",
@@ -131,6 +130,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
+                "🇩🇪DE | vless | @FAKEOFTVC | 2",
                 "🏳️XX | vless | @vpn_go67 | 7",
                 "🏳️XX | vless | @vpn_go67 | 8",
                 "🏳️XX | vless | @vpn_go67 | 9",
@@ -152,16 +152,15 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🏳️XX | vless | @V2pedia | 1",
                 "🏳️XX | vless | @V2pedia | 3",
-                "🏳️XX | vless | @V2pedia | 6",
-                "🏳️XX | vless | @V2pedia | 10",
+                "🏳️XX | vless | @V2pedia | 5",
+                "🏳️XX | vless | @V2pedia | 8",
+                "🏳️XX | vless | @V2pedia | 12",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 9",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 12",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 13",
                 "🏳️XX | vless | @proxy_kafee | 2",
                 "🇩🇪DE | vless | @v2logy | 6",
-                "🏳️XX | vless | @ProxyForOpeta | 0",
                 "🇩🇪DE | vless | @proxyymeliii | 4",
                 "🇩🇪DE | vless | @proxyymeliii | 6",
                 "🇩🇪DE | vless | @proxyymeliii | 10",
@@ -177,6 +176,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
+                "🇩🇪DE | vless | @FAKEOFTVC | 2",
                 "🏳️XX | vless | @vpn_go67 | 7",
                 "🏳️XX | vless | @vpn_go67 | 8",
                 "🏳️XX | vless | @vpn_go67 | 9",
@@ -214,7 +214,7 @@
             "type": "dns"
         },
         {
-            "tag": "🏳️XX | vless | @V2pedia | 1",
+            "tag": "🏳️XX | vless | @V2pedia | 3",
             "type": "vless",
             "server": "[2a0d:5940:48:11::]",
             "server_port": 25365,
@@ -250,7 +250,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @V2pedia | 3",
+            "tag": "🏳️XX | vless | @V2pedia | 5",
             "type": "vless",
             "server": "[2a0d:5940:48:11::]",
             "server_port": 25365,
@@ -286,7 +286,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @V2pedia | 6",
+            "tag": "🏳️XX | vless | @V2pedia | 8",
             "type": "vless",
             "server": "[2a0d:5940:94:1::]",
             "server_port": 25365,
@@ -322,7 +322,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @V2pedia | 10",
+            "tag": "🏳️XX | vless | @V2pedia | 12",
             "type": "vless",
             "server": "[2a0d:5940:47:31::]",
             "server_port": 25365,
@@ -511,42 +511,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🏳️XX | vless | @ProxyForOpeta | 0",
-            "type": "vless",
-            "server": "[2a0d:5940:48:11::]",
-            "server_port": 25365,
-            "uuid": "Bia--ZEDMODEON",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "eset.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "IfRGbxsU5A8Xec8y3hDccNrYG3_RJBChFl7wtb4cFXQ",
-                    "short_id": "7b65e82d"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-BIA-ZEDMODEON",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
@@ -953,6 +917,35 @@
                     "enabled": true,
                     "public_key": "fabWUdBWxh7NsMaqOF35petD3ljQbKf6OSDnROV9jDs",
                     "short_id": "6f9deca7"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @FAKEOFTVC | 2",
+            "type": "vless",
+            "server": "tezz.cloudshop.lol",
+            "server_port": 10258,
+            "uuid": "cf3a9c4e-c820-484c-bf30-77f7921662fb",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "gcore.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "MOMJig4xLVj6qyNbqLxgdWNEovZ429gu665KGUaOCVE",
+                    "short_id": "0c9e21df2f"
                 }
             }
         },
