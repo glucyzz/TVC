@@ -113,8 +113,9 @@
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 9",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 12",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 13",
-                "🏳️XX | vless | @proxy_kafee | 4",
+                "🏳️XX | vless | @proxy_kafee | 6",
                 "🇩🇪DE | vless | @v2logy | 6",
+                "🇩🇪DE | vless | @ShadowProxy66 | 4",
                 "🇩🇪DE | vless | @proxyymeliii | 4",
                 "🇩🇪DE | vless | @proxyymeliii | 6",
                 "🇩🇪DE | vless | @proxyymeliii | 10",
@@ -130,7 +131,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
-                "🇩🇪DE | vless | @FAKEOFTVC | 5",
+                "🇳🇱NL | vless | @mehrosaboran | 3",
                 "🏳️XX | vless | @vpn_go67 | 7",
                 "🏳️XX | vless | @vpn_go67 | 8",
                 "🏳️XX | vless | @vpn_go67 | 9",
@@ -159,8 +160,9 @@
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 9",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 12",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 13",
-                "🏳️XX | vless | @proxy_kafee | 4",
+                "🏳️XX | vless | @proxy_kafee | 6",
                 "🇩🇪DE | vless | @v2logy | 6",
+                "🇩🇪DE | vless | @ShadowProxy66 | 4",
                 "🇩🇪DE | vless | @proxyymeliii | 4",
                 "🇩🇪DE | vless | @proxyymeliii | 6",
                 "🇩🇪DE | vless | @proxyymeliii | 10",
@@ -176,7 +178,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
-                "🇩🇪DE | vless | @FAKEOFTVC | 5",
+                "🇳🇱NL | vless | @mehrosaboran | 3",
                 "🏳️XX | vless | @vpn_go67 | 7",
                 "🏳️XX | vless | @vpn_go67 | 8",
                 "🏳️XX | vless | @vpn_go67 | 9",
@@ -445,7 +447,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @proxy_kafee | 4",
+            "tag": "🏳️XX | vless | @proxy_kafee | 6",
             "type": "vless",
             "server": "[2a0d:5940:48:11::]",
             "server_port": 25365,
@@ -514,6 +516,35 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @ShadowProxy66 | 4",
+            "type": "vless",
+            "server": "159.69.37.237",
+            "server_port": 443,
+            "uuid": "44ac629c-d0d7-4c4f-b5b4-215f801beaeb",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "cloudflare.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "t7FDpA5iofjr3VLdsLvd-O4DqM_dVJseA92mAyJYa1w",
+                    "short_id": "42"
+                }
             }
         },
         {
@@ -921,11 +952,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @FAKEOFTVC | 5",
+            "tag": "🇳🇱NL | vless | @mehrosaboran | 3",
             "type": "vless",
-            "server": "tezz.cloudshop.lol",
-            "server_port": 10258,
-            "uuid": "cf3a9c4e-c820-484c-bf30-77f7921662fb",
+            "server": "neomci.orac.site",
+            "server_port": 34725,
+            "uuid": "168f0561-480c-414c-880e-c2becf9ec0a3",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -935,18 +966,25 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "gcore.com",
+                "server_name": "sammobile.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "MOMJig4xLVj6qyNbqLxgdWNEovZ429gu665KGUaOCVE",
-                    "short_id": "0c9e21df2f"
+                    "public_key": "nGvmIREOpAS7AP-bT5xe0XT3Xb_j7uLkAhJ5yWKN5Bc",
+                    "short_id": "78145c13"
                 }
+            },
+            "transport": {
+                "type": "http",
+                "host": [
+                    "sammobile.com"
+                ],
+                "path": "\/sammobile.com"
             }
         },
         {
