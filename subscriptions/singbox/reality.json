@@ -106,13 +106,15 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🏳️XX | vless | @V2pedia | 9",
-                "🏳️XX | vless | @V2pedia | 11",
-                "🏳️XX | vless | @V2pedia | 14",
+                "🏳️XX | vless | @V2pedia | 10",
+                "🏳️XX | vless | @V2pedia | 12",
+                "🏳️XX | vless | @V2pedia | 15",
+                "🇩🇪DE | vless | @vpn_xw | 0",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 9",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 12",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 13",
                 "🇩🇪DE | vless | @v2logy | 6",
+                "🇩🇪DE | vless | @proxyymeliii | 1",
                 "🇩🇪DE | vless | @proxyymeliii | 4",
                 "🇩🇪DE | vless | @proxyymeliii | 6",
                 "🇩🇪DE | vless | @proxyymeliii | 10",
@@ -128,7 +130,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
-                "🏳️XX | vless | @FAKEOFTVC | 1",
+                "🏳️XX | vless | @FAKEOFTVC | 2",
                 "🏳️XX | vless | @vpn_go67 | 7",
                 "🏳️XX | vless | @vpn_go67 | 8",
                 "🏳️XX | vless | @vpn_go67 | 9",
@@ -150,13 +152,15 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🏳️XX | vless | @V2pedia | 9",
-                "🏳️XX | vless | @V2pedia | 11",
-                "🏳️XX | vless | @V2pedia | 14",
+                "🏳️XX | vless | @V2pedia | 10",
+                "🏳️XX | vless | @V2pedia | 12",
+                "🏳️XX | vless | @V2pedia | 15",
+                "🇩🇪DE | vless | @vpn_xw | 0",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 9",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 12",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 13",
                 "🇩🇪DE | vless | @v2logy | 6",
+                "🇩🇪DE | vless | @proxyymeliii | 1",
                 "🇩🇪DE | vless | @proxyymeliii | 4",
                 "🇩🇪DE | vless | @proxyymeliii | 6",
                 "🇩🇪DE | vless | @proxyymeliii | 10",
@@ -172,7 +176,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
-                "🏳️XX | vless | @FAKEOFTVC | 1",
+                "🏳️XX | vless | @FAKEOFTVC | 2",
                 "🏳️XX | vless | @vpn_go67 | 7",
                 "🏳️XX | vless | @vpn_go67 | 8",
                 "🏳️XX | vless | @vpn_go67 | 9",
@@ -210,7 +214,7 @@
             "type": "dns"
         },
         {
-            "tag": "🏳️XX | vless | @V2pedia | 9",
+            "tag": "🏳️XX | vless | @V2pedia | 10",
             "type": "vless",
             "server": "[2a0d:5940:48:11::]",
             "server_port": 25365,
@@ -246,7 +250,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @V2pedia | 11",
+            "tag": "🏳️XX | vless | @V2pedia | 12",
             "type": "vless",
             "server": "[2a0d:5940:48:11::]",
             "server_port": 25365,
@@ -282,7 +286,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @V2pedia | 14",
+            "tag": "🏳️XX | vless | @V2pedia | 15",
             "type": "vless",
             "server": "[2a0d:5940:94:1::]",
             "server_port": 25365,
@@ -315,6 +319,35 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @vpn_xw | 0",
+            "type": "vless",
+            "server": "35.156.62.109",
+            "server_port": 443,
+            "uuid": "f2c40f4d-3d31-4838-8715-86ba98d2c335",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "GD0CDrLSoAsBq7TdgDfw_IsTcuqZZJ3TcpSG7-bHFjs",
+                    "short_id": "88e39306"
+                }
             }
         },
         {
@@ -438,6 +471,20 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @proxyymeliii | 1",
+            "type": "vless",
+            "server": "49.12.193.246",
+            "server_port": 443,
+            "uuid": "bf82a225-edb7-4b16-b7b3-96421fc85a79",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
@@ -845,7 +892,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @FAKEOFTVC | 1",
+            "tag": "🏳️XX | vless | @FAKEOFTVC | 2",
             "type": "vless",
             "server": "dl.downloadha.blog",
             "server_port": 443,

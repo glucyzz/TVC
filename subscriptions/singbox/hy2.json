@@ -106,16 +106,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇹🇷TR | hy2 | @FAKEOFTVC | 5",
-                "🇹🇷TR | hy2 | @FAKEOFTVC | 6"
+                "🇹🇷TR | hy2 | @FAKEOFTVC | 0"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇹🇷TR | hy2 | @FAKEOFTVC | 5",
-                "🇹🇷TR | hy2 | @FAKEOFTVC | 6"
+                "🇹🇷TR | hy2 | @FAKEOFTVC | 0"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -138,36 +136,13 @@
             "type": "dns"
         },
         {
-            "tag": "🇹🇷TR | hy2 | @FAKEOFTVC | 5",
+            "tag": "🇹🇷TR | hy2 | @FAKEOFTVC | 0",
             "type": "hysteria2",
             "server": "free.netmh3.pro",
             "server_port": 443,
             "up_mbps": 0,
             "down_mbps": 0,
-            "password": "ac71c06e1336d0f7",
-            "network": "tcp",
-            "obfs": {
-                "type": "salamander",
-                "password": "159836e3"
-            },
-            "tls": {
-                "enabled": true,
-                "disable_sni": true,
-                "server_name": "",
-                "insecure": true,
-                "alpn": [
-                    "h3"
-                ]
-            }
-        },
-        {
-            "tag": "🇹🇷TR | hy2 | @FAKEOFTVC | 6",
-            "type": "hysteria2",
-            "server": "free.netmh3.pro",
-            "server_port": 443,
-            "up_mbps": 0,
-            "down_mbps": 0,
-            "password": "10d753cc60212d26",
+            "password": "b5abef9cdb4d935c",
             "network": "tcp",
             "obfs": {
                 "type": "salamander",
