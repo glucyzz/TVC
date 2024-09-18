@@ -106,10 +106,10 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪DE | vless | @V2pedia | 1",
-                "🏳️XX | vless | @V2pedia | 3",
-                "🏳️XX | vless | @V2pedia | 10",
-                "🏳️XX | vless | @V2pedia | 12",
+                "🇩🇪DE | vless | @V2pedia | 2",
+                "🏳️XX | vless | @V2pedia | 4",
+                "🏳️XX | vless | @V2pedia | 11",
+                "🏳️XX | vless | @V2pedia | 13",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 9",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 12",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 13",
@@ -119,6 +119,7 @@
                 "🇩🇪DE | vless | @proxyymeliii | 4",
                 "🇩🇪DE | vless | @proxyymeliii | 6",
                 "🇩🇪DE | vless | @proxyymeliii | 10",
+                "🇭🇰HK | vless | @Outlinev2rayNG | 1",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🇱🇹LT | vless | @Capital_NET | 33",
@@ -152,10 +153,10 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪DE | vless | @V2pedia | 1",
-                "🏳️XX | vless | @V2pedia | 3",
-                "🏳️XX | vless | @V2pedia | 10",
-                "🏳️XX | vless | @V2pedia | 12",
+                "🇩🇪DE | vless | @V2pedia | 2",
+                "🏳️XX | vless | @V2pedia | 4",
+                "🏳️XX | vless | @V2pedia | 11",
+                "🏳️XX | vless | @V2pedia | 13",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 9",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 12",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 13",
@@ -165,6 +166,7 @@
                 "🇩🇪DE | vless | @proxyymeliii | 4",
                 "🇩🇪DE | vless | @proxyymeliii | 6",
                 "🇩🇪DE | vless | @proxyymeliii | 10",
+                "🇭🇰HK | vless | @Outlinev2rayNG | 1",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🇱🇹LT | vless | @Capital_NET | 33",
@@ -214,7 +216,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇩🇪DE | vless | @V2pedia | 1",
+            "tag": "🇩🇪DE | vless | @V2pedia | 2",
             "type": "vless",
             "server": "91.107.167.23",
             "server_port": 443,
@@ -243,7 +245,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @V2pedia | 3",
+            "tag": "🏳️XX | vless | @V2pedia | 4",
             "type": "vless",
             "server": "[2a0d:5940:94:1::]",
             "server_port": 25365,
@@ -279,7 +281,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @V2pedia | 10",
+            "tag": "🏳️XX | vless | @V2pedia | 11",
             "type": "vless",
             "server": "[2a0d:5940:48:11::]",
             "server_port": 25365,
@@ -315,7 +317,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @V2pedia | 12",
+            "tag": "🏳️XX | vless | @V2pedia | 13",
             "type": "vless",
             "server": "[2a0d:5940:48:11::]",
             "server_port": 25365,
@@ -563,6 +565,35 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇭🇰HK | vless | @Outlinev2rayNG | 1",
+            "type": "vless",
+            "server": "82.152.142.68",
+            "server_port": 35426,
+            "uuid": "86e064da-6791-4861-9869-2b05d61f72f5",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "images.apple.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "n4x0bNDRgLmWUGNX4-J4aywwtMoWDoOBHqnj62voHW0",
+                    "short_id": "de6e"
+                }
             }
         },
         {
