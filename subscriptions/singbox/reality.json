@@ -114,12 +114,12 @@
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 12",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 13",
                 "🇩🇪DE | vless | @v2logy | 6",
-                "🇩🇪DE | vless | @ShadowProxy66 | 6",
                 "🇩🇪DE | vless | @proxyymeliii | 1",
                 "🇩🇪DE | vless | @proxyymeliii | 4",
                 "🇩🇪DE | vless | @proxyymeliii | 6",
                 "🇩🇪DE | vless | @proxyymeliii | 10",
-                "🇭🇰HK | vless | @Outlinev2rayNG | 1",
+                "🇩🇪DE | vless | @VmessProtocol | 1",
+                "🇫🇷FR | vless | @VmessProtocol | 2",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🇱🇹LT | vless | @Capital_NET | 33",
@@ -161,12 +161,12 @@
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 12",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 13",
                 "🇩🇪DE | vless | @v2logy | 6",
-                "🇩🇪DE | vless | @ShadowProxy66 | 6",
                 "🇩🇪DE | vless | @proxyymeliii | 1",
                 "🇩🇪DE | vless | @proxyymeliii | 4",
                 "🇩🇪DE | vless | @proxyymeliii | 6",
                 "🇩🇪DE | vless | @proxyymeliii | 10",
-                "🇭🇰HK | vless | @Outlinev2rayNG | 1",
+                "🇩🇪DE | vless | @VmessProtocol | 1",
+                "🇫🇷FR | vless | @VmessProtocol | 2",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🇱🇹LT | vless | @Capital_NET | 33",
@@ -476,42 +476,6 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @ShadowProxy66 | 6",
-            "type": "vless",
-            "server": "188.245.125.54",
-            "server_port": 12345,
-            "uuid": "9a53b798-7c81-43cd-83b8-995ef74dc1ad",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "mdundo.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "5-ULVwlDqXjkanMXLwofHDXCHusoe4reTbalv8D5eyo",
-                    "short_id": "95a89ac367c7"
-                }
-            },
-            "transport": {
-                "type": "http",
-                "host": [
-                    "mdundo.com"
-                ],
-                "path": "\/"
-            }
-        },
-        {
             "tag": "🇩🇪DE | vless | @proxyymeliii | 1",
             "type": "vless",
             "server": "49.12.193.246",
@@ -568,11 +532,11 @@
             }
         },
         {
-            "tag": "🇭🇰HK | vless | @Outlinev2rayNG | 1",
+            "tag": "🇩🇪DE | vless | @VmessProtocol | 1",
             "type": "vless",
-            "server": "82.152.142.68",
-            "server_port": 35426,
-            "uuid": "86e064da-6791-4861-9869-2b05d61f72f5",
+            "server": "host.the-ashegh.ir",
+            "server_port": 1024,
+            "uuid": "b3a4b75b-242a-41db-e679-3614fa7646dd",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -582,17 +546,46 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "images.apple.com",
+                "server_name": "The-Sys.ir",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "firefox"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "n4x0bNDRgLmWUGNX4-J4aywwtMoWDoOBHqnj62voHW0",
-                    "short_id": "de6e"
+                    "public_key": "tN8Wc2ucm7c7gWvRXv2Rdy-I3qlHeeSF2eKJakY5r20",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷FR | vless | @VmessProtocol | 2",
+            "type": "vless",
+            "server": "212.47.231.216",
+            "server_port": 443,
+            "uuid": "307fe89a-138b-4ece-84cf-4ea716a45a0e",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "cloudflare.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "x2CoZIWXYgYUPX7GeQgN0OMB0HjslT_o8OWi4FOdfxU",
+                    "short_id": "42"
                 }
             }
         },

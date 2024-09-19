@@ -12,12 +12,11 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 🇵🇱PL | ss | @DeamNet_Proxy | 19 = ss, 77.83.246.74, 33320, encrypt-method = chacha20-ietf-poly1305, password = a16mEzcthkdQAqLds9MssJ
-🇦🇹AT | ss | @FAKEOFTVC | 1 = ss, vienna.telegavpn.com, 61992, encrypt-method = chacha20-ietf-poly1305, password = om6wrhCRMs9V8bTB5fitrQ
-🇦🇹AT | ss | @FAKEOFTVC | 2 = ss, vienna.telegavpn.com, 61992, encrypt-method = chacha20-ietf-poly1305, password = S7HQ25Heg51DsAwqrH4IQK
+🇬🇧GB | ss | @VmessProtocol | 7 = ss, series-a2.varzesh360.co, 443, encrypt-method = chacha20-ietf-poly1305, password = mps3FwmDjLrWaOVg
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇵🇱PL | ss | @DeamNet_Proxy | 19,🇦🇹AT | ss | @FAKEOFTVC | 1,🇦🇹AT | ss | @FAKEOFTVC | 2
-URL-TEST = url-test,🇵🇱PL | ss | @DeamNet_Proxy | 19,🇦🇹AT | ss | @FAKEOFTVC | 1,🇦🇹AT | ss | @FAKEOFTVC | 2
-FALLBACK = fallback,🇵🇱PL | ss | @DeamNet_Proxy | 19,🇦🇹AT | ss | @FAKEOFTVC | 1,🇦🇹AT | ss | @FAKEOFTVC | 2
+MANUAL = select,URL-TEST,FALLBACK,🇵🇱PL | ss | @DeamNet_Proxy | 19,🇬🇧GB | ss | @VmessProtocol | 7
+URL-TEST = url-test,🇵🇱PL | ss | @DeamNet_Proxy | 19,🇬🇧GB | ss | @VmessProtocol | 7
+FALLBACK = fallback,🇵🇱PL | ss | @DeamNet_Proxy | 19,🇬🇧GB | ss | @VmessProtocol | 7
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL

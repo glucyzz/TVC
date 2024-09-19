@@ -107,8 +107,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇵🇱PL | ss | @DeamNet_Proxy | 19",
-                "🇦🇹AT | ss | @FAKEOFTVC | 1",
-                "🇦🇹AT | ss | @FAKEOFTVC | 2"
+                "🇬🇧GB | ss | @VmessProtocol | 7"
             ]
         },
         {
@@ -116,8 +115,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇵🇱PL | ss | @DeamNet_Proxy | 19",
-                "🇦🇹AT | ss | @FAKEOFTVC | 1",
-                "🇦🇹AT | ss | @FAKEOFTVC | 2"
+                "🇬🇧GB | ss | @VmessProtocol | 7"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -150,22 +148,12 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇦🇹AT | ss | @FAKEOFTVC | 1",
+            "tag": "🇬🇧GB | ss | @VmessProtocol | 7",
             "type": "shadowsocks",
-            "server": "vienna.telegavpn.com",
-            "server_port": 61992,
+            "server": "series-a2.varzesh360.co",
+            "server_port": 443,
             "method": "chacha20-ietf-poly1305",
-            "password": "om6wrhCRMs9V8bTB5fitrQ",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇦🇹AT | ss | @FAKEOFTVC | 2",
-            "type": "shadowsocks",
-            "server": "vienna.telegavpn.com",
-            "server_port": 61992,
-            "method": "chacha20-ietf-poly1305",
-            "password": "S7HQ25Heg51DsAwqrH4IQK",
+            "password": "mps3FwmDjLrWaOVg",
             "plugin": "",
             "plugin_opts": ""
         }
