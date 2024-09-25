@@ -107,9 +107,9 @@
             "outbounds": [
                 "URL-TEST",
                 "🇬🇧GB | ss | @VmessProtocol | 9",
-                "🇸🇬SG | ss | @FAKEOFTVC | 0",
                 "🇸🇬SG | ss | @FAKEOFTVC | 1",
-                "🇦🇹AT | ss | @FAKEOFTVC | 2"
+                "🇸🇬SG | ss | @FAKEOFTVC | 2",
+                "🇦🇹AT | ss | @FAKEOFTVC | 3"
             ]
         },
         {
@@ -117,9 +117,9 @@
             "type": "urltest",
             "outbounds": [
                 "🇬🇧GB | ss | @VmessProtocol | 9",
-                "🇸🇬SG | ss | @FAKEOFTVC | 0",
                 "🇸🇬SG | ss | @FAKEOFTVC | 1",
-                "🇦🇹AT | ss | @FAKEOFTVC | 2"
+                "🇸🇬SG | ss | @FAKEOFTVC | 2",
+                "🇦🇹AT | ss | @FAKEOFTVC | 3"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -152,7 +152,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇸🇬SG | ss | @FAKEOFTVC | 0",
+            "tag": "🇸🇬SG | ss | @FAKEOFTVC | 1",
             "type": "shadowsocks",
             "server": "sg.outlinekeys.net",
             "server_port": 52252,
@@ -162,7 +162,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇸🇬SG | ss | @FAKEOFTVC | 1",
+            "tag": "🇸🇬SG | ss | @FAKEOFTVC | 2",
             "type": "shadowsocks",
             "server": "sg.outlinekeys.net",
             "server_port": 52252,
@@ -172,7 +172,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇦🇹AT | ss | @FAKEOFTVC | 2",
+            "tag": "🇦🇹AT | ss | @FAKEOFTVC | 3",
             "type": "shadowsocks",
             "server": "212.113.106.76",
             "server_port": 29149,

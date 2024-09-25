@@ -114,11 +114,10 @@
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 13",
                 "🇩🇪DE | vless | @v2logy | 6",
                 "🏳️XX | vless | @V2rayCollectorDonate | 9",
-                "🇳🇱NL | vless | @ShadowProxy66 | 1",
-                "🇳🇱NL | vless | @ShadowProxy66 | 9",
                 "🇩🇪DE | vless | @proxyymeliii | 1",
                 "🇩🇪DE | vless | @proxyymeliii | 4",
                 "🇩🇪DE | vless | @proxyymeliii | 6",
+                "🇩🇪DE | vless | @proxyymeliii | 10",
                 "🏳️XX | vless | @VmessProtocol | 3",
                 "🇫🇷FR | vless | @VmessProtocol | 4",
                 "🇩🇪DE | vless | @Capital_NET | 31",
@@ -163,11 +162,10 @@
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 13",
                 "🇩🇪DE | vless | @v2logy | 6",
                 "🏳️XX | vless | @V2rayCollectorDonate | 9",
-                "🇳🇱NL | vless | @ShadowProxy66 | 1",
-                "🇳🇱NL | vless | @ShadowProxy66 | 9",
                 "🇩🇪DE | vless | @proxyymeliii | 1",
                 "🇩🇪DE | vless | @proxyymeliii | 4",
                 "🇩🇪DE | vless | @proxyymeliii | 6",
+                "🇩🇪DE | vless | @proxyymeliii | 10",
                 "🏳️XX | vless | @VmessProtocol | 3",
                 "🇫🇷FR | vless | @VmessProtocol | 4",
                 "🇩🇪DE | vless | @Capital_NET | 31",
@@ -480,64 +478,6 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vless | @ShadowProxy66 | 1",
-            "type": "vless",
-            "server": "45.88.200.197",
-            "server_port": 443,
-            "uuid": "c23f173b-79bc-4261-bff7-7f2b698b7023",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "cloudflare.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "JgtvWO6rXg8O8wYaDCL1EJp1jazh1TBEckJob2aWrhU",
-                    "short_id": "42"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱NL | vless | @ShadowProxy66 | 9",
-            "type": "vless",
-            "server": "45.88.200.179",
-            "server_port": 443,
-            "uuid": "52fe910a-2ef3-4755-93ad-82dfe61ccb4d",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "cloudflare.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "bOOWOOCtt3hlDEv6eCVvCl9oBfXC72YIHEoMGwph-C0",
-                    "short_id": "42"
-                }
-            }
-        },
-        {
             "tag": "🇩🇪DE | vless | @proxyymeliii | 1",
             "type": "vless",
             "server": "49.12.193.246",
@@ -571,6 +511,20 @@
             "server": "49.12.193.246",
             "server_port": 443,
             "uuid": "46286ed2-9abf-420b-b510-c9e663cdbadc",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @proxyymeliii | 10",
+            "type": "vless",
+            "server": "49.12.193.246",
+            "server_port": 443,
+            "uuid": "b8f5ba57-4439-4fe0-b3bd-47f398b3869a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
