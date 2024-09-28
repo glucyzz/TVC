@@ -11,13 +11,11 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇸🇬SG | ss | @FAKEOFTVC | 2 = ss, sg.outlinekeys.net, 52252, encrypt-method = chacha20-ietf-poly1305, password = 2UwGPpJJOWcV8gnNbUzfPB
-🇸🇬SG | ss | @FAKEOFTVC | 3 = ss, sg.outlinekeys.net, 52252, encrypt-method = chacha20-ietf-poly1305, password = cZ8XyhCI9jwDJUkto8bQyI
-🇦🇹AT | ss | @FAKEOFTVC | 4 = ss, 212.113.106.76, 29149, encrypt-method = chacha20-ietf-poly1305, password = gpG52wwJzvrdWnLEtIrfGK
+🇸🇬SG | ss | @FAKEOFTVC | 3 = ss, sg.outlinekeys.net, 52252, encrypt-method = chacha20-ietf-poly1305, password = 2UwGPpJJOWcV8gnNbUzfPB
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇸🇬SG | ss | @FAKEOFTVC | 2,🇸🇬SG | ss | @FAKEOFTVC | 3,🇦🇹AT | ss | @FAKEOFTVC | 4
-URL-TEST = url-test,🇸🇬SG | ss | @FAKEOFTVC | 2,🇸🇬SG | ss | @FAKEOFTVC | 3,🇦🇹AT | ss | @FAKEOFTVC | 4
-FALLBACK = fallback,🇸🇬SG | ss | @FAKEOFTVC | 2,🇸🇬SG | ss | @FAKEOFTVC | 3,🇦🇹AT | ss | @FAKEOFTVC | 4
+MANUAL = select,URL-TEST,FALLBACK,🇸🇬SG | ss | @FAKEOFTVC | 3
+URL-TEST = url-test,🇸🇬SG | ss | @FAKEOFTVC | 3
+FALLBACK = fallback,🇸🇬SG | ss | @FAKEOFTVC | 3
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL

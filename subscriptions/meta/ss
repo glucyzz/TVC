@@ -120,35 +120,27 @@ dns:
     'RULE-SET:ir,ircidr,geoip:ir,+.ir,+.bonyan.co': ["217.218.155.155", "217.218.127.127", "https://dns.403.online/dns-query", "https://dns.shecan.ir/dns-query"]
 
 proxies:
-  - {"name":"🇸🇬SG | ss | @FAKEOFTVC | 2","type":"ss","server":"sg.outlinekeys.net","port":52252,"password":"2UwGPpJJOWcV8gnNbUzfPB","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇸🇬SG | ss | @FAKEOFTVC | 3","type":"ss","server":"sg.outlinekeys.net","port":52252,"password":"cZ8XyhCI9jwDJUkto8bQyI","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇦🇹AT | ss | @FAKEOFTVC | 4","type":"ss","server":"212.113.106.76","port":29149,"password":"gpG52wwJzvrdWnLEtIrfGK","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇸🇬SG | ss | @FAKEOFTVC | 3","type":"ss","server":"sg.outlinekeys.net","port":52252,"password":"2UwGPpJJOWcV8gnNbUzfPB","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: MANUAL
     type: select
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇸🇬SG | ss | @FAKEOFTVC | 2'
       - '🇸🇬SG | ss | @FAKEOFTVC | 3'
-      - '🇦🇹AT | ss | @FAKEOFTVC | 4'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 60
     tolerance: 50
     proxies:
-      - '🇸🇬SG | ss | @FAKEOFTVC | 2'
       - '🇸🇬SG | ss | @FAKEOFTVC | 3'
-      - '🇦🇹AT | ss | @FAKEOFTVC | 4'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇸🇬SG | ss | @FAKEOFTVC | 2'
       - '🇸🇬SG | ss | @FAKEOFTVC | 3'
-      - '🇦🇹AT | ss | @FAKEOFTVC | 4'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
   ads: {type: http, format: text, behavior: domain, path: ./ruleset/ads.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ads.txt, interval: 86400}
