@@ -118,6 +118,7 @@
                 "🇺🇸US | vmess | @mftizi | 12",
                 "🇺🇸US | vmess | @mftizi | 13",
                 "🇨🇳CN | vmess | @mftizi | 14",
+                "🇺🇸US | vmess | @ShadowProxy66 | 11",
                 "🇺🇸US | vmess | @ShadowProxy66 | 16",
                 "🇺🇸US | vmess | @ShadowProxy66 | 17",
                 "🇺🇸US | vmess | @ShadowProxy66 | 18",
@@ -128,8 +129,6 @@
                 "🇺🇸US | vmess | @ShadowProxy66 | 23",
                 "🇺🇸US | vmess | @ShadowProxy66 | 24",
                 "🇺🇸US | vmess | @ShadowProxy66 | 25",
-                "🇺🇸US | vmess | @ShadowProxy66 | 26",
-                "🇺🇸US | vmess | @ShadowProxy66 | 27",
                 "🏳️XX | vmess | @proxystore11 | 0",
                 "🏳️XX | vmess | @proxystore11 | 2",
                 "🏳️XX | vmess | @proxystore11 | 3",
@@ -152,7 +151,7 @@
                 "🇺🇸US | vmess | @Hope_Net | 11",
                 "🇺🇸US | vmess | @Hope_Net | 12",
                 "🇺🇸US | vmess | @Hope_Net | 13",
-                "🇺🇸US | vmess | @nofiltering2 | 13",
+                "🇺🇸US | vmess | @nofiltering2 | 3",
                 "🇨🇾CY | vmess | @aries_init | 0",
                 "🇺🇸US | vmess | @heinuhome | 0",
                 "🇺🇸US | vmess | @ednovasfree | 1"
@@ -174,6 +173,7 @@
                 "🇺🇸US | vmess | @mftizi | 12",
                 "🇺🇸US | vmess | @mftizi | 13",
                 "🇨🇳CN | vmess | @mftizi | 14",
+                "🇺🇸US | vmess | @ShadowProxy66 | 11",
                 "🇺🇸US | vmess | @ShadowProxy66 | 16",
                 "🇺🇸US | vmess | @ShadowProxy66 | 17",
                 "🇺🇸US | vmess | @ShadowProxy66 | 18",
@@ -184,8 +184,6 @@
                 "🇺🇸US | vmess | @ShadowProxy66 | 23",
                 "🇺🇸US | vmess | @ShadowProxy66 | 24",
                 "🇺🇸US | vmess | @ShadowProxy66 | 25",
-                "🇺🇸US | vmess | @ShadowProxy66 | 26",
-                "🇺🇸US | vmess | @ShadowProxy66 | 27",
                 "🏳️XX | vmess | @proxystore11 | 0",
                 "🏳️XX | vmess | @proxystore11 | 2",
                 "🏳️XX | vmess | @proxystore11 | 3",
@@ -208,7 +206,7 @@
                 "🇺🇸US | vmess | @Hope_Net | 11",
                 "🇺🇸US | vmess | @Hope_Net | 12",
                 "🇺🇸US | vmess | @Hope_Net | 13",
-                "🇺🇸US | vmess | @nofiltering2 | 13",
+                "🇺🇸US | vmess | @nofiltering2 | 3",
                 "🇨🇾CY | vmess | @aries_init | 0",
                 "🇺🇸US | vmess | @heinuhome | 0",
                 "🇺🇸US | vmess | @ednovasfree | 1"
@@ -477,6 +475,30 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @ShadowProxy66 | 11",
+            "type": "vmess",
+            "server": "cdn.anymath.ir",
+            "server_port": 80,
+            "uuid": "e32e7ec1-49d8-48f6-a40f-dc268f33fa12",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@CHANGE_IP1",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
@@ -817,40 +839,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @ShadowProxy66 | 26",
-            "type": "vmess",
-            "server": "23.154.136.47",
-            "server_port": 22324,
-            "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @ShadowProxy66 | 27",
-            "type": "vmess",
-            "server": "108.181.200.220",
-            "server_port": 17163,
-            "uuid": "d54814a1-7a93-45f8-9117-db317a25d100",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
@@ -1481,11 +1469,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @nofiltering2 | 13",
+            "tag": "🇺🇸US | vmess | @nofiltering2 | 3",
             "type": "vmess",
-            "server": "172.67.171.200",
-            "server_port": 2096,
-            "uuid": "d77c0cdc-b28e-427d-c58c-062f254759bd",
+            "server": "www.Kayak.com",
+            "server_port": 443,
+            "uuid": "b40aefd2-4431-41a0-8623-4d552a730070",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1498,7 +1486,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "speedtestneternanewsggffnetemailcloudflarecomexpresstvsoft98ir.ernanews.ggff.net",
+                "server_name": "www.Kayak.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1508,9 +1496,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/racevpn?telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn",
                 "headers": {
-                    "Host": "speedtestneternanewsggffnetemailcloudflarecomexpresstvsoft98ir.ernanews.ggff.net"
+                    "Host": "www.Kayak.com"
                 }
             }
         },
