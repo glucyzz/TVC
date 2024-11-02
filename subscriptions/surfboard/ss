@@ -11,14 +11,15 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇧🇭BH | ss | @DeamNet_Proxy | 4 = ss, series-a2-me.samanehha.co, 443, encrypt-method = chacha20-ietf-poly1305, password = Bog0ELmMM9DSxDdQ
-🇬🇧GB | ss | @DeamNet_Proxy | 8 = ss, series-a1.samanehha.co, 443, encrypt-method = chacha20-ietf-poly1305, password = W74XFALLLuw6m5IA
-🇦🇪AE | ss | @kingofilter | 7 = ss, series-a2-mec.varzesh360.co, 443, encrypt-method = chacha20-ietf-poly1305, password = u17T3BvpYaaiuW2c
-🇦🇪AE | ss | @kingofilter | 8 = ss, api.namasha.co, 443, encrypt-method = chacha20-ietf-poly1305, password = u17T3BvpYaaiuW2c
+🇬🇧GB | ss | @DeamNet_Proxy | 6 = ss, series-a2.varzesh360.co, 443, encrypt-method = chacha20-ietf-poly1305, password = mps3FwmDjLrWaOVg
+🇧🇭BH | ss | @DeamNet_Proxy | 7 = ss, series-a2-me.samanehha.co, 443, encrypt-method = chacha20-ietf-poly1305, password = Bog0ELmMM9DSxDdQ
+🇬🇧GB | ss | @DeamNet_Proxy | 9 = ss, series-a1.samanehha.co, 443, encrypt-method = chacha20-ietf-poly1305, password = W74XFALLLuw6m5IA
+🇦🇪AE | ss | @kingofilter | 10 = ss, series-a2-mec.varzesh360.co, 443, encrypt-method = chacha20-ietf-poly1305, password = u17T3BvpYaaiuW2c
+🇦🇪AE | ss | @kingofilter | 11 = ss, api.namasha.co, 443, encrypt-method = chacha20-ietf-poly1305, password = u17T3BvpYaaiuW2c
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇧🇭BH | ss | @DeamNet_Proxy | 4,🇬🇧GB | ss | @DeamNet_Proxy | 8,🇦🇪AE | ss | @kingofilter | 7,🇦🇪AE | ss | @kingofilter | 8
-URL-TEST = url-test,🇧🇭BH | ss | @DeamNet_Proxy | 4,🇬🇧GB | ss | @DeamNet_Proxy | 8,🇦🇪AE | ss | @kingofilter | 7,🇦🇪AE | ss | @kingofilter | 8
-FALLBACK = fallback,🇧🇭BH | ss | @DeamNet_Proxy | 4,🇬🇧GB | ss | @DeamNet_Proxy | 8,🇦🇪AE | ss | @kingofilter | 7,🇦🇪AE | ss | @kingofilter | 8
+MANUAL = select,URL-TEST,FALLBACK,🇬🇧GB | ss | @DeamNet_Proxy | 6,🇧🇭BH | ss | @DeamNet_Proxy | 7,🇬🇧GB | ss | @DeamNet_Proxy | 9,🇦🇪AE | ss | @kingofilter | 10,🇦🇪AE | ss | @kingofilter | 11
+URL-TEST = url-test,🇬🇧GB | ss | @DeamNet_Proxy | 6,🇧🇭BH | ss | @DeamNet_Proxy | 7,🇬🇧GB | ss | @DeamNet_Proxy | 9,🇦🇪AE | ss | @kingofilter | 10,🇦🇪AE | ss | @kingofilter | 11
+FALLBACK = fallback,🇬🇧GB | ss | @DeamNet_Proxy | 6,🇧🇭BH | ss | @DeamNet_Proxy | 7,🇬🇧GB | ss | @DeamNet_Proxy | 9,🇦🇪AE | ss | @kingofilter | 10,🇦🇪AE | ss | @kingofilter | 11
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
