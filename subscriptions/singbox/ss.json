@@ -106,16 +106,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🏳️XX | ss | @kingofilter | 15",
-                "🏳️XX | ss | @kingofilter | 16"
+                "🇦🇪AE | ss | @kingofilter | 16"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🏳️XX | ss | @kingofilter | 15",
-                "🏳️XX | ss | @kingofilter | 16"
+                "🇦🇪AE | ss | @kingofilter | 16"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -138,19 +136,9 @@
             "type": "dns"
         },
         {
-            "tag": "🏳️XX | ss | @kingofilter | 15",
+            "tag": "🇦🇪AE | ss | @kingofilter | 16",
             "type": "shadowsocks",
             "server": "series-a2-mec.varzesh360.co",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "u17T3BvpYaaiuW2c",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🏳️XX | ss | @kingofilter | 16",
-            "type": "shadowsocks",
-            "server": "api.namasha.co",
             "server_port": 443,
             "method": "chacha20-ietf-poly1305",
             "password": "u17T3BvpYaaiuW2c",
