@@ -106,14 +106,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇦🇪AE | ss | @kingofilter | 16"
+                "🇦🇪AE | ss | @kingofilter | 1"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇦🇪AE | ss | @kingofilter | 16"
+                "🇦🇪AE | ss | @kingofilter | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -136,7 +136,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇦🇪AE | ss | @kingofilter | 16",
+            "tag": "🇦🇪AE | ss | @kingofilter | 1",
             "type": "shadowsocks",
             "server": "series-a2-mec.varzesh360.co",
             "server_port": 443,
