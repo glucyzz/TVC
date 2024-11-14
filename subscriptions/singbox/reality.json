@@ -116,8 +116,9 @@
                 "🇩🇪DE | vless | @proxyymeliii | 6",
                 "🇩🇪DE | vless | @proxyymeliii | 10",
                 "🇩🇪DE | vless | @VmessProtocol | 0",
-                "🇩🇪DE | vless | @nofiltering2 | 5",
-                "🇩🇪DE | vless | @nofiltering2 | 9",
+                "🇩🇪DE | vless | @nofiltering2 | 3",
+                "🇩🇪DE | vless | @nofiltering2 | 7",
+                "🇩🇪DE | vless | @nofiltering2 | 11",
                 "🏳️XX | vless | @vpn_go67 | 7",
                 "🏳️XX | vless | @vpn_go67 | 8",
                 "🏳️XX | vless | @vpn_go67 | 9",
@@ -149,8 +150,9 @@
                 "🇩🇪DE | vless | @proxyymeliii | 6",
                 "🇩🇪DE | vless | @proxyymeliii | 10",
                 "🇩🇪DE | vless | @VmessProtocol | 0",
-                "🇩🇪DE | vless | @nofiltering2 | 5",
-                "🇩🇪DE | vless | @nofiltering2 | 9",
+                "🇩🇪DE | vless | @nofiltering2 | 3",
+                "🇩🇪DE | vless | @nofiltering2 | 7",
+                "🇩🇪DE | vless | @nofiltering2 | 11",
                 "🏳️XX | vless | @vpn_go67 | 7",
                 "🏳️XX | vless | @vpn_go67 | 8",
                 "🏳️XX | vless | @vpn_go67 | 9",
@@ -432,10 +434,10 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @nofiltering2 | 5",
+            "tag": "🇩🇪DE | vless | @nofiltering2 | 3",
             "type": "vless",
-            "server": "1622.postsafir.ir",
-            "server_port": 1623,
+            "server": "1616.postsafir.ir",
+            "server_port": 1616,
             "uuid": "f8275dfe-4fd7-46b2-8d6c-de1891afb443",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
@@ -446,7 +448,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "wwww.refersion.com",
+                "server_name": "refersion.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -461,7 +463,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @nofiltering2 | 9",
+            "tag": "🇩🇪DE | vless | @nofiltering2 | 7",
             "type": "vless",
             "server": "1622.postsafir.ir",
             "server_port": 1622,
@@ -476,6 +478,35 @@
             "tls": {
                 "enabled": true,
                 "server_name": "refersion.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "uGYj7gkQdNaabDVQZdbHeSVizGPrzj8YD5jdYm7stG0",
+                    "short_id": "3a622700e73c6642"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @nofiltering2 | 11",
+            "type": "vless",
+            "server": "1622.postsafir.ir",
+            "server_port": 1623,
+            "uuid": "f8275dfe-4fd7-46b2-8d6c-de1891afb443",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "wwww.refersion.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
