@@ -112,13 +112,15 @@
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 13",
                 "🇩🇪DE | vless | @v2logy | 6",
                 "🏳️XX | vless | @V2rayCollectorDonate | 9",
+                "🇩🇪DE | vless | @ShadowProxy66 | 0",
+                "🇩🇪DE | vless | @ShadowProxy66 | 1",
+                "🇳🇱NL | vless | @ShadowProxy66 | 3",
                 "🇩🇪DE | vless | @proxyymeliii | 1",
                 "🇩🇪DE | vless | @proxyymeliii | 4",
                 "🇩🇪DE | vless | @proxyymeliii | 6",
                 "🇩🇪DE | vless | @proxyymeliii | 10",
                 "🇩🇪DE | vless | @VmessProtocol | 6",
-                "🇳🇱NL | vless | @nofiltering2 | 7",
-                "🇩🇪DE | vless | @nofiltering2 | 17",
+                "🇳🇱NL | vless | @nofiltering2 | 10",
                 "🏳️XX | vless | @vpn_go67 | 7",
                 "🏳️XX | vless | @vpn_go67 | 8",
                 "🏳️XX | vless | @vpn_go67 | 9",
@@ -146,13 +148,15 @@
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 13",
                 "🇩🇪DE | vless | @v2logy | 6",
                 "🏳️XX | vless | @V2rayCollectorDonate | 9",
+                "🇩🇪DE | vless | @ShadowProxy66 | 0",
+                "🇩🇪DE | vless | @ShadowProxy66 | 1",
+                "🇳🇱NL | vless | @ShadowProxy66 | 3",
                 "🇩🇪DE | vless | @proxyymeliii | 1",
                 "🇩🇪DE | vless | @proxyymeliii | 4",
                 "🇩🇪DE | vless | @proxyymeliii | 6",
                 "🇩🇪DE | vless | @proxyymeliii | 10",
                 "🇩🇪DE | vless | @VmessProtocol | 6",
-                "🇳🇱NL | vless | @nofiltering2 | 7",
-                "🇩🇪DE | vless | @nofiltering2 | 17",
+                "🇳🇱NL | vless | @nofiltering2 | 10",
                 "🏳️XX | vless | @vpn_go67 | 7",
                 "🏳️XX | vless | @vpn_go67 | 8",
                 "🏳️XX | vless | @vpn_go67 | 9",
@@ -385,6 +389,93 @@
             }
         },
         {
+            "tag": "🇩🇪DE | vless | @ShadowProxy66 | 0",
+            "type": "vless",
+            "server": "api.fixfastping.online",
+            "server_port": 113,
+            "uuid": "09b5f517-10c1-42e7-be6f-b11c7ba2616f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "speedtest.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "safari"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "m6WcjHlW1I1tOTKZUnK7rtk27bbUyuvYJsLiNGysaS0",
+                    "short_id": "e8de8d2793daef"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @ShadowProxy66 | 1",
+            "type": "vless",
+            "server": "188.245.224.248",
+            "server_port": 1622,
+            "uuid": "f8275dfe-4fd7-46b2-8d6c-de1891afb443",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "uGYj7gkQdNaabDVQZdbHeSVizGPrzj8YD5jdYm7stG0",
+                    "short_id": "3a622700e73c6642"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱NL | vless | @ShadowProxy66 | 3",
+            "type": "vless",
+            "server": "185.121.235.210",
+            "server_port": 1624,
+            "uuid": "f8275dfe-4fd7-46b2-8d6c-de1891afb443",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "wwww.refersion.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "uGYj7gkQdNaabDVQZdbHeSVizGPrzj8YD5jdYm7stG0",
+                    "short_id": "3a622700e73c6642"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪DE | vless | @proxyymeliii | 1",
             "type": "vless",
             "server": "49.12.193.246",
@@ -470,7 +561,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vless | @nofiltering2 | 7",
+            "tag": "🇳🇱NL | vless | @nofiltering2 | 10",
             "type": "vless",
             "server": "185.121.235.210",
             "server_port": 1624,
@@ -485,35 +576,6 @@
             "tls": {
                 "enabled": true,
                 "server_name": "wwww.refersion.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "uGYj7gkQdNaabDVQZdbHeSVizGPrzj8YD5jdYm7stG0",
-                    "short_id": "3a622700e73c6642"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @nofiltering2 | 17",
-            "type": "vless",
-            "server": "1616.postsafir.ir",
-            "server_port": 1616,
-            "uuid": "f8275dfe-4fd7-46b2-8d6c-de1891afb443",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
