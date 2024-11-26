@@ -112,12 +112,13 @@
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 13",
                 "🇩🇪DE | vless | @v2logy | 6",
                 "🏳️XX | vless | @V2rayCollectorDonate | 9",
-                "🏳️XX | vless | @customv2ray | 1",
+                "🏳️XX | vless | @customv2ray | 5",
                 "🇩🇪DE | vless | @proxyymeliii | 1",
                 "🇩🇪DE | vless | @proxyymeliii | 4",
                 "🇩🇪DE | vless | @proxyymeliii | 6",
                 "🇩🇪DE | vless | @proxyymeliii | 10",
-                "🇩🇪DE | vless | @VmessProtocol | 8",
+                "🇩🇪DE | vless | @VmessProtocol | 9",
+                "🇩🇪DE | vless | @Outlinev2rayNG | 7",
                 "🏳️XX | vless | @vpn_go67 | 7",
                 "🏳️XX | vless | @vpn_go67 | 8",
                 "🏳️XX | vless | @vpn_go67 | 9",
@@ -145,12 +146,13 @@
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 13",
                 "🇩🇪DE | vless | @v2logy | 6",
                 "🏳️XX | vless | @V2rayCollectorDonate | 9",
-                "🏳️XX | vless | @customv2ray | 1",
+                "🏳️XX | vless | @customv2ray | 5",
                 "🇩🇪DE | vless | @proxyymeliii | 1",
                 "🇩🇪DE | vless | @proxyymeliii | 4",
                 "🇩🇪DE | vless | @proxyymeliii | 6",
                 "🇩🇪DE | vless | @proxyymeliii | 10",
-                "🇩🇪DE | vless | @VmessProtocol | 8",
+                "🇩🇪DE | vless | @VmessProtocol | 9",
+                "🇩🇪DE | vless | @Outlinev2rayNG | 7",
                 "🏳️XX | vless | @vpn_go67 | 7",
                 "🏳️XX | vless | @vpn_go67 | 8",
                 "🏳️XX | vless | @vpn_go67 | 9",
@@ -383,7 +385,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @customv2ray | 1",
+            "tag": "🏳️XX | vless | @customv2ray | 5",
             "type": "vless",
             "server": "[2a01:4f8:1c1b:7df::1]",
             "server_port": 443,
@@ -475,7 +477,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @VmessProtocol | 8",
+            "tag": "🇩🇪DE | vless | @VmessProtocol | 9",
             "type": "vless",
             "server": "188.245.197.174",
             "server_port": 1623,
@@ -501,6 +503,42 @@
                     "public_key": "uGYj7gkQdNaabDVQZdbHeSVizGPrzj8YD5jdYm7stG0",
                     "short_id": "3a622700e73c6642"
                 }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @Outlinev2rayNG | 7",
+            "type": "vless",
+            "server": "49.12.232.18",
+            "server_port": 10813,
+            "uuid": "2c8e1044-87da-4814-b945-a24c690bd2bd",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "microsoft.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "3VRiVIhtj5P8xNhG8CxSH6xzH9o52Pl1Do_ptHsXjgU",
+                    "short_id": "e2dec8655c"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@proprojec",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
