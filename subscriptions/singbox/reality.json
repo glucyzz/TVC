@@ -112,13 +112,12 @@
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 13",
                 "🇩🇪DE | vless | @v2logy | 6",
                 "🏳️XX | vless | @V2rayCollectorDonate | 9",
-                "🏳️XX | vless | @customv2ray | 5",
                 "🇩🇪DE | vless | @proxyymeliii | 1",
                 "🇩🇪DE | vless | @proxyymeliii | 4",
                 "🇩🇪DE | vless | @proxyymeliii | 6",
                 "🇩🇪DE | vless | @proxyymeliii | 10",
                 "🇩🇪DE | vless | @VmessProtocol | 9",
-                "🇩🇪DE | vless | @Outlinev2rayNG | 7",
+                "🇩🇪DE | vless | @nofiltering2 | 3",
                 "🏳️XX | vless | @vpn_go67 | 7",
                 "🏳️XX | vless | @vpn_go67 | 8",
                 "🏳️XX | vless | @vpn_go67 | 9",
@@ -146,13 +145,12 @@
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 13",
                 "🇩🇪DE | vless | @v2logy | 6",
                 "🏳️XX | vless | @V2rayCollectorDonate | 9",
-                "🏳️XX | vless | @customv2ray | 5",
                 "🇩🇪DE | vless | @proxyymeliii | 1",
                 "🇩🇪DE | vless | @proxyymeliii | 4",
                 "🇩🇪DE | vless | @proxyymeliii | 6",
                 "🇩🇪DE | vless | @proxyymeliii | 10",
                 "🇩🇪DE | vless | @VmessProtocol | 9",
-                "🇩🇪DE | vless | @Outlinev2rayNG | 7",
+                "🇩🇪DE | vless | @nofiltering2 | 3",
                 "🏳️XX | vless | @vpn_go67 | 7",
                 "🏳️XX | vless | @vpn_go67 | 8",
                 "🏳️XX | vless | @vpn_go67 | 9",
@@ -385,42 +383,6 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @customv2ray | 5",
-            "type": "vless",
-            "server": "[2a01:4f8:1c1b:7df::1]",
-            "server_port": 443,
-            "uuid": "6588de35-8f6c-4c1f-8371-33c04376fca9",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "gsmarena.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "AVesZ9rUbwnESVl0YSPs98oWmZbXlhDVjR4ssJAw6yw",
-                    "short_id": "32d7a82d"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
             "tag": "🇩🇪DE | vless | @proxyymeliii | 1",
             "type": "vless",
             "server": "49.12.193.246",
@@ -506,11 +468,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @Outlinev2rayNG | 7",
+            "tag": "🇩🇪DE | vless | @nofiltering2 | 3",
             "type": "vless",
-            "server": "49.12.232.18",
-            "server_port": 10813,
-            "uuid": "2c8e1044-87da-4814-b945-a24c690bd2bd",
+            "server": "1621.postsafir.ir",
+            "server_port": 1621,
+            "uuid": "f8275dfe-4fd7-46b2-8d6c-de1891afb443",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -520,25 +482,18 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "microsoft.com",
+                "server_name": "refersion.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "3VRiVIhtj5P8xNhG8CxSH6xzH9o52Pl1Do_ptHsXjgU",
-                    "short_id": "e2dec8655c"
+                    "public_key": "uGYj7gkQdNaabDVQZdbHeSVizGPrzj8YD5jdYm7stG0",
+                    "short_id": "3a622700e73c6642"
                 }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@proprojec",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
