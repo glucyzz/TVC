@@ -117,9 +117,7 @@
                 "🇩🇪DE | vless | @proxyymeliii | 4",
                 "🇩🇪DE | vless | @proxyymeliii | 6",
                 "🇩🇪DE | vless | @proxyymeliii | 10",
-                "🇩🇪DE | vless | @mehrosaboran | 9",
-                "🇩🇪DE | vless | @nofiltering2 | 3",
-                "🇩🇪DE | vless | @nofiltering2 | 10",
+                "🇩🇪DE | vless | @nofiltering2 | 7",
                 "🏳️XX | vless | @vpn_go67 | 7",
                 "🏳️XX | vless | @vpn_go67 | 8",
                 "🏳️XX | vless | @vpn_go67 | 9",
@@ -135,7 +133,7 @@
                 "🏳️XX | vless | @vpn_go67 | 19",
                 "🏳️XX | vless | @vpn_go67 | 20",
                 "🏳️XX | vless | @vpn_go67 | 21",
-                "🇩🇪DE | vless | @kingofilter | 11"
+                "🇩🇪DE | vless | @kingofilter | 13"
             ]
         },
         {
@@ -153,9 +151,7 @@
                 "🇩🇪DE | vless | @proxyymeliii | 4",
                 "🇩🇪DE | vless | @proxyymeliii | 6",
                 "🇩🇪DE | vless | @proxyymeliii | 10",
-                "🇩🇪DE | vless | @mehrosaboran | 9",
-                "🇩🇪DE | vless | @nofiltering2 | 3",
-                "🇩🇪DE | vless | @nofiltering2 | 10",
+                "🇩🇪DE | vless | @nofiltering2 | 7",
                 "🏳️XX | vless | @vpn_go67 | 7",
                 "🏳️XX | vless | @vpn_go67 | 8",
                 "🏳️XX | vless | @vpn_go67 | 9",
@@ -171,7 +167,7 @@
                 "🏳️XX | vless | @vpn_go67 | 19",
                 "🏳️XX | vless | @vpn_go67 | 20",
                 "🏳️XX | vless | @vpn_go67 | 21",
-                "🇩🇪DE | vless | @kingofilter | 11"
+                "🇩🇪DE | vless | @kingofilter | 13"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -474,36 +470,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @mehrosaboran | 9",
-            "type": "vless",
-            "server": "188.245.162.16",
-            "server_port": 6543,
-            "uuid": "bfed7c40-7878-4ee5-a8db-8b9d0c546bea",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.speedtest.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "T80OrhSLwBQrXvbS8fh97IXOu37wRXT0ZEfVYu-FEDo",
-                    "short_id": "ddb79eb6fb"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @nofiltering2 | 3",
+            "tag": "🇩🇪DE | vless | @nofiltering2 | 7",
             "type": "vless",
             "server": "join.v2rynng.darkping.net",
             "server_port": 1633,
@@ -528,35 +495,6 @@
                     "enabled": true,
                     "public_key": "ANlgAsYC8HmKfJnc5SFvru822urkxG1PzW1Zw4Vbm0Q",
                     "short_id": "9bc0a55a5379c0ed"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @nofiltering2 | 10",
-            "type": "vless",
-            "server": "1621.postsafir.ir",
-            "server_port": 1621,
-            "uuid": "f8275dfe-4fd7-46b2-8d6c-de1891afb443",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "uGYj7gkQdNaabDVQZdbHeSVizGPrzj8YD5jdYm7stG0",
-                    "short_id": "3a622700e73c6642"
                 }
             }
         },
@@ -1101,7 +1039,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @kingofilter | 11",
+            "tag": "🇩🇪DE | vless | @kingofilter | 13",
             "type": "vless",
             "server": "188.245.67.23",
             "server_port": 50875,
