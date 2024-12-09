@@ -106,18 +106,18 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇦🇪AE | ss | @VmessProtocol | 7",
-                "🇦🇪AE | ss | @VmessProtocol | 13",
-                "🇬🇧GB | ss | @kingofilter | 5"
+                "🇦🇪AE | ss | @VmessProtocol | 9",
+                "🇬🇧GB | ss | @kingofilter | 5",
+                "🇦🇪AE | ss | @kingofilter | 12"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇦🇪AE | ss | @VmessProtocol | 7",
-                "🇦🇪AE | ss | @VmessProtocol | 13",
-                "🇬🇧GB | ss | @kingofilter | 5"
+                "🇦🇪AE | ss | @VmessProtocol | 9",
+                "🇬🇧GB | ss | @kingofilter | 5",
+                "🇦🇪AE | ss | @kingofilter | 12"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -140,19 +140,9 @@
             "type": "dns"
         },
         {
-            "tag": "🇦🇪AE | ss | @VmessProtocol | 7",
+            "tag": "🇦🇪AE | ss | @VmessProtocol | 9",
             "type": "shadowsocks",
             "server": "series-a2-mec.varzesh360.co",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "u17T3BvpYaaiuW2c",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇦🇪AE | ss | @VmessProtocol | 13",
-            "type": "shadowsocks",
-            "server": "api.namasha.co",
             "server_port": 443,
             "method": "chacha20-ietf-poly1305",
             "password": "u17T3BvpYaaiuW2c",
@@ -166,6 +156,16 @@
             "server_port": 23022,
             "method": "chacha20-ietf-poly1305",
             "password": "s#W0tqg%@N",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇦🇪AE | ss | @kingofilter | 12",
+            "type": "shadowsocks",
+            "server": "api.namasha.co",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "u17T3BvpYaaiuW2c",
             "plugin": "",
             "plugin_opts": ""
         }
