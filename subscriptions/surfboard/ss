@@ -11,13 +11,15 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇦🇪AE | ss | @VmessProtocol | 9 = ss, series-a2-mec.varzesh360.co, 443, encrypt-method = chacha20-ietf-poly1305, password = u17T3BvpYaaiuW2c
-🇬🇧GB | ss | @kingofilter | 5 = ss, 109.120.186.9, 23022, encrypt-method = chacha20-ietf-poly1305, password = s#W0tqg%@N
-🇦🇪AE | ss | @kingofilter | 12 = ss, api.namasha.co, 443, encrypt-method = chacha20-ietf-poly1305, password = u17T3BvpYaaiuW2c
+🇬🇧GB | ss | @DeamNet_Proxy | 17 = ss, series-a2.samanehha.co, 443, encrypt-method = chacha20-ietf-poly1305, password = W74XFALLLuw6m5IA
+🇳🇴NO | ss | @VmessProtocol | 2 = ss, 51.13.114.127, 60356, encrypt-method = chacha20-ietf-poly1305, password = 95JrBoQ4TdkeYgPzeDHVju
+🇦🇪AE | ss | @VmessProtocol | 12 = ss, series-a2-mec.varzesh360.co, 443, encrypt-method = chacha20-ietf-poly1305, password = u17T3BvpYaaiuW2c
+🇬🇧GB | ss | @kingofilter | 6 = ss, 109.120.186.9, 23022, encrypt-method = chacha20-ietf-poly1305, password = s#W0tqg%@N
+🇦🇪AE | ss | @kingofilter | 13 = ss, api.namasha.co, 443, encrypt-method = chacha20-ietf-poly1305, password = u17T3BvpYaaiuW2c
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇦🇪AE | ss | @VmessProtocol | 9,🇬🇧GB | ss | @kingofilter | 5,🇦🇪AE | ss | @kingofilter | 12
-URL-TEST = url-test,🇦🇪AE | ss | @VmessProtocol | 9,🇬🇧GB | ss | @kingofilter | 5,🇦🇪AE | ss | @kingofilter | 12
-FALLBACK = fallback,🇦🇪AE | ss | @VmessProtocol | 9,🇬🇧GB | ss | @kingofilter | 5,🇦🇪AE | ss | @kingofilter | 12
+MANUAL = select,URL-TEST,FALLBACK,🇬🇧GB | ss | @DeamNet_Proxy | 17,🇳🇴NO | ss | @VmessProtocol | 2,🇦🇪AE | ss | @VmessProtocol | 12,🇬🇧GB | ss | @kingofilter | 6,🇦🇪AE | ss | @kingofilter | 13
+URL-TEST = url-test,🇬🇧GB | ss | @DeamNet_Proxy | 17,🇳🇴NO | ss | @VmessProtocol | 2,🇦🇪AE | ss | @VmessProtocol | 12,🇬🇧GB | ss | @kingofilter | 6,🇦🇪AE | ss | @kingofilter | 13
+FALLBACK = fallback,🇬🇧GB | ss | @DeamNet_Proxy | 17,🇳🇴NO | ss | @VmessProtocol | 2,🇦🇪AE | ss | @VmessProtocol | 12,🇬🇧GB | ss | @kingofilter | 6,🇦🇪AE | ss | @kingofilter | 13
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
