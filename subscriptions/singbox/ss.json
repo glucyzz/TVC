@@ -107,10 +107,11 @@
             "outbounds": [
                 "URL-TEST",
                 "🇬🇧GB | ss | @DeamNet_Proxy | 17",
-                "🇳🇴NO | ss | @VmessProtocol | 2",
-                "🇦🇪AE | ss | @VmessProtocol | 12",
-                "🇬🇧GB | ss | @kingofilter | 6",
-                "🇦🇪AE | ss | @kingofilter | 13"
+                "🇨🇦CA | ss | @VmessProtocol | 0",
+                "🇳🇴NO | ss | @VmessProtocol | 3",
+                "🇦🇪AE | ss | @VmessProtocol | 13",
+                "🇬🇧GB | ss | @kingofilter | 8",
+                "🇦🇪AE | ss | @kingofilter | 15"
             ]
         },
         {
@@ -118,10 +119,11 @@
             "type": "urltest",
             "outbounds": [
                 "🇬🇧GB | ss | @DeamNet_Proxy | 17",
-                "🇳🇴NO | ss | @VmessProtocol | 2",
-                "🇦🇪AE | ss | @VmessProtocol | 12",
-                "🇬🇧GB | ss | @kingofilter | 6",
-                "🇦🇪AE | ss | @kingofilter | 13"
+                "🇨🇦CA | ss | @VmessProtocol | 0",
+                "🇳🇴NO | ss | @VmessProtocol | 3",
+                "🇦🇪AE | ss | @VmessProtocol | 13",
+                "🇬🇧GB | ss | @kingofilter | 8",
+                "🇦🇪AE | ss | @kingofilter | 15"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -154,7 +156,17 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇳🇴NO | ss | @VmessProtocol | 2",
+            "tag": "🇨🇦CA | ss | @VmessProtocol | 0",
+            "type": "shadowsocks",
+            "server": "142.4.216.225",
+            "server_port": 80,
+            "method": "chacha20-ietf-poly1305",
+            "password": "JIhN6rBKkaEboLNXVSv5rq",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇳🇴NO | ss | @VmessProtocol | 3",
             "type": "shadowsocks",
             "server": "51.13.114.127",
             "server_port": 60356,
@@ -164,7 +176,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇦🇪AE | ss | @VmessProtocol | 12",
+            "tag": "🇦🇪AE | ss | @VmessProtocol | 13",
             "type": "shadowsocks",
             "server": "series-a2-mec.varzesh360.co",
             "server_port": 443,
@@ -174,7 +186,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇬🇧GB | ss | @kingofilter | 6",
+            "tag": "🇬🇧GB | ss | @kingofilter | 8",
             "type": "shadowsocks",
             "server": "109.120.186.9",
             "server_port": 23022,
@@ -184,7 +196,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇦🇪AE | ss | @kingofilter | 13",
+            "tag": "🇦🇪AE | ss | @kingofilter | 15",
             "type": "shadowsocks",
             "server": "api.namasha.co",
             "server_port": 443,
