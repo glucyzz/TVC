@@ -106,24 +106,24 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇬🇧GB | ss | @DeamNet_Proxy | 17",
-                "🇨🇦CA | ss | @VmessProtocol | 0",
-                "🇳🇴NO | ss | @VmessProtocol | 3",
-                "🇦🇪AE | ss | @VmessProtocol | 13",
-                "🇬🇧GB | ss | @kingofilter | 8",
-                "🇦🇪AE | ss | @kingofilter | 15"
+                "🏳️XX | ss | @DeamNet_Proxy | 12",
+                "🏳️XX | ss | @DeamNet_Proxy | 16",
+                "🏳️XX | ss | @VmessProtocol | 0",
+                "🏳️XX | ss | @VmessProtocol | 3",
+                "🏳️XX | ss | @kingofilter | 3",
+                "🏳️XX | ss | @kingofilter | 9"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇬🇧GB | ss | @DeamNet_Proxy | 17",
-                "🇨🇦CA | ss | @VmessProtocol | 0",
-                "🇳🇴NO | ss | @VmessProtocol | 3",
-                "🇦🇪AE | ss | @VmessProtocol | 13",
-                "🇬🇧GB | ss | @kingofilter | 8",
-                "🇦🇪AE | ss | @kingofilter | 15"
+                "🏳️XX | ss | @DeamNet_Proxy | 12",
+                "🏳️XX | ss | @DeamNet_Proxy | 16",
+                "🏳️XX | ss | @VmessProtocol | 0",
+                "🏳️XX | ss | @VmessProtocol | 3",
+                "🏳️XX | ss | @kingofilter | 3",
+                "🏳️XX | ss | @kingofilter | 9"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -146,37 +146,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇬🇧GB | ss | @DeamNet_Proxy | 17",
-            "type": "shadowsocks",
-            "server": "series-a2.samanehha.co",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "W74XFALLLuw6m5IA",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇨🇦CA | ss | @VmessProtocol | 0",
-            "type": "shadowsocks",
-            "server": "142.4.216.225",
-            "server_port": 80,
-            "method": "chacha20-ietf-poly1305",
-            "password": "JIhN6rBKkaEboLNXVSv5rq",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇳🇴NO | ss | @VmessProtocol | 3",
-            "type": "shadowsocks",
-            "server": "51.13.114.127",
-            "server_port": 60356,
-            "method": "chacha20-ietf-poly1305",
-            "password": "95JrBoQ4TdkeYgPzeDHVju",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇦🇪AE | ss | @VmessProtocol | 13",
+            "tag": "🏳️XX | ss | @DeamNet_Proxy | 12",
             "type": "shadowsocks",
             "server": "series-a2-mec.varzesh360.co",
             "server_port": 443,
@@ -186,22 +156,52 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇬🇧GB | ss | @kingofilter | 8",
+            "tag": "🏳️XX | ss | @DeamNet_Proxy | 16",
             "type": "shadowsocks",
-            "server": "109.120.186.9",
-            "server_port": 23022,
+            "server": "203.23.128.33",
+            "server_port": 990,
             "method": "chacha20-ietf-poly1305",
-            "password": "s#W0tqg%@N",
+            "password": "f8f7aCzcPKbsF8p3",
             "plugin": "",
             "plugin_opts": ""
         },
         {
-            "tag": "🇦🇪AE | ss | @kingofilter | 15",
+            "tag": "🏳️XX | ss | @VmessProtocol | 0",
+            "type": "shadowsocks",
+            "server": "142.4.216.225",
+            "server_port": 80,
+            "method": "chacha20-ietf-poly1305",
+            "password": "JIhN6rBKkaEboLNXVSv5rq",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🏳️XX | ss | @VmessProtocol | 3",
+            "type": "shadowsocks",
+            "server": "51.13.114.127",
+            "server_port": 60356,
+            "method": "chacha20-ietf-poly1305",
+            "password": "95JrBoQ4TdkeYgPzeDHVju",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🏳️XX | ss | @kingofilter | 3",
             "type": "shadowsocks",
             "server": "api.namasha.co",
             "server_port": 443,
             "method": "chacha20-ietf-poly1305",
             "password": "u17T3BvpYaaiuW2c",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🏳️XX | ss | @kingofilter | 9",
+            "type": "shadowsocks",
+            "server": "109.120.186.9",
+            "server_port": 23022,
+            "method": "chacha20-ietf-poly1305",
+            "password": "s#W0tqg%@N",
             "plugin": "",
             "plugin_opts": ""
         }
