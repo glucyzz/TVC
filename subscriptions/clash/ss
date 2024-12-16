@@ -119,10 +119,10 @@ dns:
 
 proxies:
   - {"name":"🇩🇪DE | ss | @DeamNet_Proxy | 5","type":"ss","server":"81.19.141.45","port":52873,"password":"MCmbgTkHK76GKk7H66VZHS","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇨🇦CA | ss | @VmessProtocol | 2","type":"ss","server":"142.4.216.225","port":80,"password":"JIhN6rBKkaEboLNXVSv5rq","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇳🇴NO | ss | @VmessProtocol | 5","type":"ss","server":"51.13.114.127","port":60356,"password":"95JrBoQ4TdkeYgPzeDHVju","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇦🇪AE | ss | @kingofilter | 5","type":"ss","server":"api.namasha.co","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇬🇧GB | ss | @kingofilter | 11","type":"ss","server":"109.120.186.9","port":23022,"password":"s#W0tqg%@N","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇦CA | ss | @VmessProtocol | 4","type":"ss","server":"142.4.216.225","port":80,"password":"JIhN6rBKkaEboLNXVSv5rq","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇳🇴NO | ss | @VmessProtocol | 7","type":"ss","server":"51.13.114.127","port":60356,"password":"95JrBoQ4TdkeYgPzeDHVju","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇦🇪AE | ss | @kingofilter | 7","type":"ss","server":"api.namasha.co","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇬🇧GB | ss | @kingofilter | 13","type":"ss","server":"109.120.186.9","port":23022,"password":"s#W0tqg%@N","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -130,10 +130,10 @@ proxy-groups:
       - URL-TEST
       - FALLBACK
       - '🇩🇪DE | ss | @DeamNet_Proxy | 5'
-      - '🇨🇦CA | ss | @VmessProtocol | 2'
-      - '🇳🇴NO | ss | @VmessProtocol | 5'
-      - '🇦🇪AE | ss | @kingofilter | 5'
-      - '🇬🇧GB | ss | @kingofilter | 11'
+      - '🇨🇦CA | ss | @VmessProtocol | 4'
+      - '🇳🇴NO | ss | @VmessProtocol | 7'
+      - '🇦🇪AE | ss | @kingofilter | 7'
+      - '🇬🇧GB | ss | @kingofilter | 13'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -141,20 +141,20 @@ proxy-groups:
     tolerance: 50
     proxies:
       - '🇩🇪DE | ss | @DeamNet_Proxy | 5'
-      - '🇨🇦CA | ss | @VmessProtocol | 2'
-      - '🇳🇴NO | ss | @VmessProtocol | 5'
-      - '🇦🇪AE | ss | @kingofilter | 5'
-      - '🇬🇧GB | ss | @kingofilter | 11'
+      - '🇨🇦CA | ss | @VmessProtocol | 4'
+      - '🇳🇴NO | ss | @VmessProtocol | 7'
+      - '🇦🇪AE | ss | @kingofilter | 7'
+      - '🇬🇧GB | ss | @kingofilter | 13'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
       - '🇩🇪DE | ss | @DeamNet_Proxy | 5'
-      - '🇨🇦CA | ss | @VmessProtocol | 2'
-      - '🇳🇴NO | ss | @VmessProtocol | 5'
-      - '🇦🇪AE | ss | @kingofilter | 5'
-      - '🇬🇧GB | ss | @kingofilter | 11'
+      - '🇨🇦CA | ss | @VmessProtocol | 4'
+      - '🇳🇴NO | ss | @VmessProtocol | 7'
+      - '🇦🇪AE | ss | @kingofilter | 7'
+      - '🇬🇧GB | ss | @kingofilter | 13'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
