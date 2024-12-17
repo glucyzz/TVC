@@ -113,7 +113,9 @@
                 "🇨🇳CN | vmess | @mftizi | 15",
                 "🇨🇳CN | vmess | @mftizi | 17",
                 "🇨🇳CN | vmess | @mftizi | 18",
-                "🇮🇳IN | vmess | @v2ray1_ng | 0",
+                "🇮🇷IR | vmess | @DeamNet_Proxy | 8",
+                "🇩🇪DE | vmess | @prrofile_purple | 139",
+                "🇮🇳IN | vmess | @v2ray1_ng | 2",
                 "🇺🇸US | vmess | @proxystore11 | 0",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
@@ -130,8 +132,6 @@
                 "🇷🇺RU | vmess | @Hope_Net | 7",
                 "🏳️XX | vmess | @Hope_Net | 8",
                 "🇷🇺RU | vmess | @Hope_Net | 9",
-                "🇺🇸US | vmess | @aries_init | 0",
-                "🇺🇸US | vmess | @aries_init | 1",
                 "🇺🇸US | vmess | @heinuhome | 0",
                 "🏳️XX | vmess | @ednovasfree | 1"
             ]
@@ -147,7 +147,9 @@
                 "🇨🇳CN | vmess | @mftizi | 15",
                 "🇨🇳CN | vmess | @mftizi | 17",
                 "🇨🇳CN | vmess | @mftizi | 18",
-                "🇮🇳IN | vmess | @v2ray1_ng | 0",
+                "🇮🇷IR | vmess | @DeamNet_Proxy | 8",
+                "🇩🇪DE | vmess | @prrofile_purple | 139",
+                "🇮🇳IN | vmess | @v2ray1_ng | 2",
                 "🇺🇸US | vmess | @proxystore11 | 0",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
@@ -164,8 +166,6 @@
                 "🇷🇺RU | vmess | @Hope_Net | 7",
                 "🏳️XX | vmess | @Hope_Net | 8",
                 "🇷🇺RU | vmess | @Hope_Net | 9",
-                "🇺🇸US | vmess | @aries_init | 0",
-                "🇺🇸US | vmess | @aries_init | 1",
                 "🇺🇸US | vmess | @heinuhome | 0",
                 "🏳️XX | vmess | @ednovasfree | 1"
             ],
@@ -326,7 +326,75 @@
             }
         },
         {
-            "tag": "🇮🇳IN | vmess | @v2ray1_ng | 0",
+            "tag": "🇮🇷IR | vmess | @DeamNet_Proxy | 8",
+            "type": "vmess",
+            "server": "2.189.59.2",
+            "server_port": 443,
+            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "obdii.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "obdii.cfd"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vmess | @prrofile_purple | 139",
+            "type": "vmess",
+            "server": "frankfurt03.zgjok.com",
+            "server_port": 443,
+            "uuid": "4f7c2243-a38a-4672-983b-f1378aee0a7f",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "frankfurt03.zgjok.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "frankfurt03.zgjok.com"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇳IN | vmess | @v2ray1_ng | 2",
             "type": "vmess",
             "server": "20.193.131.152",
             "server_port": 23294,
@@ -721,64 +789,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "176.32.33.124"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @aries_init | 0",
-            "type": "vmess",
-            "server": "root.mid.al",
-            "server_port": 443,
-            "uuid": "a983c698-cae4-4254-d047-51898ccd8ee7",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.Arizona.edu",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/aries",
-                "headers": {
-                    "Host": "www.Arizona.edu"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @aries_init | 1",
-            "type": "vmess",
-            "server": "root.mid.al",
-            "server_port": 80,
-            "uuid": "a983c698-cae4-4254-d047-51898ccd8ee7",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/aries",
-                "headers": {
-                    "Host": ""
                 }
             }
         },
