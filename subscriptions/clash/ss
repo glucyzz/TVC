@@ -118,47 +118,47 @@ dns:
     - "https://8.8.4.4/dns-query"
 
 proxies:
-  - {"name":"🇺🇸US | ss | @DeamNet_Proxy | 6","type":"ss","server":"45.87.175.166","port":8080,"password":"cvII85TrW6n0OGyfpHVS1u","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇨🇦CA | ss | @VmessProtocol | 8","type":"ss","server":"142.4.216.225","port":80,"password":"JIhN6rBKkaEboLNXVSv5rq","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇳🇴NO | ss | @VmessProtocol | 11","type":"ss","server":"51.13.114.127","port":60356,"password":"95JrBoQ4TdkeYgPzeDHVju","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🏳️XX | ss | @kingofilter | 4","type":"ss","server":"freakconfig27.usecharge.ir","port":443,"password":"W74XFALLLuw6m5IA","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸US | ss | @kingofilter | 5","type":"ss","server":"52.237.155.68","port":443,"password":"mzyYriPYYnCWDxoy","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇦🇪AE | ss | @kingofilter | 11","type":"ss","server":"api.namasha.co","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸US | ss | @DeamNet_Proxy | 7","type":"ss","server":"beesyar.org","port":8080,"password":"1RWwXhwfAB5gAEozU4G2Pg","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇫🇷FR | ss | @VmessProtocol | 0","type":"ss","server":"213.176.66.228","port":24495,"password":"xk5c6OgvtSu9d2mUTYZPiI","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇦CA | ss | @VmessProtocol | 9","type":"ss","server":"142.4.216.225","port":80,"password":"JIhN6rBKkaEboLNXVSv5rq","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🏳️XX | ss | @kingofilter | 5","type":"ss","server":"freakconfig27.usecharge.ir","port":443,"password":"W74XFALLLuw6m5IA","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸US | ss | @kingofilter | 6","type":"ss","server":"52.237.155.68","port":443,"password":"mzyYriPYYnCWDxoy","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇦🇪AE | ss | @kingofilter | 12","type":"ss","server":"api.namasha.co","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: MANUAL
     type: select
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇺🇸US | ss | @DeamNet_Proxy | 6'
-      - '🇨🇦CA | ss | @VmessProtocol | 8'
-      - '🇳🇴NO | ss | @VmessProtocol | 11'
-      - '🏳️XX | ss | @kingofilter | 4'
-      - '🇺🇸US | ss | @kingofilter | 5'
-      - '🇦🇪AE | ss | @kingofilter | 11'
+      - '🇺🇸US | ss | @DeamNet_Proxy | 7'
+      - '🇫🇷FR | ss | @VmessProtocol | 0'
+      - '🇨🇦CA | ss | @VmessProtocol | 9'
+      - '🏳️XX | ss | @kingofilter | 5'
+      - '🇺🇸US | ss | @kingofilter | 6'
+      - '🇦🇪AE | ss | @kingofilter | 12'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 60
     tolerance: 50
     proxies:
-      - '🇺🇸US | ss | @DeamNet_Proxy | 6'
-      - '🇨🇦CA | ss | @VmessProtocol | 8'
-      - '🇳🇴NO | ss | @VmessProtocol | 11'
-      - '🏳️XX | ss | @kingofilter | 4'
-      - '🇺🇸US | ss | @kingofilter | 5'
-      - '🇦🇪AE | ss | @kingofilter | 11'
+      - '🇺🇸US | ss | @DeamNet_Proxy | 7'
+      - '🇫🇷FR | ss | @VmessProtocol | 0'
+      - '🇨🇦CA | ss | @VmessProtocol | 9'
+      - '🏳️XX | ss | @kingofilter | 5'
+      - '🇺🇸US | ss | @kingofilter | 6'
+      - '🇦🇪AE | ss | @kingofilter | 12'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇺🇸US | ss | @DeamNet_Proxy | 6'
-      - '🇨🇦CA | ss | @VmessProtocol | 8'
-      - '🇳🇴NO | ss | @VmessProtocol | 11'
-      - '🏳️XX | ss | @kingofilter | 4'
-      - '🇺🇸US | ss | @kingofilter | 5'
-      - '🇦🇪AE | ss | @kingofilter | 11'
+      - '🇺🇸US | ss | @DeamNet_Proxy | 7'
+      - '🇫🇷FR | ss | @VmessProtocol | 0'
+      - '🇨🇦CA | ss | @VmessProtocol | 9'
+      - '🏳️XX | ss | @kingofilter | 5'
+      - '🇺🇸US | ss | @kingofilter | 6'
+      - '🇦🇪AE | ss | @kingofilter | 12'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
