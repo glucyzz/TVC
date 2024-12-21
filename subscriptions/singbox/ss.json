@@ -106,9 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸US | ss | @DeamNet_Proxy | 7",
-                "🇫🇷FR | ss | @VmessProtocol | 0",
-                "🇨🇦CA | ss | @VmessProtocol | 9",
+                "🇫🇷FR | ss | @VmessProtocol | 2",
                 "🏳️XX | ss | @kingofilter | 5",
                 "🇺🇸US | ss | @kingofilter | 6",
                 "🇦🇪AE | ss | @kingofilter | 12"
@@ -118,9 +116,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸US | ss | @DeamNet_Proxy | 7",
-                "🇫🇷FR | ss | @VmessProtocol | 0",
-                "🇨🇦CA | ss | @VmessProtocol | 9",
+                "🇫🇷FR | ss | @VmessProtocol | 2",
                 "🏳️XX | ss | @kingofilter | 5",
                 "🇺🇸US | ss | @kingofilter | 6",
                 "🇦🇪AE | ss | @kingofilter | 12"
@@ -146,32 +142,12 @@
             "type": "dns"
         },
         {
-            "tag": "🇺🇸US | ss | @DeamNet_Proxy | 7",
-            "type": "shadowsocks",
-            "server": "beesyar.org",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "1RWwXhwfAB5gAEozU4G2Pg",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇫🇷FR | ss | @VmessProtocol | 0",
+            "tag": "🇫🇷FR | ss | @VmessProtocol | 2",
             "type": "shadowsocks",
             "server": "213.176.66.228",
             "server_port": 24495,
             "method": "chacha20-ietf-poly1305",
             "password": "xk5c6OgvtSu9d2mUTYZPiI",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇨🇦CA | ss | @VmessProtocol | 9",
-            "type": "shadowsocks",
-            "server": "142.4.216.225",
-            "server_port": 80,
-            "method": "chacha20-ietf-poly1305",
-            "password": "JIhN6rBKkaEboLNXVSv5rq",
             "plugin": "",
             "plugin_opts": ""
         },
