@@ -106,20 +106,20 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇫🇷FR | ss | @VmessProtocol | 5",
-                "🏳️XX | ss | @kingofilter | 6",
-                "🇺🇸US | ss | @kingofilter | 7",
-                "🇦🇪AE | ss | @kingofilter | 13"
+                "🇫🇷FR | ss | @VmessProtocol | 6",
+                "🇺🇸US | ss | @kingofilter | 2",
+                "🏳️XX | ss | @kingofilter | 7",
+                "🇦🇪AE | ss | @kingofilter | 14"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇫🇷FR | ss | @VmessProtocol | 5",
-                "🏳️XX | ss | @kingofilter | 6",
-                "🇺🇸US | ss | @kingofilter | 7",
-                "🇦🇪AE | ss | @kingofilter | 13"
+                "🇫🇷FR | ss | @VmessProtocol | 6",
+                "🇺🇸US | ss | @kingofilter | 2",
+                "🏳️XX | ss | @kingofilter | 7",
+                "🇦🇪AE | ss | @kingofilter | 14"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -142,7 +142,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇫🇷FR | ss | @VmessProtocol | 5",
+            "tag": "🇫🇷FR | ss | @VmessProtocol | 6",
             "type": "shadowsocks",
             "server": "213.176.66.228",
             "server_port": 24495,
@@ -152,17 +152,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🏳️XX | ss | @kingofilter | 6",
-            "type": "shadowsocks",
-            "server": "freakconfig27.usecharge.ir",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "W74XFALLLuw6m5IA",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇺🇸US | ss | @kingofilter | 7",
+            "tag": "🇺🇸US | ss | @kingofilter | 2",
             "type": "shadowsocks",
             "server": "52.237.155.68",
             "server_port": 443,
@@ -172,7 +162,17 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇦🇪AE | ss | @kingofilter | 13",
+            "tag": "🏳️XX | ss | @kingofilter | 7",
+            "type": "shadowsocks",
+            "server": "freakconfig27.usecharge.ir",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "W74XFALLLuw6m5IA",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇦🇪AE | ss | @kingofilter | 14",
             "type": "shadowsocks",
             "server": "api.namasha.co",
             "server_port": 443,
