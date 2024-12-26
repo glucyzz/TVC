@@ -14,13 +14,13 @@ DIRECT = direct
 🇵🇷PR | ss | @DeamNet_Proxy | 5 = ss, 185.47.255.22, 990, encrypt-method = chacha20-ietf-poly1305, password = f8f7aCzcPKbsF8p3
 🇰🇪KE | ss | @DeamNet_Proxy | 10 = ss, 62.12.116.66, 990, encrypt-method = chacha20-ietf-poly1305, password = f8f7aCzcPKbsF8p3
 🇵🇱PL | ss | @DeamNet_Proxy | 17 = ss, 77.83.246.74, 33320, encrypt-method = chacha20-ietf-poly1305, password = gn8Xc4Ndxw9RDlAwFx0PpN
-🇫🇷FR | ss | @VmessProtocol | 11 = ss, 213.176.66.228, 24495, encrypt-method = chacha20-ietf-poly1305, password = xk5c6OgvtSu9d2mUTYZPiI
+🇫🇷FR | ss | @VmessProtocol | 13 = ss, 213.176.66.228, 24495, encrypt-method = chacha20-ietf-poly1305, password = xk5c6OgvtSu9d2mUTYZPiI
 🇺🇸US | ss | @kingofilter | 4 = ss, 52.237.155.68, 443, encrypt-method = chacha20-ietf-poly1305, password = mzyYriPYYnCWDxoy
 🏳️XX | ss | @kingofilter | 9 = ss, freakconfig27.usecharge.ir, 443, encrypt-method = chacha20-ietf-poly1305, password = W74XFALLLuw6m5IA
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇵🇷PR | ss | @DeamNet_Proxy | 5,🇰🇪KE | ss | @DeamNet_Proxy | 10,🇵🇱PL | ss | @DeamNet_Proxy | 17,🇫🇷FR | ss | @VmessProtocol | 11,🇺🇸US | ss | @kingofilter | 4,🏳️XX | ss | @kingofilter | 9
-URL-TEST = url-test,🇵🇷PR | ss | @DeamNet_Proxy | 5,🇰🇪KE | ss | @DeamNet_Proxy | 10,🇵🇱PL | ss | @DeamNet_Proxy | 17,🇫🇷FR | ss | @VmessProtocol | 11,🇺🇸US | ss | @kingofilter | 4,🏳️XX | ss | @kingofilter | 9
-FALLBACK = fallback,🇵🇷PR | ss | @DeamNet_Proxy | 5,🇰🇪KE | ss | @DeamNet_Proxy | 10,🇵🇱PL | ss | @DeamNet_Proxy | 17,🇫🇷FR | ss | @VmessProtocol | 11,🇺🇸US | ss | @kingofilter | 4,🏳️XX | ss | @kingofilter | 9
+MANUAL = select,URL-TEST,FALLBACK,🇵🇷PR | ss | @DeamNet_Proxy | 5,🇰🇪KE | ss | @DeamNet_Proxy | 10,🇵🇱PL | ss | @DeamNet_Proxy | 17,🇫🇷FR | ss | @VmessProtocol | 13,🇺🇸US | ss | @kingofilter | 4,🏳️XX | ss | @kingofilter | 9
+URL-TEST = url-test,🇵🇷PR | ss | @DeamNet_Proxy | 5,🇰🇪KE | ss | @DeamNet_Proxy | 10,🇵🇱PL | ss | @DeamNet_Proxy | 17,🇫🇷FR | ss | @VmessProtocol | 13,🇺🇸US | ss | @kingofilter | 4,🏳️XX | ss | @kingofilter | 9
+FALLBACK = fallback,🇵🇷PR | ss | @DeamNet_Proxy | 5,🇰🇪KE | ss | @DeamNet_Proxy | 10,🇵🇱PL | ss | @DeamNet_Proxy | 17,🇫🇷FR | ss | @VmessProtocol | 13,🇺🇸US | ss | @kingofilter | 4,🏳️XX | ss | @kingofilter | 9
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL

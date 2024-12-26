@@ -114,18 +114,22 @@
                 "🇨🇳CN | vmess | @mftizi | 8",
                 "🇨🇳CN | vmess | @mftizi | 10",
                 "🇨🇳CN | vmess | @mftizi | 17",
-                "🇺🇸US | vmess | @ShadowProxy66 | 0",
-                "🇺🇸US | vmess | @ShadowProxy66 | 1",
-                "🇫🇷FR | vmess | @ShadowProxy66 | 2",
-                "🇩🇪DE | vmess | @ShadowProxy66 | 3",
-                "🇫🇷FR | vmess | @ShadowProxy66 | 4",
-                "🇮🇷IR | vmess | @ShadowProxy66 | 5",
-                "🇺🇸US | vmess | @v2ray1_ng | 14",
+                "🇩🇪DE | vmess | @prrofile_purple | 163",
+                "🇮🇷IR | vmess | @ShadowProxy66 | 6",
+                "🇩🇪DE | vmess | @ShadowProxy66 | 8",
+                "🇺🇸US | vmess | @ShadowProxy66 | 9",
+                "🇺🇸US | vmess | @ShadowProxy66 | 10",
+                "🇫🇷FR | vmess | @ShadowProxy66 | 11",
+                "🇫🇷FR | vmess | @ShadowProxy66 | 12",
+                "🇫🇷FR | vmess | @ShadowProxy66 | 13",
+                "🇮🇷IR | vmess | @ShadowProxy66 | 14",
+                "🇺🇸US | vmess | @ConfigsHUB | 8",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
                 "🇨🇳CN | vmess | @yaney_01 | 4",
                 "🇺🇸US | vmess | @yaney_01 | 5",
+                "🇺🇸US | vmess | @free1_vpn | 2",
                 "🇮🇳IN | vmess | @free1_vpn | 3",
                 "🇺🇸US | vmess | @Hope_Net | 0",
                 "🇨🇳CN | vmess | @Hope_Net | 1",
@@ -145,18 +149,22 @@
                 "🇨🇳CN | vmess | @mftizi | 8",
                 "🇨🇳CN | vmess | @mftizi | 10",
                 "🇨🇳CN | vmess | @mftizi | 17",
-                "🇺🇸US | vmess | @ShadowProxy66 | 0",
-                "🇺🇸US | vmess | @ShadowProxy66 | 1",
-                "🇫🇷FR | vmess | @ShadowProxy66 | 2",
-                "🇩🇪DE | vmess | @ShadowProxy66 | 3",
-                "🇫🇷FR | vmess | @ShadowProxy66 | 4",
-                "🇮🇷IR | vmess | @ShadowProxy66 | 5",
-                "🇺🇸US | vmess | @v2ray1_ng | 14",
+                "🇩🇪DE | vmess | @prrofile_purple | 163",
+                "🇮🇷IR | vmess | @ShadowProxy66 | 6",
+                "🇩🇪DE | vmess | @ShadowProxy66 | 8",
+                "🇺🇸US | vmess | @ShadowProxy66 | 9",
+                "🇺🇸US | vmess | @ShadowProxy66 | 10",
+                "🇫🇷FR | vmess | @ShadowProxy66 | 11",
+                "🇫🇷FR | vmess | @ShadowProxy66 | 12",
+                "🇫🇷FR | vmess | @ShadowProxy66 | 13",
+                "🇮🇷IR | vmess | @ShadowProxy66 | 14",
+                "🇺🇸US | vmess | @ConfigsHUB | 8",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
                 "🇨🇳CN | vmess | @yaney_01 | 4",
                 "🇺🇸US | vmess | @yaney_01 | 5",
+                "🇺🇸US | vmess | @free1_vpn | 2",
                 "🇮🇳IN | vmess | @free1_vpn | 3",
                 "🇺🇸US | vmess | @Hope_Net | 0",
                 "🇨🇳CN | vmess | @Hope_Net | 1",
@@ -320,7 +328,75 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @ShadowProxy66 | 0",
+            "tag": "🇩🇪DE | vmess | @prrofile_purple | 163",
+            "type": "vmess",
+            "server": "frankfurt03.zgjok.com",
+            "server_port": 443,
+            "uuid": "4f7c2243-a38a-4672-983b-f1378aee0a7f",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇮🇷IR | vmess | @ShadowProxy66 | 6",
+            "type": "vmess",
+            "server": "46.38.146.68",
+            "server_port": 38585,
+            "uuid": "e3cc1286-8401-4b1f-b110-dac3a2b15050",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vmess | @ShadowProxy66 | 8",
+            "type": "vmess",
+            "server": "138.201.44.49",
+            "server_port": 4035,
+            "uuid": "9398b3da-690f-4648-abb7-9c4118449159",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @ShadowProxy66 | 9",
             "type": "vmess",
             "server": "104.21.83.108",
             "server_port": 443,
@@ -354,7 +430,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @ShadowProxy66 | 1",
+            "tag": "🇺🇸US | vmess | @ShadowProxy66 | 10",
             "type": "vmess",
             "server": "104.16.60.8",
             "server_port": 80,
@@ -378,7 +454,7 @@
             }
         },
         {
-            "tag": "🇫🇷FR | vmess | @ShadowProxy66 | 2",
+            "tag": "🇫🇷FR | vmess | @ShadowProxy66 | 11",
             "type": "vmess",
             "server": "hms26.xpengmotors.sbs",
             "server_port": 443,
@@ -412,7 +488,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vmess | @ShadowProxy66 | 3",
+            "tag": "🇫🇷FR | vmess | @ShadowProxy66 | 12",
             "type": "vmess",
             "server": "hms26.xpengmotors.sbs",
             "server_port": 443,
@@ -446,7 +522,7 @@
             }
         },
         {
-            "tag": "🇫🇷FR | vmess | @ShadowProxy66 | 4",
+            "tag": "🇫🇷FR | vmess | @ShadowProxy66 | 13",
             "type": "vmess",
             "server": "hms19.best-tizi.top",
             "server_port": 443,
@@ -480,7 +556,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vmess | @ShadowProxy66 | 5",
+            "tag": "🇮🇷IR | vmess | @ShadowProxy66 | 14",
             "type": "vmess",
             "server": "185.29.223.164",
             "server_port": 32718,
@@ -497,11 +573,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @v2ray1_ng | 14",
+            "tag": "🇺🇸US | vmess | @ConfigsHUB | 8",
             "type": "vmess",
-            "server": "www.speedtest.net",
-            "server_port": 8080,
-            "uuid": "cc9be09e-c05e-4f54-831b-969ecb185692",
+            "server": "167.68.5.215",
+            "server_port": 8443,
+            "uuid": "191babc5-2aaf-4fe5-a563-f14244aefb4e",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -512,9 +588,19 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/njbvhfgxdgthj",
+                "path": "\/xrenvws",
                 "headers": {
                     "Host": ""
                 }
@@ -667,6 +753,30 @@
                 "path": "\/66",
                 "headers": {
                     "Host": "104.26.8.210"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @free1_vpn | 2",
+            "type": "vmess",
+            "server": "www.speedtest.net",
+            "server_port": 8080,
+            "uuid": "cc9be09e-c05e-4f54-831b-969ecb185692",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/njbvhfgxdgthj",
+                "headers": {
+                    "Host": ""
                 }
             }
         },
