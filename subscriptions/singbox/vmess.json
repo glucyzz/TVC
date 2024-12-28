@@ -114,18 +114,14 @@
                 "🇨🇳CN | vmess | @mftizi | 9",
                 "🇨🇳CN | vmess | @mftizi | 11",
                 "🇨🇳CN | vmess | @mftizi | 18",
-                "🇫🇷FR | vmess | @prrofile_purple | 162",
-                "🇺🇸US | vmess | @ShadowProxy66 | 1",
-                "🇺🇸US | vmess | @ShadowProxy66 | 3",
-                "🇩🇪DE | vmess | @ShadowProxy66 | 6",
-                "🇨🇦CA | vmess | @ShadowProxy66 | 8",
-                "🇫🇷FR | vmess | @ShadowProxy66 | 10",
-                "🇩🇰DK | vmess | @ShadowProxy66 | 12",
-                "🇮🇷IR | vmess | @ShadowProxy66 | 13",
+                "🇫🇷FR | vmess | @ShadowProxy66 | 1",
+                "🇯🇵JP | vmess | @ShadowProxy66 | 6",
+                "🇺🇸US | vmess | @ShadowProxy66 | 10",
+                "🇺🇸US | vmess | @ShadowProxy66 | 12",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 15",
-                "🇺🇸US | vmess | @v2ray1_ng | 1",
-                "🇮🇷IR | vmess | @v2ray1_ng | 3",
-                "🇺🇸US | vmess | @ConfigsHUB | 15",
+                "🇺🇸US | vmess | @v2ray1_ng | 5",
+                "🇮🇷IR | vmess | @v2ray1_ng | 7",
+                "🇺🇸US | vmess | @ConfigsHUB | 10",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
@@ -151,18 +147,14 @@
                 "🇨🇳CN | vmess | @mftizi | 9",
                 "🇨🇳CN | vmess | @mftizi | 11",
                 "🇨🇳CN | vmess | @mftizi | 18",
-                "🇫🇷FR | vmess | @prrofile_purple | 162",
-                "🇺🇸US | vmess | @ShadowProxy66 | 1",
-                "🇺🇸US | vmess | @ShadowProxy66 | 3",
-                "🇩🇪DE | vmess | @ShadowProxy66 | 6",
-                "🇨🇦CA | vmess | @ShadowProxy66 | 8",
-                "🇫🇷FR | vmess | @ShadowProxy66 | 10",
-                "🇩🇰DK | vmess | @ShadowProxy66 | 12",
-                "🇮🇷IR | vmess | @ShadowProxy66 | 13",
+                "🇫🇷FR | vmess | @ShadowProxy66 | 1",
+                "🇯🇵JP | vmess | @ShadowProxy66 | 6",
+                "🇺🇸US | vmess | @ShadowProxy66 | 10",
+                "🇺🇸US | vmess | @ShadowProxy66 | 12",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 15",
-                "🇺🇸US | vmess | @v2ray1_ng | 1",
-                "🇮🇷IR | vmess | @v2ray1_ng | 3",
-                "🇺🇸US | vmess | @ConfigsHUB | 15",
+                "🇺🇸US | vmess | @v2ray1_ng | 5",
+                "🇮🇷IR | vmess | @v2ray1_ng | 7",
+                "🇺🇸US | vmess | @ConfigsHUB | 10",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
@@ -332,11 +324,11 @@
             }
         },
         {
-            "tag": "🇫🇷FR | vmess | @prrofile_purple | 162",
+            "tag": "🇫🇷FR | vmess | @ShadowProxy66 | 1",
             "type": "vmess",
-            "server": "irhms03.dongfeng.cfd",
+            "server": "hms19.best-tizi.top",
             "server_port": 443,
-            "uuid": "fa5b55cd-cafc-4de0-a4c8-722e02a9f58e",
+            "uuid": "62aa5f80-0328-4004-a375-7f5a59df4022",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -349,7 +341,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "hms03.dongfeng.cfd",
+                "server_name": "hms19.best-tizi.top",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -361,12 +353,29 @@
                 "type": "ws",
                 "path": "\/linkws",
                 "headers": {
-                    "Host": "hms03.dongfeng.cfd"
+                    "Host": "hms19.best-tizi.top"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @ShadowProxy66 | 1",
+            "tag": "🇯🇵JP | vmess | @ShadowProxy66 | 6",
+            "type": "vmess",
+            "server": "13.112.49.171",
+            "server_port": 48897,
+            "uuid": "3374de7b-61ca-4ef4-ae94-ad0e0e759db0",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @ShadowProxy66 | 10",
             "type": "vmess",
             "server": "primer.ibilibi.li",
             "server_port": 443,
@@ -400,7 +409,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @ShadowProxy66 | 3",
+            "tag": "🇺🇸US | vmess | @ShadowProxy66 | 12",
             "type": "vmess",
             "server": "151.101.2.216",
             "server_port": 80,
@@ -424,7 +433,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vmess | @ShadowProxy66 | 6",
+            "tag": "🇩🇪DE | vmess | @ShadowProxy66 | 15",
             "type": "vmess",
             "server": "78.46.178.163",
             "server_port": 36909,
@@ -441,123 +450,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @ShadowProxy66 | 8",
-            "type": "vmess",
-            "server": "193.203.203.99",
-            "server_port": 80,
-            "uuid": "59db4f71-1328-56be-aa15-51261e8536e1",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vmess#t-me-Serversiran11",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇫🇷FR | vmess | @ShadowProxy66 | 10",
-            "type": "vmess",
-            "server": "45.145.167.103",
-            "server_port": 443,
-            "uuid": "425c5e6e-30a0-4984-8a13-ee6f72053162",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "indiavideo.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "indiavideo.sbs"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇰DK | vmess | @ShadowProxy66 | 12",
-            "type": "vmess",
-            "server": "176.120.64.17",
-            "server_port": 80,
-            "uuid": "819b91b0-294a-5069-a721-523b38a60bf5",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vmess#t-me-DarkVPNpro",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇮🇷IR | vmess | @ShadowProxy66 | 13",
-            "type": "vmess",
-            "server": "46.38.146.68",
-            "server_port": 38585,
-            "uuid": "e3cc1286-8401-4b1f-b110-dac3a2b15050",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vmess | @ShadowProxy66 | 15",
-            "type": "vmess",
-            "server": "138.201.44.49",
-            "server_port": 4035,
-            "uuid": "9398b3da-690f-4648-abb7-9c4118449159",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @v2ray1_ng | 1",
+            "tag": "🇺🇸US | vmess | @v2ray1_ng | 5",
             "type": "vmess",
             "server": "151.101.2.216",
             "server_port": 80,
@@ -581,7 +474,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vmess | @v2ray1_ng | 3",
+            "tag": "🇮🇷IR | vmess | @v2ray1_ng | 7",
             "type": "vmess",
             "server": "185.29.223.164",
             "server_port": 32718,
@@ -598,11 +491,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @ConfigsHUB | 15",
+            "tag": "🇺🇸US | vmess | @ConfigsHUB | 10",
             "type": "vmess",
-            "server": "151.101.194.133",
+            "server": "151.101.2.216",
             "server_port": 80,
-            "uuid": "3ecf9ef9-d4e7-4eb4-a16d-c6e7b2a39af4",
+            "uuid": "545485da-9ff4-48c5-ae94-45e6e4ee7d26",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -615,7 +508,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/RACEVPN",
+                "path": "\/racevpn",
                 "headers": {
                     "Host": ""
                 }
