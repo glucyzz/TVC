@@ -120,51 +120,51 @@ dns:
     'RULE-SET:ir,ircidr,geoip:ir,+.ir,+.bonyan.co': ["217.218.155.155", "217.218.127.127", "https://dns.403.online/dns-query", "https://dns.shecan.ir/dns-query"]
 
 proxies:
-  - {"name":"🇹🇭TH | ss | @DeamNet_Proxy | 5","type":"ss","server":"119.59.98.58","port":990,"password":"f8f7aCzcPKbsF8p3","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇵🇷PR | ss | @DeamNet_Proxy | 8","type":"ss","server":"185.47.255.22","port":990,"password":"f8f7aCzcPKbsF8p3","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇰🇪KE | ss | @DeamNet_Proxy | 13","type":"ss","server":"62.12.116.66","port":990,"password":"f8f7aCzcPKbsF8p3","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸US | ss | @DeamNet_Proxy | 5","type":"ss","server":"45.87.175.199","port":8080,"password":"1RWwXhwfAB5gAEozU4G2Pg","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇬🇧GB | ss | @DeamNet_Proxy | 11","type":"ss","server":"89.185.84.185","port":12575,"password":"CkJF3P4LFIiQsKKfnNNnL2","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇧🇴BO | ss | @DeamNet_Proxy | 13","type":"ss","server":"185.93.173.218","port":990,"password":"f8f7aCzcPKbsF8p3","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇬🇧GB | ss | @DeamNet_Proxy | 19","type":"ss","server":"89.185.84.185","port":12575,"password":"299QKvkXWWSo9cn9MHBas5","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇮🇹IT | ss | @VmessProtocol | 6","type":"ss","server":"185.213.20.227","port":990,"password":"f8f7aCzcPKbsF8p3","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇧🇭BH | ss | @kingofilter | 2","type":"ss","server":"admin.c3.havij.co","port":443,"password":"P7PqQpnyhsnzKNrm","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸US | ss | @kingofilter | 8","type":"ss","server":"52.237.155.68","port":443,"password":"mzyYriPYYnCWDxoy","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🏳️XX | ss | @kingofilter | 13","type":"ss","server":"freakconfig27.usecharge.ir","port":443,"password":"W74XFALLLuw6m5IA","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇧🇭BH | ss | @kingofilter | 3","type":"ss","server":"admin.c3.havij.co","port":443,"password":"P7PqQpnyhsnzKNrm","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸US | ss | @kingofilter | 9","type":"ss","server":"52.237.155.68","port":443,"password":"mzyYriPYYnCWDxoy","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: MANUAL
     type: select
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇹🇭TH | ss | @DeamNet_Proxy | 5'
-      - '🇵🇷PR | ss | @DeamNet_Proxy | 8'
-      - '🇰🇪KE | ss | @DeamNet_Proxy | 13'
+      - '🇺🇸US | ss | @DeamNet_Proxy | 5'
+      - '🇬🇧GB | ss | @DeamNet_Proxy | 11'
+      - '🇧🇴BO | ss | @DeamNet_Proxy | 13'
+      - '🇬🇧GB | ss | @DeamNet_Proxy | 19'
       - '🇮🇹IT | ss | @VmessProtocol | 6'
-      - '🇧🇭BH | ss | @kingofilter | 2'
-      - '🇺🇸US | ss | @kingofilter | 8'
-      - '🏳️XX | ss | @kingofilter | 13'
+      - '🇧🇭BH | ss | @kingofilter | 3'
+      - '🇺🇸US | ss | @kingofilter | 9'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 60
     tolerance: 50
     proxies:
-      - '🇹🇭TH | ss | @DeamNet_Proxy | 5'
-      - '🇵🇷PR | ss | @DeamNet_Proxy | 8'
-      - '🇰🇪KE | ss | @DeamNet_Proxy | 13'
+      - '🇺🇸US | ss | @DeamNet_Proxy | 5'
+      - '🇬🇧GB | ss | @DeamNet_Proxy | 11'
+      - '🇧🇴BO | ss | @DeamNet_Proxy | 13'
+      - '🇬🇧GB | ss | @DeamNet_Proxy | 19'
       - '🇮🇹IT | ss | @VmessProtocol | 6'
-      - '🇧🇭BH | ss | @kingofilter | 2'
-      - '🇺🇸US | ss | @kingofilter | 8'
-      - '🏳️XX | ss | @kingofilter | 13'
+      - '🇧🇭BH | ss | @kingofilter | 3'
+      - '🇺🇸US | ss | @kingofilter | 9'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇹🇭TH | ss | @DeamNet_Proxy | 5'
-      - '🇵🇷PR | ss | @DeamNet_Proxy | 8'
-      - '🇰🇪KE | ss | @DeamNet_Proxy | 13'
+      - '🇺🇸US | ss | @DeamNet_Proxy | 5'
+      - '🇬🇧GB | ss | @DeamNet_Proxy | 11'
+      - '🇧🇴BO | ss | @DeamNet_Proxy | 13'
+      - '🇬🇧GB | ss | @DeamNet_Proxy | 19'
       - '🇮🇹IT | ss | @VmessProtocol | 6'
-      - '🇧🇭BH | ss | @kingofilter | 2'
-      - '🇺🇸US | ss | @kingofilter | 8'
-      - '🏳️XX | ss | @kingofilter | 13'
+      - '🇧🇭BH | ss | @kingofilter | 3'
+      - '🇺🇸US | ss | @kingofilter | 9'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
   ads: {type: http, format: text, behavior: domain, path: ./ruleset/ads.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ads.txt, interval: 86400}
