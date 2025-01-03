@@ -106,24 +106,26 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸US | ss | @DeamNet_Proxy | 7",
-                "🇺🇸US | ss | @DeamNet_Proxy | 12",
-                "🇬🇧GB | ss | @DeamNet_Proxy | 18",
-                "🇮🇹IT | ss | @VmessProtocol | 7",
-                "🇧🇭BH | ss | @kingofilter | 4",
-                "🇺🇸US | ss | @kingofilter | 10"
+                "🇬🇧GB | ss | @DeamNet_Proxy | 6",
+                "🇺🇦UA | ss | @DeamNet_Proxy | 9",
+                "🇺🇸US | ss | @DeamNet_Proxy | 14",
+                "🇺🇸US | ss | @DeamNet_Proxy | 19",
+                "🇮🇹IT | ss | @VmessProtocol | 10",
+                "🇧🇭BH | ss | @kingofilter | 5",
+                "🇺🇸US | ss | @kingofilter | 11"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸US | ss | @DeamNet_Proxy | 7",
-                "🇺🇸US | ss | @DeamNet_Proxy | 12",
-                "🇬🇧GB | ss | @DeamNet_Proxy | 18",
-                "🇮🇹IT | ss | @VmessProtocol | 7",
-                "🇧🇭BH | ss | @kingofilter | 4",
-                "🇺🇸US | ss | @kingofilter | 10"
+                "🇬🇧GB | ss | @DeamNet_Proxy | 6",
+                "🇺🇦UA | ss | @DeamNet_Proxy | 9",
+                "🇺🇸US | ss | @DeamNet_Proxy | 14",
+                "🇺🇸US | ss | @DeamNet_Proxy | 19",
+                "🇮🇹IT | ss | @VmessProtocol | 10",
+                "🇧🇭BH | ss | @kingofilter | 5",
+                "🇺🇸US | ss | @kingofilter | 11"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -146,7 +148,27 @@
             "type": "dns"
         },
         {
-            "tag": "🇺🇸US | ss | @DeamNet_Proxy | 7",
+            "tag": "🇬🇧GB | ss | @DeamNet_Proxy | 6",
+            "type": "shadowsocks",
+            "server": "series-a2.varzesh360.co",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "mps3FwmDjLrWaOVg",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇺🇦UA | ss | @DeamNet_Proxy | 9",
+            "type": "shadowsocks",
+            "server": "147.78.3.93",
+            "server_port": 990,
+            "method": "chacha20-ietf-poly1305",
+            "password": "f8f7aCzcPKbsF8p3",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇺🇸US | ss | @DeamNet_Proxy | 14",
             "type": "shadowsocks",
             "server": "45.87.175.188",
             "server_port": 8080,
@@ -156,7 +178,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | ss | @DeamNet_Proxy | 12",
+            "tag": "🇺🇸US | ss | @DeamNet_Proxy | 19",
             "type": "shadowsocks",
             "server": "45.87.175.199",
             "server_port": 8080,
@@ -166,17 +188,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇬🇧GB | ss | @DeamNet_Proxy | 18",
-            "type": "shadowsocks",
-            "server": "89.185.84.185",
-            "server_port": 12575,
-            "method": "chacha20-ietf-poly1305",
-            "password": "CkJF3P4LFIiQsKKfnNNnL2",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇮🇹IT | ss | @VmessProtocol | 7",
+            "tag": "🇮🇹IT | ss | @VmessProtocol | 10",
             "type": "shadowsocks",
             "server": "185.213.20.227",
             "server_port": 990,
@@ -186,7 +198,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇧🇭BH | ss | @kingofilter | 4",
+            "tag": "🇧🇭BH | ss | @kingofilter | 5",
             "type": "shadowsocks",
             "server": "admin.c3.havij.co",
             "server_port": 443,
@@ -196,7 +208,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | ss | @kingofilter | 10",
+            "tag": "🇺🇸US | ss | @kingofilter | 11",
             "type": "shadowsocks",
             "server": "52.237.155.68",
             "server_port": 443,
