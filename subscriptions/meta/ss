@@ -120,10 +120,10 @@ dns:
     'RULE-SET:ir,ircidr,geoip:ir,+.ir,+.bonyan.co': ["217.218.155.155", "217.218.127.127", "https://dns.403.online/dns-query", "https://dns.shecan.ir/dns-query"]
 
 proxies:
-  - {"name":"🇩🇪DE | ss | @DeamNet_Proxy | 6","type":"ss","server":"150.241.95.63","port":37774,"password":"qbY6=zGuFl","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸US | ss | @DeamNet_Proxy | 8","type":"ss","server":"92.118.112.111","port":18622,"password":"gmYDzSG6K35s8b19oY4fGz","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🏳️XX | ss | @VmessProtocol | 0","type":"ss","server":"freakconfig72.usecharge.ir","port":443,"password":"W74XFALLLuw6m5IA","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇳🇱NL | ss | @VmessProtocol | 4","type":"ss","server":"150.241.102.95","port":21771,"password":"jYOarwzEbrfvpq5HEeK2Fz","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇲🇦MA | ss | @DeamNet_Proxy | 9","type":"ss","server":"188.214.157.154","port":990,"password":"f8f7aCzcPKbsF8p3","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇩🇪DE | ss | @DeamNet_Proxy | 12","type":"ss","server":"150.241.95.63","port":37774,"password":"qbY6=zGuFl","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸US | ss | @DeamNet_Proxy | 14","type":"ss","server":"92.118.112.111","port":18622,"password":"gmYDzSG6K35s8b19oY4fGz","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🏳️XX | ss | @VmessProtocol | 4","type":"ss","server":"freakconfig72.usecharge.ir","port":443,"password":"W74XFALLLuw6m5IA","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🏳️XX | ss | @kingofilter | 7","type":"ss","server":"kingofilter65.usecharge.ir","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇧🇭BH | ss | @kingofilter | 15","type":"ss","server":"admin.c3.havij.co","port":443,"password":"P7PqQpnyhsnzKNrm","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
@@ -132,10 +132,10 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇩🇪DE | ss | @DeamNet_Proxy | 6'
-      - '🇺🇸US | ss | @DeamNet_Proxy | 8'
-      - '🏳️XX | ss | @VmessProtocol | 0'
-      - '🇳🇱NL | ss | @VmessProtocol | 4'
+      - '🇲🇦MA | ss | @DeamNet_Proxy | 9'
+      - '🇩🇪DE | ss | @DeamNet_Proxy | 12'
+      - '🇺🇸US | ss | @DeamNet_Proxy | 14'
+      - '🏳️XX | ss | @VmessProtocol | 4'
       - '🏳️XX | ss | @kingofilter | 7'
       - '🇧🇭BH | ss | @kingofilter | 15'
   - name: URL-TEST
@@ -144,10 +144,10 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
-      - '🇩🇪DE | ss | @DeamNet_Proxy | 6'
-      - '🇺🇸US | ss | @DeamNet_Proxy | 8'
-      - '🏳️XX | ss | @VmessProtocol | 0'
-      - '🇳🇱NL | ss | @VmessProtocol | 4'
+      - '🇲🇦MA | ss | @DeamNet_Proxy | 9'
+      - '🇩🇪DE | ss | @DeamNet_Proxy | 12'
+      - '🇺🇸US | ss | @DeamNet_Proxy | 14'
+      - '🏳️XX | ss | @VmessProtocol | 4'
       - '🏳️XX | ss | @kingofilter | 7'
       - '🇧🇭BH | ss | @kingofilter | 15'
   - name: FALLBACK
@@ -155,10 +155,10 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇩🇪DE | ss | @DeamNet_Proxy | 6'
-      - '🇺🇸US | ss | @DeamNet_Proxy | 8'
-      - '🏳️XX | ss | @VmessProtocol | 0'
-      - '🇳🇱NL | ss | @VmessProtocol | 4'
+      - '🇲🇦MA | ss | @DeamNet_Proxy | 9'
+      - '🇩🇪DE | ss | @DeamNet_Proxy | 12'
+      - '🇺🇸US | ss | @DeamNet_Proxy | 14'
+      - '🏳️XX | ss | @VmessProtocol | 4'
       - '🏳️XX | ss | @kingofilter | 7'
       - '🇧🇭BH | ss | @kingofilter | 15'
 rule-providers:
