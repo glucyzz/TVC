@@ -11,12 +11,13 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🏳️XX | ss | @VmessProtocol | 7 = ss, freakconfig72.usecharge.ir, 443, encrypt-method = chacha20-ietf-poly1305, password = W74XFALLLuw6m5IA
+🇳🇱NL | ss | @VmessProtocol | 1 = ss, 45.158.171.66, 8080, encrypt-method = chacha20-ietf-poly1305, password = oZIoA69Q8yhcQV8ka3Pa3A
+🏳️XX | ss | @VmessProtocol | 9 = ss, freakconfig72.usecharge.ir, 443, encrypt-method = chacha20-ietf-poly1305, password = W74XFALLLuw6m5IA
 🏳️XX | ss | @kingofilter | 9 = ss, kingofilter65.usecharge.ir, 443, encrypt-method = chacha20-ietf-poly1305, password = u17T3BvpYaaiuW2c
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🏳️XX | ss | @VmessProtocol | 7,🏳️XX | ss | @kingofilter | 9
-URL-TEST = url-test,🏳️XX | ss | @VmessProtocol | 7,🏳️XX | ss | @kingofilter | 9
-FALLBACK = fallback,🏳️XX | ss | @VmessProtocol | 7,🏳️XX | ss | @kingofilter | 9
+MANUAL = select,URL-TEST,FALLBACK,🇳🇱NL | ss | @VmessProtocol | 1,🏳️XX | ss | @VmessProtocol | 9,🏳️XX | ss | @kingofilter | 9
+URL-TEST = url-test,🇳🇱NL | ss | @VmessProtocol | 1,🏳️XX | ss | @VmessProtocol | 9,🏳️XX | ss | @kingofilter | 9
+FALLBACK = fallback,🇳🇱NL | ss | @VmessProtocol | 1,🏳️XX | ss | @VmessProtocol | 9,🏳️XX | ss | @kingofilter | 9
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
