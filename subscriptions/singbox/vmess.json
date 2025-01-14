@@ -115,11 +115,8 @@
                 "🇨🇳CN | vmess | @mftizi | 11",
                 "🇨🇳CN | vmess | @mftizi | 13",
                 "🇫🇷FR | vmess | @DeamNet_Proxy | 9",
-                "🇩🇰DK | vmess | @prrofile_purple | 165",
-                "🇨🇿CZ | vmess | @prrofile_purple | 166",
-                "🇫🇷FR | vmess | @ShadowProxy66 | 6",
-                "🇺🇸US | vmess | @v2ray1_ng | 1",
-                "🇩🇪DE | vmess | @v2ray1_ng | 12",
+                "🇫🇷FR | vmess | @ShadowProxy66 | 17",
+                "🇺🇸US | vmess | @v2ray1_ng | 5",
                 "🇮🇷IR | vmess | @proxystore11 | 0",
                 "🇺🇸US | vmess | @proxystore11 | 2",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
@@ -128,7 +125,6 @@
                 "🇨🇳CN | vmess | @yaney_01 | 4",
                 "🇺🇸US | vmess | @yaney_01 | 5",
                 "🇺🇸US | vmess | @free1_vpn | 3",
-                "🇺🇸US | vmess | @free1_vpn | 10",
                 "🇺🇸US | vmess | @heinuhome | 0"
             ]
         },
@@ -145,11 +141,8 @@
                 "🇨🇳CN | vmess | @mftizi | 11",
                 "🇨🇳CN | vmess | @mftizi | 13",
                 "🇫🇷FR | vmess | @DeamNet_Proxy | 9",
-                "🇩🇰DK | vmess | @prrofile_purple | 165",
-                "🇨🇿CZ | vmess | @prrofile_purple | 166",
-                "🇫🇷FR | vmess | @ShadowProxy66 | 6",
-                "🇺🇸US | vmess | @v2ray1_ng | 1",
-                "🇩🇪DE | vmess | @v2ray1_ng | 12",
+                "🇫🇷FR | vmess | @ShadowProxy66 | 17",
+                "🇺🇸US | vmess | @v2ray1_ng | 5",
                 "🇮🇷IR | vmess | @proxystore11 | 0",
                 "🇺🇸US | vmess | @proxystore11 | 2",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
@@ -158,7 +151,6 @@
                 "🇨🇳CN | vmess | @yaney_01 | 4",
                 "🇺🇸US | vmess | @yaney_01 | 5",
                 "🇺🇸US | vmess | @free1_vpn | 3",
-                "🇺🇸US | vmess | @free1_vpn | 10",
                 "🇺🇸US | vmess | @heinuhome | 0"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -352,59 +344,11 @@
             }
         },
         {
-            "tag": "🇩🇰DK | vmess | @prrofile_purple | 165",
+            "tag": "🇫🇷FR | vmess | @ShadowProxy66 | 17",
             "type": "vmess",
-            "server": "95.164.10.116",
-            "server_port": 8880,
-            "uuid": "10089a55-26c0-5214-956b-acaf3447119b",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "vmess-grpc",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇨🇿CZ | vmess | @prrofile_purple | 166",
-            "type": "vmess",
-            "server": "94.131.97.127",
-            "server_port": 8880,
-            "uuid": "dd1154b1-d5fa-5e52-a108-75e568c4ad06",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "vmess-grpc",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇫🇷FR | vmess | @ShadowProxy66 | 6",
-            "type": "vmess",
-            "server": "51.77.20.136",
+            "server": "denc36.xtooltech.cfd",
             "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "uuid": "b321fd5d-e6ec-4293-a644-164e3885f52e",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -417,7 +361,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "capellare.com",
+                "server_name": "adenc36v.xtooltech.cfd",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -427,14 +371,14 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkvws",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": "capellare.com"
+                    "Host": "adenc36v.xtooltech.cfd"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @v2ray1_ng | 1",
+            "tag": "🇺🇸US | vmess | @v2ray1_ng | 5",
             "type": "vmess",
             "server": "151.101.194.133",
             "server_port": 443,
@@ -464,30 +408,6 @@
                 "path": "\/racevpn?telegram@ISVvpn-telegram@ISVvpn-telegram@ISVvpn",
                 "headers": {
                     "Host": "mio.splashthat.com"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vmess | @v2ray1_ng | 12",
-            "type": "vmess",
-            "server": "188.245.211.137",
-            "server_port": 8080,
-            "uuid": "640ea88b-8e50-4e6e-8bc3-9f5097c617dd",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/da?ed=2560",
-                "headers": {
-                    "Host": ""
                 }
             }
         },
@@ -718,30 +638,6 @@
             "transport": {
                 "type": "ws",
                 "path": "\/racevpn?ed=80",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @free1_vpn | 10",
-            "type": "vmess",
-            "server": "151.101.2.168",
-            "server_port": 80,
-            "uuid": "beb7d098-48ba-4be8-a47a-758bf3c470b8",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
                 "headers": {
                     "Host": ""
                 }

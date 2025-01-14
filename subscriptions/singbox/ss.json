@@ -106,18 +106,18 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇳🇱NL | ss | @VmessProtocol | 1",
-                "🏳️XX | ss | @VmessProtocol | 9",
-                "🏳️XX | ss | @kingofilter | 9"
+                "🇳🇱NL | ss | @VmessProtocol | 5",
+                "🏳️XX | ss | @VmessProtocol | 13",
+                "🏳️XX | ss | @kingofilter | 10"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇳🇱NL | ss | @VmessProtocol | 1",
-                "🏳️XX | ss | @VmessProtocol | 9",
-                "🏳️XX | ss | @kingofilter | 9"
+                "🇳🇱NL | ss | @VmessProtocol | 5",
+                "🏳️XX | ss | @VmessProtocol | 13",
+                "🏳️XX | ss | @kingofilter | 10"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -140,7 +140,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇳🇱NL | ss | @VmessProtocol | 1",
+            "tag": "🇳🇱NL | ss | @VmessProtocol | 5",
             "type": "shadowsocks",
             "server": "45.158.171.66",
             "server_port": 8080,
@@ -150,7 +150,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🏳️XX | ss | @VmessProtocol | 9",
+            "tag": "🏳️XX | ss | @VmessProtocol | 13",
             "type": "shadowsocks",
             "server": "freakconfig72.usecharge.ir",
             "server_port": 443,
@@ -160,7 +160,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🏳️XX | ss | @kingofilter | 9",
+            "tag": "🏳️XX | ss | @kingofilter | 10",
             "type": "shadowsocks",
             "server": "kingofilter65.usecharge.ir",
             "server_port": 443,
