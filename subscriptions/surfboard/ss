@@ -11,13 +11,13 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🏳️XX | ss | @VmessProtocol | 10 = ss, 45.158.171.66, 8080, encrypt-method = chacha20-ietf-poly1305, password = oZIoA69Q8yhcQV8ka3Pa3A
-🏳️XX | ss | @kingofilter | 2 = ss, api.namasha.co, 443, encrypt-method = chacha20-ietf-poly1305, password = u17T3BvpYaaiuW2c
-🏳️XX | ss | @kingofilter | 12 = ss, kingofilter65.usecharge.ir, 443, encrypt-method = chacha20-ietf-poly1305, password = u17T3BvpYaaiuW2c
+🇸🇪SE | ss | @azadi_az_inja_migzare | 0 = ss, homa.cybsecguru.com, 55551, encrypt-method = chacha20-ietf-poly1305, password = UNJXwrcb3vkdQbR6P5VGHA
+🇳🇱NL | ss | @VmessProtocol | 11 = ss, 45.158.171.66, 8080, encrypt-method = chacha20-ietf-poly1305, password = oZIoA69Q8yhcQV8ka3Pa3A
+🏳️XX | ss | @kingofilter | 13 = ss, kingofilter65.usecharge.ir, 443, encrypt-method = chacha20-ietf-poly1305, password = u17T3BvpYaaiuW2c
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🏳️XX | ss | @VmessProtocol | 10,🏳️XX | ss | @kingofilter | 2,🏳️XX | ss | @kingofilter | 12
-URL-TEST = url-test,🏳️XX | ss | @VmessProtocol | 10,🏳️XX | ss | @kingofilter | 2,🏳️XX | ss | @kingofilter | 12
-FALLBACK = fallback,🏳️XX | ss | @VmessProtocol | 10,🏳️XX | ss | @kingofilter | 2,🏳️XX | ss | @kingofilter | 12
+MANUAL = select,URL-TEST,FALLBACK,🇸🇪SE | ss | @azadi_az_inja_migzare | 0,🇳🇱NL | ss | @VmessProtocol | 11,🏳️XX | ss | @kingofilter | 13
+URL-TEST = url-test,🇸🇪SE | ss | @azadi_az_inja_migzare | 0,🇳🇱NL | ss | @VmessProtocol | 11,🏳️XX | ss | @kingofilter | 13
+FALLBACK = fallback,🇸🇪SE | ss | @azadi_az_inja_migzare | 0,🇳🇱NL | ss | @VmessProtocol | 11,🏳️XX | ss | @kingofilter | 13
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
