@@ -107,7 +107,8 @@
             "outbounds": [
                 "URL-TEST",
                 "🇸🇪SE | ss | @azadi_az_inja_migzare | 0",
-                "🇳🇱NL | ss | @VmessProtocol | 11",
+                "🇬🇧GB | ss | @VmessProtocol | 3",
+                "🇳🇱NL | ss | @VmessProtocol | 15",
                 "🏳️XX | ss | @kingofilter | 13"
             ]
         },
@@ -116,7 +117,8 @@
             "type": "urltest",
             "outbounds": [
                 "🇸🇪SE | ss | @azadi_az_inja_migzare | 0",
-                "🇳🇱NL | ss | @VmessProtocol | 11",
+                "🇬🇧GB | ss | @VmessProtocol | 3",
+                "🇳🇱NL | ss | @VmessProtocol | 15",
                 "🏳️XX | ss | @kingofilter | 13"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -150,7 +152,17 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇳🇱NL | ss | @VmessProtocol | 11",
+            "tag": "🇬🇧GB | ss | @VmessProtocol | 3",
+            "type": "shadowsocks",
+            "server": "freakconfig86.usecharge.ir",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "W74XFALLLuw6m5IA",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇳🇱NL | ss | @VmessProtocol | 15",
             "type": "shadowsocks",
             "server": "45.158.171.66",
             "server_port": 8080,
