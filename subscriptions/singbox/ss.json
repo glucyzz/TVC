@@ -106,7 +106,8 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🏳️XX | ss | @VmessProtocol | 6",
+                "🏳️XX | ss | @VmessProtocol | 7",
+                "🇦🇪AE | ss | @proxy_mtm | 2",
                 "🇳🇱NL | ss | @kingofilter | 4",
                 "🇦🇪AE | ss | @kingofilter | 10"
             ]
@@ -115,7 +116,8 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🏳️XX | ss | @VmessProtocol | 6",
+                "🏳️XX | ss | @VmessProtocol | 7",
+                "🇦🇪AE | ss | @proxy_mtm | 2",
                 "🇳🇱NL | ss | @kingofilter | 4",
                 "🇦🇪AE | ss | @kingofilter | 10"
             ],
@@ -140,12 +142,22 @@
             "type": "dns"
         },
         {
-            "tag": "🏳️XX | ss | @VmessProtocol | 6",
+            "tag": "🏳️XX | ss | @VmessProtocol | 7",
             "type": "shadowsocks",
             "server": "freakconfig86.usecharge.ir",
             "server_port": 443,
             "method": "chacha20-ietf-poly1305",
             "password": "W74XFALLLuw6m5IA",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇦🇪AE | ss | @proxy_mtm | 2",
+            "type": "shadowsocks",
+            "server": "series-a2-mec.varzesh360.co",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "u17T3BvpYaaiuW2c",
             "plugin": "",
             "plugin_opts": ""
         },
