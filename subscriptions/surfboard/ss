@@ -11,14 +11,24 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🏳️XX | ss | @VmessProtocol | 7 = ss, freakconfig86.usecharge.ir, 443, encrypt-method = chacha20-ietf-poly1305, password = W74XFALLLuw6m5IA
-🇦🇪AE | ss | @proxy_mtm | 1 = ss, series-a2-mec.varzesh360.co, 443, encrypt-method = chacha20-ietf-poly1305, password = u17T3BvpYaaiuW2c
-🇳🇱NL | ss | @kingofilter | 6 = ss, 45.158.171.151, 8080, encrypt-method = chacha20-ietf-poly1305, password = 4a2rfixophdjffa8KVA4Aa
-🇦🇪AE | ss | @kingofilter | 12 = ss, api.namasha.co, 443, encrypt-method = chacha20-ietf-poly1305, password = u17T3BvpYaaiuW2c
+🇵🇱PL | ss | @DeamNet_Proxy | 5 = ss, 54.36.174.181, 5001, encrypt-method = aes-256-gcm, password = Y6R9pAtvxxzmGC
+🇬🇧GB | ss | @DeamNet_Proxy | 6 = ss, series-a2.samanehha.co, 443, encrypt-method = chacha20-ietf-poly1305, password = mps3FwmDjLrWaOVg
+🇧🇭BH | ss | @DeamNet_Proxy | 7 = ss, series-a2-me.samanehha.co, 443, encrypt-method = chacha20-ietf-poly1305, password = Bog0ELmMM9DSxDdQ
+🇺🇸US | ss | @DeamNet_Proxy | 8 = ss, 23.157.40.95, 9101, encrypt-method = aes-256-gcm, password = e4FCWrgpkji3QY
+🇵🇱PL | ss | @DeamNet_Proxy | 9 = ss, 54.36.174.181, 8090, encrypt-method = aes-256-gcm, password = PCnnH6SQSnfoS27
+🇵🇱PL | ss | @DeamNet_Proxy | 10 = ss, 54.36.174.181, 5600, encrypt-method = aes-256-gcm, password = Y6R9pAtvxxzmGC
+🇧🇭BH | ss | @DeamNet_Proxy | 11 = ss, series-a2-me.varzesh360.co, 443, encrypt-method = chacha20-ietf-poly1305, password = Bog0ELmMM9DSxDdQ
+🇺🇸US | ss | @DeamNet_Proxy | 14 = ss, 23.154.136.176, 9101, encrypt-method = aes-256-gcm, password = e4FCWrgpkji3QY
+🇵🇱PL | ss | @DeamNet_Proxy | 16 = ss, 54.36.174.181, 3389, encrypt-method = aes-256-gcm, password = Y6R9pAtvxxzmGC
+🇬🇧GB | ss | @DeamNet_Proxy | 17 = ss, series-a1.samanehha.co, 443, encrypt-method = chacha20-ietf-poly1305, password = W74XFALLLuw6m5IA
+🇵🇱PL | ss | @DeamNet_Proxy | 18 = ss, 54.36.174.181, 7002, encrypt-method = aes-256-gcm, password = RexnBgU7EV5ADxG
+🏳️XX | ss | @VmessProtocol | 10 = ss, freakconfig86.usecharge.ir, 443, encrypt-method = chacha20-ietf-poly1305, password = W74XFALLLuw6m5IA
+🇳🇱NL | ss | @kingofilter | 7 = ss, 45.158.171.151, 8080, encrypt-method = chacha20-ietf-poly1305, password = 4a2rfixophdjffa8KVA4Aa
+🇦🇪AE | ss | @kingofilter | 13 = ss, api.namasha.co, 443, encrypt-method = chacha20-ietf-poly1305, password = u17T3BvpYaaiuW2c
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🏳️XX | ss | @VmessProtocol | 7,🇦🇪AE | ss | @proxy_mtm | 1,🇳🇱NL | ss | @kingofilter | 6,🇦🇪AE | ss | @kingofilter | 12
-URL-TEST = url-test,🏳️XX | ss | @VmessProtocol | 7,🇦🇪AE | ss | @proxy_mtm | 1,🇳🇱NL | ss | @kingofilter | 6,🇦🇪AE | ss | @kingofilter | 12
-FALLBACK = fallback,🏳️XX | ss | @VmessProtocol | 7,🇦🇪AE | ss | @proxy_mtm | 1,🇳🇱NL | ss | @kingofilter | 6,🇦🇪AE | ss | @kingofilter | 12
+MANUAL = select,URL-TEST,FALLBACK,🇵🇱PL | ss | @DeamNet_Proxy | 5,🇬🇧GB | ss | @DeamNet_Proxy | 6,🇧🇭BH | ss | @DeamNet_Proxy | 7,🇺🇸US | ss | @DeamNet_Proxy | 8,🇵🇱PL | ss | @DeamNet_Proxy | 9,🇵🇱PL | ss | @DeamNet_Proxy | 10,🇧🇭BH | ss | @DeamNet_Proxy | 11,🇺🇸US | ss | @DeamNet_Proxy | 14,🇵🇱PL | ss | @DeamNet_Proxy | 16,🇬🇧GB | ss | @DeamNet_Proxy | 17,🇵🇱PL | ss | @DeamNet_Proxy | 18,🏳️XX | ss | @VmessProtocol | 10,🇳🇱NL | ss | @kingofilter | 7,🇦🇪AE | ss | @kingofilter | 13
+URL-TEST = url-test,🇵🇱PL | ss | @DeamNet_Proxy | 5,🇬🇧GB | ss | @DeamNet_Proxy | 6,🇧🇭BH | ss | @DeamNet_Proxy | 7,🇺🇸US | ss | @DeamNet_Proxy | 8,🇵🇱PL | ss | @DeamNet_Proxy | 9,🇵🇱PL | ss | @DeamNet_Proxy | 10,🇧🇭BH | ss | @DeamNet_Proxy | 11,🇺🇸US | ss | @DeamNet_Proxy | 14,🇵🇱PL | ss | @DeamNet_Proxy | 16,🇬🇧GB | ss | @DeamNet_Proxy | 17,🇵🇱PL | ss | @DeamNet_Proxy | 18,🏳️XX | ss | @VmessProtocol | 10,🇳🇱NL | ss | @kingofilter | 7,🇦🇪AE | ss | @kingofilter | 13
+FALLBACK = fallback,🇵🇱PL | ss | @DeamNet_Proxy | 5,🇬🇧GB | ss | @DeamNet_Proxy | 6,🇧🇭BH | ss | @DeamNet_Proxy | 7,🇺🇸US | ss | @DeamNet_Proxy | 8,🇵🇱PL | ss | @DeamNet_Proxy | 9,🇵🇱PL | ss | @DeamNet_Proxy | 10,🇧🇭BH | ss | @DeamNet_Proxy | 11,🇺🇸US | ss | @DeamNet_Proxy | 14,🇵🇱PL | ss | @DeamNet_Proxy | 16,🇬🇧GB | ss | @DeamNet_Proxy | 17,🇵🇱PL | ss | @DeamNet_Proxy | 18,🏳️XX | ss | @VmessProtocol | 10,🇳🇱NL | ss | @kingofilter | 7,🇦🇪AE | ss | @kingofilter | 13
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
