@@ -11,14 +11,15 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇬🇧GB | ss | @DeamNet_Proxy | 11 = ss, mx2.drawnrisha.one, 55988, encrypt-method = chacha20-ietf-poly1305, password = tRVH6ZVjtjWCvREPvSgTx6jwmensa6of9w26NwnZ5n1V3bWeNBsq2A86K3RWGRyjA89Tqibnri4HuDtvE24KU2Sb65RUeVJz
-🇬🇧GB | ss | @DeamNet_Proxy | 14 = ss, 54.37.18.75, 9090, encrypt-method = aes-256-gcm, password = Y6R9pAtvxxzmGC
-🏳️XX | ss | @VmessProtocol | 12 = ss, freakconfig86.usecharge.ir, 443, encrypt-method = chacha20-ietf-poly1305, password = W74XFALLLuw6m5IA
+🇺🇸US | ss | @DeamNet_Proxy | 4 = ss, 23.157.40.87, 5499, encrypt-method = aes-256-gcm, password = lGqs95QkFHo2NV
+🇨🇦CA | ss | @DeamNet_Proxy | 6 = ss, 79.127.233.170, 990, encrypt-method = chacha20-ietf-poly1305, password = f8f7aCzcPKbsF8p3
+🇵🇱PL | ss | @DeamNet_Proxy | 12 = ss, 51.77.53.200, 5001, encrypt-method = aes-256-gcm, password = Y6R9pAtvxxzmGC
+🇺🇸US | ss | @DeamNet_Proxy | 14 = ss, 67.220.95.102, 5600, encrypt-method = aes-256-gcm, password = Y6R9pAtvxxzmGC
 🇳🇱NL | ss | @kingofilter | 9 = ss, 45.158.171.151, 8080, encrypt-method = chacha20-ietf-poly1305, password = 4a2rfixophdjffa8KVA4Aa
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇬🇧GB | ss | @DeamNet_Proxy | 11,🇬🇧GB | ss | @DeamNet_Proxy | 14,🏳️XX | ss | @VmessProtocol | 12,🇳🇱NL | ss | @kingofilter | 9
-URL-TEST = url-test,🇬🇧GB | ss | @DeamNet_Proxy | 11,🇬🇧GB | ss | @DeamNet_Proxy | 14,🏳️XX | ss | @VmessProtocol | 12,🇳🇱NL | ss | @kingofilter | 9
-FALLBACK = fallback,🇬🇧GB | ss | @DeamNet_Proxy | 11,🇬🇧GB | ss | @DeamNet_Proxy | 14,🏳️XX | ss | @VmessProtocol | 12,🇳🇱NL | ss | @kingofilter | 9
+MANUAL = select,URL-TEST,FALLBACK,🇺🇸US | ss | @DeamNet_Proxy | 4,🇨🇦CA | ss | @DeamNet_Proxy | 6,🇵🇱PL | ss | @DeamNet_Proxy | 12,🇺🇸US | ss | @DeamNet_Proxy | 14,🇳🇱NL | ss | @kingofilter | 9
+URL-TEST = url-test,🇺🇸US | ss | @DeamNet_Proxy | 4,🇨🇦CA | ss | @DeamNet_Proxy | 6,🇵🇱PL | ss | @DeamNet_Proxy | 12,🇺🇸US | ss | @DeamNet_Proxy | 14,🇳🇱NL | ss | @kingofilter | 9
+FALLBACK = fallback,🇺🇸US | ss | @DeamNet_Proxy | 4,🇨🇦CA | ss | @DeamNet_Proxy | 6,🇵🇱PL | ss | @DeamNet_Proxy | 12,🇺🇸US | ss | @DeamNet_Proxy | 14,🇳🇱NL | ss | @kingofilter | 9
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
