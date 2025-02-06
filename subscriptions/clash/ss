@@ -121,7 +121,7 @@ proxies:
   - {"name":"🇭🇺HU | ss | @DeamNet_Proxy | 6","type":"ss","server":"86.104.75.103","port":49264,"password":"LI4obOEIDLzDjd7xYlhhTJ","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇮🇳IN | ss | @DeamNet_Proxy | 10","type":"ss","server":"64.227.144.190","port":50690,"password":"pdHqgKZQd2cxWzPHFlLov7","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇨🇾CY | ss | @DeamNet_Proxy | 12","type":"ss","server":"134.255.210.49","port":990,"password":"f8f7aCzcPKbsF8p3","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇬🇧GB | ss | @kingofilter | 1","type":"ss","server":"api.namasha.co","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇬🇧GB | ss | @kingofilter | 2","type":"ss","server":"api.namasha.co","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -131,7 +131,7 @@ proxy-groups:
       - '🇭🇺HU | ss | @DeamNet_Proxy | 6'
       - '🇮🇳IN | ss | @DeamNet_Proxy | 10'
       - '🇨🇾CY | ss | @DeamNet_Proxy | 12'
-      - '🇬🇧GB | ss | @kingofilter | 1'
+      - '🇬🇧GB | ss | @kingofilter | 2'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -141,7 +141,7 @@ proxy-groups:
       - '🇭🇺HU | ss | @DeamNet_Proxy | 6'
       - '🇮🇳IN | ss | @DeamNet_Proxy | 10'
       - '🇨🇾CY | ss | @DeamNet_Proxy | 12'
-      - '🇬🇧GB | ss | @kingofilter | 1'
+      - '🇬🇧GB | ss | @kingofilter | 2'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -150,7 +150,7 @@ proxy-groups:
       - '🇭🇺HU | ss | @DeamNet_Proxy | 6'
       - '🇮🇳IN | ss | @DeamNet_Proxy | 10'
       - '🇨🇾CY | ss | @DeamNet_Proxy | 12'
-      - '🇬🇧GB | ss | @kingofilter | 1'
+      - '🇬🇧GB | ss | @kingofilter | 2'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve

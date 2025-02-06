@@ -14,11 +14,11 @@ DIRECT = direct
 🇭🇺HU | ss | @DeamNet_Proxy | 6 = ss, 86.104.75.103, 49264, encrypt-method = chacha20-ietf-poly1305, password = LI4obOEIDLzDjd7xYlhhTJ
 🇮🇳IN | ss | @DeamNet_Proxy | 10 = ss, 64.227.144.190, 50690, encrypt-method = chacha20-ietf-poly1305, password = pdHqgKZQd2cxWzPHFlLov7
 🇨🇾CY | ss | @DeamNet_Proxy | 12 = ss, 134.255.210.49, 990, encrypt-method = chacha20-ietf-poly1305, password = f8f7aCzcPKbsF8p3
-🇬🇧GB | ss | @kingofilter | 1 = ss, api.namasha.co, 443, encrypt-method = chacha20-ietf-poly1305, password = u17T3BvpYaaiuW2c
+🇬🇧GB | ss | @kingofilter | 2 = ss, api.namasha.co, 443, encrypt-method = chacha20-ietf-poly1305, password = u17T3BvpYaaiuW2c
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇭🇺HU | ss | @DeamNet_Proxy | 6,🇮🇳IN | ss | @DeamNet_Proxy | 10,🇨🇾CY | ss | @DeamNet_Proxy | 12,🇬🇧GB | ss | @kingofilter | 1
-URL-TEST = url-test,🇭🇺HU | ss | @DeamNet_Proxy | 6,🇮🇳IN | ss | @DeamNet_Proxy | 10,🇨🇾CY | ss | @DeamNet_Proxy | 12,🇬🇧GB | ss | @kingofilter | 1
-FALLBACK = fallback,🇭🇺HU | ss | @DeamNet_Proxy | 6,🇮🇳IN | ss | @DeamNet_Proxy | 10,🇨🇾CY | ss | @DeamNet_Proxy | 12,🇬🇧GB | ss | @kingofilter | 1
+MANUAL = select,URL-TEST,FALLBACK,🇭🇺HU | ss | @DeamNet_Proxy | 6,🇮🇳IN | ss | @DeamNet_Proxy | 10,🇨🇾CY | ss | @DeamNet_Proxy | 12,🇬🇧GB | ss | @kingofilter | 2
+URL-TEST = url-test,🇭🇺HU | ss | @DeamNet_Proxy | 6,🇮🇳IN | ss | @DeamNet_Proxy | 10,🇨🇾CY | ss | @DeamNet_Proxy | 12,🇬🇧GB | ss | @kingofilter | 2
+FALLBACK = fallback,🇭🇺HU | ss | @DeamNet_Proxy | 6,🇮🇳IN | ss | @DeamNet_Proxy | 10,🇨🇾CY | ss | @DeamNet_Proxy | 12,🇬🇧GB | ss | @kingofilter | 2
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
