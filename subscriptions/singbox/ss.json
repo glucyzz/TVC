@@ -109,9 +109,11 @@
                 "🇬🇧GB | ss | @azadi_az_inja_migzare | 2",
                 "🇬🇧GB | ss | @azadi_az_inja_migzare | 3",
                 "🇬🇧GB | ss | @azadi_az_inja_migzare | 5",
-                "🇺🇸US | ss | @DeamNet_Proxy | 11",
-                "🇺🇸US | ss | @kingofilter | 0",
-                "🇬🇧GB | ss | @kingofilter | 6"
+                "🇺🇸US | ss | @DeamNet_Proxy | 5",
+                "🇮🇳IN | ss | @DeamNet_Proxy | 6",
+                "🇺🇸US | ss | @DeamNet_Proxy | 19",
+                "🇺🇸US | ss | @kingofilter | 1",
+                "🇬🇧GB | ss | @kingofilter | 7"
             ]
         },
         {
@@ -121,9 +123,11 @@
                 "🇬🇧GB | ss | @azadi_az_inja_migzare | 2",
                 "🇬🇧GB | ss | @azadi_az_inja_migzare | 3",
                 "🇬🇧GB | ss | @azadi_az_inja_migzare | 5",
-                "🇺🇸US | ss | @DeamNet_Proxy | 11",
-                "🇺🇸US | ss | @kingofilter | 0",
-                "🇬🇧GB | ss | @kingofilter | 6"
+                "🇺🇸US | ss | @DeamNet_Proxy | 5",
+                "🇮🇳IN | ss | @DeamNet_Proxy | 6",
+                "🇺🇸US | ss | @DeamNet_Proxy | 19",
+                "🇺🇸US | ss | @kingofilter | 1",
+                "🇬🇧GB | ss | @kingofilter | 7"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -176,7 +180,27 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | ss | @DeamNet_Proxy | 11",
+            "tag": "🇺🇸US | ss | @DeamNet_Proxy | 5",
+            "type": "shadowsocks",
+            "server": "67.220.95.102",
+            "server_port": 443,
+            "method": "aes-256-gcm",
+            "password": "pKEW8JPByTVTLtM",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇮🇳IN | ss | @DeamNet_Proxy | 6",
+            "type": "shadowsocks",
+            "server": "103.120.178.193",
+            "server_port": 51348,
+            "method": "chacha20-ietf-poly1305",
+            "password": "pULZkJUnl5FB4mOQUngUKFtPfohf0cUCpOxqyRD52hy9WuHe",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇺🇸US | ss | @DeamNet_Proxy | 19",
             "type": "shadowsocks",
             "server": "45.87.175.192",
             "server_port": 8080,
@@ -186,7 +210,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | ss | @kingofilter | 0",
+            "tag": "🇺🇸US | ss | @kingofilter | 1",
             "type": "shadowsocks",
             "server": "45.87.175.171",
             "server_port": 8080,
@@ -196,7 +220,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇬🇧GB | ss | @kingofilter | 6",
+            "tag": "🇬🇧GB | ss | @kingofilter | 7",
             "type": "shadowsocks",
             "server": "series-a1.samanehha.co",
             "server_port": 443,
