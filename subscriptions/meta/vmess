@@ -121,7 +121,7 @@ dns:
 
 proxies:
   - {"name":"🇩🇪DE | vmess | @CUSTOMVPNSERVER | 15","type":"vmess","server":"88.198.93.175","port":"8880","cipher":"auto","uuid":"58531009-b664-445b-b896-7bb9026b744d","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇳CN | vmess | @mftizi | 5","type":"vmess","server":"120.234.102.229","port":"52908","cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇨🇳CN | vmess | @mftizi | 4","type":"vmess","server":"120.234.102.229","port":"52908","cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇳CN | vmess | @mftizi | 8","type":"vmess","server":"183.236.51.23","port":"46602","cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇳CN | vmess | @mftizi | 9","type":"vmess","server":"hk1.tiljkc.top","port":"39041","cipher":"auto","uuid":"0d849bb5-8663-3958-ae0a-9918d4a95b5e","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇳CN | vmess | @mftizi | 12","type":"vmess","server":"120.232.153.63","port":"40972","cipher":"auto","uuid":"770ee730-2450-4e3c-a6c6-3932bd32afbd","alterId":"64","tls":false,"skip-cert-verify":true,"network":"tcp"}
@@ -129,19 +129,15 @@ proxies:
   - {"name":"🇨🇳CN | vmess | @mftizi | 14","type":"vmess","server":"120.232.153.27","port":"58831","cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇳CN | vmess | @mftizi | 15","type":"vmess","server":"183.236.51.23","port":"53002","cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇳CN | vmess | @mftizi | 17","type":"vmess","server":"183.236.51.23","port":"56601","cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇩🇪DE | vmess | @DeamNet_Proxy | 15","type":"vmess","server":"de1-vmess.greenssh.org","port":"80","cipher":"auto","uuid":"a6187dec-dcaf-4163-b29c-daf1e7e79386","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"de1-vmess.greenssh.org"}}}
-  - {"name":"🇺🇸US | vmess | @prrofile_purple | 150","type":"vmess","server":"104.19.150.10","port":"2095","cipher":"auto","uuid":"94f332b0-c5d3-4531-a1d6-6e6358cc6c72","alterId":"0","tls":false,"skip-cert-verify":true,"network":"httpupgrade"}
-  - {"name":"🇺🇸US | vmess | @prrofile_purple | 152","type":"vmess","server":"WwW.sPEeDtEsT.NeT","port":"2096","cipher":"auto","uuid":"49c03ce8-ec69-474e-b796-4acb6f611c52","alterId":"0","tls":true,"skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"","grpc-mode":"gun"}}
-  - {"name":"🇺🇸US | vmess | @prrofile_purple | 153","type":"vmess","server":"WwW.sPEeDtEsT.NeT","port":"2083","cipher":"auto","uuid":"07a8b41c-939f-4c7a-8221-ac440551e1a7","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/paneld?ed=2560","headers":{"host":"api3.waltonweb.ir"}}}
-  - {"name":"🇺🇸US | vmess | @v2ray1_ng | 5","type":"vmess","server":"104.31.16.9","port":"2053","cipher":"auto","uuid":"ad3d0eb7-24a6-403b-9225-feeacb8219b9","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"qurantv.quranir.com"}}}
+  - {"name":"🇺🇸US | vmess | @prrofile_purple | 158","type":"vmess","server":"104.19.150.10","port":"2095","cipher":"auto","uuid":"94f332b0-c5d3-4531-a1d6-6e6358cc6c72","alterId":"0","tls":false,"skip-cert-verify":true,"network":"httpupgrade"}
+  - {"name":"🏳️XX | vmess | @customv2ray | 5","type":"vmess","server":"[0000:0000:0000:0000:0000:ffff:33de:cdfc]","port":"2082","cipher":"auto","uuid":"ef7a3de0-188a-405b-b4f5-b3b88213bf7c","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸US | vmess | @v2ray1_ng | 8","type":"vmess","server":"104.31.16.9","port":"2053","cipher":"auto","uuid":"ad3d0eb7-24a6-403b-9225-feeacb8219b9","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"qurantv.quranir.com"}}}
   - {"name":"🇳🇱NL | vmess | @yaney_01 | 1","type":"vmess","server":"45.199.138.217","port":"41000","cipher":"auto","uuid":"f9fa3a9c-f7d5-414f-88e6-6970585d9949","alterId":"64","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/path/282018252526","headers":{"host":"45.199.138.217"}}}
   - {"name":"🇺🇸US | vmess | @yaney_01 | 2","type":"vmess","server":"107.149.119.43","port":"37000","cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/path/040318142507","headers":{"host":"107.149.119.43"}}}
   - {"name":"🏳️XX | vmess | @yaney_01 | 3","type":"vmess","server":"admin.arzonhost.ir","port":"2086","cipher":"auto","uuid":"7d93e992-48cf-42d4-84f8-75768e815a4c","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"admin.arzonhost.ir"}}}
   - {"name":"🇨🇳CN | vmess | @yaney_01 | 4","type":"vmess","server":"ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub","port":"80","cipher":"auto","uuid":"46cfcfe1-e450-459d-a3ab-9406011ab3eb","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
-  - {"name":"🇩🇪DE | vmess | @Hope_Net | 0","type":"vmess","server":"5.75.207.37","port":"8080","cipher":"auto","uuid":"8883730f-7ba8-403d-9a2f-6626305ef724","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇬🇧GB | vmess | @Hope_Net | 1","type":"vmess","server":"209.97.176.198","port":"8081","cipher":"auto","uuid":"3873beec-44c6-45be-8900-d184a1d0ee8f","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇫🇮FI | vmess | @Hope_Net | 3","type":"vmess","server":"37.27.252.191","port":"7575","cipher":"auto","uuid":"c5a8fa36-3d48-4441-940f-42a3d53f4f9c","alterId":"0","tls":true,"skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"","grpc-mode":"gun"}}
-  - {"name":"🇫🇮FI | vmess | @Hope_Net | 4","type":"vmess","server":"37.27.252.191","port":"7575","cipher":"auto","uuid":"c5a8fa36-3d48-4441-940f-42a3d53f4f9c","alterId":"0","tls":true,"skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"","grpc-mode":"none"}}
+  - {"name":"🇺🇸US | vmess | @Hope_Net | 1","type":"vmess","server":"172.67.42.232","port":"80","cipher":"auto","uuid":"4bf074f4-7e9c-4e4b-a10d-156e26199729","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"us03s.5d8ecf82.cfd"}}}
+  - {"name":"🇺🇸US | vmess | @nofiltering2 | 3","type":"vmess","server":"150.241.221.64","port":"18000","cipher":"auto","uuid":"f8c8dc3d-0d37-46b0-8b34-a7232882fcfe","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -149,7 +145,7 @@ proxy-groups:
       - URL-TEST
       - FALLBACK
       - '🇩🇪DE | vmess | @CUSTOMVPNSERVER | 15'
-      - '🇨🇳CN | vmess | @mftizi | 5'
+      - '🇨🇳CN | vmess | @mftizi | 4'
       - '🇨🇳CN | vmess | @mftizi | 8'
       - '🇨🇳CN | vmess | @mftizi | 9'
       - '🇨🇳CN | vmess | @mftizi | 12'
@@ -157,19 +153,15 @@ proxy-groups:
       - '🇨🇳CN | vmess | @mftizi | 14'
       - '🇨🇳CN | vmess | @mftizi | 15'
       - '🇨🇳CN | vmess | @mftizi | 17'
-      - '🇩🇪DE | vmess | @DeamNet_Proxy | 15'
-      - '🇺🇸US | vmess | @prrofile_purple | 150'
-      - '🇺🇸US | vmess | @prrofile_purple | 152'
-      - '🇺🇸US | vmess | @prrofile_purple | 153'
-      - '🇺🇸US | vmess | @v2ray1_ng | 5'
+      - '🇺🇸US | vmess | @prrofile_purple | 158'
+      - '🏳️XX | vmess | @customv2ray | 5'
+      - '🇺🇸US | vmess | @v2ray1_ng | 8'
       - '🇳🇱NL | vmess | @yaney_01 | 1'
       - '🇺🇸US | vmess | @yaney_01 | 2'
       - '🏳️XX | vmess | @yaney_01 | 3'
       - '🇨🇳CN | vmess | @yaney_01 | 4'
-      - '🇩🇪DE | vmess | @Hope_Net | 0'
-      - '🇬🇧GB | vmess | @Hope_Net | 1'
-      - '🇫🇮FI | vmess | @Hope_Net | 3'
-      - '🇫🇮FI | vmess | @Hope_Net | 4'
+      - '🇺🇸US | vmess | @Hope_Net | 1'
+      - '🇺🇸US | vmess | @nofiltering2 | 3'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -177,7 +169,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - '🇩🇪DE | vmess | @CUSTOMVPNSERVER | 15'
-      - '🇨🇳CN | vmess | @mftizi | 5'
+      - '🇨🇳CN | vmess | @mftizi | 4'
       - '🇨🇳CN | vmess | @mftizi | 8'
       - '🇨🇳CN | vmess | @mftizi | 9'
       - '🇨🇳CN | vmess | @mftizi | 12'
@@ -185,26 +177,22 @@ proxy-groups:
       - '🇨🇳CN | vmess | @mftizi | 14'
       - '🇨🇳CN | vmess | @mftizi | 15'
       - '🇨🇳CN | vmess | @mftizi | 17'
-      - '🇩🇪DE | vmess | @DeamNet_Proxy | 15'
-      - '🇺🇸US | vmess | @prrofile_purple | 150'
-      - '🇺🇸US | vmess | @prrofile_purple | 152'
-      - '🇺🇸US | vmess | @prrofile_purple | 153'
-      - '🇺🇸US | vmess | @v2ray1_ng | 5'
+      - '🇺🇸US | vmess | @prrofile_purple | 158'
+      - '🏳️XX | vmess | @customv2ray | 5'
+      - '🇺🇸US | vmess | @v2ray1_ng | 8'
       - '🇳🇱NL | vmess | @yaney_01 | 1'
       - '🇺🇸US | vmess | @yaney_01 | 2'
       - '🏳️XX | vmess | @yaney_01 | 3'
       - '🇨🇳CN | vmess | @yaney_01 | 4'
-      - '🇩🇪DE | vmess | @Hope_Net | 0'
-      - '🇬🇧GB | vmess | @Hope_Net | 1'
-      - '🇫🇮FI | vmess | @Hope_Net | 3'
-      - '🇫🇮FI | vmess | @Hope_Net | 4'
+      - '🇺🇸US | vmess | @Hope_Net | 1'
+      - '🇺🇸US | vmess | @nofiltering2 | 3'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
       - '🇩🇪DE | vmess | @CUSTOMVPNSERVER | 15'
-      - '🇨🇳CN | vmess | @mftizi | 5'
+      - '🇨🇳CN | vmess | @mftizi | 4'
       - '🇨🇳CN | vmess | @mftizi | 8'
       - '🇨🇳CN | vmess | @mftizi | 9'
       - '🇨🇳CN | vmess | @mftizi | 12'
@@ -212,19 +200,15 @@ proxy-groups:
       - '🇨🇳CN | vmess | @mftizi | 14'
       - '🇨🇳CN | vmess | @mftizi | 15'
       - '🇨🇳CN | vmess | @mftizi | 17'
-      - '🇩🇪DE | vmess | @DeamNet_Proxy | 15'
-      - '🇺🇸US | vmess | @prrofile_purple | 150'
-      - '🇺🇸US | vmess | @prrofile_purple | 152'
-      - '🇺🇸US | vmess | @prrofile_purple | 153'
-      - '🇺🇸US | vmess | @v2ray1_ng | 5'
+      - '🇺🇸US | vmess | @prrofile_purple | 158'
+      - '🏳️XX | vmess | @customv2ray | 5'
+      - '🇺🇸US | vmess | @v2ray1_ng | 8'
       - '🇳🇱NL | vmess | @yaney_01 | 1'
       - '🇺🇸US | vmess | @yaney_01 | 2'
       - '🏳️XX | vmess | @yaney_01 | 3'
       - '🇨🇳CN | vmess | @yaney_01 | 4'
-      - '🇩🇪DE | vmess | @Hope_Net | 0'
-      - '🇬🇧GB | vmess | @Hope_Net | 1'
-      - '🇫🇮FI | vmess | @Hope_Net | 3'
-      - '🇫🇮FI | vmess | @Hope_Net | 4'
+      - '🇺🇸US | vmess | @Hope_Net | 1'
+      - '🇺🇸US | vmess | @nofiltering2 | 3'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
   ads: {type: http, format: text, behavior: domain, path: ./ruleset/ads.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ads.txt, interval: 86400}
