@@ -11,17 +11,17 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇳🇱NL | ss | @DeamNet_Proxy | 9 = ss, beesyar.org, 8080, encrypt-method = chacha20-ietf-poly1305, password = QCXDxuDlTTMD7jtgHUjIoj
-🇮🇩ID | ss | @DeamNet_Proxy | 10 = ss, 154.205.159.100, 990, encrypt-method = chacha20-ietf-poly1305, password = f8f7aCzcPKbsF8p3
-🇵🇱PL | ss | @DeamNet_Proxy | 14 = ss, 54.36.174.181, 7306, encrypt-method = aes-256-gcm, password = FoOiGlkAA9yPEGP
-🇵🇱PL | ss | @DeamNet_Proxy | 15 = ss, 54.36.174.181, 8000, encrypt-method = aes-256-gcm, password = KixLvKzwjekG00rm
-🇺🇸US | ss | @DeamNet_Proxy | 18 = ss, 67.220.95.102, 9102, encrypt-method = aes-256-gcm, password = e4FCWrgpkji3QY
-🇧🇭BH | ss | @kingofilter | 3 = ss, admin.c3.webramz.co, 443, encrypt-method = chacha20-ietf-poly1305, password = Bog0ELmMM9DSxDdQ
-🇺🇸US | ss | @kingofilter | 10 = ss, 45.87.175.171, 8080, encrypt-method = chacha20-ietf-poly1305, password = cvII85TrW6n0OGyfpHVS1u
+🇵🇱PL | ss | @DeamNet_Proxy | 4 = ss, 54.36.174.181, 8888, encrypt-method = aes-256-gcm, password = Y6R9pAtvxxzmGC
+🇸🇬SG | ss | @DeamNet_Proxy | 5 = ss, 64.176.85.73, 1866, encrypt-method = chacha20-ietf-poly1305, password = oXGp1+ihlfKg826H
+🇹🇷TR | ss | @DeamNet_Proxy | 7 = ss, 185.123.101.241, 990, encrypt-method = chacha20-ietf-poly1305, password = f8f7aCzcPKbsF8p3
+🇵🇱PL | ss | @DeamNet_Proxy | 13 = ss, 54.36.174.181, 5004, encrypt-method = aes-256-gcm, password = g5MeD6Ft3CWlJId
+🇿🇦ZA | ss | @DeamNet_Proxy | 16 = ss, 129.232.134.112, 990, encrypt-method = chacha20-ietf-poly1305, password = f8f7aCzcPKbsF8p3
+🇵🇱PL | ss | @DeamNet_Proxy | 17 = ss, 54.36.174.181, 9101, encrypt-method = aes-256-gcm, password = e4FCWrgpkji3QY
+🇧🇭BH | ss | @kingofilter | 4 = ss, admin.c3.webramz.co, 443, encrypt-method = chacha20-ietf-poly1305, password = Bog0ELmMM9DSxDdQ
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇳🇱NL | ss | @DeamNet_Proxy | 9,🇮🇩ID | ss | @DeamNet_Proxy | 10,🇵🇱PL | ss | @DeamNet_Proxy | 14,🇵🇱PL | ss | @DeamNet_Proxy | 15,🇺🇸US | ss | @DeamNet_Proxy | 18,🇧🇭BH | ss | @kingofilter | 3,🇺🇸US | ss | @kingofilter | 10
-URL-TEST = url-test,🇳🇱NL | ss | @DeamNet_Proxy | 9,🇮🇩ID | ss | @DeamNet_Proxy | 10,🇵🇱PL | ss | @DeamNet_Proxy | 14,🇵🇱PL | ss | @DeamNet_Proxy | 15,🇺🇸US | ss | @DeamNet_Proxy | 18,🇧🇭BH | ss | @kingofilter | 3,🇺🇸US | ss | @kingofilter | 10
-FALLBACK = fallback,🇳🇱NL | ss | @DeamNet_Proxy | 9,🇮🇩ID | ss | @DeamNet_Proxy | 10,🇵🇱PL | ss | @DeamNet_Proxy | 14,🇵🇱PL | ss | @DeamNet_Proxy | 15,🇺🇸US | ss | @DeamNet_Proxy | 18,🇧🇭BH | ss | @kingofilter | 3,🇺🇸US | ss | @kingofilter | 10
+MANUAL = select,URL-TEST,FALLBACK,🇵🇱PL | ss | @DeamNet_Proxy | 4,🇸🇬SG | ss | @DeamNet_Proxy | 5,🇹🇷TR | ss | @DeamNet_Proxy | 7,🇵🇱PL | ss | @DeamNet_Proxy | 13,🇿🇦ZA | ss | @DeamNet_Proxy | 16,🇵🇱PL | ss | @DeamNet_Proxy | 17,🇧🇭BH | ss | @kingofilter | 4
+URL-TEST = url-test,🇵🇱PL | ss | @DeamNet_Proxy | 4,🇸🇬SG | ss | @DeamNet_Proxy | 5,🇹🇷TR | ss | @DeamNet_Proxy | 7,🇵🇱PL | ss | @DeamNet_Proxy | 13,🇿🇦ZA | ss | @DeamNet_Proxy | 16,🇵🇱PL | ss | @DeamNet_Proxy | 17,🇧🇭BH | ss | @kingofilter | 4
+FALLBACK = fallback,🇵🇱PL | ss | @DeamNet_Proxy | 4,🇸🇬SG | ss | @DeamNet_Proxy | 5,🇹🇷TR | ss | @DeamNet_Proxy | 7,🇵🇱PL | ss | @DeamNet_Proxy | 13,🇿🇦ZA | ss | @DeamNet_Proxy | 16,🇵🇱PL | ss | @DeamNet_Proxy | 17,🇧🇭BH | ss | @kingofilter | 4
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
