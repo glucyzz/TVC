@@ -11,16 +11,19 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇵🇱PL | vmess | @DeamNet_Proxy | 12 = vmess, 3h-poland1.09vpn.com, 8443, username = a4850481-9b95-430f-9b2d-192d2410b4f4, ws = true, tls = 1, vmess-aead = true, ws-path = /vmess/, ws-headers = Host:"3h-poland1.09vpn.com", skip-cert-verify = true, tfo = false
+🇺🇸US | vmess | @DeamNet_Proxy | 8 = vmess, 172.67.207.26, 443, username = 76221bfb-e92f-4e80-81c5-6fe48f50ac0b, ws = true, tls = 1, vmess-aead = true, ws-path = /linkws, ws-headers = Host:"glweidf.sbs", skip-cert-verify = true, tfo = false
+🇺🇸US | vmess | @DeamNet_Proxy | 13 = vmess, 160.153.1.93, 443, username = 62aa5f80-0328-4004-a375-7f5a59df4022, ws = true, tls = 1, vmess-aead = true, ws-path = /LINKWS, ws-headers = Host:"hms19.best-tizi.top", skip-cert-verify = true, tfo = false
+🇨🇦CA | vmess | @DeamNet_Proxy | 16 = vmess, 188.114.96.3, 443, username = 1052f24e-7b09-45eb-b0c5-d858eb124192, ws = true, tls = 1, vmess-aead = true, ws-path = /linkws, ws-headers = Host:"glweidf.cfd", skip-cert-verify = true, tfo = false
+🇰🇿KZ | vmess | @DeamNet_Proxy | 18 = vmess, 3h-kazakhstan1.09vpn.com, 80, username = 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c, ws = true, tls = , vmess-aead = true, ws-path = /vmess/, ws-headers = Host:"", skip-cert-verify = true, tfo = false
 🇳🇱NL | vmess | @yaney_01 | 1 = vmess, 45.199.138.217, 41000, username = f9fa3a9c-f7d5-414f-88e6-6970585d9949, ws = true, tls = 1, vmess-aead = false, ws-path = /path/282018252526, ws-headers = Host:"", skip-cert-verify = true, tfo = false
 🇺🇸US | vmess | @yaney_01 | 2 = vmess, 107.149.119.43, 37000, username = 418048af-a293-4b99-9b0c-98ca3580dd24, ws = true, tls = 1, vmess-aead = false, ws-path = /path/040318142507, ws-headers = Host:"", skip-cert-verify = true, tfo = false
 🏳️XX | vmess | @yaney_01 | 3 = vmess, admin.arzonhost.ir, 2086, username = 7d93e992-48cf-42d4-84f8-75768e815a4c, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"admin.arzonhost.ir", skip-cert-verify = true, tfo = false
 🇨🇳CN | vmess | @yaney_01 | 4 = vmess, ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub, 80, username = 46cfcfe1-e450-459d-a3ab-9406011ab3eb, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"tms.dingtalk.com", skip-cert-verify = true, tfo = false
-🇸🇬SG | vmess | @Hope_Net | 2 = vmess, 140.245.60.239, 23452, username = b466111f-0ad8-4f12-899c-5ff14446c088, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"westsg2-ddns.oraclenat.cc", skip-cert-verify = true, tfo = false
+🇸🇬SG | vmess | @Hope_Net | 2 = vmess, 140.245.58.84, 23452, username = 53f21684-d72c-49d4-8887-e8ec068fcb11, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"westsg2-ddns.oraclenat.cc", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇵🇱PL | vmess | @DeamNet_Proxy | 12,🇳🇱NL | vmess | @yaney_01 | 1,🇺🇸US | vmess | @yaney_01 | 2,🏳️XX | vmess | @yaney_01 | 3,🇨🇳CN | vmess | @yaney_01 | 4,🇸🇬SG | vmess | @Hope_Net | 2
-URL-TEST = url-test,🇵🇱PL | vmess | @DeamNet_Proxy | 12,🇳🇱NL | vmess | @yaney_01 | 1,🇺🇸US | vmess | @yaney_01 | 2,🏳️XX | vmess | @yaney_01 | 3,🇨🇳CN | vmess | @yaney_01 | 4,🇸🇬SG | vmess | @Hope_Net | 2
-FALLBACK = fallback,🇵🇱PL | vmess | @DeamNet_Proxy | 12,🇳🇱NL | vmess | @yaney_01 | 1,🇺🇸US | vmess | @yaney_01 | 2,🏳️XX | vmess | @yaney_01 | 3,🇨🇳CN | vmess | @yaney_01 | 4,🇸🇬SG | vmess | @Hope_Net | 2
+MANUAL = select,URL-TEST,FALLBACK,🇺🇸US | vmess | @DeamNet_Proxy | 8,🇺🇸US | vmess | @DeamNet_Proxy | 13,🇨🇦CA | vmess | @DeamNet_Proxy | 16,🇰🇿KZ | vmess | @DeamNet_Proxy | 18,🇳🇱NL | vmess | @yaney_01 | 1,🇺🇸US | vmess | @yaney_01 | 2,🏳️XX | vmess | @yaney_01 | 3,🇨🇳CN | vmess | @yaney_01 | 4,🇸🇬SG | vmess | @Hope_Net | 2
+URL-TEST = url-test,🇺🇸US | vmess | @DeamNet_Proxy | 8,🇺🇸US | vmess | @DeamNet_Proxy | 13,🇨🇦CA | vmess | @DeamNet_Proxy | 16,🇰🇿KZ | vmess | @DeamNet_Proxy | 18,🇳🇱NL | vmess | @yaney_01 | 1,🇺🇸US | vmess | @yaney_01 | 2,🏳️XX | vmess | @yaney_01 | 3,🇨🇳CN | vmess | @yaney_01 | 4,🇸🇬SG | vmess | @Hope_Net | 2
+FALLBACK = fallback,🇺🇸US | vmess | @DeamNet_Proxy | 8,🇺🇸US | vmess | @DeamNet_Proxy | 13,🇨🇦CA | vmess | @DeamNet_Proxy | 16,🇰🇿KZ | vmess | @DeamNet_Proxy | 18,🇳🇱NL | vmess | @yaney_01 | 1,🇺🇸US | vmess | @yaney_01 | 2,🏳️XX | vmess | @yaney_01 | 3,🇨🇳CN | vmess | @yaney_01 | 4,🇸🇬SG | vmess | @Hope_Net | 2
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
