@@ -12,14 +12,13 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 🇨🇷CR | ss | @DeamNet_Proxy | 13 = ss, 145.14.131.37, 990, encrypt-method = chacha20-ietf-poly1305, password = f8f7aCzcPKbsF8p3
-🇳🇱NL | ss | @DeamNet_Proxy | 18 = ss, 185.24.151.214, 52952, encrypt-method = chacha20-ietf-poly1305, password = LMSNh21TrXjR2ok25Q2nE8ENT2zoBmPvka3RCCUAHZELCnWoekVjvaf89qwcRkdbxEfep2bc2aUtmnxqvF1ayQRez1JHjULj
 🇧🇭BH | ss | @kingofilter | 5 = ss, admin.c3.webramz.co, 443, encrypt-method = chacha20-ietf-poly1305, password = Bog0ELmMM9DSxDdQ
 🇧🇭BH | ss | @kingofilter | 7 = ss, series-a2-me.varzesh360.co, 443, encrypt-method = chacha20-ietf-poly1305, password = Bog0ELmMM9DSxDdQ
 🇺🇸US | ss | @kingofilter | 8 = ss, 45.87.175.178, 8080, encrypt-method = chacha20-ietf-poly1305, password = cvII85TrW6n0OGyfpHVS1u
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇨🇷CR | ss | @DeamNet_Proxy | 13,🇳🇱NL | ss | @DeamNet_Proxy | 18,🇧🇭BH | ss | @kingofilter | 5,🇧🇭BH | ss | @kingofilter | 7,🇺🇸US | ss | @kingofilter | 8
-URL-TEST = url-test,🇨🇷CR | ss | @DeamNet_Proxy | 13,🇳🇱NL | ss | @DeamNet_Proxy | 18,🇧🇭BH | ss | @kingofilter | 5,🇧🇭BH | ss | @kingofilter | 7,🇺🇸US | ss | @kingofilter | 8
-FALLBACK = fallback,🇨🇷CR | ss | @DeamNet_Proxy | 13,🇳🇱NL | ss | @DeamNet_Proxy | 18,🇧🇭BH | ss | @kingofilter | 5,🇧🇭BH | ss | @kingofilter | 7,🇺🇸US | ss | @kingofilter | 8
+MANUAL = select,URL-TEST,FALLBACK,🇨🇷CR | ss | @DeamNet_Proxy | 13,🇧🇭BH | ss | @kingofilter | 5,🇧🇭BH | ss | @kingofilter | 7,🇺🇸US | ss | @kingofilter | 8
+URL-TEST = url-test,🇨🇷CR | ss | @DeamNet_Proxy | 13,🇧🇭BH | ss | @kingofilter | 5,🇧🇭BH | ss | @kingofilter | 7,🇺🇸US | ss | @kingofilter | 8
+FALLBACK = fallback,🇨🇷CR | ss | @DeamNet_Proxy | 13,🇧🇭BH | ss | @kingofilter | 5,🇧🇭BH | ss | @kingofilter | 7,🇺🇸US | ss | @kingofilter | 8
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
