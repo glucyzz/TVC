@@ -106,16 +106,18 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇬🇧GB | ss | @kingofilter | 8",
-                "🇺🇸US | ss | @kingofilter | 13"
+                "🇳🇱NL | ss | @DeamNet_Proxy | 4",
+                "🇬🇧GB | ss | @kingofilter | 9",
+                "🇺🇸US | ss | @kingofilter | 14"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇬🇧GB | ss | @kingofilter | 8",
-                "🇺🇸US | ss | @kingofilter | 13"
+                "🇳🇱NL | ss | @DeamNet_Proxy | 4",
+                "🇬🇧GB | ss | @kingofilter | 9",
+                "🇺🇸US | ss | @kingofilter | 14"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -138,7 +140,17 @@
             "type": "dns"
         },
         {
-            "tag": "🇬🇧GB | ss | @kingofilter | 8",
+            "tag": "🇳🇱NL | ss | @DeamNet_Proxy | 4",
+            "type": "shadowsocks",
+            "server": "45.158.171.132",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "QCXDxuDlTTMD7jtgHUjIoj",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇬🇧GB | ss | @kingofilter | 9",
             "type": "shadowsocks",
             "server": "admin.c4.havij.co",
             "server_port": 443,
@@ -148,7 +160,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | ss | @kingofilter | 13",
+            "tag": "🇺🇸US | ss | @kingofilter | 14",
             "type": "shadowsocks",
             "server": "45.87.175.10",
             "server_port": 8080,
