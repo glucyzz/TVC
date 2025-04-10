@@ -106,20 +106,28 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸US | ss | @DeamNet_Proxy | 7",
-                "🇳🇱NL | ss | @DeamNet_Proxy | 8",
-                "🇬🇧GB | ss | @kingofilter | 10",
-                "🇺🇸US | ss | @kingofilter | 15"
+                "🇳🇱NL | ss | @DeamNet_Proxy | 6",
+                "🇩🇪DE | ss | @DeamNet_Proxy | 8",
+                "🇿🇦ZA | ss | @DeamNet_Proxy | 9",
+                "🇹🇭TH | ss | @DeamNet_Proxy | 11",
+                "🇺🇸US | ss | @DeamNet_Proxy | 14",
+                "🇳🇱NL | ss | @DeamNet_Proxy | 15",
+                "🇬🇧GB | ss | @kingofilter | 11",
+                "🇺🇸US | ss | @kingofilter | 16"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸US | ss | @DeamNet_Proxy | 7",
-                "🇳🇱NL | ss | @DeamNet_Proxy | 8",
-                "🇬🇧GB | ss | @kingofilter | 10",
-                "🇺🇸US | ss | @kingofilter | 15"
+                "🇳🇱NL | ss | @DeamNet_Proxy | 6",
+                "🇩🇪DE | ss | @DeamNet_Proxy | 8",
+                "🇿🇦ZA | ss | @DeamNet_Proxy | 9",
+                "🇹🇭TH | ss | @DeamNet_Proxy | 11",
+                "🇺🇸US | ss | @DeamNet_Proxy | 14",
+                "🇳🇱NL | ss | @DeamNet_Proxy | 15",
+                "🇬🇧GB | ss | @kingofilter | 11",
+                "🇺🇸US | ss | @kingofilter | 16"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -142,7 +150,47 @@
             "type": "dns"
         },
         {
-            "tag": "🇺🇸US | ss | @DeamNet_Proxy | 7",
+            "tag": "🇳🇱NL | ss | @DeamNet_Proxy | 6",
+            "type": "shadowsocks",
+            "server": "45.158.171.146",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "cvII85TrW6n0OGyfpHVS1u",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇩🇪DE | ss | @DeamNet_Proxy | 8",
+            "type": "shadowsocks",
+            "server": "109.120.177.122",
+            "server_port": 6774,
+            "method": "chacha20-ietf-poly1305",
+            "password": "ytW281XjAfk2rG003JDGap",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇿🇦ZA | ss | @DeamNet_Proxy | 9",
+            "type": "shadowsocks",
+            "server": "129.232.134.112",
+            "server_port": 990,
+            "method": "chacha20-ietf-poly1305",
+            "password": "f8f7aCzcPKbsF8p3",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇹🇭TH | ss | @DeamNet_Proxy | 11",
+            "type": "shadowsocks",
+            "server": "119.59.98.58",
+            "server_port": 990,
+            "method": "chacha20-ietf-poly1305",
+            "password": "f8f7aCzcPKbsF8p3",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇺🇸US | ss | @DeamNet_Proxy | 14",
             "type": "shadowsocks",
             "server": "38.114.121.249",
             "server_port": 5498,
@@ -152,7 +200,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇳🇱NL | ss | @DeamNet_Proxy | 8",
+            "tag": "🇳🇱NL | ss | @DeamNet_Proxy | 15",
             "type": "shadowsocks",
             "server": "45.158.171.132",
             "server_port": 8080,
@@ -162,7 +210,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇬🇧GB | ss | @kingofilter | 10",
+            "tag": "🇬🇧GB | ss | @kingofilter | 11",
             "type": "shadowsocks",
             "server": "admin.c4.havij.co",
             "server_port": 443,
@@ -172,7 +220,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | ss | @kingofilter | 15",
+            "tag": "🇺🇸US | ss | @kingofilter | 16",
             "type": "shadowsocks",
             "server": "45.87.175.10",
             "server_port": 8080,
