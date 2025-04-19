@@ -106,6 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇱🇹LT | 🔴 | vless | @Helix_Servers | 1",
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 1",
                 "❔XX | 🔴 | vless | @Parsashonam | 4",
                 "🇺🇸US | 🔴 | vless | @Parsashonam | 5",
@@ -285,7 +286,7 @@
                 "❔XX | 🔴 | vless | @ServerNett | 1",
                 "❔XX | 🔴 | vless | @ServerNett | 2",
                 "❔XX | 🔴 | vless | @ServerNett | 3",
-                "🇫🇮FI | 🔴 | vless | @ServerNett | 6",
+                "🇩🇪DE | 🔴 | vless | @ServerNett | 6",
                 "🇩🇪DE | 🔴 | vless | @ServerNett | 7",
                 "❔XX | 🔴 | vless | @ServerNett | 8",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 5",
@@ -475,17 +476,14 @@
                 "❔XX | 🟢 | vless | @SvnTeam | 6",
                 "🇺🇸US | 🔴 | vless | @SvnTeam | 7",
                 "❔XX | 🔴 | vless | @SvnTeam | 8",
-                "🇩🇰DK | 🔴 | vless | @V2FETCH | 0",
-                "❔XX | 🔴 | vless | @VpnSkyy | 0",
-                "❔XX | 🔴 | vless | @VpnSkyy | 1",
-                "❔XX | 🔴 | vless | @VpnSkyy | 2",
-                "❔XX | 🔴 | vless | @VpnSkyy | 3"
+                "🇩🇪DE | 🔴 | vless | @ednovasfree | 0"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇱🇹LT | 🔴 | vless | @Helix_Servers | 1",
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 1",
                 "❔XX | 🔴 | vless | @Parsashonam | 4",
                 "🇺🇸US | 🔴 | vless | @Parsashonam | 5",
@@ -665,7 +663,7 @@
                 "❔XX | 🔴 | vless | @ServerNett | 1",
                 "❔XX | 🔴 | vless | @ServerNett | 2",
                 "❔XX | 🔴 | vless | @ServerNett | 3",
-                "🇫🇮FI | 🔴 | vless | @ServerNett | 6",
+                "🇩🇪DE | 🔴 | vless | @ServerNett | 6",
                 "🇩🇪DE | 🔴 | vless | @ServerNett | 7",
                 "❔XX | 🔴 | vless | @ServerNett | 8",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 5",
@@ -855,11 +853,7 @@
                 "❔XX | 🟢 | vless | @SvnTeam | 6",
                 "🇺🇸US | 🔴 | vless | @SvnTeam | 7",
                 "❔XX | 🔴 | vless | @SvnTeam | 8",
-                "🇩🇰DK | 🔴 | vless | @V2FETCH | 0",
-                "❔XX | 🔴 | vless | @VpnSkyy | 0",
-                "❔XX | 🔴 | vless | @VpnSkyy | 1",
-                "❔XX | 🔴 | vless | @VpnSkyy | 2",
-                "❔XX | 🔴 | vless | @VpnSkyy | 3"
+                "🇩🇪DE | 🔴 | vless | @ednovasfree | 0"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -880,6 +874,37 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇱🇹LT | 🔴 | vless | @Helix_Servers | 1",
+            "type": "vless",
+            "server": "csgo-news.film2serial.cloud",
+            "server_port": 443,
+            "uuid": "936698ea-58bf-4b19-8cd5-ffd73cc44c91",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "csgo-news.film2serial.cloud",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "6k9LhPdmkFyy7eL4dZlhBC",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
         },
         {
             "tag": "🇸🇪SE | 🔴 | vless | @Parsashonam | 1",
@@ -4784,7 +4809,7 @@
             }
         },
         {
-            "tag": "🇫🇮FI | 🔴 | vless | @ServerNett | 6",
+            "tag": "🇩🇪DE | 🔴 | vless | @ServerNett | 6",
             "type": "vless",
             "server": "3900230223.torob.com.tr",
             "server_port": 1522,
@@ -9644,32 +9669,11 @@
             }
         },
         {
-            "tag": "🇩🇰DK | 🔴 | vless | @V2FETCH | 0",
+            "tag": "🇩🇪DE | 🔴 | vless | @ednovasfree | 0",
             "type": "vless",
-            "server": "client.bluwave.ir",
-            "server_port": 80,
-            "uuid": "e3eec9d9-ab70-4617-9e19-60860112c634",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/?ed=1861",
-                "headers": {
-                    "Host": "client.bluwave.ir"
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🔴 | vless | @VpnSkyy | 0",
-            "type": "vless",
-            "server": "web.bbv2ry.pics",
+            "server": "132.145.230.86",
             "server_port": 443,
-            "uuid": "5a84001d-87f0-4972-98bf-e836e3599b9c",
+            "uuid": "d7dd3a35b68b4992b319a85b8a1fc8e5",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -9679,7 +9683,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "Skyy.bbv2ry.pics",
+                "server_name": "dns68.putata.eu.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -9691,100 +9695,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "Skyy.bbv2ry.pics"
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🔴 | vless | @VpnSkyy | 1",
-            "type": "vless",
-            "server": "web.bbv2ry.pics",
-            "server_port": 443,
-            "uuid": "8b53a7ba-acac-4765-96af-c2b92d141281",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "Skyy.bbv2ry.pics",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "Skyy.bbv2ry.pics"
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🔴 | vless | @VpnSkyy | 2",
-            "type": "vless",
-            "server": "web.bbv2ry.pics",
-            "server_port": 443,
-            "uuid": "ca544ad7-181d-408f-8f95-8ce7c51cd399",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "Skyy.bbv2ry.pics",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "Skyy.bbv2ry.pics"
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🔴 | vless | @VpnSkyy | 3",
-            "type": "vless",
-            "server": "web.bbv2ry.pics",
-            "server_port": 443,
-            "uuid": "c3d41415-59cb-40eb-b721-ffa87f95e454",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "Skyy.bbv2ry.pics",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "Skyy.bbv2ry.pics"
+                    "Host": "dns68.putata.eu.org"
                 }
             }
         }
