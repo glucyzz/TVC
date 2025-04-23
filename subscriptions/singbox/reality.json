@@ -123,8 +123,6 @@
                 "🇨🇭CH | 🟢 | vless | @prrofile_purple | 141",
                 "🇩🇪DE | 🟢 | vless | @prrofile_purple | 146",
                 "🇩🇪DE | 🟢 | vless | @prrofile_purple | 147",
-                "🇩🇪DE | 🟢 | vless | @ShadowProxy66 | 1",
-                "🇳🇱NL | 🟢 | vless | @ShadowProxy66 | 2",
                 "🇩🇪DE | 🟢 | vless | @v2ray1_ng | 1",
                 "🇺🇸US | 🟢 | vless | @vless_vmess | 3",
                 "❔XX | 🔴 | vless | @MTConfig | 4",
@@ -183,8 +181,6 @@
                 "🇨🇭CH | 🟢 | vless | @prrofile_purple | 141",
                 "🇩🇪DE | 🟢 | vless | @prrofile_purple | 146",
                 "🇩🇪DE | 🟢 | vless | @prrofile_purple | 147",
-                "🇩🇪DE | 🟢 | vless | @ShadowProxy66 | 1",
-                "🇳🇱NL | 🟢 | vless | @ShadowProxy66 | 2",
                 "🇩🇪DE | 🟢 | vless | @v2ray1_ng | 1",
                 "🇺🇸US | 🟢 | vless | @vless_vmess | 3",
                 "❔XX | 🔴 | vless | @MTConfig | 4",
@@ -780,64 +776,6 @@
                     "enabled": true,
                     "public_key": "bvEBes1y2n6327dEgJyZTR6Xz_EuyfLdkEX7DxWGFFg",
                     "short_id": "e3c5c005cae07eb8"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🟢 | vless | @ShadowProxy66 | 1",
-            "type": "vless",
-            "server": "185.237.95.216",
-            "server_port": 443,
-            "uuid": "qGIpSqSIap2ncn",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "onlycats.photos",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "K3Qci9i3W2_Pn88RiUGD8cjfuJ0fmFbc7e_YyupZBkM",
-                    "short_id": "431c6edc"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱NL | 🟢 | vless | @ShadowProxy66 | 2",
-            "type": "vless",
-            "server": "77.83.85.188",
-            "server_port": 443,
-            "uuid": "hcjmtjTh7KyDcy",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "onlycats.photos",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "gxUAoyb1cC5eT4826CfWOWNPrdW5nshZsAP1AV_yAlc",
-                    "short_id": "ec0e9a33"
                 }
             }
         },
