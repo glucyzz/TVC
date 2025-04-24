@@ -116,7 +116,7 @@
                 "🇺🇸US | 🔴 | vless | @melov2ray | 27",
                 "🇬🇧GB | 🔴 | vless | @V2pedia | 13",
                 "🇬🇧GB | 🔴 | vless | @V2pedia | 14",
-                "🇺🇸US | 🔴 | vless | @ARv2ray | 18",
+                "🇨🇦CA | 🔴 | vless | @ARv2ray | 18",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 19",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 6",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 7",
@@ -131,11 +131,10 @@
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 21",
                 "🇨🇦CA | 🔴 | vless | @Outline_Vpn | 14",
                 "🇨🇦CA | 🔴 | vless | @Outline_Vpn | 15",
-                "🇮🇷IR | 🔴 | vless | @prrofile_purple | 152",
-                "❔XX | 🔴 | vless | @prrofile_purple | 153",
+                "🇩🇪DE | 🟢 | vless | @prrofile_purple | 144",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 5",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 6",
-                "🇫🇮FI | 🔴 | vless | @ServerNett | 9",
+                "🇩🇪DE | 🔴 | vless | @ServerNett | 9",
                 "🇩🇪DE | 🔴 | vless | @ServerNett | 10",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
@@ -188,7 +187,7 @@
                 "🇺🇸US | 🔴 | vless | @melov2ray | 27",
                 "🇬🇧GB | 🔴 | vless | @V2pedia | 13",
                 "🇬🇧GB | 🔴 | vless | @V2pedia | 14",
-                "🇺🇸US | 🔴 | vless | @ARv2ray | 18",
+                "🇨🇦CA | 🔴 | vless | @ARv2ray | 18",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 19",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 6",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 7",
@@ -203,11 +202,10 @@
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 21",
                 "🇨🇦CA | 🔴 | vless | @Outline_Vpn | 14",
                 "🇨🇦CA | 🔴 | vless | @Outline_Vpn | 15",
-                "🇮🇷IR | 🔴 | vless | @prrofile_purple | 152",
-                "❔XX | 🔴 | vless | @prrofile_purple | 153",
+                "🇩🇪DE | 🟢 | vless | @prrofile_purple | 144",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 5",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 6",
-                "🇫🇮FI | 🔴 | vless | @ServerNett | 9",
+                "🇩🇪DE | 🔴 | vless | @ServerNett | 9",
                 "🇩🇪DE | 🔴 | vless | @ServerNett | 10",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
@@ -458,7 +456,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 18",
+            "tag": "🇨🇦CA | 🔴 | vless | @ARv2ray | 18",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2052,
@@ -806,31 +804,32 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | vless | @prrofile_purple | 152",
+            "tag": "🇩🇪DE | 🟢 | vless | @prrofile_purple | 144",
             "type": "vless",
-            "server": "62.60.144.201",
-            "server_port": 8080,
-            "uuid": "dda234b4-3989-4db4-b3f8-b3ea2431e173",
-            "flow": "",
+            "server": "195.201.40.204",
+            "server_port": 20597,
+            "uuid": "accf1d4f-372f-49e5-86c5-51bd8200973c",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "❔XX | 🔴 | vless | @prrofile_purple | 153",
-            "type": "vless",
-            "server": "qlymunn464a9.dprax.com",
-            "server_port": 20035,
-            "uuid": "aea7c861-10b9-4e37-aee7-d033f8436715",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "MU9tLMUx7ema8O_JO1cUfAz_to6gMl1MWyRfkaufoHs",
+                    "short_id": "8fd3c72fdff6"
+                }
             }
         },
         {
@@ -886,7 +885,7 @@
             }
         },
         {
-            "tag": "🇫🇮FI | 🔴 | vless | @ServerNett | 9",
+            "tag": "🇩🇪DE | 🔴 | vless | @ServerNett | 9",
             "type": "vless",
             "server": "3900230223.torob.com.tr",
             "server_port": 1522,
