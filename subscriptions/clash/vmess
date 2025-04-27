@@ -155,7 +155,6 @@ proxies:
   - {"name":"🇨🇳CN | 🟢 | vmess | @Hope_Net | 12","type":"vmess","server":"59.42.247.189","port":"8004","cipher":"auto","uuid":"b0c2f4e7-0743-4141-896c-1d58452ee05c","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/nmkj","headers":{"host":"www.bing.com"}}}
   - {"name":"🇸🇬SG | 🟢 | vmess | @Hope_Net | 13","type":"vmess","server":"a.886968.xyz","port":"21369","cipher":"auto","uuid":"151187b1-c8f3-4c32-ac72-3679e264a7a3","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/wfdef","headers":{"host":"a.886968.xyz"}}}
   - {"name":"🇨🇳CN | 🟢 | vmess | @Hope_Net | 14","type":"vmess","server":"89936472-svdwg0-t28b6o-ef48.cu.plebai.net","port":"5228","cipher":"auto","uuid":"cb15123a-084c-11f0-8eab-f23c91cfbbc9","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸US | 🟢 | vmess | @Hope_Net | 15","type":"vmess","server":"49.51.75.139","port":"19064","cipher":"auto","uuid":"80cc565f-b3ce-40fe-b7f3-b1e9a7ace4a9","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -199,7 +198,6 @@ proxy-groups:
       - '🇨🇳CN | 🟢 | vmess | @Hope_Net | 12'
       - '🇸🇬SG | 🟢 | vmess | @Hope_Net | 13'
       - '🇨🇳CN | 🟢 | vmess | @Hope_Net | 14'
-      - '🇺🇸US | 🟢 | vmess | @Hope_Net | 15'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -243,7 +241,6 @@ proxy-groups:
       - '🇨🇳CN | 🟢 | vmess | @Hope_Net | 12'
       - '🇸🇬SG | 🟢 | vmess | @Hope_Net | 13'
       - '🇨🇳CN | 🟢 | vmess | @Hope_Net | 14'
-      - '🇺🇸US | 🟢 | vmess | @Hope_Net | 15'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -286,7 +283,6 @@ proxy-groups:
       - '🇨🇳CN | 🟢 | vmess | @Hope_Net | 12'
       - '🇸🇬SG | 🟢 | vmess | @Hope_Net | 13'
       - '🇨🇳CN | 🟢 | vmess | @Hope_Net | 14'
-      - '🇺🇸US | 🟢 | vmess | @Hope_Net | 15'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
