@@ -148,7 +148,7 @@
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 2",
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 3",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 14",
-                "🇨🇦CA | 🔴 | vless | @vless_vmess | 15",
+                "🇺🇸US | 🔴 | vless | @vless_vmess | 15",
                 "❔XX | 🔴 | vless | @MTConfig | 11",
                 "❔XX | 🔴 | vless | @MTConfig | 12",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 14",
@@ -161,8 +161,8 @@
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇳🇱NL | 🔴 | vless | @free1_vpn | 8",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 9",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 4",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 5",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
+                "🇷🇴RO | 🟢 | vmess | @Hope_Net | 8",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 0",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 12",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 13",
@@ -231,7 +231,7 @@
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 2",
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 3",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 14",
-                "🇨🇦CA | 🔴 | vless | @vless_vmess | 15",
+                "🇺🇸US | 🔴 | vless | @vless_vmess | 15",
                 "❔XX | 🔴 | vless | @MTConfig | 11",
                 "❔XX | 🔴 | vless | @MTConfig | 12",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 14",
@@ -244,8 +244,8 @@
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇳🇱NL | 🔴 | vless | @free1_vpn | 8",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 9",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 4",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 5",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
+                "🇷🇴RO | 🟢 | vmess | @Hope_Net | 8",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 0",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 12",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 13",
@@ -1241,7 +1241,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @vless_vmess | 15",
+            "tag": "🇺🇸US | 🔴 | vless | @vless_vmess | 15",
             "type": "vless",
             "server": "104.17.214.22",
             "server_port": 443,
@@ -1599,11 +1599,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 4",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
             "type": "vmess",
-            "server": "gs03-1.guoshi1520.com",
+            "server": "xcf029.facai2024.com",
             "server_port": 443,
-            "uuid": "82ff6d30-2920-4ebd-b95c-b016ede1a841",
+            "uuid": "9ce4526a-c500-4c66-99b0-048e4b6b5663",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1616,7 +1616,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "gs03-1.guoshi1520.com",
+                "server_name": "xcf029.facai2024.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1626,18 +1626,18 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/82ff6d30",
+                "path": "\/9ce4526a",
                 "headers": {
-                    "Host": "gs03-1.guoshi1520.com"
+                    "Host": "xcf029.facai2024.com"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 5",
+            "tag": "🇷🇴RO | 🟢 | vmess | @Hope_Net | 8",
             "type": "vmess",
-            "server": "xcf046.facai2024.com",
-            "server_port": 443,
-            "uuid": "c47d5728-8d15-4e07-b5ac-9acff953b12b",
+            "server": "5.182.37.231",
+            "server_port": 49664,
+            "uuid": "9395474c-e2a1-4565-ba56-c16e7373c4c4",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1647,23 +1647,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "xcf046.facai2024.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/c47d5728",
-                "headers": {
-                    "Host": "xcf046.facai2024.com"
-                }
             }
         },
         {
