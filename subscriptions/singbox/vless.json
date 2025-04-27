@@ -249,6 +249,7 @@
                 "🚩CF | 🔴 | vless | @Outline_Vpn | 14",
                 "🇳🇱NL | 🔴 | vless | @Outline_Vpn | 15",
                 "🚩CF | 🔴 | vless | @Outline_Vpn | 16",
+                "🚩CF | 🔴 | vless | @Outline_Vpn | 17",
                 "❔XX | 🔴 | vless | @prrofile_purple | 115",
                 "🇮🇷IR | 🔴 | vless | @prrofile_purple | 116",
                 "❔XX | 🔴 | vless | @prrofile_purple | 117",
@@ -623,6 +624,7 @@
                 "🚩CF | 🔴 | vless | @Outline_Vpn | 14",
                 "🇳🇱NL | 🔴 | vless | @Outline_Vpn | 15",
                 "🚩CF | 🔴 | vless | @Outline_Vpn | 16",
+                "🚩CF | 🔴 | vless | @Outline_Vpn | 17",
                 "❔XX | 🔴 | vless | @prrofile_purple | 115",
                 "🇮🇷IR | 🔴 | vless | @prrofile_purple | 116",
                 "❔XX | 🔴 | vless | @prrofile_purple | 117",
@@ -3955,6 +3957,27 @@
             "transport": {
                 "type": "ws",
                 "path": "\/",
+                "headers": {
+                    "Host": "188.114.97.3"
+                }
+            }
+        },
+        {
+            "tag": "🚩CF | 🔴 | vless | @Outline_Vpn | 17",
+            "type": "vless",
+            "server": "188.114.97.3",
+            "server_port": 80,
+            "uuid": "c5293efa-28f8-4a0f-8f34-541078970cee",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/SIGrNRCU4ongDlz4?ed=2560",
                 "headers": {
                     "Host": "188.114.97.3"
                 }
