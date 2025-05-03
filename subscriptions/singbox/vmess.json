@@ -121,7 +121,7 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 18",
                 "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 6",
                 "🇩🇪DE | 🟢 | vmess | @DeamNet_Proxy | 14",
-                "🇺🇸US | 🟢 | vmess | @prrofile_purple | 110",
+                "🇬🇧GB | 🟢 | vmess | @prrofile_purple | 152",
                 "🇩🇪DE | 🟢 | vmess | @ShadowProxy66 | 0",
                 "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
@@ -130,7 +130,6 @@
                 "🚩CF | 🟢 | vmess | @yaney_01 | 5",
                 "🇨🇳CN | 🟢 | vmess | @Hope_Net | 0",
                 "🇨🇳CN | 🟢 | vmess | @Hope_Net | 1",
-                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 2",
                 "🇺🇸US | 🟢 | vmess | @heinuhome | 0"
             ]
         },
@@ -153,7 +152,7 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 18",
                 "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 6",
                 "🇩🇪DE | 🟢 | vmess | @DeamNet_Proxy | 14",
-                "🇺🇸US | 🟢 | vmess | @prrofile_purple | 110",
+                "🇬🇧GB | 🟢 | vmess | @prrofile_purple | 152",
                 "🇩🇪DE | 🟢 | vmess | @ShadowProxy66 | 0",
                 "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
@@ -162,7 +161,6 @@
                 "🚩CF | 🟢 | vmess | @yaney_01 | 5",
                 "🇨🇳CN | 🟢 | vmess | @Hope_Net | 0",
                 "🇨🇳CN | 🟢 | vmess | @Hope_Net | 1",
-                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 2",
                 "🇺🇸US | 🟢 | vmess | @heinuhome | 0"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -475,11 +473,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @prrofile_purple | 110",
+            "tag": "🇬🇧GB | 🟢 | vmess | @prrofile_purple | 152",
             "type": "vmess",
-            "server": "kapelleng.com",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "server": "5.180.30.85",
+            "server_port": 18598,
+            "uuid": "bf26f2fb-9d2a-49b6-8527-82e8aba3a9a9",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -489,23 +487,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "kapelleng.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "kapelleng.com"
-                }
             }
         },
         {
@@ -723,40 +704,6 @@
                 "path": "\/home",
                 "headers": {
                     "Host": "jp6.vip2.g2.moonbase.life"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇳CN | 🟢 | vmess | @Hope_Net | 2",
-            "type": "vmess",
-            "server": "jp6.g2.moonbase.life",
-            "server_port": 35216,
-            "uuid": "c3136814-a07e-41f6-ad94-8e20458c0d21",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "jp6.g2.moonbase.life",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/home",
-                "headers": {
-                    "Host": "jp6.g2.moonbase.life"
                 }
             }
         },
