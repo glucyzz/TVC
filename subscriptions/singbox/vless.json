@@ -106,6 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇱🇹LT | 🔴 | vless | @Helix_Servers | 1",
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 1",
                 "❔XX | 🔴 | vless | @Parsashonam | 4",
                 "🇺🇸US | 🔴 | vless | @Parsashonam | 5",
@@ -488,6 +489,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇱🇹LT | 🔴 | vless | @Helix_Servers | 1",
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 1",
                 "❔XX | 🔴 | vless | @Parsashonam | 4",
                 "🇺🇸US | 🔴 | vless | @Parsashonam | 5",
@@ -884,6 +886,37 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇱🇹LT | 🔴 | vless | @Helix_Servers | 1",
+            "type": "vless",
+            "server": "csgo-news.film2serial.cloud",
+            "server_port": 443,
+            "uuid": "936698ea-58bf-4b19-8cd5-ffd73cc44c91",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "csgo-news.film2serial.cloud",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "6k9LhPdmkFyy7eL4dZlhBC",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
         },
         {
             "tag": "🇸🇪SE | 🔴 | vless | @Parsashonam | 1",
