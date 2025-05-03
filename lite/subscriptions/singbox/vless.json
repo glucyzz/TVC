@@ -150,14 +150,14 @@
                 "❔XX | 🔴 | vless | @MTConfig | 12",
                 "❔XX | 🟢 | vless | @VmessProtocol | 14",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 15",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 322",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 323",
-                "🇺🇸US | 🔴 | vless | @proxystore11 | 7",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 319",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 320",
+                "🇺🇸US | 🔴 | vless | @proxystore11 | 6",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 11",
                 "❔XX | 🔴 | vless | @free1_vpn | 12",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 0",
-                "🇳🇱NL | 🔴 | vless | @Outlinev2rayNG | 6",
-                "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 7",
+                "🇳🇱NL | 🔴 | vless | @Outlinev2rayNG | 7",
+                "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 8",
                 "🇺🇸US | 🔴 | vless | @FreakConfig | 8",
                 "❔XX | 🔴 | vless | @FreakConfig | 9",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 15",
@@ -223,14 +223,14 @@
                 "❔XX | 🔴 | vless | @MTConfig | 12",
                 "❔XX | 🟢 | vless | @VmessProtocol | 14",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 15",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 322",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 323",
-                "🇺🇸US | 🔴 | vless | @proxystore11 | 7",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 319",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 320",
+                "🇺🇸US | 🔴 | vless | @proxystore11 | 6",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 11",
                 "❔XX | 🔴 | vless | @free1_vpn | 12",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 0",
-                "🇳🇱NL | 🔴 | vless | @Outlinev2rayNG | 6",
-                "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 7",
+                "🇳🇱NL | 🔴 | vless | @Outlinev2rayNG | 7",
+                "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 8",
                 "🇺🇸US | 🔴 | vless | @FreakConfig | 8",
                 "❔XX | 🔴 | vless | @FreakConfig | 9",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 15",
@@ -1293,11 +1293,42 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 322",
+            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 319",
             "type": "vless",
-            "server": "tgju.org",
-            "server_port": 80,
-            "uuid": "3967344e-b316-403a-bb30-6e2fe50876c8",
+            "server": "199.34.228.185",
+            "server_port": 443,
+            "uuid": "15298f41-e80b-463a-b85b-0c903258a1c8",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "d5.medicaltreatment.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram@WedBaZ\/?ed",
+                "headers": {
+                    "Host": "d5.medicaltreatment.ir"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 320",
+            "type": "vless",
+            "server": "104.16.190.41",
+            "server_port": 443,
+            "uuid": "102e5f34-1913-4dd3-a1f2-f831d891a490",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1307,39 +1338,18 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/sinavm-sinavm\/?ed=2560security=tls",
                 "headers": {
-                    "Host": "tgju.org"
+                    "Host": "cr7.traneh.dpdns.org"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 323",
-            "type": "vless",
-            "server": "149.28.117.18",
-            "server_port": 8080,
-            "uuid": "119be77d-ec91-4e16-b2c1-85c9fcb5c8f0",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "149.28.117.18"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @proxystore11 | 7",
+            "tag": "🇺🇸US | 🔴 | vless | @proxystore11 | 6",
             "type": "vless",
             "server": "cname.proxystore11.news",
-            "server_port": 2087,
-            "uuid": "02d94abd-9c13-4d62-8d2b-c5481884b4db",
+            "server_port": 8443,
+            "uuid": "2d243e76-01c2-47c8-b700-0fe0964d8ef3",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1358,11 +1368,11 @@
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/prx11",
-                "headers": {
-                    "Host": "panel.proxystore11.news"
-                }
+                "type": "grpc",
+                "service_name": "panel.proxystore11.news",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1447,7 +1457,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🔴 | vless | @Outlinev2rayNG | 6",
+            "tag": "🇳🇱NL | 🔴 | vless | @Outlinev2rayNG | 7",
             "type": "vless",
             "server": "188.119.112.3",
             "server_port": 2052,
@@ -1468,7 +1478,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 7",
+            "tag": "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 8",
             "type": "vless",
             "server": "104.16.209.110",
             "server_port": 443,
