@@ -150,8 +150,8 @@
                 "❔XX | 🔴 | vless | @MTConfig | 12",
                 "❔XX | 🟢 | vless | @VmessProtocol | 14",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 15",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 319",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 320",
+                "🇳🇱NL | 🔴 | vless | @DailyV2RY | 321",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 322",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 6",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 11",
                 "❔XX | 🔴 | vless | @free1_vpn | 12",
@@ -223,8 +223,8 @@
                 "❔XX | 🔴 | vless | @MTConfig | 12",
                 "❔XX | 🟢 | vless | @VmessProtocol | 14",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 15",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 319",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 320",
+                "🇳🇱NL | 🔴 | vless | @DailyV2RY | 321",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 322",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 6",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 11",
                 "❔XX | 🔴 | vless | @free1_vpn | 12",
@@ -1293,11 +1293,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 319",
+            "tag": "🇳🇱NL | 🔴 | vless | @DailyV2RY | 321",
             "type": "vless",
-            "server": "199.34.228.185",
-            "server_port": 443,
-            "uuid": "15298f41-e80b-463a-b85b-0c903258a1c8",
+            "server": "95.179.178.229",
+            "server_port": 8080,
+            "uuid": "1f00f565-bc74-4d80-9d41-e31832cd1c30",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1305,30 +1305,20 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "d5.medicaltreatment.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram@WedBaZ\/?ed",
+                "path": "\/",
                 "headers": {
-                    "Host": "d5.medicaltreatment.ir"
+                    "Host": "95.179.178.229"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 320",
+            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 322",
             "type": "vless",
-            "server": "104.16.190.41",
+            "server": "160.79.104.195",
             "server_port": 443,
-            "uuid": "102e5f34-1913-4dd3-a1f2-f831d891a490",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1338,9 +1328,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/sinavm-sinavm\/?ed=2560security=tls",
+                "path": "\/",
                 "headers": {
-                    "Host": "cr7.traneh.dpdns.org"
+                    "Host": "vc.ylka.dpdns.org"
                 }
             }
         },
