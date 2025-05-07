@@ -160,8 +160,8 @@
                 "🇺🇸US | 🔴 | vless | @nofiltering2 | 2",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
+                "🇳🇱NL | 🔴 | vless | @kingofilter | 19",
                 "🇸🇪SE | 🔴 | vless | @kingofilter | 20",
-                "🇺🇸US | 🔴 | vless | @kingofilter | 21",
                 "🇺🇸US | 🔴 | vless | @GozargahVPN | 0",
                 "🇺🇸US | 🔴 | vless | @SvnTeam | 7",
                 "❔XX | 🔴 | vless | @SvnTeam | 8",
@@ -228,8 +228,8 @@
                 "🇺🇸US | 🔴 | vless | @nofiltering2 | 2",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
+                "🇳🇱NL | 🔴 | vless | @kingofilter | 19",
                 "🇸🇪SE | 🔴 | vless | @kingofilter | 20",
-                "🇺🇸US | 🔴 | vless | @kingofilter | 21",
                 "🇺🇸US | 🔴 | vless | @GozargahVPN | 0",
                 "🇺🇸US | 🔴 | vless | @SvnTeam | 7",
                 "❔XX | 🔴 | vless | @SvnTeam | 8",
@@ -431,6 +431,27 @@
         {
             "tag": "🇨🇿CZ | 🔴 | vless | @V2pedia | 10",
             "type": "vless",
+            "server": "194.182.79.247",
+            "server_port": 13479,
+            "uuid": "847dbf20-4163-434d-83b8-86dd8bc13d7b",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON?ed=2048",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇨🇿CZ | 🔴 | vless | @V2pedia | 11",
+            "type": "vless",
             "server": "194.182.79.11",
             "server_port": 33900,
             "uuid": "9df596dc-cfda-4ca1-8f29-cdb9e0b1f4b2",
@@ -444,27 +465,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON?ed=2048",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇨🇿CZ | 🔴 | vless | @V2pedia | 11",
-            "type": "vless",
-            "server": "194.182.79.175",
-            "server_port": 35861,
-            "uuid": "efc6f773-faa1-4adf-a0a4-6921a6c95406",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON?ed=2048",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
@@ -1488,6 +1488,27 @@
             }
         },
         {
+            "tag": "🇳🇱NL | 🔴 | vless | @kingofilter | 19",
+            "type": "vless",
+            "server": "167.99.46.243",
+            "server_port": 19506,
+            "uuid": "952d4280-2a79-4524-a32a-5d53512509ec",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON?ed=2048",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
             "tag": "🇸🇪SE | 🔴 | vless | @kingofilter | 20",
             "type": "vless",
             "server": "91.92.40.78",
@@ -1499,37 +1520,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @kingofilter | 21",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 443,
-            "uuid": "6babb657-1524-43bb-b421-11bda27bc9de",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "gpt.smatiz.info",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/salaam",
-                "headers": {
-                    "Host": "gpt.smatiz.info"
-                }
             }
         },
         {
