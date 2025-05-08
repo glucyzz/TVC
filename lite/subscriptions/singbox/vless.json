@@ -130,8 +130,8 @@
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 20",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 21",
                 "🇺🇸US | 🟢 | vless | @Outline_Vpn | 9",
-                "❔XX | 🔴 | vless | @prrofile_purple | 146",
-                "🇮🇷IR | 🔴 | vless | @prrofile_purple | 147",
+                "❔XX | 🔴 | vless | @prrofile_purple | 154",
+                "🇮🇷IR | 🔴 | vless | @prrofile_purple | 155",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 5",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 6",
                 "❔XX | 🔴 | vless | @ServerNett | 12",
@@ -148,8 +148,8 @@
                 "🇫🇮FI | 🔴 | vless | @VmessProtocol | 14",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 257",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 3",
-                "🇮🇷IR | 🔴 | vless | @free1_vpn | 7",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 8",
+                "🇮🇷IR | 🔴 | vless | @free1_vpn | 9",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 0",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 9",
@@ -197,8 +197,8 @@
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 20",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 21",
                 "🇺🇸US | 🟢 | vless | @Outline_Vpn | 9",
-                "❔XX | 🔴 | vless | @prrofile_purple | 146",
-                "🇮🇷IR | 🔴 | vless | @prrofile_purple | 147",
+                "❔XX | 🔴 | vless | @prrofile_purple | 154",
+                "🇮🇷IR | 🔴 | vless | @prrofile_purple | 155",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 5",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 6",
                 "❔XX | 🔴 | vless | @ServerNett | 12",
@@ -215,8 +215,8 @@
                 "🇫🇮FI | 🔴 | vless | @VmessProtocol | 14",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 257",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 3",
-                "🇮🇷IR | 🔴 | vless | @free1_vpn | 7",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 8",
+                "🇮🇷IR | 🔴 | vless | @free1_vpn | 9",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 0",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 9",
@@ -792,7 +792,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @prrofile_purple | 146",
+            "tag": "❔XX | 🔴 | vless | @prrofile_purple | 154",
             "type": "vless",
             "server": "[2a01:4f8:1c1b:2411::1]",
             "server_port": 31086,
@@ -806,7 +806,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | vless | @prrofile_purple | 147",
+            "tag": "🇮🇷IR | 🔴 | vless | @prrofile_purple | 155",
             "type": "vless",
             "server": "178.239.155.42",
             "server_port": 51377,
@@ -1230,20 +1230,6 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | vless | @free1_vpn | 7",
-            "type": "vless",
-            "server": "62.60.194.102",
-            "server_port": 4405,
-            "uuid": "9c1cd140-4770-49b0-9340-16ac9fcfcd35",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
             "tag": "🇺🇸US | 🔴 | vless | @free1_vpn | 8",
             "type": "vless",
             "server": "www.speedtest.net",
@@ -1262,6 +1248,20 @@
                 "headers": {
                     "Host": "www.speedtest.net"
                 }
+            }
+        },
+        {
+            "tag": "🇮🇷IR | 🔴 | vless | @free1_vpn | 9",
+            "type": "vless",
+            "server": "62.60.194.102",
+            "server_port": 4405,
+            "uuid": "9c1cd140-4770-49b0-9340-16ac9fcfcd35",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
