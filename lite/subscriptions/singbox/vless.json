@@ -150,6 +150,7 @@
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 13",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 2",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 3",
+                "🇺🇸US | 🔴 | vless | @free1_vpn | 11",
                 "🇮🇷IR | 🔴 | vless | @free1_vpn | 12",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 0",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6",
@@ -219,6 +220,7 @@
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 13",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 2",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 3",
+                "🇺🇸US | 🔴 | vless | @free1_vpn | 11",
                 "🇮🇷IR | 🔴 | vless | @free1_vpn | 12",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 0",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6",
@@ -808,29 +810,43 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @prrofile_purple | 146",
             "type": "vless",
-            "server": "huffingtonpost.es",
+            "server": "speedtest.net",
             "server_port": 80,
-            "uuid": "bc3a7c38-e273-41dc-b920-52ee6f375cf4",
+            "uuid": "2811b545-72f6-484c-9cd9-83b10fb42f17",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/MTMVPN------MTMVPN------MTMVPN------MTMVPN------MTMVPN------MTMVPN------MTMVPN------MTMVPN------MTMVPN?ed=2560",
+                "headers": {
+                    "Host": "speedtest.net"
+                }
             }
         },
         {
             "tag": "🇺🇸US | 🔴 | vless | @prrofile_purple | 147",
             "type": "vless",
-            "server": "join.unlimiteddev.fastly80-3.hosting-ip.com",
+            "server": "151.101.64.155",
             "server_port": 80,
-            "uuid": "bc3a7c38-e273-41dc-b920-52ee6f375cf4",
+            "uuid": "2811b545-72f6-484c-9cd9-83b10fb42f17",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/MTMVPN------MTMVPN------MTMVPN------MTMVPN------MTMVPN------MTMVPN------MTMVPN------MTMVPN------MTMVPN?ed=2560",
+                "headers": {
+                    "Host": "151.101.64.155"
+                }
             }
         },
         {
@@ -1276,6 +1292,27 @@
                 "path": "\/prx11",
                 "headers": {
                     "Host": "panel.proxystore11.news"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @free1_vpn | 11",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/?ed=2560",
+                "headers": {
+                    "Host": "www.speedtest.net"
                 }
             }
         },
