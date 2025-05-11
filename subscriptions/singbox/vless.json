@@ -271,6 +271,7 @@
                 "🚩CF | 🔴 | vless | @Outline_Vpn | 2",
                 "🇭🇰HK | 🔴 | vless | @Outline_Vpn | 4",
                 "🚩CF | 🔴 | vless | @Outline_Vpn | 5",
+                "🚩CF | 🔴 | vless | @Outline_Vpn | 7",
                 "🇺🇸US | 🔴 | vless | @prrofile_purple | 116",
                 "🇨🇭CH | 🟢 | vless | @prrofile_purple | 117",
                 "🇺🇸US | 🔴 | vless | @prrofile_purple | 118",
@@ -417,8 +418,8 @@
                 "🇨🇾CY | 🔴 | vless | @free1_vpn | 9",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 11",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 0",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 1",
-                "🇿🇦ZA | 🔴 | vless | @Outlinev2rayNG | 3",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 2",
+                "🇿🇦ZA | 🔴 | vless | @Outlinev2rayNG | 4",
                 "🇩🇪DE | 🟢 | vless | @FreakConfig | 0",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 0",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 1",
@@ -654,6 +655,7 @@
                 "🚩CF | 🔴 | vless | @Outline_Vpn | 2",
                 "🇭🇰HK | 🔴 | vless | @Outline_Vpn | 4",
                 "🚩CF | 🔴 | vless | @Outline_Vpn | 5",
+                "🚩CF | 🔴 | vless | @Outline_Vpn | 7",
                 "🇺🇸US | 🔴 | vless | @prrofile_purple | 116",
                 "🇨🇭CH | 🟢 | vless | @prrofile_purple | 117",
                 "🇺🇸US | 🔴 | vless | @prrofile_purple | 118",
@@ -800,8 +802,8 @@
                 "🇨🇾CY | 🔴 | vless | @free1_vpn | 9",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 11",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 0",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 1",
-                "🇿🇦ZA | 🔴 | vless | @Outlinev2rayNG | 3",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 2",
+                "🇿🇦ZA | 🔴 | vless | @Outlinev2rayNG | 4",
                 "🇩🇪DE | 🟢 | vless | @FreakConfig | 0",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 0",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 1",
@@ -4583,6 +4585,37 @@
             }
         },
         {
+            "tag": "🚩CF | 🔴 | vless | @Outline_Vpn | 7",
+            "type": "vless",
+            "server": "172.67.161.104",
+            "server_port": 443,
+            "uuid": "59860b15-b2d9-47f9-9b92-81bd1639fcc5",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "5-55sfjslf.ifenxiang.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/?ed=2560",
+                "headers": {
+                    "Host": "5-55sfjslf.ifenxiang.cfd"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | 🔴 | vless | @prrofile_purple | 116",
             "type": "vless",
             "server": "www.speedtest.net",
@@ -8140,7 +8173,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 1",
+            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 2",
             "type": "vless",
             "server": "tgju.org",
             "server_port": 8080,
@@ -8161,7 +8194,7 @@
             }
         },
         {
-            "tag": "🇿🇦ZA | 🔴 | vless | @Outlinev2rayNG | 3",
+            "tag": "🇿🇦ZA | 🔴 | vless | @Outlinev2rayNG | 4",
             "type": "vless",
             "server": "88.218.95.12",
             "server_port": 8880,
