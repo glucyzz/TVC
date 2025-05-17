@@ -133,13 +133,13 @@
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 5",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 6",
                 "🇩🇪DE | 🔴 | vless | @ShadowProxy66 | 0",
-                "🇹🇷TR | 🔴 | vless | @ShadowProxy66 | 1",
                 "❔XX | 🔴 | vless | @ServerNett | 11",
                 "❔XX | 🔴 | vless | @ServerNett | 12",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 2",
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 3",
+                "❔XX | 🔴 | vless | @v2ray1_ng | 7",
                 "🇺🇸US | 🔴 | vless | @v2ray1_ng | 8",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 14",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 15",
@@ -198,13 +198,13 @@
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 5",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 6",
                 "🇩🇪DE | 🔴 | vless | @ShadowProxy66 | 0",
-                "🇹🇷TR | 🔴 | vless | @ShadowProxy66 | 1",
                 "❔XX | 🔴 | vless | @ServerNett | 11",
                 "❔XX | 🔴 | vless | @ServerNett | 12",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 2",
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 3",
+                "❔XX | 🔴 | vless | @v2ray1_ng | 7",
                 "🇺🇸US | 🔴 | vless | @v2ray1_ng | 8",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 14",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 15",
@@ -559,7 +559,7 @@
             "type": "vless",
             "server": "151.101.64.155",
             "server_port": 80,
-            "uuid": "97c45717-4afd-470c-96b3-a223636b29fd",
+            "uuid": "2b349624-5517-44a7-bbc2-0c15584ce518",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -580,7 +580,7 @@
             "type": "vless",
             "server": "151.101.64.155",
             "server_port": 80,
-            "uuid": "1fa440aa-e4e8-4e1b-932d-faa09613d525",
+            "uuid": "97c45717-4afd-470c-96b3-a223636b29fd",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -871,20 +871,6 @@
             }
         },
         {
-            "tag": "🇹🇷TR | 🔴 | vless | @ShadowProxy66 | 1",
-            "type": "vless",
-            "server": "176.223.66.8",
-            "server_port": 39948,
-            "uuid": "2558c819-1363-4859-8fb9-f8cb104d49d2",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
             "tag": "❔XX | 🔴 | vless | @ServerNett | 11",
             "type": "vless",
             "server": "[2a01:4f8:1c1b:1051::1]",
@@ -1007,6 +993,20 @@
                 "headers": {
                     "Host": "MSV2RAY.fastly80-3.hosting-ip.com"
                 }
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | @v2ray1_ng | 7",
+            "type": "vless",
+            "server": "soft98.ir.www.p31download.com",
+            "server_port": 8880,
+            "uuid": "5b97592b-1e9c-7747-e571-b4291f98c6ab",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
