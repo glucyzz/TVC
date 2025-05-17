@@ -438,19 +438,15 @@
                 "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 13",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 0",
                 "🇩🇪DE | 🔴 | vless | @flyv2ray | 1",
-                "🇩🇪DE | 🔴 | vless | @flyv2ray | 2",
-                "🇺🇸US | 🔴 | vless | @flyv2ray | 3",
+                "🇨🇾CY | 🔴 | vless | @flyv2ray | 2",
+                "🇩🇪DE | 🔴 | vless | @flyv2ray | 3",
                 "🇩🇪DE | 🔴 | vless | @flyv2ray | 4",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 5",
-                "🇺🇸US | 🔴 | vless | @flyv2ray | 6",
-                "🇩🇪DE | 🔴 | vless | @flyv2ray | 7",
+                "🇩🇪DE | 🔴 | vless | @flyv2ray | 6",
+                "🇺🇸US | 🔴 | vless | @flyv2ray | 7",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 8",
-                "❔XX | 🔴 | vless | @flyv2ray | 9",
+                "🇩🇪DE | 🔴 | vless | @flyv2ray | 9",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 10",
-                "❔XX | 🔴 | vless | @flyv2ray | 11",
-                "❔XX | 🔴 | vless | @flyv2ray | 12",
-                "❔XX | 🔴 | vless | @flyv2ray | 13",
-                "🇺🇸US | 🔴 | vless | @flyv2ray | 14",
                 "❔XX | 🔴 | vless | @vpn_go67 | 0",
                 "❔XX | 🔴 | vless | @vpn_go67 | 1",
                 "❔XX | 🔴 | vless | @vpn_go67 | 3",
@@ -828,19 +824,15 @@
                 "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 13",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 0",
                 "🇩🇪DE | 🔴 | vless | @flyv2ray | 1",
-                "🇩🇪DE | 🔴 | vless | @flyv2ray | 2",
-                "🇺🇸US | 🔴 | vless | @flyv2ray | 3",
+                "🇨🇾CY | 🔴 | vless | @flyv2ray | 2",
+                "🇩🇪DE | 🔴 | vless | @flyv2ray | 3",
                 "🇩🇪DE | 🔴 | vless | @flyv2ray | 4",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 5",
-                "🇺🇸US | 🔴 | vless | @flyv2ray | 6",
-                "🇩🇪DE | 🔴 | vless | @flyv2ray | 7",
+                "🇩🇪DE | 🔴 | vless | @flyv2ray | 6",
+                "🇺🇸US | 🔴 | vless | @flyv2ray | 7",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 8",
-                "❔XX | 🔴 | vless | @flyv2ray | 9",
+                "🇩🇪DE | 🔴 | vless | @flyv2ray | 9",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 10",
-                "❔XX | 🔴 | vless | @flyv2ray | 11",
-                "❔XX | 🔴 | vless | @flyv2ray | 12",
-                "❔XX | 🔴 | vless | @flyv2ray | 13",
-                "🇺🇸US | 🔴 | vless | @flyv2ray | 14",
                 "❔XX | 🔴 | vless | @vpn_go67 | 0",
                 "❔XX | 🔴 | vless | @vpn_go67 | 1",
                 "❔XX | 🔴 | vless | @vpn_go67 | 3",
@@ -8751,6 +8743,63 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 0",
             "type": "vless",
+            "server": "speedtest.net",
+            "server_port": 80,
+            "uuid": "a0bf4979-b135-4396-c2b3-e492911dbda4",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/olem\/ws?ed=1024",
+                "headers": {
+                    "Host": "speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🔴 | vless | @flyv2ray | 1",
+            "type": "vless",
+            "server": "Tabriz-Website.thorav.ir",
+            "server_port": 443,
+            "uuid": "5614c870-e60a-4a68-9505-6b49a1820a68",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.cdn77.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "qq"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "S9lLMRBlLXUp4RhsWgDvTubO0znlS5e7xTARW_9ajB8",
+                    "short_id": "b1417d"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "telegram-ipV2Ry-telegram-ipV2Ry-telegram-ipV2Ry",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇨🇾CY | 🔴 | vless | @flyv2ray | 2",
+            "type": "vless",
             "server": "djfdd.nexavps.ir",
             "server_port": 8880,
             "uuid": "b99590df-eda0-4e34-e1a9-3d1118faed83",
@@ -8763,7 +8812,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @flyv2ray | 1",
+            "tag": "🇩🇪DE | 🔴 | vless | @flyv2ray | 3",
             "type": "vless",
             "server": "Tabriz-Website.thorav.ir",
             "server_port": 443,
@@ -8799,7 +8848,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @flyv2ray | 2",
+            "tag": "🇩🇪DE | 🔴 | vless | @flyv2ray | 4",
             "type": "vless",
             "server": "Tabriz-Website.thorav.ir",
             "server_port": 443,
@@ -8835,7 +8884,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 3",
+            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 5",
             "type": "vless",
             "server": "zmaoz.faculty.ucdavis.edu",
             "server_port": 80,
@@ -8856,7 +8905,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @flyv2ray | 4",
+            "tag": "🇩🇪DE | 🔴 | vless | @flyv2ray | 6",
             "type": "vless",
             "server": "Tabriz-Website.thorav.ir",
             "server_port": 443,
@@ -8892,7 +8941,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 5",
+            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 7",
             "type": "vless",
             "server": "zmaoz.faculty.ucdavis.edu",
             "server_port": 80,
@@ -8913,7 +8962,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 6",
+            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 8",
             "type": "vless",
             "server": "zmaoz.faculty.ucdavis.edu",
             "server_port": 80,
@@ -8934,7 +8983,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @flyv2ray | 7",
+            "tag": "🇩🇪DE | 🔴 | vless | @flyv2ray | 9",
             "type": "vless",
             "server": "Tabriz-Website.acveo.ir",
             "server_port": 443,
@@ -8970,109 +9019,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 8",
-            "type": "vless",
-            "server": "zmaoz.faculty.ucdavis.edu",
-            "server_port": 80,
-            "uuid": "0d083787-080d-4eaa-a741-e78c8fcd9547",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/olem\/ws?ed=1024",
-                "headers": {
-                    "Host": "zmaoz.faculty.ucdavis.edu"
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🔴 | vless | @flyv2ray | 9",
-            "type": "vless",
-            "server": "website.acveo.ir",
-            "server_port": 8080,
-            "uuid": "260a2ade-1825-4c5f-8039-94d15b0be119",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
             "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 10",
             "type": "vless",
             "server": "zmaoz.faculty.ucdavis.edu",
             "server_port": 80,
-            "uuid": "b26e6aca-66c8-491f-8389-b33ac192ffe8",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/olem\/ws?ed=1024",
-                "headers": {
-                    "Host": "zmaoz.faculty.ucdavis.edu"
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🔴 | vless | @flyv2ray | 11",
-            "type": "vless",
-            "server": "website.acveo.ir",
-            "server_port": 8080,
-            "uuid": "338bb2c5-22a4-4864-805c-b5cd2ee6a865",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "❔XX | 🔴 | vless | @flyv2ray | 12",
-            "type": "vless",
-            "server": "website.acveo.ir",
-            "server_port": 8080,
-            "uuid": "4b270bff-0f7e-428e-9fab-a4d96c068e8b",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "❔XX | 🔴 | vless | @flyv2ray | 13",
-            "type": "vless",
-            "server": "website.acveo.ir",
-            "server_port": 8080,
-            "uuid": "bb344773-1c6f-45f1-a73d-5c2028ace9db",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 14",
-            "type": "vless",
-            "server": "zmaoz.faculty.ucdavis.edu",
-            "server_port": 80,
-            "uuid": "6351a164-aa3e-4702-9b7f-8f12328854c5",
+            "uuid": "0d083787-080d-4eaa-a741-e78c8fcd9547",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
