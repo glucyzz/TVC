@@ -392,7 +392,6 @@
                 "🚩CF | 🔴 | vless | @v2ray1_ng | 7",
                 "🇨🇭CH | 🟢 | vless | @v2ray1_ng | 8",
                 "🇺🇸US | 🟢 | vless | @v2ray1_ng | 12",
-                "🇺🇸US | 🔴 | vless | @v2ray1_ng | 14",
                 "🚩CF | 🔴 | vless | @vless_vmess | 0",
                 "🚩CF | 🔴 | vless | @vless_vmess | 1",
                 "🇬🇧GB | 🟢 | vless | @vless_vmess | 2",
@@ -455,9 +454,10 @@
                 "❔XX | 🟢 | vless | @free1_vpn | 1",
                 "🇯🇵JP | 🔴 | vless | @free1_vpn | 9",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 0",
-                "🇷🇺RU | 🟢 | vmess | @Hope_Net | 1",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 2",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 1",
+                "🇷🇺RU | 🟢 | vmess | @Hope_Net | 2",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 3",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 4",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 1",
                 "🇷🇺RU | 🔴 | vless | @Outlinev2rayNG | 4",
                 "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 5",
@@ -797,7 +797,6 @@
                 "🚩CF | 🔴 | vless | @v2ray1_ng | 7",
                 "🇨🇭CH | 🟢 | vless | @v2ray1_ng | 8",
                 "🇺🇸US | 🟢 | vless | @v2ray1_ng | 12",
-                "🇺🇸US | 🔴 | vless | @v2ray1_ng | 14",
                 "🚩CF | 🔴 | vless | @vless_vmess | 0",
                 "🚩CF | 🔴 | vless | @vless_vmess | 1",
                 "🇬🇧GB | 🟢 | vless | @vless_vmess | 2",
@@ -860,9 +859,10 @@
                 "❔XX | 🟢 | vless | @free1_vpn | 1",
                 "🇯🇵JP | 🔴 | vless | @free1_vpn | 9",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 0",
-                "🇷🇺RU | 🟢 | vmess | @Hope_Net | 1",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 2",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 1",
+                "🇷🇺RU | 🟢 | vmess | @Hope_Net | 2",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 3",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 4",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 1",
                 "🇷🇺RU | 🔴 | vless | @Outlinev2rayNG | 4",
                 "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 5",
@@ -7492,20 +7492,6 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @v2ray1_ng | 14",
-            "type": "vless",
-            "server": "Www.speedtest.net",
-            "server_port": 2095,
-            "uuid": "e265d9b6-a091-45bb-896b-0b2b7c9a144c",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
             "tag": "🚩CF | 🔴 | vless | @vless_vmess | 0",
             "type": "vless",
             "server": "104.16.128.22",
@@ -9064,6 +9050,30 @@
         {
             "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 0",
             "type": "vmess",
+            "server": "cdn1.bpcdn.cc",
+            "server_port": 2086,
+            "uuid": "c21b972a-bc92-4f8c-8e6a-6868001f7f88",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "cdn1.bpcdn.cc"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 1",
+            "type": "vmess",
             "server": "cloudflare.182682.xyz",
             "server_port": 2086,
             "uuid": "c21b972a-bc92-4f8c-8e6a-6868001f7f88",
@@ -9086,7 +9096,7 @@
             }
         },
         {
-            "tag": "🇷🇺RU | 🟢 | vmess | @Hope_Net | 1",
+            "tag": "🇷🇺RU | 🟢 | vmess | @Hope_Net | 2",
             "type": "vmess",
             "server": "eedp257bubu2wefy2.lovebaipiao.net",
             "server_port": 80,
@@ -9110,7 +9120,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 2",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 3",
             "type": "vmess",
             "server": "141.193.213.178",
             "server_port": 443,
@@ -9144,7 +9154,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 3",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 4",
             "type": "vmess",
             "server": "141.193.213.169",
             "server_port": 2086,
