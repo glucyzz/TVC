@@ -113,8 +113,8 @@
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 16",
                 "❔XX | 🟢 | vless | @ipV2Ray | 8",
                 "❔XX | 🟢 | vless | @ipV2Ray | 9",
-                "🇺🇸US | 🔴 | vless | @melov2ray | 30",
-                "🇺🇸US | 🔴 | vless | @melov2ray | 31",
+                "🇺🇸US | 🔴 | vless | @melov2ray | 34",
+                "🇺🇸US | 🔴 | vless | @melov2ray | 35",
                 "🇨🇿CZ | 🔴 | vless | @V2pedia | 10",
                 "🇨🇿CZ | 🔴 | vless | @V2pedia | 11",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 17",
@@ -154,6 +154,7 @@
                 "🇨🇭CH | 🟢 | vless | @free1_vpn | 7",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 0",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 1",
+                "🇷🇺RU | 🔴 | vless | @Outlinev2rayNG | 10",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 2",
                 "❔XX | 🔴 | vless | @flyv2ray | 3",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
@@ -179,8 +180,8 @@
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 16",
                 "❔XX | 🟢 | vless | @ipV2Ray | 8",
                 "❔XX | 🟢 | vless | @ipV2Ray | 9",
-                "🇺🇸US | 🔴 | vless | @melov2ray | 30",
-                "🇺🇸US | 🔴 | vless | @melov2ray | 31",
+                "🇺🇸US | 🔴 | vless | @melov2ray | 34",
+                "🇺🇸US | 🔴 | vless | @melov2ray | 35",
                 "🇨🇿CZ | 🔴 | vless | @V2pedia | 10",
                 "🇨🇿CZ | 🔴 | vless | @V2pedia | 11",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 17",
@@ -220,6 +221,7 @@
                 "🇨🇭CH | 🟢 | vless | @free1_vpn | 7",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 0",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 1",
+                "🇷🇺RU | 🔴 | vless | @Outlinev2rayNG | 10",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 2",
                 "❔XX | 🔴 | vless | @flyv2ray | 3",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
@@ -444,7 +446,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @melov2ray | 30",
+            "tag": "🇺🇸US | 🔴 | vless | @melov2ray | 34",
             "type": "vless",
             "server": "zmaoz.faculty.ucdavis.edu",
             "server_port": 80,
@@ -465,7 +467,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @melov2ray | 31",
+            "tag": "🇺🇸US | 🔴 | vless | @melov2ray | 35",
             "type": "vless",
             "server": "speedtest.net",
             "server_port": 80,
@@ -1420,6 +1422,37 @@
                 "path": "\/iqySBCJZh3v7AmTx?ed=2560",
                 "headers": {
                     "Host": "5nrvx1irwfiyq8nqbaiztizua8t8xg0d.pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇷🇺RU | 🔴 | vless | @Outlinev2rayNG | 10",
+            "type": "vless",
+            "server": "89.23.118.93",
+            "server_port": 443,
+            "uuid": "588f094b-431b-422c-b80b-007945037072",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ru01.abvpn.ru",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/websocket",
+                "headers": {
+                    "Host": "ru01.abvpn.ru"
                 }
             }
         },
