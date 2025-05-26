@@ -107,7 +107,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 36",
-                "🇺🇸US | 🔴 | vless | @v2_team | 4",
+                "🇨🇦CA | 🔴 | vless | @v2_team | 4",
                 "🇺🇸US | 🔴 | vless | @XsV2ray | 8",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 14",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 15",
@@ -160,11 +160,10 @@
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 9",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 0",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 1",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 2",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 9",
-                "🇸🇪SE | 🔴 | vless | @Outlinev2rayNG | 10",
+                "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 7",
+                "❔XX | 🔴 | vless | @Outlinev2rayNG | 8",
                 "❔XX | 🔴 | vless | @flyv2ray | 4",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 5",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
@@ -182,7 +181,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 36",
-                "🇺🇸US | 🔴 | vless | @v2_team | 4",
+                "🇨🇦CA | 🔴 | vless | @v2_team | 4",
                 "🇺🇸US | 🔴 | vless | @XsV2ray | 8",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 14",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 15",
@@ -235,11 +234,10 @@
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 9",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 0",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 1",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 2",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 9",
-                "🇸🇪SE | 🔴 | vless | @Outlinev2rayNG | 10",
+                "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 7",
+                "❔XX | 🔴 | vless | @Outlinev2rayNG | 8",
                 "❔XX | 🔴 | vless | @flyv2ray | 4",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 5",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
@@ -286,7 +284,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @v2_team | 4",
+            "tag": "🇨🇦CA | 🔴 | vless | @v2_team | 4",
             "type": "vless",
             "server": "172.67.73.163",
             "server_port": 80,
@@ -1600,40 +1598,6 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 0",
-            "type": "vmess",
-            "server": "uswuxian.pai50288.uk",
-            "server_port": 8443,
-            "uuid": "c313606f-98c2-4d7b-ba74-48b94f61b11d",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "uswuxian.pai50288.uk",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "uswuxian.pai50288.uk"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸US | 🔴 | vless | @fnet00 | 1",
             "type": "vless",
             "server": "www.speedtest.net",
@@ -1679,38 +1643,61 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 9",
+            "tag": "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 7",
             "type": "vless",
-            "server": "Zmaoz.Faculty.Ucdavis.Edu",
-            "server_port": 80,
-            "uuid": "Parsashonam-242",
-            "flow": "",
+            "server": "lunavopershian.adas.monster",
+            "server_port": 38290,
+            "uuid": "e2d82258-fc6b-40e7-a292-d8991d9d2ec0",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/@Parsashonam",
-                "headers": {
-                    "Host": "Zmaoz.Faculty.Ucdavis.Edu."
+            "tls": {
+                "enabled": true,
+                "server_name": "lunavopershiansni369871.adas.monster",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "YwovOka4bw_cog0WRI_245U9NC4I26TaGxhAKfGSskM",
+                    "short_id": "e559dd"
                 }
             }
         },
         {
-            "tag": "🇸🇪SE | 🔴 | vless | @Outlinev2rayNG | 10",
+            "tag": "❔XX | 🔴 | vless | @Outlinev2rayNG | 8",
             "type": "vless",
-            "server": "185.146.173.39",
-            "server_port": 8880,
-            "uuid": "Parsashonam-242",
-            "flow": "",
+            "server": "p5.punchline.ir",
+            "server_port": 20775,
+            "uuid": "883afa8d-6cc5-4580-b8c7-3b8f5b195892",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.microsoft.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "JV8xe6kiRR1Ev0QRzjERfqiUOs1VrqC31fZtbnvcZHM",
+                    "short_id": "c7dbe2302e63ac44"
+                }
             }
         },
         {
