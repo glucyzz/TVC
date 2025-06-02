@@ -149,7 +149,6 @@
                 "❔XX | 🔴 | vless | @MTConfig | 12",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 290",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 291",
-                "🇺🇸US | 🔴 | vless | @proxystore11 | 6",
                 "🇺🇸US | 🟢 | vless | @free1_vpn | 8",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 3",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 4",
@@ -216,7 +215,6 @@
                 "❔XX | 🔴 | vless | @MTConfig | 12",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 290",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 291",
-                "🇺🇸US | 🔴 | vless | @proxystore11 | 6",
                 "🇺🇸US | 🟢 | vless | @free1_vpn | 8",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 3",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 4",
@@ -1328,37 +1326,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "wwwspeedtestnetwhiteberinsistomd6625996s15.rtyadserver.ir"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @proxystore11 | 6",
-            "type": "vless",
-            "server": "cf.cishanjichang.me",
-            "server_port": 443,
-            "uuid": "432e1e8b-18ce-488f-8203-2ba54b2fb61f",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "us.cishanjichang.me",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/swordnewnewnew",
-                "headers": {
-                    "Host": "us.cishanjichang.me"
                 }
             }
         },

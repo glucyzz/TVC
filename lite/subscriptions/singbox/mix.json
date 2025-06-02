@@ -156,7 +156,7 @@
                 "❔XX | 🔴 | vless | @MTConfig | 12",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 290",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 291",
-                "🇺🇸US | 🔴 | vless | @proxystore11 | 6",
+                "🇩🇪DE | 🟢 | vmess | @proxystore11 | 6",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🟢 | vless | @free1_vpn | 8",
@@ -235,7 +235,7 @@
                 "❔XX | 🔴 | vless | @MTConfig | 12",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 290",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 291",
-                "🇺🇸US | 🔴 | vless | @proxystore11 | 6",
+                "🇩🇪DE | 🟢 | vmess | @proxystore11 | 6",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🟢 | vless | @free1_vpn | 8",
@@ -1495,34 +1495,20 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @proxystore11 | 6",
-            "type": "vless",
-            "server": "cf.cishanjichang.me",
-            "server_port": 443,
-            "uuid": "432e1e8b-18ce-488f-8203-2ba54b2fb61f",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇩🇪DE | 🟢 | vmess | @proxystore11 | 6",
+            "type": "vmess",
+            "server": "135.125.182.74",
+            "server_port": 28213,
+            "uuid": "81852771-76fb-4e94-e4f1-4e37a698a49a",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "us.cishanjichang.me",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/swordnewnewnew",
-                "headers": {
-                    "Host": "us.cishanjichang.me"
-                }
             }
         },
         {
