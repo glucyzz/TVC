@@ -130,7 +130,8 @@
                 "🇺🇸US | 🔴 | vless | @v2logy | 10",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 20",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 21",
-                "🇨🇿CZ | 🔴 | vless | @prrofile_purple | 146",
+                "🇨🇿CZ | 🔴 | vless | @prrofile_purple | 130",
+                "🇨🇿CZ | 🔴 | vless | @prrofile_purple | 131",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 5",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 6",
                 "🇮🇷IR | 🔴 | vless | @ShadowProxy66 | 0",
@@ -196,7 +197,8 @@
                 "🇺🇸US | 🔴 | vless | @v2logy | 10",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 20",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 21",
-                "🇨🇿CZ | 🔴 | vless | @prrofile_purple | 146",
+                "🇨🇿CZ | 🔴 | vless | @prrofile_purple | 130",
+                "🇨🇿CZ | 🔴 | vless | @prrofile_purple | 131",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 5",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 6",
                 "🇮🇷IR | 🔴 | vless | @ShadowProxy66 | 0",
@@ -854,11 +856,11 @@
             }
         },
         {
-            "tag": "🇨🇿CZ | 🔴 | vless | @prrofile_purple | 146",
+            "tag": "🇨🇿CZ | 🔴 | vless | @prrofile_purple | 130",
             "type": "vless",
-            "server": "194.182.79.242",
-            "server_port": 45831,
-            "uuid": "d00e3d7c-522f-4047-87b6-67685f5f281f",
+            "server": "194.182.79.113",
+            "server_port": 26468,
+            "uuid": "005a0678-9847-4954-83ef-2d253a88b7f8",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -868,7 +870,28 @@
             },
             "transport": {
                 "type": "grpc",
-                "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON?ed=2048",
+                "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON?ed=2048",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇨🇿CZ | 🔴 | vless | @prrofile_purple | 131",
+            "type": "vless",
+            "server": "194.182.79.202",
+            "server_port": 39049,
+            "uuid": "dd4b9b8a-2718-46bd-bc9b-fe947b0ed16c",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON?ed=2048",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
