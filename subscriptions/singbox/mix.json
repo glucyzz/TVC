@@ -477,12 +477,13 @@
                 "❔XX | 🔴 | vless | @fnet00 | 2",
                 "🚩CF | 🔴 | vless | @fnet00 | 3",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 4",
-                "🇰🇭KH | 🔴 | vless | @Outlinev2rayNG | 1",
-                "🇷🇺RU | 🔴 | vless | @Outlinev2rayNG | 2",
-                "🇳🇱NL | 🔴 | vless | @Outlinev2rayNG | 4",
-                "🇬🇧GB | 🔴 | vless | @Outlinev2rayNG | 5",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6",
+                "🇸🇨SC | 🔴 | vless | @Outlinev2rayNG | 0",
+                "🇰🇭KH | 🔴 | vless | @Outlinev2rayNG | 2",
+                "🇷🇺RU | 🔴 | vless | @Outlinev2rayNG | 3",
+                "🇳🇱NL | 🔴 | vless | @Outlinev2rayNG | 5",
+                "🇬🇧GB | 🔴 | vless | @Outlinev2rayNG | 6",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 7",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8",
                 "🇺🇸US | 🔴 | vless | @FreakConfig | 0",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 0",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 1",
@@ -896,12 +897,13 @@
                 "❔XX | 🔴 | vless | @fnet00 | 2",
                 "🚩CF | 🔴 | vless | @fnet00 | 3",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 4",
-                "🇰🇭KH | 🔴 | vless | @Outlinev2rayNG | 1",
-                "🇷🇺RU | 🔴 | vless | @Outlinev2rayNG | 2",
-                "🇳🇱NL | 🔴 | vless | @Outlinev2rayNG | 4",
-                "🇬🇧GB | 🔴 | vless | @Outlinev2rayNG | 5",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6",
+                "🇸🇨SC | 🔴 | vless | @Outlinev2rayNG | 0",
+                "🇰🇭KH | 🔴 | vless | @Outlinev2rayNG | 2",
+                "🇷🇺RU | 🔴 | vless | @Outlinev2rayNG | 3",
+                "🇳🇱NL | 🔴 | vless | @Outlinev2rayNG | 5",
+                "🇬🇧GB | 🔴 | vless | @Outlinev2rayNG | 6",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 7",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8",
                 "🇺🇸US | 🔴 | vless | @FreakConfig | 0",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 0",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 1",
@@ -9719,7 +9721,28 @@
             }
         },
         {
-            "tag": "🇰🇭KH | 🔴 | vless | @Outlinev2rayNG | 1",
+            "tag": "🇸🇨SC | 🔴 | vless | @Outlinev2rayNG | 0",
+            "type": "vless",
+            "server": "154.197.64.20",
+            "server_port": 8880,
+            "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/?ed=2560",
+                "headers": {
+                    "Host": "154.197.64.20"
+                }
+            }
+        },
+        {
+            "tag": "🇰🇭KH | 🔴 | vless | @Outlinev2rayNG | 2",
             "type": "vless",
             "server": "jalurtepat.com",
             "server_port": 443,
@@ -9750,7 +9773,7 @@
             }
         },
         {
-            "tag": "🇷🇺RU | 🔴 | vless | @Outlinev2rayNG | 2",
+            "tag": "🇷🇺RU | 🔴 | vless | @Outlinev2rayNG | 3",
             "type": "vless",
             "server": "45.67.215.20",
             "server_port": 8880,
@@ -9771,7 +9794,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🔴 | vless | @Outlinev2rayNG | 4",
+            "tag": "🇳🇱NL | 🔴 | vless | @Outlinev2rayNG | 5",
             "type": "vless",
             "server": "45.131.208.108",
             "server_port": 8880,
@@ -9792,7 +9815,7 @@
             }
         },
         {
-            "tag": "🇬🇧GB | 🔴 | vless | @Outlinev2rayNG | 5",
+            "tag": "🇬🇧GB | 🔴 | vless | @Outlinev2rayNG | 6",
             "type": "vless",
             "server": "45.12.30.145",
             "server_port": 8880,
@@ -9813,7 +9836,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6",
+            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 7",
             "type": "vless",
             "server": "209.46.30.20",
             "server_port": 8880,
@@ -9834,7 +9857,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 7",
+            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8",
             "type": "vless",
             "server": "151.101.2.228",
             "server_port": 80,
