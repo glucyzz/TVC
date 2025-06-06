@@ -139,7 +139,7 @@
                 "❔XX | 🔴 | vless | @customv2ray | 1",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 5",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 6",
-                "🇮🇷IR | 🔴 | vless | @ShadowProxy66 | 6",
+                "❔XX | 🔴 | vless | @ShadowProxy66 | 3",
                 "❔XX | 🔴 | vless | @ServerNett | 12",
                 "❔XX | 🔴 | vless | @ServerNett | 13",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
@@ -160,8 +160,8 @@
                 "🇬🇧GB | 🔴 | vless | @free1_vpn | 11",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 2",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 3",
-                "🇷🇺RU | 🔴 | vless | @Outlinev2rayNG | 7",
-                "🇱🇹LT | 🔴 | vless | @Outlinev2rayNG | 8",
+                "🇷🇺RU | 🔴 | vless | @Outlinev2rayNG | 8",
+                "🇱🇹LT | 🔴 | vless | @Outlinev2rayNG | 9",
                 "🇸🇬SG | 🔴 | vless | @FreakConfig | 1",
                 "🇺🇸US | 🔴 | vless | @FreakConfig | 2",
                 "🇺🇸US | 🟢 | vless | @flyv2ray | 1",
@@ -215,7 +215,7 @@
                 "❔XX | 🔴 | vless | @customv2ray | 1",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 5",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 6",
-                "🇮🇷IR | 🔴 | vless | @ShadowProxy66 | 6",
+                "❔XX | 🔴 | vless | @ShadowProxy66 | 3",
                 "❔XX | 🔴 | vless | @ServerNett | 12",
                 "❔XX | 🔴 | vless | @ServerNett | 13",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
@@ -236,8 +236,8 @@
                 "🇬🇧GB | 🔴 | vless | @free1_vpn | 11",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 2",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 3",
-                "🇷🇺RU | 🔴 | vless | @Outlinev2rayNG | 7",
-                "🇱🇹LT | 🔴 | vless | @Outlinev2rayNG | 8",
+                "🇷🇺RU | 🔴 | vless | @Outlinev2rayNG | 8",
+                "🇱🇹LT | 🔴 | vless | @Outlinev2rayNG | 9",
                 "🇸🇬SG | 🔴 | vless | @FreakConfig | 1",
                 "🇺🇸US | 🔴 | vless | @FreakConfig | 2",
                 "🇺🇸US | 🟢 | vless | @flyv2ray | 1",
@@ -1077,24 +1077,17 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | vless | @ShadowProxy66 | 6",
+            "tag": "❔XX | 🔴 | vless | @ShadowProxy66 | 3",
             "type": "vless",
-            "server": "62.60.193.221",
-            "server_port": 32774,
-            "uuid": "6603a779-07c9-4bc9-8f61-4a09c238653a",
+            "server": "[2a01:4f9:c013:1627::1]",
+            "server_port": 8087,
+            "uuid": "fd274573-9e26-4e01-aa72-5252a924acdf",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/6603a779",
-                "headers": {
-                    "Host": "62.60.193.221"
-                }
             }
         },
         {
@@ -1614,7 +1607,7 @@
             }
         },
         {
-            "tag": "🇷🇺RU | 🔴 | vless | @Outlinev2rayNG | 7",
+            "tag": "🇷🇺RU | 🔴 | vless | @Outlinev2rayNG | 8",
             "type": "vless",
             "server": "185.174.138.6",
             "server_port": 80,
@@ -1635,7 +1628,7 @@
             }
         },
         {
-            "tag": "🇱🇹LT | 🔴 | vless | @Outlinev2rayNG | 8",
+            "tag": "🇱🇹LT | 🔴 | vless | @Outlinev2rayNG | 9",
             "type": "vless",
             "server": "89.116.250.20",
             "server_port": 8880,
