@@ -131,7 +131,7 @@
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 36",
                 "❔XX | 🔴 | vless | @Parsashonam | 37",
                 "🇺🇸US | 🔴 | vless | @Parsashonam | 38",
-                "🇨🇦CA | 🔴 | vless | @v2_team | 0",
+                "🇺🇸US | 🔴 | vless | @v2_team | 0",
                 "🇺🇸US | 🔴 | vless | @v2_team | 1",
                 "🇮🇷IR | 🔴 | vless | @v2_team | 2",
                 "🇮🇷IR | 🔴 | vless | @XsV2ray | 1",
@@ -153,7 +153,7 @@
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 13",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 14",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 15",
-                "🇸🇬SG | 🔴 | vless | @ipV2Ray | 0",
+                "🇺🇸US | 🔴 | vless | @ipV2Ray | 0",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 1",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 2",
                 "🇩🇪DE | 🔴 | vless | @ipV2Ray | 3",
@@ -405,6 +405,7 @@
                 "🚩CF | 🔴 | vless | @free1_vpn | 6",
                 "🇳🇱NL | 🔴 | vless | @free1_vpn | 10",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 11",
+                "🇮🇷IR | 🔴 | vless | @free1_vpn | 12",
                 "🚩CF | 🔴 | vless | @fnet00 | 0",
                 "🇮🇷IR | 🔴 | vless | @fnet00 | 1",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 2",
@@ -489,7 +490,7 @@
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 36",
                 "❔XX | 🔴 | vless | @Parsashonam | 37",
                 "🇺🇸US | 🔴 | vless | @Parsashonam | 38",
-                "🇨🇦CA | 🔴 | vless | @v2_team | 0",
+                "🇺🇸US | 🔴 | vless | @v2_team | 0",
                 "🇺🇸US | 🔴 | vless | @v2_team | 1",
                 "🇮🇷IR | 🔴 | vless | @v2_team | 2",
                 "🇮🇷IR | 🔴 | vless | @XsV2ray | 1",
@@ -511,7 +512,7 @@
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 13",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 14",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 15",
-                "🇸🇬SG | 🔴 | vless | @ipV2Ray | 0",
+                "🇺🇸US | 🔴 | vless | @ipV2Ray | 0",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 1",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 2",
                 "🇩🇪DE | 🔴 | vless | @ipV2Ray | 3",
@@ -763,6 +764,7 @@
                 "🚩CF | 🔴 | vless | @free1_vpn | 6",
                 "🇳🇱NL | 🔴 | vless | @free1_vpn | 10",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 11",
+                "🇮🇷IR | 🔴 | vless | @free1_vpn | 12",
                 "🚩CF | 🔴 | vless | @fnet00 | 0",
                 "🇮🇷IR | 🔴 | vless | @fnet00 | 1",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 2",
@@ -1261,7 +1263,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @v2_team | 0",
+            "tag": "🇺🇸US | 🔴 | vless | @v2_team | 0",
             "type": "vless",
             "server": "ns.cloudflare.com",
             "server_port": 2086,
@@ -1855,7 +1857,7 @@
             }
         },
         {
-            "tag": "🇸🇬SG | 🔴 | vless | @ipV2Ray | 0",
+            "tag": "🇺🇸US | 🔴 | vless | @ipV2Ray | 0",
             "type": "vless",
             "server": "199.232.13.32",
             "server_port": 80,
@@ -7879,6 +7881,20 @@
                 "headers": {
                     "Host": "hOZori.iR"
                 }
+            }
+        },
+        {
+            "tag": "🇮🇷IR | 🔴 | vless | @free1_vpn | 12",
+            "type": "vless",
+            "server": "37.32.42.22",
+            "server_port": 443,
+            "uuid": "eb1920ff-d816-4ca1-b832-4683cddebaa6",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
