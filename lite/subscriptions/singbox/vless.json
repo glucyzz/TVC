@@ -153,7 +153,7 @@
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 15",
                 "🇩🇪DE | 🟢 | vless | @DailyV2RY | 318",
                 "🇩🇪DE | 🟢 | vless | @DailyV2RY | 319",
-                "🇩🇪DE | 🔴 | vless | @proxystore11 | 6",
+                "🇩🇪DE | 🔴 | vless | @proxystore11 | 7",
                 "🇳🇱NL | 🔴 | vless | @free1_vpn | 11",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 12",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 2",
@@ -162,7 +162,7 @@
                 "🇸🇪SE | 🔴 | vless | @Outlinev2rayNG | 8",
                 "🇸🇬SG | 🔴 | vless | @FreakConfig | 4",
                 "🇺🇸US | 🔴 | vless | @FreakConfig | 5",
-                "🇺🇸US | 🟢 | vless | @flyv2ray | 4",
+                "🇬🇧GB | 🟢 | vless | @flyv2ray | 2",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "🇰🇭KH | 🔴 | vless | @kingofilter | 14",
@@ -226,7 +226,7 @@
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 15",
                 "🇩🇪DE | 🟢 | vless | @DailyV2RY | 318",
                 "🇩🇪DE | 🟢 | vless | @DailyV2RY | 319",
-                "🇩🇪DE | 🔴 | vless | @proxystore11 | 6",
+                "🇩🇪DE | 🔴 | vless | @proxystore11 | 7",
                 "🇳🇱NL | 🔴 | vless | @free1_vpn | 11",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 12",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 2",
@@ -235,7 +235,7 @@
                 "🇸🇪SE | 🔴 | vless | @Outlinev2rayNG | 8",
                 "🇸🇬SG | 🔴 | vless | @FreakConfig | 4",
                 "🇺🇸US | 🔴 | vless | @FreakConfig | 5",
-                "🇺🇸US | 🟢 | vless | @flyv2ray | 4",
+                "🇬🇧GB | 🟢 | vless | @flyv2ray | 2",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "🇰🇭KH | 🔴 | vless | @kingofilter | 14",
@@ -1428,7 +1428,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @proxystore11 | 6",
+            "tag": "🇩🇪DE | 🔴 | vless | @proxystore11 | 7",
             "type": "vless",
             "server": "vip1.proxystore11.news",
             "server_port": 15110,
@@ -1639,12 +1639,12 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | @flyv2ray | 4",
+            "tag": "🇬🇧GB | 🟢 | vless | @flyv2ray | 2",
             "type": "vless",
-            "server": "whatismyipaddress.com",
-            "server_port": 2096,
-            "uuid": "2404f667-5969-4883-a71a-ea2e0db2d25b",
-            "flow": "",
+            "server": "185.168.194.59",
+            "server_port": 41445,
+            "uuid": "3d8d5627-62c0-491a-ad68-0079983f95e1",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1653,19 +1653,17 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "wwwspeedtestnetwhiteberinsistomd6625996s04.drlimit2.com",
+                "server_name": "tesla.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "wwwspeedtestnetwhiteberinsistomd6625996s04.drlimit2.com"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "eb0fWFAevT3a_BqrfJ2dLhY_Hv910o9LSmaumdZpIyQ",
+                    "short_id": "f8a537"
                 }
             }
         },
