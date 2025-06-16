@@ -108,10 +108,11 @@
                 "URL-TEST",
                 "🇩🇪DE | 🟢 | vmess | @CUSTOMVPNSERVER | 15",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
+                "🇫🇷FR | 🟢 | vmess | @DeamNet_Proxy | 17",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 9"
+                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 6",
+                "❔XX | 🟢 | vmess | @Hope_Net | 7"
             ]
         },
         {
@@ -120,10 +121,11 @@
             "outbounds": [
                 "🇩🇪DE | 🟢 | vmess | @CUSTOMVPNSERVER | 15",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
+                "🇫🇷FR | 🟢 | vmess | @DeamNet_Proxy | 17",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 9"
+                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 6",
+                "❔XX | 🟢 | vmess | @Hope_Net | 7"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -177,6 +179,40 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇫🇷FR | 🟢 | vmess | @DeamNet_Proxy | 17",
+            "type": "vmess",
+            "server": "beyonddsz.cfd",
+            "server_port": 443,
+            "uuid": "9b456c2a-f2c1-45e1-87a9-b7628b04bb24",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "beyonddsz.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "beyonddsz.cfd"
+                }
             }
         },
         {
@@ -238,11 +274,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
+            "tag": "🇨🇳CN | 🟢 | vmess | @Hope_Net | 6",
             "type": "vmess",
-            "server": "hk2.rtmp.online",
-            "server_port": 443,
-            "uuid": "1d7dc43f-ee28-4e2f-a104-8bfb9b2c70b8",
+            "server": "59.42.247.189",
+            "server_port": 8004,
+            "uuid": "5989bf45-a99c-4754-8ff1-7c115d98d293",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -253,30 +289,20 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "hk2.rtmp.online",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/nmkj",
                 "headers": {
-                    "Host": "hk2.rtmp.online"
+                    "Host": "59.42.247.189"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 9",
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 7",
             "type": "vmess",
-            "server": "codepen.io",
+            "server": "gs03-1.guoshi1520.com",
             "server_port": 443,
-            "uuid": "5453ae26-250d-4e79-b4ec-016baf806865",
+            "uuid": "82ff6d30-2920-4ebd-b95c-b016ede1a841",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -289,7 +315,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "codepen.io",
+                "server_name": "gs03-1.guoshi1520.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -299,9 +325,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/1WWeeRtTt.131.PP.ua\/h7Rcu0y30lhjdVjJ3gc4aj",
+                "path": "\/82ff6d30",
                 "headers": {
-                    "Host": "codepen.io"
+                    "Host": "gs03-1.guoshi1520.com"
                 }
             }
         }
