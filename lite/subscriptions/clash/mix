@@ -127,8 +127,8 @@ proxies:
   - {"name":"🇫🇮FI | 🟢 | vmess | @prrofile_purple | 128","type":"vmess","server":"65.109.203.186","port":"8443","cipher":"auto","uuid":"9d8b498c-559f-4405-9edd-0ec5f3bab6c2","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇩🇪DE | 🟢 | vmess | @prrofile_purple | 129","type":"vmess","server":"5.75.207.190","port":"2087","cipher":"auto","uuid":"a36bc162-c700-49e4-90b8-f1542b3fa9fb","alterId":"0","tls":true,"skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"","grpc-mode":"gun"}}
   - {"name":"❔XX | 🟢 | vmess | @yaney_01 | 4","type":"vmess","server":"ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub","port":"80","cipher":"auto","uuid":"46cfcfe1-e450-459d-a3ab-9406011ab3eb","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
-  - {"name":"🇨🇳CN | 🟢 | vmess | @Hope_Net | 13","type":"vmess","server":"33e096fb-sva740-sxnljm-1jr1u.cm5.p5pv.com","port":"17232","cipher":"auto","uuid":"2c01eae6-0b6a-11ee-a058-f23c91369f2d","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇭🇰HK | 🟢 | vmess | @Hope_Net | 14","type":"vmess","server":"6cea9ba4-sv4n40-t6oecc-1slpn.hgc1.tcpbbr.net","port":"80","cipher":"auto","uuid":"659b0268-92ca-11ef-b3af-f23c913c8d2b","alterId":"2","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"broadcastlv.chat.bilibili.com"}}}
+  - {"name":"🇭🇰HK | 🟢 | vmess | @Hope_Net | 13","type":"vmess","server":"c3ae31b3-sv0xs0-syxyhi-12kzu.hk.p5pv.com","port":"80","cipher":"auto","uuid":"7b72cc10-0b3f-11ee-a91f-f23c913c8d2b","alterId":"2","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"c3ae31b3-sv0xs0-syxyhi-12kzu.hk.p5pv.com"}}}
+  - {"name":"🇭🇰HK | 🟢 | vmess | @Hope_Net | 14","type":"vmess","server":"c5d2b428-sv2sg0-swbw6v-1h240.hk.p5pv.com","port":"80","cipher":"auto","uuid":"28a5ce18-e7a1-11ec-91b2-f23c91cfbbc9","alterId":"2","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"broadcastlv.chat.bilibili.com"}}}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -144,7 +144,7 @@ proxy-groups:
       - '🇫🇮FI | 🟢 | vmess | @prrofile_purple | 128'
       - '🇩🇪DE | 🟢 | vmess | @prrofile_purple | 129'
       - '❔XX | 🟢 | vmess | @yaney_01 | 4'
-      - '🇨🇳CN | 🟢 | vmess | @Hope_Net | 13'
+      - '🇭🇰HK | 🟢 | vmess | @Hope_Net | 13'
       - '🇭🇰HK | 🟢 | vmess | @Hope_Net | 14'
   - name: URL-TEST
     type: url-test
@@ -161,7 +161,7 @@ proxy-groups:
       - '🇫🇮FI | 🟢 | vmess | @prrofile_purple | 128'
       - '🇩🇪DE | 🟢 | vmess | @prrofile_purple | 129'
       - '❔XX | 🟢 | vmess | @yaney_01 | 4'
-      - '🇨🇳CN | 🟢 | vmess | @Hope_Net | 13'
+      - '🇭🇰HK | 🟢 | vmess | @Hope_Net | 13'
       - '🇭🇰HK | 🟢 | vmess | @Hope_Net | 14'
   - name: FALLBACK
     type: fallback
@@ -177,7 +177,7 @@ proxy-groups:
       - '🇫🇮FI | 🟢 | vmess | @prrofile_purple | 128'
       - '🇩🇪DE | 🟢 | vmess | @prrofile_purple | 129'
       - '❔XX | 🟢 | vmess | @yaney_01 | 4'
-      - '🇨🇳CN | 🟢 | vmess | @Hope_Net | 13'
+      - '🇭🇰HK | 🟢 | vmess | @Hope_Net | 13'
       - '🇭🇰HK | 🟢 | vmess | @Hope_Net | 14'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
