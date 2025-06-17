@@ -111,8 +111,8 @@
                 "🇫🇮FI | 🟢 | vmess | @prrofile_purple | 128",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇯🇵JP | 🟢 | vmess | @Hope_Net | 3",
-                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 4"
+                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 11",
+                "❔XX | 🟢 | vmess | @Hope_Net | 12"
             ]
         },
         {
@@ -124,8 +124,8 @@
                 "🇫🇮FI | 🟢 | vmess | @prrofile_purple | 128",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇯🇵JP | 🟢 | vmess | @Hope_Net | 3",
-                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 4"
+                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 11",
+                "❔XX | 🟢 | vmess | @Hope_Net | 12"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -257,24 +257,7 @@
             }
         },
         {
-            "tag": "🇯🇵JP | 🟢 | vmess | @Hope_Net | 3",
-            "type": "vmess",
-            "server": "47.74.41.147",
-            "server_port": 53893,
-            "uuid": "07287360-e12f-4f94-9c7a-54386c100d8a",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇨🇳CN | 🟢 | vmess | @Hope_Net | 4",
+            "tag": "🇨🇳CN | 🟢 | vmess | @Hope_Net | 11",
             "type": "vmess",
             "server": "120.232.153.40",
             "server_port": 59082,
@@ -288,6 +271,40 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 12",
+            "type": "vmess",
+            "server": "7fa54343-7c0a-45c9.2031.pp.ua",
+            "server_port": 443,
+            "uuid": "15b24b56-d667-4fa8-b548-f3dc942fb461",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "7fa54343-7c0a-45c9.2031.pp.ua",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/usYhm60UxQ8YJFJxz",
+                "headers": {
+                    "Host": "7fa54343-7c0a-45c9.2031.pp.ua"
+                }
             }
         }
     ],
