@@ -155,8 +155,8 @@
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇷🇺RU | 🔴 | vless | @free1_vpn | 6",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 7",
-                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 4",
-                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 5",
+                "🇫🇷FR | 🟢 | vmess | @Hope_Net | 5",
+                "❔XX | 🟢 | vmess | @Hope_Net | 6",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 4",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 5",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 1",
@@ -230,8 +230,8 @@
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇷🇺RU | 🔴 | vless | @free1_vpn | 6",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 7",
-                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 4",
-                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 5",
+                "🇫🇷FR | 🟢 | vmess | @Hope_Net | 5",
+                "❔XX | 🟢 | vmess | @Hope_Net | 6",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 4",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 5",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 1",
@@ -580,7 +580,7 @@
             "type": "vless",
             "server": "151.101.64.155",
             "server_port": 80,
-            "uuid": "4690de53-98ac-451c-836e-398645ea5615",
+            "uuid": "2302c824-6a71-4ed0-b784-5191c2e773a4",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -601,7 +601,7 @@
             "type": "vless",
             "server": "151.101.64.155",
             "server_port": 80,
-            "uuid": "823b79de-822d-45d0-98d6-3bc35c43a2ee",
+            "uuid": "4690de53-98ac-451c-836e-398645ea5615",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1403,11 +1403,11 @@
             }
         },
         {
-            "tag": "🇨🇳CN | 🟢 | vmess | @Hope_Net | 4",
+            "tag": "🇫🇷FR | 🟢 | vmess | @Hope_Net | 5",
             "type": "vmess",
-            "server": "87ab6ec1-sux8g0-susn3i-1lkt0.cm5.p5pv.com",
-            "server_port": 17235,
-            "uuid": "cd1b0ae0-4010-11ee-953a-f23c9164ca5d",
+            "server": "129.151.254.48",
+            "server_port": 443,
+            "uuid": "9b456c2a-f2c1-45e1-87a9-b7628b04bb24",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1417,14 +1417,31 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "129.151.254.48",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "129.151.254.48"
+                }
             }
         },
         {
-            "tag": "🇨🇳CN | 🟢 | vmess | @Hope_Net | 5",
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 6",
             "type": "vmess",
-            "server": "usz1.fgmcx.top",
-            "server_port": 23903,
-            "uuid": "be443689-bc64-49ff-85a5-8eecaa2235d3",
+            "server": "sanjose05.852224.ggff.net",
+            "server_port": 443,
+            "uuid": "89c1aea7-4d0d-4013-b663-0f94a3e6bdbd",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1434,6 +1451,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sanjose05.852224.ggff.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/YfB29GXf4cThJQeJb",
+                "headers": {
+                    "Host": "sanjose05.852224.ggff.net"
+                }
             }
         },
         {
