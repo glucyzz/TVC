@@ -110,6 +110,7 @@
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 6",
                 "🇨🇦CA | 🔴 | vless | @v2_team | 1",
                 "🇮🇷IR | 🔴 | vless | @v2_team | 2",
+                "🇸🇪SE | 🔴 | vless | @NIM_VPN_ir | 0",
                 "🇮🇷IR | 🔴 | vless | @XsV2ray | 1",
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 18",
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 19",
@@ -147,19 +148,19 @@
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 15",
                 "❔XX | 🔴 | vless | @MTConfig | 10",
                 "❔XX | 🔴 | vless | @MTConfig | 11",
+                "🇮🇷IR | 🔴 | vless | @v2ray_vpn_ir | 2",
                 "🇮🇷IR | 🔴 | vless | @v2ray_vpn_ir | 3",
                 "🇸🇬SG | 🔴 | vless | @free1_vpn | 5",
                 "🇷🇺RU | 🔴 | vless | @free1_vpn | 6",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 4",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 5",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 0",
-                "❔XX | 🔴 | vless | @Capoit | 0",
-                "🇮🇷IR | 🔴 | vless | @Capoit | 1",
+                "❔XX | 🔴 | vless | @Capoit | 1",
+                "🇮🇷IR | 🔴 | vless | @Capoit | 2",
                 "🇬🇧GB | 🔴 | vless | @FreakConfig | 6",
                 "🇸🇬SG | 🔴 | vless | @FreakConfig | 7",
                 "🇮🇷IR | 🟢 | vless | @flyv2ray | 7",
                 "🇮🇷IR | 🔴 | vless | @flyv2ray | 8",
-                "🇺🇸US | 🔴 | vless | @mehrosaboran | 0",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "🇪🇸ES | 🔴 | vless | @kingofilter | 0",
@@ -179,6 +180,7 @@
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 6",
                 "🇨🇦CA | 🔴 | vless | @v2_team | 1",
                 "🇮🇷IR | 🔴 | vless | @v2_team | 2",
+                "🇸🇪SE | 🔴 | vless | @NIM_VPN_ir | 0",
                 "🇮🇷IR | 🔴 | vless | @XsV2ray | 1",
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 18",
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 19",
@@ -216,19 +218,19 @@
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 15",
                 "❔XX | 🔴 | vless | @MTConfig | 10",
                 "❔XX | 🔴 | vless | @MTConfig | 11",
+                "🇮🇷IR | 🔴 | vless | @v2ray_vpn_ir | 2",
                 "🇮🇷IR | 🔴 | vless | @v2ray_vpn_ir | 3",
                 "🇸🇬SG | 🔴 | vless | @free1_vpn | 5",
                 "🇷🇺RU | 🔴 | vless | @free1_vpn | 6",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 4",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 5",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 0",
-                "❔XX | 🔴 | vless | @Capoit | 0",
-                "🇮🇷IR | 🔴 | vless | @Capoit | 1",
+                "❔XX | 🔴 | vless | @Capoit | 1",
+                "🇮🇷IR | 🔴 | vless | @Capoit | 2",
                 "🇬🇧GB | 🔴 | vless | @FreakConfig | 6",
                 "🇸🇬SG | 🔴 | vless | @FreakConfig | 7",
                 "🇮🇷IR | 🟢 | vless | @flyv2ray | 7",
                 "🇮🇷IR | 🔴 | vless | @flyv2ray | 8",
-                "🇺🇸US | 🔴 | vless | @mehrosaboran | 0",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "🇪🇸ES | 🔴 | vless | @kingofilter | 0",
@@ -307,6 +309,20 @@
             "server": "94.182.105.30",
             "server_port": 44062,
             "uuid": "dea94163-2cb3-466f-b32d-05922f0a02c4",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇸🇪SE | 🔴 | vless | @NIM_VPN_ir | 0",
+            "type": "vless",
+            "server": "vip4.digitalldns.net",
+            "server_port": 6590,
+            "uuid": "979934c7-0baa-4fa2-96ce-81722b541ddc",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1189,6 +1205,20 @@
             }
         },
         {
+            "tag": "🇮🇷IR | 🔴 | vless | @v2ray_vpn_ir | 2",
+            "type": "vless",
+            "server": "5.202.11.109",
+            "server_port": 4243,
+            "uuid": "bdc0b5df-b3c5-40d5-9664-c33a4bef8993",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
             "tag": "🇮🇷IR | 🔴 | vless | @v2ray_vpn_ir | 3",
             "type": "vless",
             "server": "5.202.11.109",
@@ -1328,7 +1358,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @Capoit | 0",
+            "tag": "❔XX | 🔴 | vless | @Capoit | 1",
             "type": "vless",
             "server": "digipay.com.snapp.app.pwa.mci.ir.nitter.ir",
             "server_port": 443,
@@ -1359,7 +1389,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | vless | @Capoit | 1",
+            "tag": "🇮🇷IR | 🔴 | vless | @Capoit | 2",
             "type": "vless",
             "server": "81.12.30.51",
             "server_port": 58045,
@@ -1461,27 +1491,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "85.133.206.235"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @mehrosaboran | 0",
-            "type": "vless",
-            "server": "151.101.64.155",
-            "server_port": 80,
-            "uuid": "23a5fea8-7503-474f-a412-9cc3027e1d73",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6",
-                "headers": {
-                    "Host": "151.101.64.155"
                 }
             }
         },
