@@ -147,6 +147,7 @@
                 "❔XX | 🔴 | vless | @MTConfig | 10",
                 "❔XX | 🔴 | vless | @MTConfig | 11",
                 "🇮🇷IR | 🔴 | vless | @lrnbymaa | 2",
+                "🇯🇵JP | 🔴 | vless | @v2ray_vpn_ir | 0",
                 "🇸🇬SG | 🔴 | vless | @free1_vpn | 5",
                 "🇷🇺RU | 🔴 | vless | @free1_vpn | 6",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 4",
@@ -215,6 +216,7 @@
                 "❔XX | 🔴 | vless | @MTConfig | 10",
                 "❔XX | 🔴 | vless | @MTConfig | 11",
                 "🇮🇷IR | 🔴 | vless | @lrnbymaa | 2",
+                "🇯🇵JP | 🔴 | vless | @v2ray_vpn_ir | 0",
                 "🇸🇬SG | 🔴 | vless | @free1_vpn | 5",
                 "🇷🇺RU | 🔴 | vless | @free1_vpn | 6",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 4",
@@ -1172,6 +1174,27 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇯🇵JP | 🔴 | vless | @v2ray_vpn_ir | 0",
+            "type": "vless",
+            "server": "217.60.36.198",
+            "server_port": 14961,
+            "uuid": "d89b753c-aeef-4fab-9c31-744397572941",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/VPNPacket",
+                "headers": {
+                    "Host": "217.60.36.198"
+                }
             }
         },
         {
