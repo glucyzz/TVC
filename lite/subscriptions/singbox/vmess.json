@@ -109,8 +109,8 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 6",
-                "🇸🇬SG | 🟢 | vmess | @Hope_Net | 7"
+                "❔XX | 🟢 | vmess | @Hope_Net | 4",
+                "🇸🇬SG | 🟢 | vmess | @Hope_Net | 5"
             ]
         },
         {
@@ -120,8 +120,8 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 6",
-                "🇸🇬SG | 🟢 | vmess | @Hope_Net | 7"
+                "❔XX | 🟢 | vmess | @Hope_Net | 4",
+                "🇸🇬SG | 🟢 | vmess | @Hope_Net | 5"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -219,11 +219,11 @@
             }
         },
         {
-            "tag": "🇨🇳CN | 🟢 | vmess | @Hope_Net | 6",
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 4",
             "type": "vmess",
-            "server": "bgp1.bgp1.miaomiaowu114514.org",
-            "server_port": 11111,
-            "uuid": "035374e8-60ff-34b3-9e7a-cca4cce31013",
+            "server": "127.0.0.1",
+            "server_port": 1080,
+            "uuid": "accaabb-aabc-caab-bdac-aacbbbcccaab",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -236,11 +236,11 @@
             }
         },
         {
-            "tag": "🇸🇬SG | 🟢 | vmess | @Hope_Net | 7",
+            "tag": "🇸🇬SG | 🟢 | vmess | @Hope_Net | 5",
             "type": "vmess",
-            "server": "217.142.184.110",
-            "server_port": 23452,
-            "uuid": "df012626-9d54-4d5d-b2ef-18ca034c246d",
+            "server": "47.129.201.186",
+            "server_port": 40000,
+            "uuid": "13364789-a8b2-4bcd-8df7-a794fb6f87e5",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -253,9 +253,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/bby",
                 "headers": {
-                    "Host": "217.142.184.110"
+                    "Host": ""
                 }
             }
         }
