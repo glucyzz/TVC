@@ -111,8 +111,8 @@
                 "🇮🇷IR | 🟢 | vmess | @V2rayng_Fast | 0",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇩🇪DE | 🟢 | vmess | @Hope_Net | 9",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 10"
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 5",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 6"
             ]
         },
         {
@@ -124,8 +124,8 @@
                 "🇮🇷IR | 🟢 | vmess | @V2rayng_Fast | 0",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇩🇪DE | 🟢 | vmess | @Hope_Net | 9",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 10"
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 5",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 6"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -257,13 +257,13 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vmess | @Hope_Net | 9",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 5",
             "type": "vmess",
-            "server": "89.163.231.19",
-            "server_port": 30005,
-            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+            "server": "uswuxian.pai50288.uk",
+            "server_port": 8443,
+            "uuid": "c313606f-98c2-4d7b-ba74-48b94f61b11d",
             "security": "auto",
-            "alter_id": 64,
+            "alter_id": 0,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -274,7 +274,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "www.80347320.xyz",
+                "server_name": "uswuxian.pai50288.uk",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -284,20 +284,20 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/path\/240811062813",
+                "path": "\/",
                 "headers": {
-                    "Host": "www.80347320.xyz"
+                    "Host": "uswuxian.pai50288.uk"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 10",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
             "type": "vmess",
-            "server": "38.14.107.233",
-            "server_port": 38003,
-            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+            "server": "s1.db-link01.top",
+            "server_port": 8880,
+            "uuid": "4b36625c-b9d9-3ea6-aed5-86d62c70e16d",
             "security": "auto",
-            "alter_id": 64,
+            "alter_id": 0,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -306,21 +306,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.23179753.xyz",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/path\/340434130032",
+                "path": "\/dabai.in172.67.95.35",
                 "headers": {
-                    "Host": "www.23179753.xyz"
+                    "Host": ""
                 }
             }
         }
