@@ -201,7 +201,6 @@ proxies:
   - {"name":"🇮🇷IR | 🔴 | vless | @vmessorg | 3","type":"vless","server":"ge.7gozar.net","port":25547,"udp":false,"uuid":"15ba8153-db69-4e7f-b3bd-6e9890071894","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/"}}
   - {"name":"🇺🇸US | 🔴 | vless | @vmessorg | 4","type":"vless","server":"151.101.3.8","port":80,"udp":false,"uuid":"6bb5f6b6-c886-4c9e-ad98-ab6674d211b1","tls":false,"network":"tcp","client-fingerprint":"chrome"}
   - {"name":"🇮🇷IR | 🔴 | vless | @vmessorg | 5","type":"vless","server":"netorg.nightwolf.shop","port":35457,"udp":false,"uuid":"84f732da-61ef-446a-87f9-e4f7710bf271","tls":false,"network":"grpc","client-fingerprint":"chrome"}
-  - {"name":"🇮🇷IR | 🔴 | vless | @vmessorg | 6","type":"vless","server":"gertu.topvmmarket.shop","port":2086,"udp":false,"uuid":"0742d3cb-f567-4075-a479-d15dcc7a3ece","tls":false,"network":"tcp","client-fingerprint":"chrome"}
   - {"name":"🚩CF | 🔴 | vless | @FalconPolV2rayNG | 0","type":"vless","server":"172.67.11.138","port":80,"udp":false,"uuid":"b55ec078-3b17-4ed1-a697-71f464cdcaaa","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/?ed=2560","headers":{"host":"kssepa.sabzipolobamahi.dpdns.org"}}}
   - {"name":"❔XX | 🔴 | vless | @ShadowProxy66 | 0","type":"vless","server":"de1mrz6.oxygen-server.site","port":4112,"udp":false,"uuid":"44a82c1f-5abe-4b47-b67d-50ad219d6677","tls":false,"network":"tcp","client-fingerprint":"chrome"}
   - {"name":"🇬🇧GB | 🔴 | vless | @ShadowProxy66 | 1","type":"vless","server":"102.177.189.248","port":2082,"udp":false,"uuid":"b111f8c5-1244-4ec8-8d74-79c13ef9037e","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/","headers":{"host":"q6.19kalA.co"}}}
@@ -301,7 +300,6 @@ proxies:
   - {"name":"❔XX | 🔴 | vless | @vpn_go67 | 18","type":"vless","server":"public.alpanel.top","port":1380,"udp":true,"uuid":"58c15a7e-8111-4abb-afd2-47590085c3f4","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"www.iranserver.com","grpc-opts":{"grpc-service-name":"@vmesskhodam,@vmesskhodam,@vmesskhodam,@vmesskhodam,@vmesskhodam,@vmesskhodam,@vmesskhodam,@vmesskhodam,@vmesskhodam"},"reality-opts":{"public-key":"u2Xf8Og6H4iPcoYIZC8Cm8ziH2LA4ifvpHxEpp8bfUw","short-id":"4c5aaad0"}}
   - {"name":"❔XX | 🔴 | vless | @vpn_go67 | 19","type":"vless","server":"public.alpanel.top","port":1403,"udp":true,"uuid":"671b9a72-7c75-46b9-be82-db2734bae2fc","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"tuyacn.com","grpc-opts":{"grpc-service-name":"@vmesskhodam,@vmesskhodam,@vmesskhodam,@vmesskhodam,@vmesskhodam"},"reality-opts":{"public-key":"rCdor1DLbQcXbNBD9aiLIoCYHwqTMh8ao9MIPMXo0yA","short-id":"99"}}
   - {"name":"❔XX | 🔴 | vless | @vpn_go67 | 21","type":"vless","server":"public.alpanel.top","port":1403,"udp":true,"uuid":"4c6451ba-6594-4d67-a8ae-4df79815a4e3","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"tuyacn.com","grpc-opts":{"grpc-service-name":"@vmesskhodam,@vmesskhodam,@vmesskhodam,@vmesskhodam,@vmesskhodam"},"reality-opts":{"public-key":"rCdor1DLbQcXbNBD9aiLIoCYHwqTMh8ao9MIPMXo0yA","short-id":"99"}}
-  - {"name":"🇺🇸US | 🔴 | vless | @kingofilter | 5","type":"vless","server":"151.101.0.155","port":80,"udp":false,"uuid":"19feae2c-ca06-46af-b182-5f9ef72b3e5c","tls":false,"network":"xhttp","client-fingerprint":"chrome"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -389,7 +387,6 @@ proxy-groups:
       - '🇮🇷IR | 🔴 | vless | @vmessorg | 3'
       - '🇺🇸US | 🔴 | vless | @vmessorg | 4'
       - '🇮🇷IR | 🔴 | vless | @vmessorg | 5'
-      - '🇮🇷IR | 🔴 | vless | @vmessorg | 6'
       - '🚩CF | 🔴 | vless | @FalconPolV2rayNG | 0'
       - '❔XX | 🔴 | vless | @ShadowProxy66 | 0'
       - '🇬🇧GB | 🔴 | vless | @ShadowProxy66 | 1'
@@ -489,7 +486,6 @@ proxy-groups:
       - '❔XX | 🔴 | vless | @vpn_go67 | 18'
       - '❔XX | 🔴 | vless | @vpn_go67 | 19'
       - '❔XX | 🔴 | vless | @vpn_go67 | 21'
-      - '🇺🇸US | 🔴 | vless | @kingofilter | 5'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -577,7 +573,6 @@ proxy-groups:
       - '🇮🇷IR | 🔴 | vless | @vmessorg | 3'
       - '🇺🇸US | 🔴 | vless | @vmessorg | 4'
       - '🇮🇷IR | 🔴 | vless | @vmessorg | 5'
-      - '🇮🇷IR | 🔴 | vless | @vmessorg | 6'
       - '🚩CF | 🔴 | vless | @FalconPolV2rayNG | 0'
       - '❔XX | 🔴 | vless | @ShadowProxy66 | 0'
       - '🇬🇧GB | 🔴 | vless | @ShadowProxy66 | 1'
@@ -677,7 +672,6 @@ proxy-groups:
       - '❔XX | 🔴 | vless | @vpn_go67 | 18'
       - '❔XX | 🔴 | vless | @vpn_go67 | 19'
       - '❔XX | 🔴 | vless | @vpn_go67 | 21'
-      - '🇺🇸US | 🔴 | vless | @kingofilter | 5'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -764,7 +758,6 @@ proxy-groups:
       - '🇮🇷IR | 🔴 | vless | @vmessorg | 3'
       - '🇺🇸US | 🔴 | vless | @vmessorg | 4'
       - '🇮🇷IR | 🔴 | vless | @vmessorg | 5'
-      - '🇮🇷IR | 🔴 | vless | @vmessorg | 6'
       - '🚩CF | 🔴 | vless | @FalconPolV2rayNG | 0'
       - '❔XX | 🔴 | vless | @ShadowProxy66 | 0'
       - '🇬🇧GB | 🔴 | vless | @ShadowProxy66 | 1'
@@ -864,7 +857,6 @@ proxy-groups:
       - '❔XX | 🔴 | vless | @vpn_go67 | 18'
       - '❔XX | 🔴 | vless | @vpn_go67 | 19'
       - '❔XX | 🔴 | vless | @vpn_go67 | 21'
-      - '🇺🇸US | 🔴 | vless | @kingofilter | 5'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
   ads: {type: http, format: text, behavior: domain, path: ./ruleset/ads.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ads.txt, interval: 86400}
