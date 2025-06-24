@@ -119,7 +119,7 @@
                 "🇺🇸US | 🔴 | vless | @melov2ray | 14",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 15",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 16",
-                "🇨🇦CA | 🔴 | vless | @ARv2ray | 17",
+                "🇺🇸US | 🔴 | vless | @ARv2ray | 17",
                 "🇩🇪DE | 🔴 | vless | @Lockey_vpn | 17",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 18",
                 "🇩🇪DE | 🟢 | vless | @CUSTOMVPNSERVER | 9",
@@ -129,6 +129,7 @@
                 "❔XX | 🔴 | vless | @v2logy | 10",
                 "🇮🇷IR | 🔴 | vless | @Watashi_VPN | 2",
                 "🇮🇷IR | 🔴 | vless | @Watashi_VPN | 3",
+                "🇮🇷IR | 🔴 | vless | @azadi_az_inja_migzare | 0",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 20",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 21",
                 "🇺🇸US | 🔴 | vless | @V2rayNGn | 11",
@@ -150,8 +151,8 @@
                 "❔XX | 🔴 | vless | @MTConfig | 4",
                 "🇺🇸US | 🔴 | vless | @MTConfig | 5",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 12",
-                "🇺🇸US | 🔴 | vless | @v2ray_vpn_ir | 12",
-                "🇺🇸US | 🔴 | vless | @v2ray_vpn_ir | 13",
+                "🇺🇸US | 🔴 | vless | @v2ray_vpn_ir | 14",
+                "🇺🇸US | 🔴 | vless | @v2ray_vpn_ir | 15",
                 "🇩🇪DE | 🔴 | vless | @free1_vpn | 3",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 4",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 4",
@@ -188,7 +189,7 @@
                 "🇺🇸US | 🔴 | vless | @melov2ray | 14",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 15",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 16",
-                "🇨🇦CA | 🔴 | vless | @ARv2ray | 17",
+                "🇺🇸US | 🔴 | vless | @ARv2ray | 17",
                 "🇩🇪DE | 🔴 | vless | @Lockey_vpn | 17",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 18",
                 "🇩🇪DE | 🟢 | vless | @CUSTOMVPNSERVER | 9",
@@ -198,6 +199,7 @@
                 "❔XX | 🔴 | vless | @v2logy | 10",
                 "🇮🇷IR | 🔴 | vless | @Watashi_VPN | 2",
                 "🇮🇷IR | 🔴 | vless | @Watashi_VPN | 3",
+                "🇮🇷IR | 🔴 | vless | @azadi_az_inja_migzare | 0",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 20",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 21",
                 "🇺🇸US | 🔴 | vless | @V2rayNGn | 11",
@@ -219,8 +221,8 @@
                 "❔XX | 🔴 | vless | @MTConfig | 4",
                 "🇺🇸US | 🔴 | vless | @MTConfig | 5",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 12",
-                "🇺🇸US | 🔴 | vless | @v2ray_vpn_ir | 12",
-                "🇺🇸US | 🔴 | vless | @v2ray_vpn_ir | 13",
+                "🇺🇸US | 🔴 | vless | @v2ray_vpn_ir | 14",
+                "🇺🇸US | 🔴 | vless | @v2ray_vpn_ir | 15",
                 "🇩🇪DE | 🔴 | vless | @free1_vpn | 3",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 4",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 4",
@@ -504,7 +506,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @ARv2ray | 17",
+            "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 17",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 80,
@@ -712,6 +714,20 @@
             "server": "v2test.bing-net.com",
             "server_port": 9820,
             "uuid": "fd8be8ca-e1e8-477f-9a97-d8d8e63455ed",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇮🇷IR | 🔴 | vless | @azadi_az_inja_migzare | 0",
+            "type": "vless",
+            "server": "t.nargil00.site",
+            "server_port": 20729,
+            "uuid": "9e920ecc-22aa-43a9-ebc9-3120f1f2b892",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1219,11 +1235,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @v2ray_vpn_ir | 12",
+            "tag": "🇺🇸US | 🔴 | vless | @v2ray_vpn_ir | 14",
             "type": "vless",
             "server": "speedtest.net",
             "server_port": 80,
-            "uuid": "5a9e168e-1fed-4137-9de2-fbe5fe9ec691",
+            "uuid": "85f77267-cb35-4c00-9f68-8c063076d0d3",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1240,11 +1256,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @v2ray_vpn_ir | 13",
+            "tag": "🇺🇸US | 🔴 | vless | @v2ray_vpn_ir | 15",
             "type": "vless",
             "server": "151.101.3.8",
             "server_port": 80,
-            "uuid": "c4396df5-beef-434f-86e0-b891a992f4c2",
+            "uuid": "b093b9d7-afe4-4106-8ede-93f27fffe30b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
