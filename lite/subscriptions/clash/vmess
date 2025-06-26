@@ -119,8 +119,9 @@ dns:
 
 proxies:
   - {"name":"🇨🇳CN | 🟢 | vmess | @mftizi | 17","type":"vmess","server":"183.236.51.23","port":"53002","cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇸🇬SG | 🟢 | vmess | @DeamNet_Proxy | 19","type":"vmess","server":"84.247.146.161","port":"39530","cipher":"auto","uuid":"7aa56e39-29b8-45c3-8b53-6d2a23b2461c","alterId":"0","tls":false,"skip-cert-verify":true,"network":"raw"}
   - {"name":"❔XX | 🟢 | vmess | @yaney_01 | 4","type":"vmess","server":"ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub","port":"80","cipher":"auto","uuid":"46cfcfe1-e450-459d-a3ab-9406011ab3eb","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
-  - {"name":"🇨🇳CN | 🟢 | vmess | @Hope_Net | 5","type":"vmess","server":"17.mamamajd.site","port":"23617","cipher":"auto","uuid":"eb93d5fa-19a5-3c33-97d6-13944c1effdf","alterId":"2","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"17.mamamajd.site"}}}
+  - {"name":"🇨🇳CN | 🟢 | vmess | @Hope_Net | 5","type":"vmess","server":"183.232.155.43","port":"53236","cipher":"auto","uuid":"d8e6f12b-6582-3efa-88cc-992b13fee5aa","alterId":"2","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/windows10","headers":{"host":"bn1.hk.tifa.pro"}}}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -128,6 +129,7 @@ proxy-groups:
       - URL-TEST
       - FALLBACK
       - '🇨🇳CN | 🟢 | vmess | @mftizi | 17'
+      - '🇸🇬SG | 🟢 | vmess | @DeamNet_Proxy | 19'
       - '❔XX | 🟢 | vmess | @yaney_01 | 4'
       - '🇨🇳CN | 🟢 | vmess | @Hope_Net | 5'
   - name: URL-TEST
@@ -137,6 +139,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - '🇨🇳CN | 🟢 | vmess | @mftizi | 17'
+      - '🇸🇬SG | 🟢 | vmess | @DeamNet_Proxy | 19'
       - '❔XX | 🟢 | vmess | @yaney_01 | 4'
       - '🇨🇳CN | 🟢 | vmess | @Hope_Net | 5'
   - name: FALLBACK
@@ -145,6 +148,7 @@ proxy-groups:
     interval: 60
     proxies:
       - '🇨🇳CN | 🟢 | vmess | @mftizi | 17'
+      - '🇸🇬SG | 🟢 | vmess | @DeamNet_Proxy | 19'
       - '❔XX | 🟢 | vmess | @yaney_01 | 4'
       - '🇨🇳CN | 🟢 | vmess | @Hope_Net | 5'
 rules:
