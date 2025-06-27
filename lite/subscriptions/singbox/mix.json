@@ -114,7 +114,7 @@
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 18",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 19",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 6",
-                "🇺🇸US | 🔴 | vless | @ipV2Ray | 7",
+                "🇨🇦CA | 🔴 | vless | @ipV2Ray | 7",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 6",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 7",
                 "🇱🇻LV | 🔴 | vless | @V2pedia | 2",
@@ -164,8 +164,7 @@
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇸🇬SG | 🔴 | vless | @free1_vpn | 3",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 4",
-                "❔XX | 🟢 | vmess | @Hope_Net | 5",
+                "❔XX | 🟢 | vmess | @Hope_Net | 8",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 2",
                 "🇺🇸US | 🟢 | vmess | @fnet00 | 3",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 5",
@@ -195,7 +194,7 @@
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 18",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 19",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 6",
-                "🇺🇸US | 🔴 | vless | @ipV2Ray | 7",
+                "🇨🇦CA | 🔴 | vless | @ipV2Ray | 7",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 6",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 7",
                 "🇱🇻LV | 🔴 | vless | @V2pedia | 2",
@@ -245,8 +244,7 @@
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇸🇬SG | 🔴 | vless | @free1_vpn | 3",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 4",
-                "❔XX | 🟢 | vmess | @Hope_Net | 5",
+                "❔XX | 🟢 | vmess | @Hope_Net | 8",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 2",
                 "🇺🇸US | 🟢 | vmess | @fnet00 | 3",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 5",
@@ -461,7 +459,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ipV2Ray | 7",
+            "tag": "🇨🇦CA | 🔴 | vless | @ipV2Ray | 7",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 80,
@@ -1598,45 +1596,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 4",
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 8",
             "type": "vmess",
-            "server": "ny1.bulkcash.top",
-            "server_port": 41507,
-            "uuid": "695ac0a3-406a-41d7-83c5-5af8c39d3bec",
-            "security": "auto",
-            "alter_id": 5,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 5",
-            "type": "vmess",
-            "server": "esna.twn24.ir",
-            "server_port": 443,
-            "uuid": "8c9a6382-2bbe-41c4-bfa7-c1f518533023",
+            "server": "127.0.0.1",
+            "server_port": 8080,
+            "uuid": "acbbaca-baca-caba-dcab-babbaccbaacc",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1646,23 +1610,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "esna.twn24.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/24820\/",
-                "headers": {
-                    "Host": "esna.twn24.ir"
-                }
             }
         },
         {
