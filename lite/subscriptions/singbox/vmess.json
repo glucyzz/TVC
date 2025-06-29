@@ -110,8 +110,8 @@
                 "🇸🇬SG | 🟢 | vmess | @DeamNet_Proxy | 18",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 13",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 14",
+                "🇭🇰HK | 🟢 | vmess | @Hope_Net | 5",
+                "🇸🇬SG | 🟢 | vmess | @Hope_Net | 6",
                 "🇺🇸US | 🟢 | vmess | @fnet00 | 3"
             ]
         },
@@ -123,8 +123,8 @@
                 "🇸🇬SG | 🟢 | vmess | @DeamNet_Proxy | 18",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 13",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 14",
+                "🇭🇰HK | 🟢 | vmess | @Hope_Net | 5",
+                "🇸🇬SG | 🟢 | vmess | @Hope_Net | 6",
                 "🇺🇸US | 🟢 | vmess | @fnet00 | 3"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -240,13 +240,13 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 13",
+            "tag": "🇭🇰HK | 🟢 | vmess | @Hope_Net | 5",
             "type": "vmess",
-            "server": "142.4.108.131",
-            "server_port": 38007,
-            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+            "server": "47.243.35.173",
+            "server_port": 23279,
+            "uuid": "161a2ffc-2279-4f35-fa76-b75ae1fcfa54",
             "security": "auto",
-            "alter_id": 64,
+            "alter_id": 0,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -257,7 +257,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "",
+                "server_name": "hk3.lrzdx.uk",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -267,20 +267,20 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/path\/283126261303",
+                "path": "\/161a2ffc-2279-4f35-fa76-b75ae1fcfa54",
                 "headers": {
-                    "Host": ""
+                    "Host": "hk3.lrzdx.uk"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 14",
+            "tag": "🇸🇬SG | 🟢 | vmess | @Hope_Net | 6",
             "type": "vmess",
-            "server": "170.178.181.22",
-            "server_port": 45555,
-            "uuid": "6e37dfd3-534d-44f2-828d-16e7a9c0bfb2",
+            "server": "62.146.232.156",
+            "server_port": 33281,
+            "uuid": "24eda0ea-acf0-4538-a001-f746a480237a",
             "security": "auto",
-            "alter_id": 64,
+            "alter_id": 0,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -288,23 +288,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "170.178.181.22",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/path\/1739696450446",
-                "headers": {
-                    "Host": "170.178.181.22"
-                }
             }
         },
         {
