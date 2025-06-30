@@ -141,7 +141,7 @@
                 "🇮🇷IR | 🔴 | vless | @prrofile_purple | 50",
                 "🇮🇷IR | 🔴 | vless | @prrofile_purple | 51",
                 "🇺🇸US | 🔴 | vless | @UnlimitedDev | 0",
-                "🇮🇷IR | 🔴 | vless | @vmessorg | 13",
+                "🇺🇸US | 🔴 | vless | @vmessorg | 13",
                 "🇮🇷IR | 🔴 | vless | @vmessorg | 14",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 0",
                 "🇩🇪DE | 🔴 | vless | @ShadowProxy66 | 0",
@@ -211,7 +211,7 @@
                 "🇮🇷IR | 🔴 | vless | @prrofile_purple | 50",
                 "🇮🇷IR | 🔴 | vless | @prrofile_purple | 51",
                 "🇺🇸US | 🔴 | vless | @UnlimitedDev | 0",
-                "🇮🇷IR | 🔴 | vless | @vmessorg | 13",
+                "🇺🇸US | 🔴 | vless | @vmessorg | 13",
                 "🇮🇷IR | 🔴 | vless | @vmessorg | 14",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 0",
                 "🇩🇪DE | 🔴 | vless | @ShadowProxy66 | 0",
@@ -1032,7 +1032,28 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | vless | @vmessorg | 13",
+            "tag": "🇺🇸US | 🔴 | vless | @vmessorg | 13",
+            "type": "vless",
+            "server": "104.17.147.22",
+            "server_port": 80,
+            "uuid": "1f5056ca-fb4c-4b51-a31e-891083588351",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram@V2ray_Alpha\/?ed=2560",
+                "headers": {
+                    "Host": "104.17.147.22"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇷IR | 🔴 | vless | @vmessorg | 14",
             "type": "vless",
             "server": "tn.pingtools.net",
             "server_port": 2087,
@@ -1043,27 +1064,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇮🇷IR | 🔴 | vless | @vmessorg | 14",
-            "type": "vless",
-            "server": "asia6.novahomedesigntips.com",
-            "server_port": 6677,
-            "uuid": "316315d1-964c-4989-d3cd-d6bb14fffa06",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "asia6.novahomedesigntips.com"
-                }
             }
         },
         {
