@@ -156,8 +156,9 @@
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 0",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 188",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 189",
+                "🇺🇸US | 🔴 | vless | @proxystore11 | 6",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 9",
-                "🇺🇸US | 🔴 | vless | @free1_vpn | 10",
+                "🇫🇷FR | 🔴 | vless | @free1_vpn | 10",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 4",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8",
                 "🇮🇷IR | 🔴 | vless | @Outlinev2rayNG | 9",
@@ -229,8 +230,9 @@
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 0",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 188",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 189",
+                "🇺🇸US | 🔴 | vless | @proxystore11 | 6",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 9",
-                "🇺🇸US | 🔴 | vless | @free1_vpn | 10",
+                "🇫🇷FR | 🔴 | vless | @free1_vpn | 10",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 4",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8",
                 "🇮🇷IR | 🔴 | vless | @Outlinev2rayNG | 9",
@@ -1390,6 +1392,30 @@
             }
         },
         {
+            "tag": "🇺🇸US | 🔴 | vless | @proxystore11 | 6",
+            "type": "vless",
+            "server": "cname.proxystore11.news",
+            "server_port": 8443,
+            "uuid": "3407d572-2d0b-43f2-9ee8-0d84c0fe13bd",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "prx11.proxystore11.news",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | 🔴 | vless | @free1_vpn | 9",
             "type": "vless",
             "server": "172.66.132.44",
@@ -1411,7 +1437,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @free1_vpn | 10",
+            "tag": "🇫🇷FR | 🔴 | vless | @free1_vpn | 10",
             "type": "vless",
             "server": "141.101.121.243",
             "server_port": 8080,
