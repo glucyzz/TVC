@@ -124,7 +124,7 @@
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 17",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 18",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 19",
-                "🇨🇦CA | 🔴 | vless | @vpn_xw | 0",
+                "🇺🇸US | 🔴 | vless | @vpn_xw | 0",
                 "❔XX | 🔴 | vless | @CUSTOMVPNSERVER | 10",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 6",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 7",
@@ -160,8 +160,8 @@
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 9",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 10",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 4",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 9",
+                "🇬🇧GB | 🟢 | vless | @Outlinev2rayNG | 9",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 10",
                 "❔XX | 🔴 | vless | @Capoit | 0",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 5",
                 "🇸🇬SG | 🔴 | vless | @flyv2ray | 6",
@@ -200,7 +200,7 @@
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 17",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 18",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 19",
-                "🇨🇦CA | 🔴 | vless | @vpn_xw | 0",
+                "🇺🇸US | 🔴 | vless | @vpn_xw | 0",
                 "❔XX | 🔴 | vless | @CUSTOMVPNSERVER | 10",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 6",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 7",
@@ -236,8 +236,8 @@
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 9",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 10",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 4",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 9",
+                "🇬🇧GB | 🟢 | vless | @Outlinev2rayNG | 9",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 10",
                 "❔XX | 🔴 | vless | @Capoit | 0",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 5",
                 "🇸🇬SG | 🔴 | vless | @flyv2ray | 6",
@@ -657,7 +657,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @vpn_xw | 0",
+            "tag": "🇺🇸US | 🔴 | vless | @vpn_xw | 0",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 80,
@@ -1469,7 +1469,36 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8",
+            "tag": "🇬🇧GB | 🟢 | vless | @Outlinev2rayNG | 9",
+            "type": "vless",
+            "server": "51.91.173.52",
+            "server_port": 7852,
+            "uuid": "2917d821-9327-4c76-bf7f-1b7857b38811",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.speedtest.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "rBXjuQ9eGNAUtELw1KFOMH7Aq0Q2t3RqcbdPcddYyTk",
+                    "short_id": "69"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 10",
             "type": "vless",
             "server": "172.66.132.44",
             "server_port": 80,
@@ -1486,27 +1515,6 @@
                 "path": "\/?ed=2560",
                 "headers": {
                     "Host": "172.66.132.44"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 9",
-            "type": "vless",
-            "server": "104.16.104.151",
-            "server_port": 80,
-            "uuid": "1f431db3-1918-4e7b-a855-c93485e11694",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/?ed=2560",
-                "headers": {
-                    "Host": "104.16.104.151"
                 }
             }
         },
