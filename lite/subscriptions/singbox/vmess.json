@@ -107,10 +107,11 @@
             "outbounds": [
                 "URL-TEST",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
+                "🇭🇰HK | 🟢 | vmess | @DeamNet_Proxy | 18",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇩🇪DE | 🟢 | vmess | @Hope_Net | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 6",
+                "❔XX | 🟢 | vmess | @Hope_Net | 4",
+                "❔XX | 🟢 | vmess | @Hope_Net | 5",
                 "🇺🇸US | 🟢 | vmess | @fnet00 | 5",
                 "🇳🇱NL | 🟢 | vmess | @FreakConfig | 0"
             ]
@@ -120,10 +121,11 @@
             "type": "urltest",
             "outbounds": [
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
+                "🇭🇰HK | 🟢 | vmess | @DeamNet_Proxy | 18",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇩🇪DE | 🟢 | vmess | @Hope_Net | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 6",
+                "❔XX | 🟢 | vmess | @Hope_Net | 4",
+                "❔XX | 🟢 | vmess | @Hope_Net | 5",
                 "🇺🇸US | 🟢 | vmess | @fnet00 | 5",
                 "🇳🇱NL | 🟢 | vmess | @FreakConfig | 0"
             ],
@@ -162,6 +164,30 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇭🇰HK | 🟢 | vmess | @DeamNet_Proxy | 18",
+            "type": "vmess",
+            "server": "64f6e0b2-sw1z40-t51bp0-1nyy5.hgc1.tcpbbr.net",
+            "server_port": 8080,
+            "uuid": "8f7cb770-1305-11ee-b107-f23c91cfbbc9",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "64f6e0b2-sw1z40-t51bp0-1nyy5.hgc1.tcpbbr.net"
+                }
             }
         },
         {
@@ -223,11 +249,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vmess | @Hope_Net | 5",
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 4",
             "type": "vmess",
-            "server": "185.121.134.12",
-            "server_port": 20315,
-            "uuid": "fa2a3c9b-47c0-41ba-8a8e-ff66ba96a286",
+            "server": "127.0.0.1",
+            "server_port": 8080,
+            "uuid": "cabcbaa-aacb-baac-abdc-acabbbbcaacc",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -237,21 +263,14 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "185.121.134.12"
-                }
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 6",
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 5",
             "type": "vmess",
-            "server": "join.ISVvpn.fastly80-3.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "ca387597-d79e-48c2-89a7-e2dc66a88a70",
+            "server": "127.0.0.1",
+            "server_port": 2080,
+            "uuid": "abbccaa-caba-baca-cdba-ccccabaabbba",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -261,13 +280,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/racevpn",
-                "headers": {
-                    "Host": "join.ISVvpn.fastly80-3.hosting-ip.com"
-                }
             }
         },
         {
