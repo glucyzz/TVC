@@ -188,7 +188,6 @@
                 "🇩🇪DE | 🔴 | vless | @Lockey_vpn | 17",
                 "🚩CF | 🔴 | vless | @Lockey_vpn | 18",
                 "🚩CF | 🔴 | vless | @Lockey_vpn | 19",
-                "🇺🇸US | 🔴 | vless | @vpn_xw | 0",
                 "🇮🇷IR | 🔴 | vless | @CUSTOMVPNSERVER | 0",
                 "🇺🇸US | 🔴 | vless | @CUSTOMVPNSERVER | 1",
                 "🇺🇸US | 🔴 | vless | @CUSTOMVPNSERVER | 2",
@@ -513,7 +512,6 @@
                 "🇩🇪DE | 🔴 | vless | @Lockey_vpn | 17",
                 "🚩CF | 🔴 | vless | @Lockey_vpn | 18",
                 "🚩CF | 🔴 | vless | @Lockey_vpn | 19",
-                "🇺🇸US | 🔴 | vless | @vpn_xw | 0",
                 "🇮🇷IR | 🔴 | vless | @CUSTOMVPNSERVER | 0",
                 "🇺🇸US | 🔴 | vless | @CUSTOMVPNSERVER | 1",
                 "🇺🇸US | 🔴 | vless | @CUSTOMVPNSERVER | 2",
@@ -2702,27 +2700,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @vpn_xw | 0",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 80,
-            "uuid": "7c9e3c1d-a360-4429-9189-e45a98de7fde",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram@V2ray_Alpha\/?ed=2560",
-                "headers": {
-                    "Host": "www.speedtest.net"
-                }
             }
         },
         {
