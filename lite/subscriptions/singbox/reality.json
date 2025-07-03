@@ -107,9 +107,8 @@
             "outbounds": [
                 "URL-TEST",
                 "🇩🇪DE | 🔴 | vless | @V2pedia | 10",
-                "🇫🇮FI | 🟢 | vless | @ShadowProxy66 | 0",
-                "🇬🇧GB | 🟢 | vless | @DailyV2RY | 49",
-                "🇬🇧GB | 🟢 | vless | @DailyV2RY | 50",
+                "🇬🇧GB | 🟢 | vless | @DailyV2RY | 61",
+                "🇬🇧GB | 🟢 | vless | @DailyV2RY | 62",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 4",
                 "🇺🇸US | 🟢 | vless | @proxy_mtm | 2",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
@@ -121,9 +120,8 @@
             "type": "urltest",
             "outbounds": [
                 "🇩🇪DE | 🔴 | vless | @V2pedia | 10",
-                "🇫🇮FI | 🟢 | vless | @ShadowProxy66 | 0",
-                "🇬🇧GB | 🟢 | vless | @DailyV2RY | 49",
-                "🇬🇧GB | 🟢 | vless | @DailyV2RY | 50",
+                "🇬🇧GB | 🟢 | vless | @DailyV2RY | 61",
+                "🇬🇧GB | 🟢 | vless | @DailyV2RY | 62",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 4",
                 "🇺🇸US | 🟢 | vless | @proxy_mtm | 2",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
@@ -179,36 +177,7 @@
             }
         },
         {
-            "tag": "🇫🇮FI | 🟢 | vless | @ShadowProxy66 | 0",
-            "type": "vless",
-            "server": "94.156.116.5",
-            "server_port": 443,
-            "uuid": "7f97131b-0d9d-4be9-b7b4-3fa21403cffa",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "yahoo.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "b2wRFAmT2Mm6a_EXPfWBu4BYw-wNGlXHWoO3lPqGoXw",
-                    "short_id": "86"
-                }
-            }
-        },
-        {
-            "tag": "🇬🇧GB | 🟢 | vless | @DailyV2RY | 49",
+            "tag": "🇬🇧GB | 🟢 | vless | @DailyV2RY | 61",
             "type": "vless",
             "server": "v02.vxlimir.com",
             "server_port": 1370,
@@ -237,7 +206,7 @@
             }
         },
         {
-            "tag": "🇬🇧GB | 🟢 | vless | @DailyV2RY | 50",
+            "tag": "🇬🇧GB | 🟢 | vless | @DailyV2RY | 62",
             "type": "vless",
             "server": "v01.vxlimir.com",
             "server_port": 1370,
