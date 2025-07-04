@@ -140,6 +140,7 @@
                 "🇩🇪DE | 🟢 | trojan | @DirectVPN | 14",
                 "🇩🇪DE | 🟢 | trojan | @DirectVPN | 15",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
+                "🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 18",
                 "🇺🇸US | 🔴 | vless | @Outline_Vpn | 10",
                 "🇺🇸US | 🔴 | vless | @Outline_Vpn | 11",
                 "🇮🇷IR | 🔴 | vless | @prrofile_purple | 110",
@@ -163,8 +164,8 @@
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 4",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 7",
-                "🇫🇷FR | 🟢 | vmess | @Hope_Net | 8",
+                "❔XX | 🟢 | vmess | @Hope_Net | 7",
+                "🇸🇬SG | 🟢 | vmess | @Hope_Net | 8",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 4",
                 "🇺🇸US | 🟢 | vmess | @fnet00 | 5",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6",
@@ -220,6 +221,7 @@
                 "🇩🇪DE | 🟢 | trojan | @DirectVPN | 14",
                 "🇩🇪DE | 🟢 | trojan | @DirectVPN | 15",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
+                "🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 18",
                 "🇺🇸US | 🔴 | vless | @Outline_Vpn | 10",
                 "🇺🇸US | 🔴 | vless | @Outline_Vpn | 11",
                 "🇮🇷IR | 🔴 | vless | @prrofile_purple | 110",
@@ -243,8 +245,8 @@
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 4",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 7",
-                "🇫🇷FR | 🟢 | vmess | @Hope_Net | 8",
+                "❔XX | 🟢 | vmess | @Hope_Net | 7",
+                "🇸🇬SG | 🟢 | vmess | @Hope_Net | 8",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 4",
                 "🇺🇸US | 🟢 | vmess | @fnet00 | 5",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6",
@@ -1008,6 +1010,16 @@
             }
         },
         {
+            "tag": "🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 18",
+            "type": "shadowsocks",
+            "server": "admin.c2.webramz.co",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "WstuSnlu4ieA9M0L",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
             "tag": "🇺🇸US | 🔴 | vless | @Outline_Vpn | 10",
             "type": "vless",
             "server": "104.17.147.22",
@@ -1552,11 +1564,28 @@
             }
         },
         {
-            "tag": "🇨🇳CN | 🟢 | vmess | @Hope_Net | 7",
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 7",
             "type": "vmess",
-            "server": "hsj.lbxjc.online",
-            "server_port": 80,
-            "uuid": "e6543319-0574-42ac-b778-1c4325d626f5",
+            "server": "127.0.0.1",
+            "server_port": 2080,
+            "uuid": "baaabcc-abac-baac-adbc-cbbaacaccbab",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇸🇬SG | 🟢 | vmess | @Hope_Net | 8",
+            "type": "vmess",
+            "server": "140.245.50.99",
+            "server_port": 23452,
+            "uuid": "f895c165-00aa-4cbd-8a2a-c3952c54c9a4",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1571,41 +1600,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇫🇷FR | 🟢 | vmess | @Hope_Net | 8",
-            "type": "vmess",
-            "server": "146.19.168.161",
-            "server_port": 443,
-            "uuid": "3f638f34-8dba-4186-bc43-2716a7ddd4be",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "az05.beyondy.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/link",
-                "headers": {
-                    "Host": "az05.beyondy.cfd"
+                    "Host": "140.245.50.99"
                 }
             }
         },
