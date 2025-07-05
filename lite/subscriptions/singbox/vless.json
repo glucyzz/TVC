@@ -123,7 +123,7 @@
                 "🇩🇪DE | 🔴 | vless | @ARv2ray | 15",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 16",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 18",
-                "🇨🇦CA | 🔴 | vless | @Lockey_vpn | 19",
+                "🇺🇸US | 🔴 | vless | @Lockey_vpn | 19",
                 "❔XX | 🔴 | vless | @CUSTOMVPNSERVER | 10",
                 "❔XX | 🔴 | vless | @CUSTOMVPNSERVER | 11",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 6",
@@ -194,7 +194,7 @@
                 "🇩🇪DE | 🔴 | vless | @ARv2ray | 15",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 16",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 18",
-                "🇨🇦CA | 🔴 | vless | @Lockey_vpn | 19",
+                "🇺🇸US | 🔴 | vless | @Lockey_vpn | 19",
                 "❔XX | 🔴 | vless | @CUSTOMVPNSERVER | 10",
                 "❔XX | 🔴 | vless | @CUSTOMVPNSERVER | 11",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 6",
@@ -624,7 +624,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @Lockey_vpn | 19",
+            "tag": "🇺🇸US | 🔴 | vless | @Lockey_vpn | 19",
             "type": "vless",
             "server": "104.17.148.22",
             "server_port": 8880,
@@ -1324,6 +1324,27 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 4",
             "type": "vless",
+            "server": "172.67.128.105",
+            "server_port": 80,
+            "uuid": "4179c595-08ca-45cd-b555-91b6f1faeadc",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/?ed=2560",
+                "headers": {
+                    "Host": "172.67.128.105"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 5",
+            "type": "vless",
             "server": "104.16.104.151",
             "server_port": 80,
             "uuid": "1f431db3-1918-4e7b-a855-c93485e11694",
@@ -1339,27 +1360,6 @@
                 "path": "\/?ed=2560",
                 "headers": {
                     "Host": "104.16.104.151"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 5",
-            "type": "vless",
-            "server": "172.67.67.92",
-            "server_port": 80,
-            "uuid": "f78ce1bb-0fa6-4ef4-b4c9-b91014a7055d",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/?ed=2560",
-                "headers": {
-                    "Host": "172.67.67.92"
                 }
             }
         },
