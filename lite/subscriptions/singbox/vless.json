@@ -154,6 +154,7 @@
                 "🇬🇧GB | 🔴 | vless | @VmessProtocol | 2",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 105",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 106",
+                "🇩🇪DE | 🔴 | vless | @v2ray_vpn_ir | 2",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 3",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 4",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 4",
@@ -223,6 +224,7 @@
                 "🇬🇧GB | 🔴 | vless | @VmessProtocol | 2",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 105",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 106",
+                "🇩🇪DE | 🔴 | vless | @v2ray_vpn_ir | 2",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 3",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 4",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 4",
@@ -1300,6 +1302,20 @@
             "server": "144.202.56.7",
             "server_port": 443,
             "uuid": "4bf96dd2-f451-4938-8fa4-1a2251290920",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🔴 | vless | @v2ray_vpn_ir | 2",
+            "type": "vless",
+            "server": "91.99.171.12",
+            "server_port": 443,
+            "uuid": "36ee3f5a-3816-4c03-a324-47531167e53b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
