@@ -123,6 +123,7 @@
                 "🇩🇪DE | 🔴 | vless | @Parsashonam | 15",
                 "🇨🇦CA | 🔴 | vless | @v2_team | 0",
                 "🇨🇦CA | 🔴 | vless | @v2_team | 1",
+                "🇮🇷IR | 🔴 | vless | @v2_team | 2",
                 "❔XX | 🟢 | vless | @XsV2ray | 0",
                 "🇮🇷IR | 🔴 | vless | @XsV2ray | 1",
                 "🇮🇹IT | 🔴 | vless | @XsV2ray | 2",
@@ -399,10 +400,10 @@
                 "🚩CF | 🔴 | vless | @Outlinev2rayNG | 1",
                 "🚩CF | 🔴 | vless | @Outlinev2rayNG | 2",
                 "🚩CF | 🔴 | vless | @Outlinev2rayNG | 3",
-                "🇮🇷IR | 🔴 | vless | @flyv2ray | 1",
-                "🇺🇸US | 🔴 | vless | @flyv2ray | 2",
-                "🇳🇱NL | 🔴 | vless | @flyv2ray | 3",
-                "🇺🇸US | 🔴 | vless | @flyv2ray | 4",
+                "🇺🇸US | 🔴 | vless | @flyv2ray | 0",
+                "🇮🇷IR | 🔴 | vless | @flyv2ray | 2",
+                "🇺🇸US | 🔴 | vless | @flyv2ray | 3",
+                "🇳🇱NL | 🔴 | vless | @flyv2ray | 4",
                 "🚩CF | 🔴 | vless | @mehrosaboran | 1",
                 "🚩CF | 🔴 | vless | @mehrosaboran | 2",
                 "🚩CF | 🔴 | vless | @mehrosaboran | 3",
@@ -458,6 +459,7 @@
                 "🇩🇪DE | 🔴 | vless | @Parsashonam | 15",
                 "🇨🇦CA | 🔴 | vless | @v2_team | 0",
                 "🇨🇦CA | 🔴 | vless | @v2_team | 1",
+                "🇮🇷IR | 🔴 | vless | @v2_team | 2",
                 "❔XX | 🟢 | vless | @XsV2ray | 0",
                 "🇮🇷IR | 🔴 | vless | @XsV2ray | 1",
                 "🇮🇹IT | 🔴 | vless | @XsV2ray | 2",
@@ -734,10 +736,10 @@
                 "🚩CF | 🔴 | vless | @Outlinev2rayNG | 1",
                 "🚩CF | 🔴 | vless | @Outlinev2rayNG | 2",
                 "🚩CF | 🔴 | vless | @Outlinev2rayNG | 3",
-                "🇮🇷IR | 🔴 | vless | @flyv2ray | 1",
-                "🇺🇸US | 🔴 | vless | @flyv2ray | 2",
-                "🇳🇱NL | 🔴 | vless | @flyv2ray | 3",
-                "🇺🇸US | 🔴 | vless | @flyv2ray | 4",
+                "🇺🇸US | 🔴 | vless | @flyv2ray | 0",
+                "🇮🇷IR | 🔴 | vless | @flyv2ray | 2",
+                "🇺🇸US | 🔴 | vless | @flyv2ray | 3",
+                "🇳🇱NL | 🔴 | vless | @flyv2ray | 4",
                 "🚩CF | 🔴 | vless | @mehrosaboran | 1",
                 "🚩CF | 🔴 | vless | @mehrosaboran | 2",
                 "🚩CF | 🔴 | vless | @mehrosaboran | 3",
@@ -1134,6 +1136,20 @@
             "server": "ns.cloudflare.com",
             "server_port": 2086,
             "uuid": "8ed5d5c6-08c6-40ed-8f15-ff724c4ecad9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇮🇷IR | 🔴 | vless | @v2_team | 2",
+            "type": "vless",
+            "server": "94.182.105.30",
+            "server_port": 44062,
+            "uuid": "dea94163-2cb3-466f-b32d-05922f0a02c4",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -7527,7 +7543,21 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | vless | @flyv2ray | 1",
+            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 0",
+            "type": "vless",
+            "server": "mtn.venzo.com.tr",
+            "server_port": 2095,
+            "uuid": "dc44076c-fb1a-48ba-8e79-ec913f345576",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇮🇷IR | 🔴 | vless | @flyv2ray | 2",
             "type": "vless",
             "server": "fl-vip.digitalldns.net",
             "server_port": 8080,
@@ -7541,7 +7571,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 2",
+            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 3",
             "type": "vless",
             "server": "tgju.org",
             "server_port": 80,
@@ -7562,7 +7592,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🔴 | vless | @flyv2ray | 3",
+            "tag": "🇳🇱NL | 🔴 | vless | @flyv2ray | 4",
             "type": "vless",
             "server": "188.227.84.154",
             "server_port": 8443,
@@ -7573,27 +7603,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 4",
-            "type": "vless",
-            "server": "e.mosic7.info",
-            "server_port": 80,
-            "uuid": "7c9e3c1d-a360-4429-9189-e45a98de7fde",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/?ed=443",
-                "headers": {
-                    "Host": "e.mosic7.info"
-                }
             }
         },
         {
