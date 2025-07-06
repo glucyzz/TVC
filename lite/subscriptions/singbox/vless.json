@@ -134,11 +134,11 @@
                 "🇮🇷IR | 🔴 | vless | @Watashi_VPN | 3",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 20",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 21",
+                "🇺🇸US | 🔴 | vless | @V2rayNGn | 15",
                 "🇮🇹IT | 🔴 | vless | @V2rayNGn | 16",
-                "🇮🇷IR | 🔴 | vless | @V2rayNGn | 17",
                 "🇺🇸US | 🔴 | vless | @Outline_Vpn | 10",
-                "🇩🇪DE | 🔴 | vless | @prrofile_purple | 119",
-                "🇮🇷IR | 🔴 | vless | @prrofile_purple | 120",
+                "🇩🇪DE | 🔴 | vless | @prrofile_purple | 124",
+                "🇮🇷IR | 🔴 | vless | @prrofile_purple | 125",
                 "🇺🇸US | 🔴 | vless | @vmessorg | 6",
                 "🇫🇮FI | 🔴 | vless | @vmessorg | 7",
                 "🇺🇸US | 🔴 | vless | @ShadowProxy66 | 4",
@@ -201,11 +201,11 @@
                 "🇮🇷IR | 🔴 | vless | @Watashi_VPN | 3",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 20",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 21",
+                "🇺🇸US | 🔴 | vless | @V2rayNGn | 15",
                 "🇮🇹IT | 🔴 | vless | @V2rayNGn | 16",
-                "🇮🇷IR | 🔴 | vless | @V2rayNGn | 17",
                 "🇺🇸US | 🔴 | vless | @Outline_Vpn | 10",
-                "🇩🇪DE | 🔴 | vless | @prrofile_purple | 119",
-                "🇮🇷IR | 🔴 | vless | @prrofile_purple | 120",
+                "🇩🇪DE | 🔴 | vless | @prrofile_purple | 124",
+                "🇮🇷IR | 🔴 | vless | @prrofile_purple | 125",
                 "🇺🇸US | 🔴 | vless | @vmessorg | 6",
                 "🇫🇮FI | 🔴 | vless | @vmessorg | 7",
                 "🇺🇸US | 🔴 | vless | @ShadowProxy66 | 4",
@@ -871,6 +871,27 @@
             }
         },
         {
+            "tag": "🇺🇸US | 🔴 | vless | @V2rayNGn | 15",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "7c9e3c1d-a360-4429-9189-e45a98de7fde",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram@V2ray_Alpha\/?ed=2560",
+                "headers": {
+                    "Host": "www.speedtest.net"
+                }
+            }
+        },
+        {
             "tag": "🇮🇹IT | 🔴 | vless | @V2rayNGn | 16",
             "type": "vless",
             "server": "cdnf.ten10rocket.top",
@@ -888,27 +909,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "cdnf.ten10rocket.top"
-                }
-            }
-        },
-        {
-            "tag": "🇮🇷IR | 🔴 | vless | @V2rayNGn | 17",
-            "type": "vless",
-            "server": "2.fasttrade.blog",
-            "server_port": 40665,
-            "uuid": "c2653dab-885e-47ca-b2eb-65837f4ed82d",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "2.fasttrade.blog"
                 }
             }
         },
@@ -934,7 +934,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @prrofile_purple | 119",
+            "tag": "🇩🇪DE | 🔴 | vless | @prrofile_purple | 124",
             "type": "vless",
             "server": "91.99.202.155",
             "server_port": 443,
@@ -948,7 +948,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | vless | @prrofile_purple | 120",
+            "tag": "🇮🇷IR | 🔴 | vless | @prrofile_purple | 125",
             "type": "vless",
             "server": "217.114.40.12",
             "server_port": 80,
