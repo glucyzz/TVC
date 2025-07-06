@@ -130,10 +130,7 @@
                 "🇩🇪DE | 🔴 | vless | @prrofile_purple | 111",
                 "🇺🇸US | 🟢 | vless | @prrofile_purple | 120",
                 "🇺🇸US | 🟢 | vless | @vless_vmess | 3",
-                "🇳🇱NL | 🔴 | vless | @DailyV2RY | 80",
-                "🇹🇷TR | 🟢 | vless | @DailyV2RY | 84",
-                "🇮🇷IR | 🟢 | vless | @DailyV2RY | 86",
-                "🇫🇷FR | 🟢 | vless | @DailyV2RY | 87",
+                "🇩🇪DE | 🟢 | vless | @DailyV2RY | 52",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 2",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 4",
                 "🇫🇮FI | 🟢 | vless | @free1_vpn | 4",
@@ -182,10 +179,7 @@
                 "🇩🇪DE | 🔴 | vless | @prrofile_purple | 111",
                 "🇺🇸US | 🟢 | vless | @prrofile_purple | 120",
                 "🇺🇸US | 🟢 | vless | @vless_vmess | 3",
-                "🇳🇱NL | 🔴 | vless | @DailyV2RY | 80",
-                "🇹🇷TR | 🟢 | vless | @DailyV2RY | 84",
-                "🇮🇷IR | 🟢 | vless | @DailyV2RY | 86",
-                "🇫🇷FR | 🟢 | vless | @DailyV2RY | 87",
+                "🇩🇪DE | 🟢 | vless | @DailyV2RY | 52",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 2",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 4",
                 "🇫🇮FI | 🟢 | vless | @free1_vpn | 4",
@@ -1027,40 +1021,11 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🔴 | vless | @DailyV2RY | 80",
+            "tag": "🇩🇪DE | 🟢 | vless | @DailyV2RY | 52",
             "type": "vless",
-            "server": "5.255.120.217",
-            "server_port": 80,
-            "uuid": "2e671ca5-32a0-40e4-94a0-c2655f263a88",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "journalofbigdata.springeropen.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "C4LNbOB3Ar0cntu528Jtn5ivsMZhyk9tkuAlU-jeCio",
-                    "short_id": "8c"
-                }
-            }
-        },
-        {
-            "tag": "🇹🇷TR | 🟢 | vless | @DailyV2RY | 84",
-            "type": "vless",
-            "server": "83.217.9.82",
+            "server": "159.69.118.125",
             "server_port": 443,
-            "uuid": "f2ec531c-9bd4-455a-a208-11f450eff7b0",
+            "uuid": "b3164e0a-f76a-4bb2-83b9-8f385488e836",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1070,65 +1035,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "todoist.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "4Z6zzKxmpXudictZw81_Kl-ZRpiqMRPdLudKG8Bi52g",
-                    "short_id": "d36caa39a4cffbeb"
-                }
-            }
-        },
-        {
-            "tag": "🇮🇷IR | 🟢 | vless | @DailyV2RY | 86",
-            "type": "vless",
-            "server": "45.94.213.165",
-            "server_port": 55700,
-            "uuid": "77b7af06-6e10-4afa-a9bb-461fab6db315",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "upY29Nxcyc_8q8shNAv_0XNdn0WJdy93iNlKbxLmFUA",
-                    "short_id": "ae839dceb524a40b"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇷FR | 🟢 | vless | @DailyV2RY | 87",
-            "type": "vless",
-            "server": "103.249.133.79",
-            "server_port": 58440,
-            "uuid": "f711153f-b7b3-47cc-9d99-2b2a25fd0d73",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.latimes.com",
+                "server_name": "www.psnapptapsi.ir",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1137,8 +1044,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "9qIfswg5ImAKqsb7k_8Zlyj-EcPacIvEfZnhEkYktHg",
-                    "short_id": "3bba58385bf1ad"
+                    "public_key": "fTRUKzSjDld9OYMUxx641aP9W1n_aIp_UswZghdjzwM",
+                    "short_id": "78ce8c07a9235a"
                 }
             }
         },
