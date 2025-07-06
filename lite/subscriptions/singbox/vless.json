@@ -151,7 +151,7 @@
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 15",
                 "🇩🇪DE | 🔴 | vless | @DailyV2RY | 78",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 2",
-                "🇺🇸US | 🔴 | vless | @free1_vpn | 6",
+                "🇫🇮FI | 🟢 | vless | @free1_vpn | 4",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 4",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 4",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 5",
@@ -217,7 +217,7 @@
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 15",
                 "🇩🇪DE | 🔴 | vless | @DailyV2RY | 78",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 2",
-                "🇺🇸US | 🔴 | vless | @free1_vpn | 6",
+                "🇫🇮FI | 🟢 | vless | @free1_vpn | 4",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 4",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 4",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 5",
@@ -1266,23 +1266,31 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @free1_vpn | 6",
+            "tag": "🇫🇮FI | 🟢 | vless | @free1_vpn | 4",
             "type": "vless",
-            "server": "add.ski1plag.ir",
-            "server_port": 80,
-            "uuid": "7c9e3c1d-a360-4429-9189-e45a98de7fde",
-            "flow": "",
+            "server": "94.156.116.5",
+            "server_port": 443,
+            "uuid": "7f97131b-0d9d-4be9-b7b4-3fa21403cffa",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/upload",
-                "headers": {
-                    "Host": "add.ski1plag.ir"
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "b2wRFAmT2Mm6a_EXPfWBu4BYw-wNGlXHWoO3lPqGoXw",
+                    "short_id": "86"
                 }
             }
         },
