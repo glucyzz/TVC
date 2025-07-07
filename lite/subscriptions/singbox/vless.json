@@ -150,8 +150,6 @@
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 14",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 15",
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 0",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 97",
-                "🇩🇪DE | 🔴 | vless | @DailyV2RY | 98",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 2",
                 "🇫🇮FI | 🟢 | vless | @free1_vpn | 5",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 4",
@@ -216,8 +214,6 @@
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 14",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 15",
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 0",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 97",
-                "🇩🇪DE | 🔴 | vless | @DailyV2RY | 98",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 2",
                 "🇫🇮FI | 🟢 | vless | @free1_vpn | 5",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 4",
@@ -1235,51 +1231,6 @@
             "server": "test.fast.hosting-ip.com",
             "server_port": 80,
             "uuid": "ipcloudflaretamiz",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 97",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 2096,
-            "uuid": "7cfa3fb8-cfca-4b8a-9c89-de0cde44cd42",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "638872447051001187.kish-prx-dnraaaf.info",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/joketews",
-                "headers": {
-                    "Host": "638872447051001187.kish-prx-dnraaaf.info"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🔴 | vless | @DailyV2RY | 98",
-            "type": "vless",
-            "server": "192.248.179.150",
-            "server_port": 443,
-            "uuid": "02187b5c-f759-4221-a86c-17c96ab719b9",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
