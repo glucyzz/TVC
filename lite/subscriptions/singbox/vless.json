@@ -178,8 +178,8 @@
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 6",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 9",
-                "🇮🇷IR | 🔴 | vless | @Capoit | 13",
-                "🇩🇪DE | 🔴 | vless | @Capoit | 14",
+                "🇫🇷FR | 🔴 | vless | @Capoit | 9",
+                "🇺🇸US | 🔴 | vless | @Capoit | 10",
                 "🇮🇷IR | 🔴 | vless | @FreakConfig | 3",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 8",
                 "🇮🇷IR | 🔴 | vless | @flyv2ray | 9",
@@ -275,8 +275,8 @@
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 6",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 9",
-                "🇮🇷IR | 🔴 | vless | @Capoit | 13",
-                "🇩🇪DE | 🔴 | vless | @Capoit | 14",
+                "🇫🇷FR | 🔴 | vless | @Capoit | 9",
+                "🇺🇸US | 🔴 | vless | @Capoit | 10",
                 "🇮🇷IR | 🔴 | vless | @FreakConfig | 3",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 8",
                 "🇮🇷IR | 🔴 | vless | @flyv2ray | 9",
@@ -1297,6 +1297,27 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @vmessorg | 11",
             "type": "vless",
+            "server": "104.18.26.90",
+            "server_port": 80,
+            "uuid": "6f690965-3be3-43bb-9331-3ead6efb20aa",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/?ed=2560\/?JOKERRVPNBIA_CHANNEL@JOKERRVPN",
+                "headers": {
+                    "Host": "104.18.26.90"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @vmessorg | 12",
+            "type": "vless",
             "server": "104.21.16.48",
             "server_port": 80,
             "uuid": "7c18eeab-f38f-48a2-ae25-50c26cdfb0d9",
@@ -1312,27 +1333,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "104.21.16.48"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @vmessorg | 12",
-            "type": "vless",
-            "server": "104.18.26.90",
-            "server_port": 80,
-            "uuid": "6f690965-3be3-43bb-9331-3ead6efb20aa",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/?ed=2560\/",
-                "headers": {
-                    "Host": "104.18.26.90"
                 }
             }
         },
@@ -1858,11 +1858,11 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | vless | @Capoit | 13",
+            "tag": "🇫🇷FR | 🔴 | vless | @Capoit | 9",
             "type": "vless",
-            "server": "tu.filterchi.shop",
-            "server_port": 2089,
-            "uuid": "05cec75b-0de2-40d8-a915-7519f745cae2",
+            "server": "safar64.ucpubg.org",
+            "server_port": 8080,
+            "uuid": "c83a4cdf-d744-43c4-866a-f85957050391",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1872,17 +1872,24 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @Capoit | 14",
+            "tag": "🇺🇸US | 🔴 | vless | @Capoit | 10",
             "type": "vless",
-            "server": "gr.liteingshop.com",
-            "server_port": 2082,
-            "uuid": "d9ac6451-6a5d-486b-bfe2-bd64b28e3922",
+            "server": "104.18.26.90",
+            "server_port": 80,
+            "uuid": "92f481b6-ad92-43e4-a683-2bb0aeaa9846",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/?ed=2590",
+                "headers": {
+                    "Host": "104.18.26.90"
+                }
             }
         },
         {
