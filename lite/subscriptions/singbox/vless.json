@@ -168,7 +168,8 @@
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 14",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 15",
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 2",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 180",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 200",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 201",
                 "🇸🇬SG | 🔴 | vless | @SafeNet_Server | 4",
                 "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 5",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
@@ -263,7 +264,8 @@
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 14",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 15",
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 2",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 180",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 200",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 201",
                 "🇸🇬SG | 🔴 | vless | @SafeNet_Server | 4",
                 "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 5",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
@@ -1679,7 +1681,38 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 180",
+            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 200",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 2096,
+            "uuid": "8f36d89f-2aa7-4616-b43a-088db3945dc0",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "638872443451941419.kish-prx-dnraaaf.info",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/ddfkmmws",
+                "headers": {
+                    "Host": "638872443451941419.kish-prx-dnraaaf.info"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 201",
             "type": "vless",
             "server": "66.42.64.40",
             "server_port": 443,
