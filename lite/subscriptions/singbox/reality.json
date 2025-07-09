@@ -109,12 +109,10 @@
                 "🇦🇲AM | 🟢 | vless | @ipV2Ray | 3",
                 "🇦🇲AM | 🟢 | vless | @ipV2Ray | 4",
                 "🇩🇪DE | 🔴 | vless | @ARv2ray | 16",
-                "🇫🇷FR | 🔴 | vless | @shh_proxy | 11",
-                "🇩🇪DE | 🔴 | vless | @DarkTeam_VPN | 3",
+                "🇸🇪SE | 🟢 | vless | @shh_proxy | 10",
                 "🇩🇪DE | 🔴 | vless | @prrofile_purple | 124",
                 "🇩🇪DE | 🔴 | vless | @prrofile_purple | 125",
-                "🇵🇹PT | 🔴 | vless | @DailyV2RY | 200",
-                "🇩🇪DE | 🟢 | vless | @flyv2ray | 9",
+                "🇪🇸ES | 🔴 | vless | @DailyV2RY | 200",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "❔XX | 🔴 | vless | @SvnTeam | 6",
@@ -128,12 +126,10 @@
                 "🇦🇲AM | 🟢 | vless | @ipV2Ray | 3",
                 "🇦🇲AM | 🟢 | vless | @ipV2Ray | 4",
                 "🇩🇪DE | 🔴 | vless | @ARv2ray | 16",
-                "🇫🇷FR | 🔴 | vless | @shh_proxy | 11",
-                "🇩🇪DE | 🔴 | vless | @DarkTeam_VPN | 3",
+                "🇸🇪SE | 🟢 | vless | @shh_proxy | 10",
                 "🇩🇪DE | 🔴 | vless | @prrofile_purple | 124",
                 "🇩🇪DE | 🔴 | vless | @prrofile_purple | 125",
-                "🇵🇹PT | 🔴 | vless | @DailyV2RY | 200",
-                "🇩🇪DE | 🟢 | vless | @flyv2ray | 9",
+                "🇪🇸ES | 🔴 | vless | @DailyV2RY | 200",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "❔XX | 🔴 | vless | @SvnTeam | 6",
@@ -268,11 +264,11 @@
             }
         },
         {
-            "tag": "🇫🇷FR | 🔴 | vless | @shh_proxy | 11",
+            "tag": "🇸🇪SE | 🟢 | vless | @shh_proxy | 10",
             "type": "vless",
-            "server": "103.249.133.79",
+            "server": "192.109.200.201",
             "server_port": 58440,
-            "uuid": "f711153f-b7b3-47cc-9d99-2b2a25fd0d73",
+            "uuid": "904e16df-8a1a-4c07-a233-0ee5aa6b771e",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -291,37 +287,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "9qIfswg5ImAKqsb7k_8Zlyj-EcPacIvEfZnhEkYktHg",
-                    "short_id": "3bba58385bf1ad"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🔴 | vless | @DarkTeam_VPN | 3",
-            "type": "vless",
-            "server": "real-all3.sdcards.ir",
-            "server_port": 8501,
-            "uuid": "8369bccd-ec80-4c73-ba46-17edbe003e87",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "tgju.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "OJ0wA5wp55uZdD16dutlTZvx1x-rbMMXmiO9D_MMCHI",
-                    "short_id": "e701a013553059ba"
+                    "public_key": "oX3xnOAHUgjYCXmTDX4NIcZOHcewoE4m2vAHr8-1hEU",
+                    "short_id": "3c29ae5c917b78"
                 }
             }
         },
@@ -384,7 +351,7 @@
             }
         },
         {
-            "tag": "🇵🇹PT | 🔴 | vless | @DailyV2RY | 200",
+            "tag": "🇪🇸ES | 🔴 | vless | @DailyV2RY | 200",
             "type": "vless",
             "server": "Fv.samiion73.ir",
             "server_port": 13469,
@@ -409,35 +376,6 @@
                     "enabled": true,
                     "public_key": "ZHQfz5WHmc4qKTjhTw14EU2yaW-TokHCeR9NiJek_2s",
                     "short_id": "f49785945765b595"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🟢 | vless | @flyv2ray | 9",
-            "type": "vless",
-            "server": "91.99.176.57",
-            "server_port": 2025,
-            "uuid": "Telegram--SRCVPN--SRCVPN-",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "yahoo.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "ZYOJiXfnupbX7P2IG8VmWZrZCA9QOY39GYYiTyZ21UE",
-                    "short_id": "85decdebbcf6c7bb"
                 }
             }
         },
