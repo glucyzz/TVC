@@ -157,7 +157,7 @@
                 "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 9",
                 "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 10",
                 "🇺🇸US | 🔴 | vless | @v2rayngvpn | 8",
-                "🇨🇦CA | 🔴 | vless | @v2rayngvpn | 9",
+                "🇺🇸US | 🔴 | vless | @v2rayngvpn | 9",
                 "🇮🇷IR | 🔴 | vless | @FalconPolV2rayNG | 7",
                 "🇮🇷IR | 🔴 | vless | @FalconPolV2rayNG | 8",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
@@ -165,9 +165,11 @@
                 "🇸🇪SE | 🔴 | vless | @v2ray1_ng | 7",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 14",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 15",
+                "🇭🇰HK | 🔴 | vless | @vmess_vless_v2rayng | 25",
+                "🇳🇱NL | 🔴 | vless | @vmess_vless_v2rayng | 26",
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 2",
-                "🇸🇬SG | 🔴 | vless | @DailyV2RY | 218",
-                "🇪🇸ES | 🔴 | vless | @DailyV2RY | 219",
+                "🇩🇪DE | 🔴 | vless | @DailyV2RY | 200",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 201",
                 "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 3",
                 "🇸🇬SG | 🔴 | vless | @SafeNet_Server | 4",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
@@ -251,7 +253,7 @@
                 "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 9",
                 "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 10",
                 "🇺🇸US | 🔴 | vless | @v2rayngvpn | 8",
-                "🇨🇦CA | 🔴 | vless | @v2rayngvpn | 9",
+                "🇺🇸US | 🔴 | vless | @v2rayngvpn | 9",
                 "🇮🇷IR | 🔴 | vless | @FalconPolV2rayNG | 7",
                 "🇮🇷IR | 🔴 | vless | @FalconPolV2rayNG | 8",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
@@ -259,9 +261,11 @@
                 "🇸🇪SE | 🔴 | vless | @v2ray1_ng | 7",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 14",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 15",
+                "🇭🇰HK | 🔴 | vless | @vmess_vless_v2rayng | 25",
+                "🇳🇱NL | 🔴 | vless | @vmess_vless_v2rayng | 26",
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 2",
-                "🇸🇬SG | 🔴 | vless | @DailyV2RY | 218",
-                "🇪🇸ES | 🔴 | vless | @DailyV2RY | 219",
+                "🇩🇪DE | 🔴 | vless | @DailyV2RY | 200",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 201",
                 "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 3",
                 "🇸🇬SG | 🔴 | vless | @SafeNet_Server | 4",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
@@ -1483,7 +1487,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @v2rayngvpn | 9",
+            "tag": "🇺🇸US | 🔴 | vless | @v2rayngvpn | 9",
             "type": "vless",
             "server": "172.66.132.196",
             "server_port": 8443,
@@ -1704,6 +1708,48 @@
             }
         },
         {
+            "tag": "🇭🇰HK | 🔴 | vless | @vmess_vless_v2rayng | 25",
+            "type": "vless",
+            "server": "156.238.18.127",
+            "server_port": 8880,
+            "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram🇨🇳",
+                "headers": {
+                    "Host": "156.238.18.127"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱NL | 🔴 | vless | @vmess_vless_v2rayng | 26",
+            "type": "vless",
+            "server": "45.131.5.211",
+            "server_port": 80,
+            "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram-@V2ray_Alpha\/?ed=2560",
+                "headers": {
+                    "Host": "45.131.5.211"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | 🔴 | vless | @VmessProtocol | 2",
             "type": "vless",
             "server": "test.fast.hosting-ip.com",
@@ -1718,11 +1764,11 @@
             }
         },
         {
-            "tag": "🇸🇬SG | 🔴 | vless | @DailyV2RY | 218",
+            "tag": "🇩🇪DE | 🔴 | vless | @DailyV2RY | 200",
             "type": "vless",
-            "server": "5.223.55.159",
-            "server_port": 443,
-            "uuid": "379e0540-16f2-4221-9717-b409a0dd5799",
+            "server": "91.99.238.186",
+            "server_port": 31015,
+            "uuid": "7dfe125d-806d-4e5a-a91c-bcc2020ef7be",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1732,11 +1778,11 @@
             }
         },
         {
-            "tag": "🇪🇸ES | 🔴 | vless | @DailyV2RY | 219",
+            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 201",
             "type": "vless",
-            "server": "Fv.samiion73.ir",
-            "server_port": 13469,
-            "uuid": "2831b7d5-2cdd-4684-b44e-8ea6d27e8495",
+            "server": "44.201.168.201",
+            "server_port": 443,
+            "uuid": "a7e04b44-855e-4fe7-8fa0-31894e928bce",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1746,7 +1792,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "chatgpt.com",
+                "server_name": "www.chatgpt.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1755,8 +1801,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "ZHQfz5WHmc4qKTjhTw14EU2yaW-TokHCeR9NiJek_2s",
-                    "short_id": "f49785945765b595"
+                    "public_key": "RYsjWbL0kjpi144PPllR_2C_KK3a071iGBPUUCsHH1A",
+                    "short_id": "a4844ba7"
                 }
             }
         },
