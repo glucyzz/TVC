@@ -188,7 +188,7 @@
                 "🇮🇷IR | 🔴 | vless | @nofiltering2 | 23",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
-                "🇺🇸US | 🔴 | vless | @kingofilter | 3",
+                "🇺🇸US | 🔴 | vless | @kingofilter | 4",
                 "🇮🇷IR | 🔴 | vless | @GozargahVPN | 7",
                 "🇮🇷IR | 🔴 | vless | @GozargahVPN | 8",
                 "❔XX | 🔴 | vless | @SvnTeam | 6",
@@ -282,7 +282,7 @@
                 "🇮🇷IR | 🔴 | vless | @nofiltering2 | 23",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
-                "🇺🇸US | 🔴 | vless | @kingofilter | 3",
+                "🇺🇸US | 🔴 | vless | @kingofilter | 4",
                 "🇮🇷IR | 🔴 | vless | @GozargahVPN | 7",
                 "🇮🇷IR | 🔴 | vless | @GozargahVPN | 8",
                 "❔XX | 🔴 | vless | @SvnTeam | 6",
@@ -1144,6 +1144,27 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @V2rayNGn | 15",
             "type": "vless",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "BeFreeWithUs",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "151.101.3.8"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @V2rayNGn | 16",
+            "type": "vless",
             "server": "speedtest.net",
             "server_port": 80,
             "uuid": "@@BeFreeWithUs",
@@ -1160,20 +1181,6 @@
                 "headers": {
                     "Host": "speedtest.net"
                 }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @V2rayNGn | 16",
-            "type": "vless",
-            "server": "all2.golnar-clod.ir",
-            "server_port": 8880,
-            "uuid": "208a0bb7-180e-4acc-95f0-dbfa397f0fd4",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
@@ -2155,7 +2162,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @kingofilter | 3",
+            "tag": "🇺🇸US | 🔴 | vless | @kingofilter | 4",
             "type": "vless",
             "server": "188.114.98.18",
             "server_port": 80,
