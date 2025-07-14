@@ -173,7 +173,7 @@
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 9",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 10",
                 "🇸🇪SE | 🔴 | vless | @free1_vpn | 11",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 14",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 12",
                 "🇺🇸US | 🔴 | vless | @Capoit | 12",
                 "🇩🇪DE | 🔴 | vless | @Capoit | 13",
                 "🇮🇷IR | 🔴 | vless | @FreakConfig | 6",
@@ -266,7 +266,7 @@
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 9",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 10",
                 "🇸🇪SE | 🔴 | vless | @free1_vpn | 11",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 14",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 12",
                 "🇺🇸US | 🔴 | vless | @Capoit | 12",
                 "🇩🇪DE | 🔴 | vless | @Capoit | 13",
                 "🇮🇷IR | 🔴 | vless | @FreakConfig | 6",
@@ -1301,23 +1301,9 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @v2rayngvpn | 17",
             "type": "vless",
-            "server": "151.101.67.8",
-            "server_port": 80,
-            "uuid": "acf4558d-eb3d-424b-d6e7-7f4191a2eddb",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @v2rayngvpn | 18",
-            "type": "vless",
-            "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
+            "server": "104.26.7.89",
             "server_port": 8443,
-            "uuid": "96a1b724-68d2-4f4d-ab25-38ecd83577bc",
+            "uuid": "f5cf098f-5143-440f-a490-7fc24ff27fb0",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1327,7 +1313,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "IyFpLkXk10.jOoLaJoOlA.OrG",
+                "server_name": "brmahasang.ahaysiahzangi.dpdns.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1337,10 +1323,24 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/?ed=2560",
                 "headers": {
-                    "Host": "IyFpLkXk10.jOoLaJoOlA.OrG"
+                    "Host": "brmahasang.ahaysiahzangi.dpdns.org"
                 }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @v2rayngvpn | 18",
+            "type": "vless",
+            "server": "151.101.67.8",
+            "server_port": 80,
+            "uuid": "acf4558d-eb3d-424b-d6e7-7f4191a2eddb",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
@@ -1848,11 +1848,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 14",
+            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 12",
             "type": "vless",
-            "server": "104.19.245.206",
-            "server_port": 443,
-            "uuid": "9dd24d01-2b7a-4bd8-8c76-129d6ca89b8c",
+            "server": "141.101.121.243",
+            "server_port": 8080,
+            "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1860,21 +1860,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "kawaiifreevpn-7ds.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/?ed=2560",
+                "path": "\/",
                 "headers": {
-                    "Host": "kawaiifreevpn-7ds.pages.dev"
+                    "Host": "141.101.121.243"
                 }
             }
         },
