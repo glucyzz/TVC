@@ -154,8 +154,8 @@
                 "🇳🇱NL | 🔴 | vless | @vmessorg | 8",
                 "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 8",
                 "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 9",
-                "🇩🇪DE | 🔴 | vless | @v2rayngvpn | 15",
-                "🇺🇸US | 🔴 | vless | @v2rayngvpn | 16",
+                "🇺🇸US | 🔴 | vless | @v2rayngvpn | 15",
+                "🇩🇪DE | 🔴 | vless | @v2rayngvpn | 16",
                 "🇮🇷IR | 🔴 | vless | @FalconPolV2rayNG | 7",
                 "🇮🇷IR | 🔴 | vless | @FalconPolV2rayNG | 8",
                 "🇺🇸US | 🔴 | vless | @ShadowProxy66 | 0",
@@ -181,9 +181,10 @@
                 "🇺🇸US | 🔴 | vless | @Capoit | 12",
                 "🇩🇪DE | 🔴 | vless | @Capoit | 13",
                 "🇮🇷IR | 🔴 | vless | @FreakConfig | 5",
-                "🇩🇪DE | 🔴 | vless | @flyv2ray | 9",
-                "🇩🇪DE | 🟢 | vless | @flyv2ray | 10",
-                "🇮🇷IR | 🔴 | vless | @iP_CF | 71",
+                "🇰🇿KZ | 🔴 | vless | @flyv2ray | 9",
+                "🇩🇪DE | 🔴 | vless | @flyv2ray | 10",
+                "🇬🇧GB | 🔴 | vless | @iP_CF | 71",
+                "🇮🇷IR | 🔴 | vless | @iP_CF | 72",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 4",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 5",
                 "🇹🇷TR | 🔴 | vless | @nofiltering2 | 23",
@@ -250,8 +251,8 @@
                 "🇳🇱NL | 🔴 | vless | @vmessorg | 8",
                 "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 8",
                 "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 9",
-                "🇩🇪DE | 🔴 | vless | @v2rayngvpn | 15",
-                "🇺🇸US | 🔴 | vless | @v2rayngvpn | 16",
+                "🇺🇸US | 🔴 | vless | @v2rayngvpn | 15",
+                "🇩🇪DE | 🔴 | vless | @v2rayngvpn | 16",
                 "🇮🇷IR | 🔴 | vless | @FalconPolV2rayNG | 7",
                 "🇮🇷IR | 🔴 | vless | @FalconPolV2rayNG | 8",
                 "🇺🇸US | 🔴 | vless | @ShadowProxy66 | 0",
@@ -277,9 +278,10 @@
                 "🇺🇸US | 🔴 | vless | @Capoit | 12",
                 "🇩🇪DE | 🔴 | vless | @Capoit | 13",
                 "🇮🇷IR | 🔴 | vless | @FreakConfig | 5",
-                "🇩🇪DE | 🔴 | vless | @flyv2ray | 9",
-                "🇩🇪DE | 🟢 | vless | @flyv2ray | 10",
-                "🇮🇷IR | 🔴 | vless | @iP_CF | 71",
+                "🇰🇿KZ | 🔴 | vless | @flyv2ray | 9",
+                "🇩🇪DE | 🔴 | vless | @flyv2ray | 10",
+                "🇬🇧GB | 🔴 | vless | @iP_CF | 71",
+                "🇮🇷IR | 🔴 | vless | @iP_CF | 72",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 4",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 5",
                 "🇹🇷TR | 🔴 | vless | @nofiltering2 | 23",
@@ -1393,7 +1395,38 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @v2rayngvpn | 15",
+            "tag": "🇺🇸US | 🔴 | vless | @v2rayngvpn | 15",
+            "type": "vless",
+            "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
+            "server_port": 8443,
+            "uuid": "96a1b724-68d2-4f4d-ab25-38ecd83577bc",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "IyFpLkXk10.jOoLaJoOlA.OrG",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "IyFpLkXk10.jOoLaJoOlA.OrG"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🔴 | vless | @v2rayngvpn | 16",
             "type": "vless",
             "server": "parrot-love.ir",
             "server_port": 2025,
@@ -1426,20 +1459,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @v2rayngvpn | 16",
-            "type": "vless",
-            "server": "151.101.3.8",
-            "server_port": 80,
-            "uuid": "e907cd5b-8d4e-406f-8f24-9133c23c7e4e",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
@@ -2062,7 +2081,21 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @flyv2ray | 9",
+            "tag": "🇰🇿KZ | 🔴 | vless | @flyv2ray | 9",
+            "type": "vless",
+            "server": "78.140.246.39",
+            "server_port": 8443,
+            "uuid": "1b8dd35a-6213-4a33-84e9-ce662ad6e280",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🔴 | vless | @flyv2ray | 10",
             "type": "vless",
             "server": "speedy.mooo.info",
             "server_port": 80,
@@ -2076,36 +2109,28 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @flyv2ray | 10",
+            "tag": "🇬🇧GB | 🔴 | vless | @iP_CF | 71",
             "type": "vless",
-            "server": "vpn_proxy_channel_vpn_proxy_channel.hohod.ir",
-            "server_port": 443,
-            "uuid": "1584806e-f63d-4f9b-a0b3-abe64b35a09c",
-            "flow": "xtls-rprx-vision",
+            "server": "102.177.189.248",
+            "server_port": 2082,
+            "uuid": "b111f8c5-1244-4ec8-8d74-79c13ef9037e",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "vpn_proxy_channel_vpn_proxy_channel.hohod.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "GpgfsA-U8Y8M3LRcTfsaBViDtp2VlN5riSLLZ2kxEiQ",
-                    "short_id": "974a74bf"
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "102.177.189.248"
                 }
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | vless | @iP_CF | 71",
+            "tag": "🇮🇷IR | 🔴 | vless | @iP_CF | 72",
             "type": "vless",
             "server": "185.235.198.188",
             "server_port": 2099,
