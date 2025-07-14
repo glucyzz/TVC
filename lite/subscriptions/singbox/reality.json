@@ -107,10 +107,11 @@
             "outbounds": [
                 "URL-TEST",
                 "🇩🇪DE | 🔴 | vless | @ARv2ray | 18",
-                "🇨🇿CZ | 🔴 | vless | @proxy_kafee | 4",
+                "🇨🇿CZ | 🔴 | vless | @proxy_kafee | 6",
                 "🇳🇱NL | 🟢 | vless | @customv2ray | 17",
+                "🇨🇿CZ | 🔴 | vless | @v2rayngvpn | 15",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 9",
-                "🇩🇪DE | 🔴 | vless | @Capoit | 13",
+                "🇩🇪DE | 🔴 | vless | @Capoit | 15",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "❔XX | 🔴 | vless | @SvnTeam | 6",
@@ -122,10 +123,11 @@
             "type": "urltest",
             "outbounds": [
                 "🇩🇪DE | 🔴 | vless | @ARv2ray | 18",
-                "🇨🇿CZ | 🔴 | vless | @proxy_kafee | 4",
+                "🇨🇿CZ | 🔴 | vless | @proxy_kafee | 6",
                 "🇳🇱NL | 🟢 | vless | @customv2ray | 17",
+                "🇨🇿CZ | 🔴 | vless | @v2rayngvpn | 15",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 9",
-                "🇩🇪DE | 🔴 | vless | @Capoit | 13",
+                "🇩🇪DE | 🔴 | vless | @Capoit | 15",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "❔XX | 🔴 | vless | @SvnTeam | 6",
@@ -188,7 +190,7 @@
             }
         },
         {
-            "tag": "🇨🇿CZ | 🔴 | vless | @proxy_kafee | 4",
+            "tag": "🇨🇿CZ | 🔴 | vless | @proxy_kafee | 6",
             "type": "vless",
             "server": "194.182.79.163",
             "server_port": 10108,
@@ -253,6 +255,42 @@
             }
         },
         {
+            "tag": "🇨🇿CZ | 🔴 | vless | @v2rayngvpn | 15",
+            "type": "vless",
+            "server": "194.182.79.163",
+            "server_port": 10108,
+            "uuid": "edeffe9e-4725-428e-a1c0-7b6a96124f8d",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "journalofbigdata.springeropen.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "wGHsRP4taNR7OgyRPba24krQVhH9ZRbR7pvDxVsGjj0",
+                    "short_id": "ed"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
             "tag": "🇩🇪DE | 🔴 | vless | @proxystore11 | 9",
             "type": "vless",
             "server": "vip1.proxystore11.news",
@@ -282,7 +320,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @Capoit | 13",
+            "tag": "🇩🇪DE | 🔴 | vless | @Capoit | 15",
             "type": "vless",
             "server": "mrzh.wizard2shop.org",
             "server_port": 2050,
