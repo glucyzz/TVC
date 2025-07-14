@@ -109,7 +109,8 @@
                 "🇩🇪DE | 🔴 | vless | @ARv2ray | 18",
                 "🇨🇿CZ | 🔴 | vless | @proxy_kafee | 6",
                 "🇳🇱NL | 🟢 | vless | @customv2ray | 17",
-                "🇨🇿CZ | 🔴 | vless | @v2rayngvpn | 15",
+                "🇨🇿CZ | 🔴 | vless | @v2rayngvpn | 16",
+                "🇺🇸US | 🟢 | vless | @v2ray1_ng | 6",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 9",
                 "🇩🇪DE | 🔴 | vless | @Capoit | 15",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
@@ -125,7 +126,8 @@
                 "🇩🇪DE | 🔴 | vless | @ARv2ray | 18",
                 "🇨🇿CZ | 🔴 | vless | @proxy_kafee | 6",
                 "🇳🇱NL | 🟢 | vless | @customv2ray | 17",
-                "🇨🇿CZ | 🔴 | vless | @v2rayngvpn | 15",
+                "🇨🇿CZ | 🔴 | vless | @v2rayngvpn | 16",
+                "🇺🇸US | 🟢 | vless | @v2ray1_ng | 6",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 9",
                 "🇩🇪DE | 🔴 | vless | @Capoit | 15",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
@@ -255,7 +257,7 @@
             }
         },
         {
-            "tag": "🇨🇿CZ | 🔴 | vless | @v2rayngvpn | 15",
+            "tag": "🇨🇿CZ | 🔴 | vless | @v2rayngvpn | 16",
             "type": "vless",
             "server": "194.182.79.163",
             "server_port": 10108,
@@ -288,6 +290,35 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vless | @v2ray1_ng | 6",
+            "type": "vless",
+            "server": "103.175.79.10",
+            "server_port": 443,
+            "uuid": "49ed01ad-3bb4-204f-b0ff-a58f658fd618",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "speed.cloudflare.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "4e-unF1RO2v--E7-X3aqxnCSPaK9QaTfJ7LawAr2bRI",
+                    "short_id": ""
+                }
             }
         },
         {
