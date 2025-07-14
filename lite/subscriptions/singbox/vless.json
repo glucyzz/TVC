@@ -121,12 +121,13 @@
                 "🇺🇸US | 🔴 | vless | @melov2ray | 21",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 15",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 16",
-                "🇩🇪DE | 🔴 | vless | @ARv2ray | 18",
+                "🇩🇪DE | 🔴 | vless | @ARv2ray | 17",
+                "🇺🇸US | 🔴 | vless | @ARv2ray | 18",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 18",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 19",
                 "🇮🇷IR | 🔴 | vless | @rxv2ray | 15",
                 "🇺🇸US | 🔴 | vless | @CUSTOMVPNSERVER | 21",
-                "🇨🇦CA | 🔴 | vless | @CUSTOMVPNSERVER | 22",
+                "🇺🇸US | 🔴 | vless | @CUSTOMVPNSERVER | 22",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 6",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 7",
                 "🇺🇸US | 🔴 | vless | @proxy_kafee | 5",
@@ -150,7 +151,7 @@
                 "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 8",
                 "🇻🇳VN | 🔴 | vless | @v2rayNG_Matsuri | 9",
                 "🇺🇸US | 🔴 | vless | @v2rayngvpn | 15",
-                "🇨🇿CZ | 🔴 | vless | @v2rayngvpn | 16",
+                "🇺🇸US | 🔴 | vless | @v2rayngvpn | 16",
                 "🇮🇷IR | 🔴 | vless | @FalconPolV2rayNG | 7",
                 "🇮🇷IR | 🔴 | vless | @FalconPolV2rayNG | 8",
                 "🇺🇸US | 🔴 | vless | @ShadowProxy66 | 0",
@@ -211,12 +212,13 @@
                 "🇺🇸US | 🔴 | vless | @melov2ray | 21",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 15",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 16",
-                "🇩🇪DE | 🔴 | vless | @ARv2ray | 18",
+                "🇩🇪DE | 🔴 | vless | @ARv2ray | 17",
+                "🇺🇸US | 🔴 | vless | @ARv2ray | 18",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 18",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 19",
                 "🇮🇷IR | 🔴 | vless | @rxv2ray | 15",
                 "🇺🇸US | 🔴 | vless | @CUSTOMVPNSERVER | 21",
-                "🇨🇦CA | 🔴 | vless | @CUSTOMVPNSERVER | 22",
+                "🇺🇸US | 🔴 | vless | @CUSTOMVPNSERVER | 22",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 6",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 7",
                 "🇺🇸US | 🔴 | vless | @proxy_kafee | 5",
@@ -240,7 +242,7 @@
                 "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 8",
                 "🇻🇳VN | 🔴 | vless | @v2rayNG_Matsuri | 9",
                 "🇺🇸US | 🔴 | vless | @v2rayngvpn | 15",
-                "🇨🇿CZ | 🔴 | vless | @v2rayngvpn | 16",
+                "🇺🇸US | 🔴 | vless | @v2rayngvpn | 16",
                 "🇮🇷IR | 🔴 | vless | @FalconPolV2rayNG | 7",
                 "🇮🇷IR | 🔴 | vless | @FalconPolV2rayNG | 8",
                 "🇺🇸US | 🔴 | vless | @ShadowProxy66 | 0",
@@ -639,7 +641,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @ARv2ray | 18",
+            "tag": "🇩🇪DE | 🔴 | vless | @ARv2ray | 17",
             "type": "vless",
             "server": "193.46.81.91",
             "server_port": 2041,
@@ -672,6 +674,27 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 18",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "telegram-id-ArV2ray2",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/-ArV2ry@ArV2ry-TEL--@ArV2ry-TEL--@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL-@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL--@ArV2ry",
+                "headers": {
+                    "Host": "www.speedtest.net"
+                }
             }
         },
         {
@@ -755,7 +778,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @CUSTOMVPNSERVER | 22",
+            "tag": "🇺🇸US | 🔴 | vless | @CUSTOMVPNSERVER | 22",
             "type": "vless",
             "server": "pishgam.sdcards.ir",
             "server_port": 2082,
@@ -1237,6 +1260,37 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @v2rayngvpn | 15",
             "type": "vless",
+            "server": "104.22.24.195",
+            "server_port": 443,
+            "uuid": "96479a22-9333-4b03-9912-4dd26acef75e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "NExtfilmtOmovies.sitE",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/9EkfcCDedhvB19xj?ed=2560",
+                "headers": {
+                    "Host": "NExtfilmtOmovies.sitE"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @v2rayngvpn | 16",
+            "type": "vless",
             "server": "141.101.121.243",
             "server_port": 8080,
             "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
@@ -1253,42 +1307,6 @@
                 "headers": {
                     "Host": "141.101.121.243"
                 }
-            }
-        },
-        {
-            "tag": "🇨🇿CZ | 🔴 | vless | @v2rayngvpn | 16",
-            "type": "vless",
-            "server": "194.182.79.163",
-            "server_port": 10108,
-            "uuid": "edeffe9e-4725-428e-a1c0-7b6a96124f8d",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "journalofbigdata.springeropen.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "wGHsRP4taNR7OgyRPba24krQVhH9ZRbR7pvDxVsGjj0",
-                    "short_id": "ed"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
