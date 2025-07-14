@@ -121,7 +121,7 @@ dns:
 
 proxies:
   - {"name":"🇩🇪DE | 🔴 | vless | @DarkTeam_VPN | 1","type":"vless","server":"real-all3.sdcards.ir","port":8501,"udp":true,"uuid":"8369bccd-ec80-4c73-ba46-17edbe003e87","tls":true,"network":"tcp","client-fingerprint":"firefox","servername":"tgju.org","reality-opts":{"public-key":"OJ0wA5wp55uZdD16dutlTZvx1x-rbMMXmiO9D_MMCHI","short-id":"e701a013553059ba"}}
-  - {"name":"🇨🇿CZ | 🔴 | vless | @proxy_kafee | 1","type":"vless","server":"194.182.79.163","port":10108,"udp":true,"uuid":"edeffe9e-4725-428e-a1c0-7b6a96124f8d","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"journalofbigdata.springeropen.com","grpc-opts":{"grpc-service-name":"ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON"},"reality-opts":{"public-key":"wGHsRP4taNR7OgyRPba24krQVhH9ZRbR7pvDxVsGjj0","short-id":"ed"}}
+  - {"name":"🇨🇿CZ | 🔴 | vless | @proxy_kafee | 2","type":"vless","server":"194.182.79.163","port":10108,"udp":true,"uuid":"edeffe9e-4725-428e-a1c0-7b6a96124f8d","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"journalofbigdata.springeropen.com","grpc-opts":{"grpc-service-name":"ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON"},"reality-opts":{"public-key":"wGHsRP4taNR7OgyRPba24krQVhH9ZRbR7pvDxVsGjj0","short-id":"ed"}}
   - {"name":"🇳🇱NL | 🔴 | vless | @prrofile_purple | 90","type":"vless","server":"5.255.120.217","port":80,"udp":true,"uuid":"25eb0cf9-b6bc-475b-bda5-b76ac9b766f6","tls":true,"network":"xhttp","client-fingerprint":"chrome","servername":"journalofbigdata.springeropen.com","reality-opts":{"public-key":"C4LNbOB3Ar0cntu528Jtn5ivsMZhyk9tkuAlU-jeCio","short-id":"8c"}}
   - {"name":"🇫🇷FR | 🟢 | vless | @prrofile_purple | 95","type":"vless","server":"152.228.210.41","port":443,"udp":true,"uuid":"7f96e1ed-c53f-4d48-960f-308722b51461","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"snapp.ir","reality-opts":{"public-key":"NVzXDuB9PZECzVgRWCVZJ4rCujQ5d2tw64Ufftci8C4","short-id":"5bef46444e87"}}
   - {"name":"🇬🇧GB | 🔴 | vless | @prrofile_purple | 116","type":"vless","server":"45.76.140.111","port":443,"udp":true,"uuid":"ae7d51f2-fd15-45d2-a77c-590f23788a52","tls":true,"network":"xhttp","client-fingerprint":"firefox","servername":"cdn.skypack.dev","reality-opts":{"public-key":"rPomFaHQdUvIZ1CKylejYHXJ_ygI2rtPIZaVuaRXaVY","short-id":"8a2c6af0c06f"}}
@@ -169,7 +169,7 @@ proxy-groups:
       - URL-TEST
       - FALLBACK
       - '🇩🇪DE | 🔴 | vless | @DarkTeam_VPN | 1'
-      - '🇨🇿CZ | 🔴 | vless | @proxy_kafee | 1'
+      - '🇨🇿CZ | 🔴 | vless | @proxy_kafee | 2'
       - '🇳🇱NL | 🔴 | vless | @prrofile_purple | 90'
       - '🇫🇷FR | 🟢 | vless | @prrofile_purple | 95'
       - '🇬🇧GB | 🔴 | vless | @prrofile_purple | 116'
@@ -217,7 +217,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - '🇩🇪DE | 🔴 | vless | @DarkTeam_VPN | 1'
-      - '🇨🇿CZ | 🔴 | vless | @proxy_kafee | 1'
+      - '🇨🇿CZ | 🔴 | vless | @proxy_kafee | 2'
       - '🇳🇱NL | 🔴 | vless | @prrofile_purple | 90'
       - '🇫🇷FR | 🟢 | vless | @prrofile_purple | 95'
       - '🇬🇧GB | 🔴 | vless | @prrofile_purple | 116'
@@ -264,7 +264,7 @@ proxy-groups:
     interval: 60
     proxies:
       - '🇩🇪DE | 🔴 | vless | @DarkTeam_VPN | 1'
-      - '🇨🇿CZ | 🔴 | vless | @proxy_kafee | 1'
+      - '🇨🇿CZ | 🔴 | vless | @proxy_kafee | 2'
       - '🇳🇱NL | 🔴 | vless | @prrofile_purple | 90'
       - '🇫🇷FR | 🟢 | vless | @prrofile_purple | 95'
       - '🇬🇧GB | 🔴 | vless | @prrofile_purple | 116'
