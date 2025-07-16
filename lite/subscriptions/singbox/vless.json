@@ -130,6 +130,7 @@
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 19",
                 "🇺🇸US | 🔴 | vless | @rxv2ray | 15",
                 "❔XX | 🔴 | vless | @rxv2ray | 16",
+                "🇺🇸US | 🔴 | vless | @vpn_xw | 0",
                 "🇺🇸US | 🔴 | vless | @CUSTOMVPNSERVER | 21",
                 "🇺🇸US | 🔴 | vless | @CUSTOMVPNSERVER | 22",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 6",
@@ -224,6 +225,7 @@
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 19",
                 "🇺🇸US | 🔴 | vless | @rxv2ray | 15",
                 "❔XX | 🔴 | vless | @rxv2ray | 16",
+                "🇺🇸US | 🔴 | vless | @vpn_xw | 0",
                 "🇺🇸US | 🔴 | vless | @CUSTOMVPNSERVER | 21",
                 "🇺🇸US | 🔴 | vless | @CUSTOMVPNSERVER | 22",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 6",
@@ -848,6 +850,37 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @vpn_xw | 0",
+            "type": "vless",
+            "server": "104.18.26.90",
+            "server_port": 443,
+            "uuid": "e2c0a0ac-0270-4ebc-acbd-75df71153b0e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "gEtaSa.IR",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/WrQunvc9WRIaU32H?ed=2560",
+                "headers": {
+                    "Host": "gEtaSa.IR"
+                }
             }
         },
         {
