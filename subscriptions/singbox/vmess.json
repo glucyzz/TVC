@@ -131,9 +131,9 @@
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🚩CF | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 0",
-                "🇷🇺RU | 🟢 | vmess | @Hope_Net | 1",
-                "❔XX | 🟢 | vmess | @Hope_Net | 2",
-                "🇷🇺RU | 🟢 | vmess | @Hope_Net | 3",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 1",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 2",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 3",
                 "🇺🇸US | 🟢 | vmess | @fnet00 | 8",
                 "🚩CF | 🟢 | vmess | @iP_CF | 36",
                 "🚩CF | 🟢 | vmess | @iP_CF | 38",
@@ -171,9 +171,9 @@
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🚩CF | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 0",
-                "🇷🇺RU | 🟢 | vmess | @Hope_Net | 1",
-                "❔XX | 🟢 | vmess | @Hope_Net | 2",
-                "🇷🇺RU | 🟢 | vmess | @Hope_Net | 3",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 1",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 2",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 3",
                 "🇺🇸US | 🟢 | vmess | @fnet00 | 8",
                 "🚩CF | 🟢 | vmess | @iP_CF | 36",
                 "🚩CF | 🟢 | vmess | @iP_CF | 38",
@@ -711,8 +711,8 @@
         {
             "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 0",
             "type": "vmess",
-            "server": "199.180.101.24",
-            "server_port": 38004,
+            "server": "199.180.100.98",
+            "server_port": 31003,
             "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
             "security": "auto",
             "alter_id": 64,
@@ -726,7 +726,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "199.180.101.24",
+                "server_name": "199.180.100.98",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -738,18 +738,18 @@
                 "type": "ws",
                 "path": "\/path\/1737280757504",
                 "headers": {
-                    "Host": "199.180.101.24"
+                    "Host": "199.180.100.98"
                 }
             }
         },
         {
-            "tag": "🇷🇺RU | 🟢 | vmess | @Hope_Net | 1",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 1",
             "type": "vmess",
-            "server": "195.58.49.86",
-            "server_port": 17926,
-            "uuid": "a135aba4-6c0b-42f7-8605-1890f7ff5368",
+            "server": "198.200.48.251",
+            "server_port": 37006,
+            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
             "security": "auto",
-            "alter_id": 0,
+            "alter_id": 64,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -758,22 +758,32 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "198.200.48.251",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/path\/1737194780660",
                 "headers": {
-                    "Host": "195.58.49.86"
+                    "Host": "198.200.48.251"
                 }
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 2",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 2",
             "type": "vmess",
-            "server": "sd3.forlive.live",
-            "server_port": 40396,
-            "uuid": "81e16736-5ede-4050-bc4c-3062a63c926d",
+            "server": "192.74.231.200",
+            "server_port": 37001,
+            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
             "security": "auto",
-            "alter_id": 0,
+            "alter_id": 64,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -782,22 +792,32 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "192.74.231.200",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/path\/1737194780660",
                 "headers": {
-                    "Host": "sd3.forlive.live"
+                    "Host": "192.74.231.200"
                 }
             }
         },
         {
-            "tag": "🇷🇺RU | 🟢 | vmess | @Hope_Net | 3",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 3",
             "type": "vmess",
-            "server": "195.58.49.86",
-            "server_port": 17926,
-            "uuid": "5f6c0370-735f-4ed0-9a2d-b10ffa417b03",
+            "server": "137.175.23.133",
+            "server_port": 36003,
+            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
             "security": "auto",
-            "alter_id": 0,
+            "alter_id": 64,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -806,11 +826,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "137.175.23.133",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/path\/1737280757504",
                 "headers": {
-                    "Host": "195.58.49.86"
+                    "Host": "137.175.23.133"
                 }
             }
         },
