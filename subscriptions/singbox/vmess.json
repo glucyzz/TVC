@@ -130,11 +130,9 @@
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🚩CF | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 0",
-                "🚩CF | 🟢 | vmess | @Hope_Net | 1",
+                "🚩CF | 🟢 | vmess | @Hope_Net | 0",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 1",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 2",
-                "🇫🇷FR | 🟢 | vmess | @Hope_Net | 3",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 4",
                 "🇺🇸US | 🟢 | vmess | @fnet00 | 8",
                 "🚩CF | 🟢 | vmess | @iP_CF | 36",
                 "🚩CF | 🟢 | vmess | @iP_CF | 38",
@@ -171,11 +169,9 @@
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🚩CF | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 0",
-                "🚩CF | 🟢 | vmess | @Hope_Net | 1",
+                "🚩CF | 🟢 | vmess | @Hope_Net | 0",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 1",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 2",
-                "🇫🇷FR | 🟢 | vmess | @Hope_Net | 3",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 4",
                 "🇺🇸US | 🟢 | vmess | @fnet00 | 8",
                 "🚩CF | 🟢 | vmess | @iP_CF | 36",
                 "🚩CF | 🟢 | vmess | @iP_CF | 38",
@@ -728,13 +724,13 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 0",
+            "tag": "🚩CF | 🟢 | vmess | @Hope_Net | 0",
             "type": "vmess",
-            "server": "38.11.50.70",
-            "server_port": 31005,
-            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+            "server": "104.16.155.10",
+            "server_port": 2095,
+            "uuid": "4b36625c-b9d9-3ea6-aed5-86d62c70e16d",
             "security": "auto",
-            "alter_id": 64,
+            "alter_id": 0,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -743,30 +739,20 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "38.11.50.70",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/path\/1736503352193",
+                "path": "\/dabai.in104.20.27.115",
                 "headers": {
-                    "Host": "38.11.50.70"
+                    "Host": "104.16.155.10"
                 }
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | @Hope_Net | 1",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 1",
             "type": "vmess",
-            "server": "104.21.96.1",
-            "server_port": 8443,
-            "uuid": "89c344f2-096c-445c-b629-9b15152f38e7",
+            "server": "151.101.194.133",
+            "server_port": 443,
+            "uuid": "c69f3029-ae1e-45ca-aa08-70970f14dfd2",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -779,7 +765,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "104.21.96.1",
+                "server_name": "151.101.194.133",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -789,75 +775,17 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/89c344f2",
+                "path": "\/racevpn?telegram@ISVvpn-telegram@ISVvpn-telegram@ISVvpn",
                 "headers": {
-                    "Host": "104.21.96.1"
+                    "Host": "151.101.194.133"
                 }
             }
         },
         {
             "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 2",
             "type": "vmess",
-            "server": "2.58.87.221",
-            "server_port": 12269,
-            "uuid": "db85ff0e-c33f-401d-c415-4c7cce135704",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇫🇷FR | 🟢 | vmess | @Hope_Net | 3",
-            "type": "vmess",
-            "server": "51.77.20.136",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "capellare.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "capellare.com"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 4",
-            "type": "vmess",
-            "server": "38.11.69.49",
-            "server_port": 30003,
+            "server": "38.33.55.79",
+            "server_port": 37002,
             "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
             "security": "auto",
             "alter_id": 64,
@@ -871,7 +799,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "38.11.69.49",
+                "server_name": "38.33.55.79",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -881,9 +809,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/path\/1736675184805",
+                "path": "\/path\/1734170291489",
                 "headers": {
-                    "Host": "38.11.69.49"
+                    "Host": "38.33.55.79"
                 }
             }
         },
